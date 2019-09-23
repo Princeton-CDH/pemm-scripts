@@ -1,0 +1,26 @@
+{
+  "name": "pemm",
+  "version": "0.1.0",
+  "description": "The Princeton Ethiopian Miracles of Mary Project",
+  "author": "The Center for Digital Humanities at Princeton <cdhdevteam@princeton.edu>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "setup": "clasp create --title PEMM --rootDir ./build",
+    "build": "DEPLOY_ENV=dev webpack --watch",
+    "pull": "clasp pull",
+    "push": "clasp push"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^0.0.60",
+    "babel-preset-gas": "^2.0.4",
+    "gas-webpack-plugin": "^1.0.2",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
