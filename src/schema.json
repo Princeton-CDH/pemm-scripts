@@ -1,0 +1,57 @@
+{
+    "title": "PEMM Data Master (beta)",
+    "sheets": [
+        {
+            "name": "Story Instances",
+            "fields": [
+                { "name": "Manuscript" },
+                { "name": "Canonical Story" },
+                { "name": "Folio Start" },
+                { "name": "Folio End" },
+                { "name": "Digitized Image" },
+                { "name": "Link" },
+                { "name": "Order in Manuscript" },
+                { "name": "Number of Images" },
+                { "name": "Has Illustrations" },
+                { "name": "Incipit" },
+                { "name": "Confidence Score" }
+            ]
+        },
+        {
+            "name": "Canonical Stories",
+            "fields": [
+                { "name": "Macomber ID" },
+                { "name": "Macomber Title" },
+                { "name": "Origin" },
+                { "name": "Poncelet Number" },
+                { "name": "Non-European Origin" },
+                { "name": "Incipit" },
+                { "name": "Other IDs" },
+                { "name": "Other Titles" }
+            ]
+        },
+        {
+            "name": "Manuscripts",
+            "fields": [
+                { "name": "ID" },
+                { "name": "Title" },
+                { "name": "Repository" },
+                { "name": "Original Repository" },
+                { "name": "Total Folios" },
+                { "name": "Total Pages" },
+                { "name": "Century" },
+                { "name": "Date Range" },
+                { "name": "Provenance" },
+                { "name": "Number of Stories" }
+            ]
+        },
+        {
+            "name": "Repositories",
+            "fields": [
+                { "name": "Name" },
+                { "name": "Abbreviation" },
+                { "name": "Location" }
+            ]
+        }
+    ]
+}
