@@ -1,75 +1,8 @@
-import 'google-apps-script'
+import schema from './schema.json'
 
-const sheetsConfig = [
-    {
-        "title": "Story Instances",
-        "fields": [
-            "Manuscript",
-            "Canonical Story",
-            "Folio Start",
-            "Folio End",
-            "Digitized Image",
-            "Link",
-            "Order in Manuscript",
-            "Number of Images",
-            "Has Illustrations",
-            "Incipit",
-            "Confidence Score"
-        ]
-    },
-    {
-        "title": "Canonical Stories",
-        "fields": [
-            "Macomber ID",
-            "Macomber Title",
-            "Origin",
-            "Poncelet Number",
-            "Non-European Origin",
-            "Incipit",
-            "Other IDs",
-            "Other Titles"
-        ]
-    },
-    {
-        "title": "Manuscripts",
-        "fields": [
-            "ID",
-            "Title",
-            "Repository",
-            "Original Repository",
-            "Total Folios",
-            "Total Pages",
-            "Century",
-            "Date Range",
-            "Provenance",
-            "Number of Stories"
-        ]
-    },
-    {
-        "title": "Repositories",
-        "fields": [
-            "Name",
-            "Abbreviation",
-            "Location"
-        ]
-    }
-]
-
-const centuries = [
-    '12th',
-    '13th',
-    '14th',
-    '15th',
-    '16th',
-    '17th',
-    '18th',
-    '19th',
-    '20th',
-]
-
-function main() {
+global.main = () => {
     // main spreadsheet
-    const spreadSheet = SpreadsheetApp.create('PEMM Test')
+    const spreadSheet = SpreadsheetApp.create(schema.title)
 
     // setup header style
     const headerStyle = SpreadsheetApp
@@ -78,12 +11,13 @@ function main() {
         .build()
 
     // create the sheets
-    sheetsConfig.forEach(sheet => {
+    schema.sheets.forEach(sheet => {
         // create the sheet
-        const newSheet = spreadSheet.insertSheet(sheet.title)
+        const newSheet = spreadSheet.insertSheet(sheet.name)
         // add the headers and protect them
+        const headers = sheet.fields.map(f => f.name)
         newSheet
-            .appendRow(sheet.fields)
+            .appendRow(headers)
             .getDataRange()
             .setTextStyle(headerStyle)
             .setHorizontalAlignment('center')
@@ -137,11 +71,6 @@ function main() {
     const booleanRule = SpreadsheetApp.newDataValidation()
         .requireCheckbox()
         .setAllowInvalid(false)
-        .build()
-    const centuryRule = SpreadsheetApp.newDataValidation()
-        .requireValueInList(centuries)
-        .setAllowInvalid(false)
-        .setHelpText('Century must be between 10 and 20.')
         .build()
 
     // apply data validation rules and formulas
