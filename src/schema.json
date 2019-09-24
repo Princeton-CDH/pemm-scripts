@@ -28,6 +28,10 @@
                 { "name": "Incipit" },
                 { "name": "Other IDs" },
                 { "name": "Other Titles" }
+            ],
+            "namedRanges": [
+                { "name": "CanonicalStoryIDs", "range": "A2:A" },
+                { "name": "CanonicalStoryIncipits", "range": "F2:F" }
             ]
         },
         {
@@ -43,6 +47,9 @@
                 { "name": "Date Range" },
                 { "name": "Provenance" },
                 { "name": "Number of Stories" }
+            ],
+            "namedRanges": [
+                { "name": "ManuscriptIDs", "range": "A2:A" }
             ]
         },
         {
@@ -51,6 +58,9 @@
                 { "name": "Name" },
                 { "name": "Abbreviation" },
                 { "name": "Location" }
+            ],
+            "namedRanges": [
+                { "name": "RepositoryNames", "range": "A2:A" }
             ]
         }
     ]
