@@ -1,7 +1,6 @@
 // convenience type aliases for imported types
 type Spreadsheet = GoogleAppsScript.Spreadsheet.Spreadsheet
 type Sheet = GoogleAppsScript.Spreadsheet.Sheet
-type Range = GoogleAppsScript.Spreadsheet.Range
 
 // configuration object type for creating a Spreadsheet
 interface SpreadsheetSchema {
@@ -13,18 +12,11 @@ interface SpreadsheetSchema {
 interface SheetSchema {
     name: string,
     fields: FieldSchema[],
-    namedRanges: NamedRangeSchema[]
 }
 
 // configuration object type for creating a Field
 interface FieldSchema {
     name: string,
-}
-
-// configuration object type for naming a given Range
-interface NamedRangeSchema {
-    name: string,
-    range: string,
 }
 
 // pre-built header row style
@@ -36,47 +28,78 @@ export const headerStyle = SpreadsheetApp.newTextStyle().setBold(true).build()
  * 
  * @param schema 
  */
-export const setupSpreadsheet = (schema: SpreadsheetSchema): Spreadsheet => {
-    const spreadsheet = SpreadsheetApp.create(schema.title)
-    schema.sheets.forEach(sheetSchema => setupSheet(spreadsheet, sheetSchema))
-    return spreadsheet
+export const setupSpreadsheet = (spreadsheet: SpreadsheetSchema): Spreadsheet => {
+    const newSpreadsheet = SpreadsheetApp.create(spreadsheet.title) // create a new spreadsheet
+    spreadsheet.sheets.forEach(sheet => setupSheet(newSpreadsheet, sheet)) // create all sheets
+    newSpreadsheet.deleteSheet(newSpreadsheet.getSheetByName('Sheet1')) // remove the default sheet
+    return newSpreadsheet // return created spreadsheet
 }
 
 /**
- * Creates and returns a new Sheet object with headers initialized according to
- * a provided schema object.
+ * Creates a new Sheet on a given Spreadsheet, according to provided schema.
+ * Initializes a row of column headers and creates named ranges for each column
+ * in the sheet in the format 'sheet_name__field_name'. Returns the finished
+ * sheet object.
  * 
  * @param spreadsheet 
  * @param schema 
  */
-export const setupSheet = (spreadsheet: Spreadsheet, schema: SheetSchema): Sheet => {
-    const sheet = spreadsheet.insertSheet(schema.name) // create the new sheet
-
-    sheet // setup the headers
-        .appendRow(schema.fields.map(f => f.name))
+export const setupSheet = (spreadsheet: Spreadsheet, sheet: SheetSchema): Sheet => {
+    const newSheet = spreadsheet.insertSheet(sheet.name) // create the new sheet
+    const fieldNames = sheet.fields.map(f => f.name) // get the names of its fields
+    
+    newSheet // setup the headers
+        .appendRow(fieldNames)
         .getDataRange()
         .setTextStyle(headerStyle)
         .setHorizontalAlignment('center')
 
-    sheet.setFrozenRows(1) // freeze the headers
+    newSheet.setFrozenRows(1) // freeze the headers
 
-    if (schema.namedRanges) { // add named ranges, if any
-        schema.namedRanges.forEach(r => setupNamedRange(spreadsheet, schema.name, r))
-    }
+    sheet.fields.map((field, index) => { // add all fields (columns) as named ranges
+        const alpha = indexToAlpha(index) // convert column number to 'A', 'B', 'AB', etc.
+        const a1notation = `\'${sheet.name}\'!${alpha}2:${alpha}` // e.g. 'Sheet Name'!B2:B, selecting all of column B except headers
+        const rangeName = `${slugify(sheet.name)}__${slugify(field.name)}` // range will be named 'sheet_name__field_name'
+        const range = spreadsheet.getRange(a1notation) // select the cells to be named
+        spreadsheet.setNamedRange(rangeName, range) // create the named range
+    })
 
-    return sheet // return fully initialized sheet
+    return newSheet // return fully initialized sheet
 }
 
 /**
- * Assigns a human-friendly name to a given Range specified in A1 notation and
- * returns the Range object.
+ * Convert a sheet or field name into a form valid for use in named range. Will
+ * change spaces to underscores and remove everything not a letter, number or
+ * underscore.
  * 
- * @param spreadsheet 
- * @param sheetName 
- * @param schema 
+ * For more on named range naming, see:
+ * https://support.google.com/docs/answer/63175
+ * 
+ * @param name 
  */
-export const setupNamedRange = (spreadsheet: Spreadsheet, sheetName: string, schema: NamedRangeSchema): Range => {
-    const range = spreadsheet.getSheetByName(sheetName).getRange(schema.range) // Range object representing current area
-    spreadsheet.setNamedRange(schema.name, range) // assign a name to that Range
-    return spreadsheet.getRangeByName(schema.name) // return the given Range
+export const slugify = (name: string): string => {
+    return name.toLowerCase().replace(/\s/g, '_').replace(/\W/g, '')
+}
+
+/**
+ * Converts a zero-based column index in a sheet into its corresponding alpha
+ * notation. Column zero is A, column 1 is B, column 26 is AA, etc. Used when
+ * selecting cells in a column via "A1 notation", e.g. "A1:A23".
+ * 
+ * For more on A1 notation, see:
+ * https://developers.google.com/sheets/api/guides/concepts#a1_notation
+ * 
+ * @param index 
+ */
+export const indexToAlpha = (index: number): string => {
+    const digits = index
+        .toString(26) // convert to base-26 integer
+        .split('') // split into individual digits
+        .map(digit => parseInt(digit, 26)) // convert each digit back to base-10 to use as alpha offset
+
+    if (digits.length > 1) digits[0] -= 1 // 0 -> 'A' so for multidigit numbers, adjust the most significant digit
+
+    return digits
+        .map(digit => String.fromCharCode(65 + digit)) // use the digit as an offset from 'A' (ASCII 65)
+        .join('') // join resulting letters back together
 }
