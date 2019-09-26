@@ -23,14 +23,15 @@
         {
             "name": "Canonical Story",
             "fields": [
-                { "name": "Macomber ID" },
+                { "name": "Macomber ID", "protected": true },
                 { "name": "Macomber Title" },
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
-                { "name": "Non-European Origin" },
-                { "name": "Incipit" },
+                { "name": "Non-European Origin", "protected": true },
+                { "name": "Incipit", "protected": true },
                 { "name": "Incipit Source" },
-                { "name": "Other IDs" },
+                { "name": "Hamburg ID", "protected": true},
+                { "name": "Other IDs", "protected": true },
                 { "name": "Other Titles" }
             ]
         },
@@ -39,22 +40,34 @@
             "fields": [
                 { "name": "ID" },
                 { "name": "Title" },
-                { "name": "Repository" },
-                { "name": "Original Repository" },
+                { "name": "Collection" },
+                { "name": "Original Collection" },
                 { "name": "Total Folios" },
                 { "name": "Total Pages" },
                 { "name": "Century" },
-                { "name": "Date Range" },
+                { "name": "Date Range Start" },
+                { "name": "Date Range End" },
+                { "name": "Date Note" },
                 { "name": "Provenance" },
                 { "name": "Number of Stories" }
             ]
         },
         {
-            "name": "Repository",
+            "name": "Collection",
+            "fields": [
+                { "name": "Abbreviation" },
+                { "name": "Institution" },
+                { "name": "Country" },
+                { "name": "City" },
+                { "name": "Latitude" },
+                { "name": "Longitude" }
+            ]
+        },
+        {
+            "name": "Story Origin",
             "fields": [
                 { "name": "Name" },
-                { "name": "Abbreviation" },
-                { "name": "Location" }
+                { "name": "European" }
             ]
         }
     ]
