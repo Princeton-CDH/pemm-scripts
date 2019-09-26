@@ -55,8 +55,9 @@
         {
             "name": "Collection",
             "fields": [
-                { "name": "Abbreviation" },
+                { "name": "Name", "protected": true },
                 { "name": "Institution" },
+                { "name": "Abbreviation" },
                 { "name": "Country" },
                 { "name": "City" },
                 { "name": "Latitude" },
