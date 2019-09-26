@@ -10,7 +10,7 @@ const OriginalSource = require('webpack-sources').OriginalSource
  * https://github.com/fossamagna/babel-preset-gas
  * 
  * Rewritten from https://github.com/simlrh/babel-webpack-plugin to use
- * webpack's hooks API and babel v7.
+ * webpack's hooks API and babel v7, which is required for babel-preset-gas.
  */
 module.exports = class BabelGasPlugin {
     apply(compiler) {
