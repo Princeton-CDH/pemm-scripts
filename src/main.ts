@@ -12,9 +12,9 @@ global.main = () => {
         .setAllowInvalid(false)
         .build()
 
-    const repositoryRule = SpreadsheetApp.newDataValidation()
-        .requireValueInRange(spreadsheet.getRangeByName('repository__name'))
-        .setHelpText('Repository must be listed on Repositories sheet.')
+    const collectionRule = SpreadsheetApp.newDataValidation()
+        .requireValueInRange(spreadsheet.getRangeByName('collection__abbreviation'))
+        .setHelpText('Collection must be listed on Collections sheet.')
         .setAllowInvalid(false)
         .build()
 
@@ -47,19 +47,39 @@ global.main = () => {
         .setAllowInvalid(false)
         .build()
 
+    const storyOriginRule = SpreadsheetApp.newDataValidation()
+        .requireValueInRange(spreadsheet.getRangeByName('story_origin__name'))
+        .setHelpText('Origin must be listed on Story Origin sheet.')
+        .setAllowInvalid(false)
+        .build()
+
+    const fourDigitYearRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=REGEXMATCH(TO_TEXT(A2), "\d{4}"')
+        .setHelpText('Must be a 4-digit year.')
+        .setAllowInvalid(false)
+        .build()
+
     /* apply rules/formulas */
     
     // manuscript
-    spreadsheet.getRangeByName('manuscript__repository')
-        .setDataValidation(repositoryRule)
+    spreadsheet.getRangeByName('manuscript__collection')
+        .setDataValidation(collectionRule)
 
-    spreadsheet.getRangeByName('manuscript__original_repository')
-        .setDataValidation(repositoryRule)
+    spreadsheet.getRangeByName('manuscript__original_collection')
+        .setDataValidation(collectionRule)
+
+    spreadsheet.getRangeByName('manuscript__date_range_start')
+        .setDataValidation(fourDigitYearRule)
+
+    spreadsheet.getRangeByName('manuscript__date_range_end')
+        .setDataValidation(fourDigitYearRule)   
 
     // canonical story
+    spreadsheet.getRangeByName('canonical_story__origin')
+        .setDataValidation(storyOriginRule)
+
     spreadsheet.getRangeByName('canonical_story__noneuropean_origin')
         .setDataValidation(booleanRule)
-        .setFormula('=if(and(not(isblank(A2)), not(isblank(C2)), isblank(D2)), true,)')
 
     spreadsheet.getRangeByName('canonical_story__incipit')
         .setDataValidation(incipitRule)
@@ -88,4 +108,8 @@ global.main = () => {
 
     spreadsheet.getRangeByName('story_instance__line_end')
         .setDataValidation(positiveIntegerRule)
+
+    // story origin
+    spreadsheet.getRangeByName('story_origin__european')
+        .setDataValidation(booleanRule)
 }
