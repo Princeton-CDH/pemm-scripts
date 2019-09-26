@@ -6,15 +6,15 @@
             "fields": [
                 { "name": "Manuscript" },
                 { "name": "Canonical Story" },
-                { "name": "Folio Start" },
-                { "name": "Folio End" },
+                { "name": "Folio" },
                 { "name": "Digitized Image" },
                 { "name": "Link" },
                 { "name": "Order in Manuscript" },
                 { "name": "Number of Images" },
                 { "name": "Has Illustrations" },
                 { "name": "Incipit" },
-                { "name": "Confidence Score" }
+                { "name": "Confidence Score" },
+                { "name": "Print Versions", "protected": true }
             ]
         },
         {
