@@ -17,6 +17,7 @@ interface SheetSchema {
 // configuration object type for creating a Field
 interface FieldSchema {
     name: string,
+    protected?: boolean
 }
 
 // pre-built header row style
@@ -56,12 +57,26 @@ export const setupSheet = (spreadsheet: Spreadsheet, sheet: SheetSchema): Sheet 
 
     newSheet.setFrozenRows(1) // freeze the headers
 
-    sheet.fields.map((field, index) => { // add all fields (columns) as named ranges
-        const alpha = indexToAlpha(index) // convert column number to 'A', 'B', 'AB', etc.
-        const a1notation = `\'${sheet.name}\'!${alpha}2:${alpha}` // e.g. 'Sheet Name'!B2:B, selecting all of column B except headers
-        const rangeName = `${slugify(sheet.name)}__${slugify(field.name)}` // range will be named 'sheet_name__field_name'
-        const range = spreadsheet.getRange(a1notation) // select the cells to be named
-        spreadsheet.setNamedRange(rangeName, range) // create the named range
+    // setup the individual fields (columns)
+    sheet.fields.map((field, index) => {
+        const alpha = indexToAlpha(index) // convert column number to 'A', 'B', 'AB', etc
+        const a1notation = `\'${sheet.name}\'!${alpha}2:${alpha}` // e.g. 'Sheet Name'!B2:B, will select all of column B except headers
+        const range = spreadsheet.getRange(a1notation) // select all data cells
+
+        // automatically create a named range 'sheet_name__field_name', see:
+        // https://developers.google.com/apps-script/reference/spreadsheet/named-range
+        const rangeName = `${slugify(sheet.name)}__${slugify(field.name)}`
+        spreadsheet.setNamedRange(rangeName, range)
+
+        // add protection if the range should be read-only; see:
+        // https://developers.google.com/apps-script/reference/spreadsheet/protection
+        if (field.protected) {
+            const protection = range.protect()
+            const me = Session.getActiveUser()
+            const editorEmails = protection.getEditors().map(u => u.getEmail())
+            protection.addEditor(me) // ensure we can still edit
+            protection.removeEditors(editorEmails) // remove all others
+        }
     })
 
     return newSheet // return fully initialized sheet
