@@ -22,7 +22,7 @@ interface FieldSchema {
 
 // pre-built styles
 export const headerStyle = SpreadsheetApp.newTextStyle().setBold(true).build()
-export const protectedBackgroundColor = '#ffcc7e'
+export const protectedBackgroundColor = '#ffe5be'
 
 /**
  * Creates and returns a new Spreadsheet object, including all sheets, according
