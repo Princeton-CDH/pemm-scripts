@@ -20,8 +20,9 @@ interface FieldSchema {
     protected?: boolean
 }
 
-// pre-built header row style
+// pre-built styles
 export const headerStyle = SpreadsheetApp.newTextStyle().setBold(true).build()
+export const protectedBackgroundColor = '#ffcc7e'
 
 /**
  * Creates and returns a new Spreadsheet object, including all sheets, according
@@ -76,6 +77,7 @@ export const setupSheet = (spreadsheet: Spreadsheet, sheet: SheetSchema): Sheet 
             const editorEmails = protection.getEditors().map(u => u.getEmail())
             protection.addEditor(me) // ensure we can still edit
             protection.removeEditors(editorEmails) // remove all others
+            range.setBackground(protectedBackgroundColor)
         }
     })
 

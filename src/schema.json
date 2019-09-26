@@ -14,8 +14,7 @@
                 { "name": "Page Reproduction" },
                 { "name": "Link" },
                 { "name": "Order in Manuscript" },
-                { "name": "Number of Images" },
-                { "name": "Has Illustrations" },
+                { "name": "Number of Paintings" },
                 { "name": "Incipit" },
                 { "name": "Confidence Score" },
                 { "name": "Print Versions", "protected": true }
@@ -30,6 +29,7 @@
                 { "name": "Poncelet Number" },
                 { "name": "Non-European Origin" },
                 { "name": "Incipit" },
+                { "name": "Incipit Source" },
                 { "name": "Other IDs" },
                 { "name": "Other Titles" }
             ]
