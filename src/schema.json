@@ -2,7 +2,7 @@
     "title": "PEMM Data Master (beta)",
     "sheets": [
         {
-            "name": "Story Instances",
+            "name": "Story Instance",
             "fields": [
                 { "name": "Manuscript" },
                 { "name": "Canonical Story" },
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "name": "Canonical Stories",
+            "name": "Canonical Story",
             "fields": [
                 { "name": "Macomber ID" },
                 { "name": "Macomber Title" },
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "name": "Manuscripts",
+            "name": "Manuscript",
             "fields": [
                 { "name": "ID" },
                 { "name": "Title" },
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "name": "Repositories",
+            "name": "Repository",
             "fields": [
                 { "name": "Name" },
                 { "name": "Abbreviation" },
