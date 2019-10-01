@@ -121,7 +121,7 @@ global.main = () => {
     /* apply rules/formulas */
     
     // manuscript
-    spreadsheet.getRangeByName('manuscript__name')
+    spreadsheet.getRangeByName('manuscript__name') // auto-creates names like "Vatican (GVE) 23"
         .setFormula('=if(and(not(isblank(B2)), not(isblank(D2))), concatenate(D2, " ", B2),)')
 
     spreadsheet.getRangeByName('manuscript__collection')
