@@ -131,7 +131,7 @@ global.main = () => {
         .setDataValidation(collectionRule)
 
     spreadsheet.getRangeByName('manuscript__number_of_stories')
-        .setFormula('=countif(story_instance__manuscript, A2)')
+        .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
     // spreadsheet.getRangeByName('manuscript__date_range_start')
     //     .setDataValidation(fourDigitYearRule)
