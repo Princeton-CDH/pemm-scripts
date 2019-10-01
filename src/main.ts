@@ -114,7 +114,7 @@ global.main = () => {
      */
     const longitudeRule = SpreadsheetApp.newDataValidation()
         .requireFormulaSatisfied('=regexmatch(to_text(G2), "^-?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?)$")')
-        .setHelpText('Must be a valid longitude between -180 and 180°.')
+        .setHelpText('Must be a valid longitude between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
 
@@ -130,6 +130,9 @@ global.main = () => {
     spreadsheet.getRangeByName('manuscript__original_collection')
         .setDataValidation(collectionRule)
 
+    spreadsheet.getRangeByName('manuscript__number_of_stories')
+        .setFormula('=countif(story_instance__manuscript, A2)')
+
     // spreadsheet.getRangeByName('manuscript__date_range_start')
     //     .setDataValidation(fourDigitYearRule)
 
@@ -142,9 +145,6 @@ global.main = () => {
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
         .setDataValidation(storyOriginRule)
-
-    spreadsheet.getRangeByName('canonical_story__noneuropean_origin')
-        .setDataValidation(booleanRule)
 
     spreadsheet.getRangeByName('canonical_story__incipit_source')
         .setDataValidation(manuscriptRule)

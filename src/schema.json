@@ -48,7 +48,7 @@
                 { "name": "Date Range End" },
                 { "name": "Date Note" },
                 { "name": "Provenance" },
-                { "name": "Number of Stories" },
+                { "name": "Number of Stories", "protected": true },
                 { "name": "Link" }
             ]
         },
