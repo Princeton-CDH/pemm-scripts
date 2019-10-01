@@ -7,8 +7,8 @@ global.main = () => {
 
     /* create data validation */
     const manuscriptRule = SpreadsheetApp.newDataValidation()
-        .requireValueInRange(spreadsheet.getRangeByName('manuscript__id'))
-        .setHelpText('Manuscript ID must be listed on Manuscripts sheet.')
+        .requireValueInRange(spreadsheet.getRangeByName('manuscript__name'))
+        .setHelpText('Manuscript name must be listed on Manuscripts sheet.')
         .setAllowInvalid(false)
         .build()
 
@@ -26,12 +26,28 @@ global.main = () => {
 
     const canonicalStoryRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('canonical_story__macomber_id'))
-        .setHelpText('Story instance must correspond to a Canonical Story.')
+        .setHelpText('Must reference a Canonical Story Macomber ID.')
+        .setAllowInvalid(false)
+        .build()
+
+    const canonicalStoryTitleRule = SpreadsheetApp.newDataValidation()
+        .requireValueInRange(spreadsheet.getRangeByName('canonical_story__macomber_title'))
+        .setHelpText('Must reference a Canonical Story Macomber Title.')
         .setAllowInvalid(false)
         .build()
 
     const booleanRule = SpreadsheetApp.newDataValidation()
         .requireCheckbox()
+        .setAllowInvalid(false)
+        .build()
+
+    const confidenceScoreRule = SpreadsheetApp.newDataValidation()
+        .requireValueInList(["High", "Medium", "Low"])
+        .setAllowInvalid(false)
+        .build()
+
+    const regionRule = SpreadsheetApp.newDataValidation()
+        .requireValueInList(["Africa", "Europe", "Levant", "Other"])
         .setAllowInvalid(false)
         .build()
 
@@ -105,20 +121,23 @@ global.main = () => {
     /* apply rules/formulas */
     
     // manuscript
+    spreadsheet.getRangeByName('manuscript__name')
+        .setFormula('=if(and(not(isblank(B2)), not(isblank(D2))), concatenate(D2, " ", B2),)')
+
     spreadsheet.getRangeByName('manuscript__collection')
         .setDataValidation(collectionRule)
 
     spreadsheet.getRangeByName('manuscript__original_collection')
         .setDataValidation(collectionRule)
 
-    spreadsheet.getRangeByName('manuscript__date_range_start')
-        .setDataValidation(fourDigitYearRule)
+    // spreadsheet.getRangeByName('manuscript__date_range_start')
+    //     .setDataValidation(fourDigitYearRule)
 
-    spreadsheet.getRangeByName('manuscript__date_range_end')
-        .setDataValidation(fourDigitYearRule)
+    // spreadsheet.getRangeByName('manuscript__date_range_end')
+    //     .setDataValidation(fourDigitYearRule)
 
-    spreadsheet.getRangeByName('manuscript__century')
-        .setDataValidation(centuryRule)
+    // spreadsheet.getRangeByName('manuscript__century')
+    //     .setDataValidation(centuryRule)
 
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
@@ -127,47 +146,53 @@ global.main = () => {
     spreadsheet.getRangeByName('canonical_story__noneuropean_origin')
         .setDataValidation(booleanRule)
 
-    spreadsheet.getRangeByName('canonical_story__incipit')
-        .setDataValidation(incipitRule)
+    spreadsheet.getRangeByName('canonical_story__incipit_source')
+        .setDataValidation(manuscriptRule)
 
-    spreadsheet.getRangeByName('canonical_story__macomber_id')
-        .setDataValidation(positiveIntegerRule)
+    // spreadsheet.getRangeByName('canonical_story__macomber_id')
+    //     .setDataValidation(positiveIntegerRule)
 
     // story instance
     spreadsheet.getRangeByName('story_instance__manuscript')
         .setDataValidation(manuscriptRule)
 
-    spreadsheet.getRangeByName('story_instance__canonical_story')
+    spreadsheet.getRangeByName('story_instance__canonical_story_id')
         .setDataValidation(canonicalStoryRule)
 
-    spreadsheet.getRangeByName('story_instance__folio')
-        .setDataValidation(folioRule)
+    spreadsheet.getRangeByName('story_instance__canonical_story_title')
+        .setDataValidation(canonicalStoryTitleRule)
 
-    spreadsheet.getRangeByName('story_instance__column_start')
-        .setDataValidation(positiveIntegerRule)
+    // spreadsheet.getRangeByName('story_instance__folio')
+    //     .setDataValidation(folioRule)
+
+    // spreadsheet.getRangeByName('story_instance__column_start')
+    //     .setDataValidation(positiveIntegerRule)
     
-    spreadsheet.getRangeByName('story_instance__line_start')
-        .setDataValidation(positiveIntegerRule)
+    // spreadsheet.getRangeByName('story_instance__line_start')
+    //     .setDataValidation(positiveIntegerRule)
 
-    spreadsheet.getRangeByName('story_instance__column_end')
-        .setDataValidation(positiveIntegerRule)
+    // spreadsheet.getRangeByName('story_instance__column_end')
+    //     .setDataValidation(positiveIntegerRule)
 
-    spreadsheet.getRangeByName('story_instance__line_end')
-        .setDataValidation(positiveIntegerRule)
+    // spreadsheet.getRangeByName('story_instance__line_end')
+    //     .setDataValidation(positiveIntegerRule)
+
+    spreadsheet.getRangeByName('story_instance__confidence_score')
+        .setDataValidation(confidenceScoreRule)
 
     // story origin
-    spreadsheet.getRangeByName('story_origin__european')
-        .setDataValidation(booleanRule)
+    spreadsheet.getRangeByName('story_origin__region')
+        .setDataValidation(regionRule)
 
     // collection
     spreadsheet.getRangeByName('collection__name') // auto-creates names like "Vatican (GVE)"
         .setFormula('=if(and(not(isblank(B2)), not(isblank(C2))), concatenate(B2, " (", C2, ")"),)')
 
-    spreadsheet.getRangeByName('collection__latitude')
-        .setDataValidation(latitudeRule)
-        .setNumberFormat('0.00000')
+    // spreadsheet.getRangeByName('collection__latitude')
+    //     .setDataValidation(latitudeRule)
+    //     .setNumberFormat('0.00000')
 
-    spreadsheet.getRangeByName('collection__longitude')
-        .setDataValidation(longitudeRule)
-        .setNumberFormat('0.00000')
+    // spreadsheet.getRangeByName('collection__longitude')
+    //     .setDataValidation(longitudeRule)
+    //     .setNumberFormat('0.00000')
 }

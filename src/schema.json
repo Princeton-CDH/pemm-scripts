@@ -5,14 +5,13 @@
             "name": "Story Instance",
             "fields": [
                 { "name": "Manuscript" },
-                { "name": "Canonical Story" },
+                { "name": "Canonical Story ID" },
+                { "name": "Canonical Story Title" },
                 { "name": "Folio" },
                 { "name": "Column Start" },
                 { "name": "Line Start" },
                 { "name": "Column End" },
                 { "name": "Line End" },
-                { "name": "Page Reproduction" },
-                { "name": "Link" },
                 { "name": "Order in Manuscript" },
                 { "name": "Number of Paintings" },
                 { "name": "Incipit" },
@@ -27,7 +26,6 @@
                 { "name": "Macomber Title" },
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
-                { "name": "Non-European Origin", "protected": true },
                 { "name": "Incipit", "protected": true },
                 { "name": "Incipit Source" },
                 { "name": "Hamburg ID", "protected": true},
@@ -38,6 +36,7 @@
         {
             "name": "Manuscript",
             "fields": [
+                { "name": "Name", "protected": true },
                 { "name": "ID" },
                 { "name": "Title" },
                 { "name": "Collection" },
@@ -49,15 +48,16 @@
                 { "name": "Date Range End" },
                 { "name": "Date Note" },
                 { "name": "Provenance" },
-                { "name": "Number of Stories" }
+                { "name": "Number of Stories" },
+                { "name": "Link" }
             ]
         },
         {
             "name": "Collection",
             "fields": [
                 { "name": "Name", "protected": true },
-                { "name": "Institution" },
                 { "name": "Abbreviation" },
+                { "name": "Institution" },
                 { "name": "Country" },
                 { "name": "City" },
                 { "name": "Latitude" },
@@ -68,7 +68,7 @@
             "name": "Story Origin",
             "fields": [
                 { "name": "Name" },
-                { "name": "European" }
+                { "name": "Region" }
             ]
         }
     ]
