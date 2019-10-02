@@ -17,10 +17,22 @@ install required javascript dependencies:
 ```sh
 yarn # or npm install
 ```
-create a new apps script project:
+log in to `clasp`, the google apps script CLI:
+```sh
+yarn login # or npm run login
+```
+this will open a browser window and ask you to authenticate with a google
+account. after you've completed authentication, visit [script.google.com/home/usersettings](https://script.google.com/home/usersettings)
+and turn on the "Google Apps Script API" toggle.
+
+![Enable Apps Script API](https://user-images.githubusercontent.com/744973/54870967-a9135780-4d6a-11e9-991c-9f57a508bdf0.gif)
+
+finally, create a new apps script project:
 ```sh
 yarn setup # or npm run setup
 ```
+choose the `standalone` project type. now you're ready to make changes
+to the code.
 ### making changes
 before editing source code, run a development build server with webpack:
 ```sh
@@ -39,7 +51,8 @@ script IDE, overwriting its current contents. you can open the project by
 visiting the [google suite developer hub](https://script.google.com/home) and
 clicking on your project. to enter the IDE, click "open project". here, you can
 run or debug functions that have been exported into the global scope by binding
-them to the `global` object in `main.ts`.
+them to the `global` object in `main.ts`. note that the first time you run a
+function, google will ask you to grant permissions to the apps script project.
 
 ## license
 this project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm/blob/master/LICENSE).
