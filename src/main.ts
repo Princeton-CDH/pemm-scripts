@@ -51,13 +51,17 @@ global.main = () => {
         .setAllowInvalid(false)
         .build()
 
-    /* FIXME this formula has to depend on a cell value specified in A1
-     * notation for some reason, so it's brittle and will fail if the order
-     * of fields is changed. Not sure how to get around this. See:
+    /* NOTE: regex validation must be bound to a single cell in the
+     * beginning of the range (currently D2); this means it will
+     * fail if the order of fields changes (either by changes to this
+     * schema or by columns added manually later).
+     * of fields is changed. Not sure how to get around this.
+
+     * See regex match documentation:
      * https://support.google.com/docs/answer/3098292?hl=en
      */
     const folioRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(C2), "^[1-9]\d*[rvab]?$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(D2), "^[1-9]\\d*[rvab]?$")')
         .setHelpText('Folio must be a number optionally followed by "r", "v", "a", or "b".')
         .setAllowInvalid(false)
         .build()
@@ -74,52 +78,53 @@ global.main = () => {
         .setAllowInvalid(false)
         .build()
 
-    /* FIXME this formula has to depend on a cell value specified in A1
-     * notation for some reason, so it's brittle and will fail if the order
-     * of fields is changed. Not sure how to get around this. See:
-     * https://support.google.com/docs/answer/3098292?hl=en
+    /* Note: for now, creating one validation rule for each field that
+     * needs it, since it needs to reference the cell at the start of
+     * the range.
      */
-    const fourDigitYearRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(A2), "^[1-9]\d{3}$")')
+    const fourDigitYearRuleDateRangeStart = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(I2), "^[1-9]\\d{3}$")')
         .setHelpText('Must be a 4-digit year.')
         .setAllowInvalid(false)
         .build()
 
-    /* FIXME this formula has to depend on a cell value specified in A1
-     * notation for some reason, so it's brittle and will fail if the order
-     * of fields is changed. Not sure how to get around this. See:
-     * https://support.google.com/docs/answer/3098292?hl=en
-     */
-    const centuryRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(G2), "^[1-9]\d?(\.(25|5|75))?$")')
-        .setHelpText('Must be a one or two-digit number optionally followed by ".25", ".5", or ".75".')
+    const fourDigitYearRuleDateRangeEnd = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(J2), "^[1-9]\\d{3}$")')
+        .setHelpText('Must be a 4-digit year.')
         .setAllowInvalid(false)
         .build()
 
-    /* FIXME this formula has to depend on a cell value specified in A1
-     * notation for some reason, so it's brittle and will fail if the order
-     * of fields is changed. Not sure how to get around this. See:
-     * https://support.google.com/docs/answer/3098292?hl=en
-     */
+    const centuryRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(H2), "^[1-9]\\d?\\.(00|25|50|75)$")')
+        .setHelpText('Must be a one or two-digit number followed by ".00", ".25", ".50", or ".75".')
+        .setAllowInvalid(false)
+        .build()
+
     const latitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(F2), "^-?(([1-8]\d(\.\d+)?)|90(\.0+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(F2), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
         .setHelpText('Must be a valid latitude between -90 and 90°.')
         .setAllowInvalid(false)
         .build()
 
-    /* FIXME this formula has to depend on a cell value specified in A1
-     * notation for some reason, so it's brittle and will fail if the order
-     * of fields is changed. Not sure how to get around this. See:
-     * https://support.google.com/docs/answer/3098292?hl=en
-     */
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(G2), "^-?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(G2), "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
         .setHelpText('Must be a valid longitude between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
 
+    /*
+     * Macomber identifiers are numeric with an optional letter suffix.
+     * Letters used run from A through F, with one case of A1/A2.
+     */
+    const macomberIDRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(A2), "^[1-9]\\d*(-[A-F]\\[1-2]?)?$")')
+        .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A2".')
+        .setAllowInvalid(false)
+        .build()
+
+
     /* apply rules/formulas */
-    
+
     // manuscript
     spreadsheet.getRangeByName('manuscript__name') // auto-creates names like "Vatican (GVE) 23"
         .setFormula('=if(and(not(isblank(B2)), not(isblank(D2))), concatenate(D2, " ", B2),)')
@@ -133,14 +138,15 @@ global.main = () => {
     spreadsheet.getRangeByName('manuscript__number_of_stories')
         .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
-    // spreadsheet.getRangeByName('manuscript__date_range_start')
-    //     .setDataValidation(fourDigitYearRule)
+    spreadsheet.getRangeByName('manuscript__date_range_start')
+        .setDataValidation(fourDigitYearRuleDateRangeStart)
 
-    // spreadsheet.getRangeByName('manuscript__date_range_end')
-    //     .setDataValidation(fourDigitYearRule)
+    spreadsheet.getRangeByName('manuscript__date_range_end')
+        .setDataValidation(fourDigitYearRuleDateRangeEnd)
 
-    // spreadsheet.getRangeByName('manuscript__century')
-    //     .setDataValidation(centuryRule)
+    spreadsheet.getRangeByName('manuscript__century')
+        .setDataValidation(centuryRule)
+        .setNumberFormat('0.00')
 
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
@@ -149,8 +155,8 @@ global.main = () => {
     spreadsheet.getRangeByName('canonical_story__incipit_source')
         .setDataValidation(manuscriptRule)
 
-    // spreadsheet.getRangeByName('canonical_story__macomber_id')
-    //     .setDataValidation(positiveIntegerRule)
+    spreadsheet.getRangeByName('canonical_story__macomber_id')
+        .setDataValidation(macomberIDRule)
 
     // story instance
     spreadsheet.getRangeByName('story_instance__manuscript')
@@ -162,20 +168,20 @@ global.main = () => {
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
         .setDataValidation(canonicalStoryTitleRule)
 
-    // spreadsheet.getRangeByName('story_instance__folio')
-    //     .setDataValidation(folioRule)
+    spreadsheet.getRangeByName('story_instance__folio')
+        .setDataValidation(folioRule)
 
-    // spreadsheet.getRangeByName('story_instance__column_start')
-    //     .setDataValidation(positiveIntegerRule)
-    
-    // spreadsheet.getRangeByName('story_instance__line_start')
-    //     .setDataValidation(positiveIntegerRule)
+    spreadsheet.getRangeByName('story_instance__column_start')
+        .setDataValidation(positiveIntegerRule)
 
-    // spreadsheet.getRangeByName('story_instance__column_end')
-    //     .setDataValidation(positiveIntegerRule)
+    spreadsheet.getRangeByName('story_instance__line_start')
+        .setDataValidation(positiveIntegerRule)
 
-    // spreadsheet.getRangeByName('story_instance__line_end')
-    //     .setDataValidation(positiveIntegerRule)
+    spreadsheet.getRangeByName('story_instance__column_end')
+        .setDataValidation(positiveIntegerRule)
+
+    spreadsheet.getRangeByName('story_instance__line_end')
+        .setDataValidation(positiveIntegerRule)
 
     spreadsheet.getRangeByName('story_instance__confidence_score')
         .setDataValidation(confidenceScoreRule)
@@ -188,11 +194,11 @@ global.main = () => {
     spreadsheet.getRangeByName('collection__name') // auto-creates names like "Vatican (GVE)"
         .setFormula('=if(and(not(isblank(B2)), not(isblank(C2))), concatenate(B2, " (", C2, ")"),)')
 
-    // spreadsheet.getRangeByName('collection__latitude')
-    //     .setDataValidation(latitudeRule)
-    //     .setNumberFormat('0.00000')
+    spreadsheet.getRangeByName('collection__latitude')
+        .setDataValidation(latitudeRule)
+        .setNumberFormat('0.00000')
 
-    // spreadsheet.getRangeByName('collection__longitude')
-    //     .setDataValidation(longitudeRule)
-    //     .setNumberFormat('0.00000')
+    spreadsheet.getRangeByName('collection__longitude')
+        .setDataValidation(longitudeRule)
+        .setNumberFormat('0.00000')
 }
