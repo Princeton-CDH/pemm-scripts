@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
+    "login": "clasp login",
     "setup": "clasp create --title PEMM --rootDir ./build",
     "build": "DEPLOY_ENV=dev webpack --watch",
     "pull": "clasp pull",
