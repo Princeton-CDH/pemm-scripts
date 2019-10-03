@@ -117,7 +117,7 @@ global.main = () => {
      * Letters used run from A through F, with one case of A1/A2.
      */
     const macomberIDRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(A2), "^[1-9]\\d*(-[A-F]\\[1-2]?)?$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(A2), "^[1-9]\\d*(-[A-F][1-2]?)?$")')
         .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A2".')
         .setAllowInvalid(false)
         .build()
