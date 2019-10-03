@@ -135,6 +135,12 @@ global.main = () => {
     spreadsheet.getRangeByName('manuscript__original_collection')
         .setDataValidation(collectionRule)
 
+    spreadsheet.getRangeByName('manuscript__total_folios')
+        .setDataValidation(positiveIntegerRule)
+
+    spreadsheet.getRangeByName('manuscript__total_pages')
+        .setDataValidation(positiveIntegerRule)
+
     spreadsheet.getRangeByName('manuscript__number_of_stories')
         .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
@@ -155,8 +161,10 @@ global.main = () => {
     spreadsheet.getRangeByName('canonical_story__incipit_source')
         .setDataValidation(manuscriptRule)
 
+    // align center since by default numbers and text align differently
     spreadsheet.getRangeByName('canonical_story__macomber_id')
         .setDataValidation(macomberIDRule)
+        .setHorizontalAlignment('center')
 
     // story instance
     spreadsheet.getRangeByName('story_instance__manuscript')
@@ -165,8 +173,9 @@ global.main = () => {
     spreadsheet.getRangeByName('story_instance__canonical_story_id')
         .setDataValidation(canonicalStoryRule)
 
+    // display canonical story title based on canonical story id
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
-        .setDataValidation(canonicalStoryTitleRule)
+        .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2), )")
 
     spreadsheet.getRangeByName('story_instance__folio')
         .setDataValidation(folioRule)

@@ -6,7 +6,7 @@
             "fields": [
                 { "name": "Manuscript" },
                 { "name": "Canonical Story ID" },
-                { "name": "Canonical Story Title" },
+                { "name": "Canonical Story Title", "protected": true },
                 { "name": "Folio" },
                 { "name": "Column Start" },
                 { "name": "Line Start" },
