@@ -161,17 +161,21 @@ global.main = () => {
     spreadsheet.getRangeByName('canonical_story__incipit_source')
         .setDataValidation(manuscriptRule)
 
-    // align center since by default numbers and text align differently
+    // use @ to set text format; center for readability
     spreadsheet.getRangeByName('canonical_story__macomber_id')
         .setDataValidation(macomberIDRule)
+        .setNumberFormat('@')
         .setHorizontalAlignment('center')
 
     // story instance
     spreadsheet.getRangeByName('story_instance__manuscript')
         .setDataValidation(manuscriptRule)
 
+    // use @ to set text format; should match macomber id format
     spreadsheet.getRangeByName('story_instance__canonical_story_id')
         .setDataValidation(canonicalStoryRule)
+        .setNumberFormat('@')
+        .setHorizontalAlignment('center')
 
     // display canonical story title based on canonical story id
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
