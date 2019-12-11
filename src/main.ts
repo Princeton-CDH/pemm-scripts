@@ -61,7 +61,7 @@ global.main = () => {
      * https://support.google.com/docs/answer/3098292?hl=en
      */
     const folioRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(D2), "^[1-9]\\d*[rvab]?$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(D2), "^[1-9]+\\d*[rvab]?$")')
         .setHelpText('Folio must be a number optionally followed by "r", "v", "a", or "b".')
         .setAllowInvalid(false)
         .build()
