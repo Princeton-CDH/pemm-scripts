@@ -181,7 +181,10 @@ global.main = () => {
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
         .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2), )")
 
-    spreadsheet.getRangeByName('story_instance__folio')
+    spreadsheet.getRangeByName('story_instance__folio_start')
+        .setDataValidation(folioRule)
+
+    spreadsheet.getRangeByName('story_instance__folio_end')
         .setDataValidation(folioRule)
 
     spreadsheet.getRangeByName('story_instance__column_start')
