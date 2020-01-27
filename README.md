@@ -1,4 +1,4 @@
-# pemm
+# pemm-scripts
 ![version](https://img.shields.io/github/package-json/v/Princeton-CDH/pemm-scripts)
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 ![license](https://img.shields.io/github/license/Princeton-CDH/pemm-scripts)
@@ -19,7 +19,7 @@ yarn # or npm install
 ```
 log in to `clasp`, the google apps script CLI:
 ```sh
-yarn login # or npm run login
+yarn run login # or npm run login
 ```
 this will open a browser window and ask you to authenticate with a google
 account. after you've completed authentication, visit [script.google.com/home/usersettings](https://script.google.com/home/usersettings)
