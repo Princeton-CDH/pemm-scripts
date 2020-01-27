@@ -4,14 +4,22 @@ import argparse
 import csv
 import json
 import re
-from collections import defaultdict, OrderedDict
+from collections import OrderedDict, defaultdict
 
 
 # regex to parse macomber ids in format: MAC0001-A
 macomber_id_re = re.compile(r'^MAC(\d{4})(-[A-F][1-2]?)?')
+
 # regex to parse manuscript id and folio start/end
-# TODO: handle ##rv and bis notation also
-mss_id_re = re.compile(r'^(?P<id>[\w.]+) ?\((?P<start>\d+[rvab])[-–]?(?P<end>\d+[rvab])?\)')
+# Typically looks like:
+#   41.6 (18v-19v) or 2233(26a)
+# Also handles rv notation:
+#   46.62 (65rv)
+# Will match on pages with "bis", but currently ignores the bis
+#   2059(20b bis)
+mss_id_re = re.compile(
+    r'^(?P<id>[\w.]+) ?' +
+    r'\((?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?\)')
 # mss_id_re = re.compile(r'(?P<id>[\w.]+) \((?P<start>\d+[rvab])-?(?P<end>\d+[rvab])?\)')
 #PEth: 8.14 (25r-27r); 41.98 (144v-150r); 46.79 (96r-97r); 47.35 (97v-99r);
 
@@ -69,21 +77,29 @@ def macomber_to_csv(infile):
                         # strip it out and ignore
                         if ':' in manuscript:
                             manuscript = manuscript.split(':')[0]
-                            # print('**manuscript is now %s' % manuscript)
-                            # print(manuscript)
 
                         match = mss_id_re.match(manuscript)
                         if match:
                             # add the manuscript id to repository set
                             manuscripts[field].add(match.group('id'))
                             # add a new story instance
+
+                            folio_start = match.group('start')
+                            # folio end should use end if found,
+                            # or start for single-page stories
+                            folio_end = match.group('end') or folio_start
+                            # handle ##rv; repeat start folio number
+                            if folio_end == 'v':
+                                folio_end = folio_start.replace('r', 'v')
+
                             story_instances.append({
                                 # TODO: manuscript id/name
                                 'Canonical Story ID': record['Macomber ID'],
                                 # TODO: don't overwrite canonical story title formula
-                                'Folio Start': match.group('start'),
-                                'Folio End': match.group('end') or match.group('start')
+                                'Folio Start': folio_start,
+                                'Folio End': folio_end
                             })
+
                         if not match:
                             print('failed to match %s' % manuscript)
 
