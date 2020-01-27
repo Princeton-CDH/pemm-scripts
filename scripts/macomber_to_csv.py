@@ -116,22 +116,7 @@ class MacomberToCsv:
                 # add the manuscript id to repository set
                 self.manuscripts[collection].add(match.group('id'))
                 # add a new story instance
-
-                folio_start = match.group('start')
-                # folio end should use end if found,
-                # or start for single-page stories
-                folio_end = match.group('end') or folio_start
-                # handle ##rv; repeat start folio number
-                if folio_end == 'v':
-                    folio_end = folio_start.replace('r', 'v')
-
-                self.story_instances.append({
-                    # TODO: manuscript id/name
-                    'Canonical Story ID': canonical_record['Macomber ID'],
-                    # TODO: don't overwrite canonical story title formula
-                    'Folio Start': folio_start,
-                    'Folio End': folio_end
-                })
+                self.add_story_instance(collection, canonical_record, match)
 
             # if parsing failed, check for multiple folio notation
             elif '+' in manuscript or ',' in manuscript:
@@ -144,21 +129,36 @@ class MacomberToCsv:
                 for location in folios:
                     match = self.folio_re.match(location)
                     if match:
-                        self.story_instances.append({
-                            # TODO: manuscript id/name
-                            'Canonical Story ID': canonical_record['Macomber ID'],
-                            # TODO: don't overwrite canonical story title formula
-                            'Folio Start': match.group('start'),
-                            'Folio End': match.group('end') or match.group('start')
-                        })
-
+                        # pass manuscript id since not included in regex match
+                        self.add_story_instance(collection, canonical_record,
+                                                match, mss_id)
                     else:
                         # failed to parse one in a multiple
                         self.mss_unparsed.append(location)
-
             else:
                 # failed to parse at all
                 self.mss_unparsed.append(manuscript)
+
+    def add_story_instance(self, collection, canonical_record, match,
+                           mss_id=None):
+        folio_start = match.group('start')
+        # folio end should use end if found,
+        # or start for single-page stories
+        folio_end = match.group('end') or folio_start
+        # handle ##rv; repeat start folio number
+        if folio_end == 'v':
+            folio_end = folio_start.replace('r', 'v')
+
+        self.story_instances.append({
+            # manuscript collection + id
+            "Manuscript": "%s %s" %
+            (self.collection_lookup.get(collection, collection),
+             mss_id or match.group('id')),
+            'Canonical Story ID': canonical_record['Macomber ID'],
+            # TODO: don't overwrite canonical story title formula
+            'Folio Start': folio_start,
+            'Folio End': folio_end
+        })
 
     def get_schema_fields(self, sheet_name):
         # get field names from JSON schema
