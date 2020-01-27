@@ -21,6 +21,15 @@ folio_regex = r'(?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?'
 folio_re = re.compile(folio_regex)
 mss_id_re = re.compile(r'^(?P<id>[\w.]+) ?\(' + folio_regex + r'\)')
 
+# translate collection names from the macomber file
+# to the form needed for the spreadsheet
+collection_lookup = {
+    'PEth': 'PEth (PEth)',    # should this be PUL ?
+    'EMIP': 'EMIP (HMML)',
+    # 'EMML':
+    'EMDL': 'EMDL (HMML)',
+}
+
 
 def macomber_to_csv(infile):
     # load project schema from typescript src
@@ -36,6 +45,8 @@ def macomber_to_csv(infile):
     canonical_stories = []
     record = None
     story_instances = []
+
+    mss_unparsed = []
 
     with open(infile) as txtfile:
         for line in txtfile:
@@ -117,7 +128,7 @@ def macomber_to_csv(infile):
                                         })
 
                             else:
-                                print('failed to match %s' % manuscript)
+                                mss_unparsed.append(manuscript)
 
                 # TODO: handle field MSS
 
@@ -150,7 +161,10 @@ def macomber_to_csv(infile):
         # to collection names in the spreadsheet
         for repository, mss_ids in manuscripts.items():
             for mss_id in mss_ids:
-                writer.writerow({'ID': mss_id, 'Collection': repository})
+                writer.writerow({
+                    'ID': mss_id,
+                    'Collection': collection_lookup.get(repository, repository)
+                })
 
     story_instance_schema = [sheet for sheet in schema['sheets']
                              if sheet['name'] == 'Story Instance'][0]
@@ -163,6 +177,11 @@ def macomber_to_csv(infile):
         # TODO: text file repository names need to be converted
         # to collection names in the spreadsheet
         writer.writerows(story_instances)
+
+    if mss_unparsed:
+        print('Failed to parse these manuscript references:')
+        for mss_ref in mss_unparsed:
+            print(mss_ref)
 
 
 if __name__ == "__main__":
