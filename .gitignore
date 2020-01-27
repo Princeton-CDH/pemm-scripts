@@ -9,3 +9,6 @@ build/*
 
 # editor config
 .vscode
+
+# clasp credentials
+.clasp.json
