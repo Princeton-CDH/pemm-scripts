@@ -17,11 +17,9 @@ macomber_id_re = re.compile(r'^MAC(\d{4})(-[A-F][1-2]?)?')
 #   46.62 (65rv)
 # Will match on pages with "bis", but currently ignores the bis
 #   2059(20b bis)
-mss_id_re = re.compile(
-    r'^(?P<id>[\w.]+) ?' +
-    r'\((?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?\)')
-# mss_id_re = re.compile(r'(?P<id>[\w.]+) \((?P<start>\d+[rvab])-?(?P<end>\d+[rvab])?\)')
-#PEth: 8.14 (25r-27r); 41.98 (144v-150r); 46.79 (96r-97r); 47.35 (97v-99r);
+folio_regex = r'(?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?'
+folio_re = re.compile(folio_regex)
+mss_id_re = re.compile(r'^(?P<id>[\w.]+) ?\(' + folio_regex + r'\)')
 
 
 def macomber_to_csv(infile):
@@ -30,7 +28,7 @@ def macomber_to_csv(infile):
     # NOTE: use ordered dict to ensure order (order not guaranteed until py3.7)
     with open('src/schema.json') as schemafile:
         schema = json.load(schemafile, object_hook=OrderedDict)
-    print(schema)
+    # print(schema)
 
     manuscripts = defaultdict(set)
     # mss_collections = ['PEth', 'EMIP', 'MSS', 'EMML']
@@ -67,7 +65,6 @@ def macomber_to_csv(infile):
                     value = value.strip().strip('."')
                     # skip if empty or "None"
                     if not value or value == 'None':
-                        # print('empty, skipping %s' % value)
                         continue
 
                     mss = [m.strip() for m in value.strip(' .;').split(';')]
@@ -100,12 +97,29 @@ def macomber_to_csv(infile):
                                 'Folio End': folio_end
                             })
 
+                        # if parsing failed, check for multiple folio notation
                         if not match:
-                            print('failed to match %s' % manuscript)
+                            # if includes + or , indicates multiple occurrences
+                            # within a single manuscript
+                            if '+' in manuscript or ',' in manuscript:
+                                mss_id, folio_refs = manuscript.split('(', 1)
+                                folios = re.split(' ?[+,] ?',
+                                                  folio_refs.strip(')'))
+                                for location in folios:
+                                    match = folio_re.match(location)
+                                    if match:
+                                        story_instances.append({
+                                            # TODO: manuscript id/name
+                                            'Canonical Story ID': record['Macomber ID'],
+                                            # TODO: don't overwrite canonical story title formula
+                                            'Folio Start': match.group('start'),
+                                            'Folio End': match.group('end') or match.group('start')
+                                        })
+
+                            else:
+                                print('failed to match %s' % manuscript)
 
                 # TODO: handle field MSS
-
-
 
 # PEth: 8.14 (25r-27r); 41.98 (144v-150r); 46.79 (96r-97r); 47.35 (97v-99r);
 # EMIP:
@@ -117,7 +131,6 @@ def macomber_to_csv(infile):
                               if sheet['name'] == 'Canonical Story'][0]
     with open('canonical_stories.csv', 'w') as csvfile:
         fieldnames = [f['name'] for f in canonical_story_schema['fields']]
-        print(fieldnames)
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         # NOTE: header should not be written, since we want to append to
         # an existing Google Spreadsheet sheet
