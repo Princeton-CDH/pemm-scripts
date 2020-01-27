@@ -1,7 +1,7 @@
 # pemm
-![version](https://img.shields.io/github/package-json/v/Princeton-CDH/pemm)
+![version](https://img.shields.io/github/package-json/v/Princeton-CDH/pemm-scripts)
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
-![license](https://img.shields.io/github/license/Princeton-CDH/pemm)
+![license](https://img.shields.io/github/license/Princeton-CDH/pemm-scripts)
 
 Tools for the [Princeton Ethiopian Miracles of Mary (PEMM)](https://cdh.princeton.edu/projects/ethiopian-miracles-mary-project/)
 project, which catalogs folktales about miracles performed by the Virgin Mary
@@ -55,4 +55,4 @@ them to the `global` object in `main.ts`. note that the first time you run a
 function, google will ask you to grant permissions to the apps script project.
 
 ## license
-this project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm/blob/master/LICENSE).
+this project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).
