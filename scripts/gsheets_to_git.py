@@ -3,13 +3,34 @@
 '''
 Script to synchronize Google Sheets content to a git repository.
 
+Uses Google Sheets API to grab content from a Google Sheets Spreadsheet.
+Each sheet in the document is saved as a CSV file with a filename
+based on the sheet name. Those files are then added to the local
+git repository, committed (if any changes), and pushed to the remote
+origin repository if there is one.
+
+Example use:
+
+    ./scripts/gsheets_to_git.py -g /path/to/local/gitrepo GOOGLE-DOCUMENT-ID
+
+Setup:
+
+* (google sheets api setup/credentials documentation still todo)
+
+* Create or checkout a working copy of the git repository where
+ the data  will be stored. It should be configured with a remote
+ "origin" for remote synchronization before running the script.
+
+
+NOTE: currently using unreleased "trix" code for interacting with
+Google Sheets; proper release & docs TBD
 
 '''
 import argparse
 import csv
 import os
 
-from git import Repo, InvalidGitRepositoryError
+from git import InvalidGitRepositoryError, Repo
 import trix
 
 
@@ -75,6 +96,7 @@ def update_gitrepo(repo_path, files, doctitle):
             origin.pull()
             # push data updates
             result = origin.push()
+            # output push summary in case anything bad happens
             for pushinfo in result:
                 print(pushinfo.summary)
         except ValueError:
