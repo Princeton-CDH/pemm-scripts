@@ -7,14 +7,17 @@ const root = path.resolve(__dirname)
 module.exports = {
     mode: 'development',
     context: path.join(root, 'src'),
-    entry: path.join(root, 'src', 'main.ts'),
+    entry: {
+        main: './main.ts',
+        incipit: './incipit.ts'
+    },
     devtool: 'none',
     output: {
-        filename: 'build.gs',
+        filename: '[name].gs',
         path: path.join(root, 'build'),
     },
     resolve: {
-        extensions: ['.ts', '.json'],
+        extensions: ['.ts', '.json', '.html'],
         modules: [root, 'node_modules']
     },
     module: {
