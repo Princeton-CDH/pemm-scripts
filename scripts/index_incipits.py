@@ -36,13 +36,16 @@ def index_incipits(solr_url, solr_core, incipitfile):
     # read incipit csv file and index in Solr
     with open(incipitfile) as csvfile:
         csvreader = csv.DictReader(csvfile)
+        incipit_rows = [row for row in csvreader if row['Incipit']]
         # index macomber id & incipit for any rows with an incipit
         solr.update.index([{
             # identifier required for current Solr config
             'id': '%(Manuscript)s %(Folio Start)s' % row,
             'macomber_id_s': row['Canonical Story ID'],
             'incipit_txt_gez': row['Incipit']
-        } for row in csvreader if row['Incipit']])
+        } for row in incipit_rows])
+
+    print('Indexed %d records with incipits' % len(incipit_rows))
 
 
 if __name__ == "__main__":
