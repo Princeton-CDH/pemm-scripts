@@ -60,12 +60,12 @@ class MacomberToCsv:
         'HBS': 'H-Berlin (BS)',
         'LUE': 'L-Uppsala (UU)',
         'SALE': 'S-Rome (ANL)',
-        'SBLE': 'S-London (SBL)',
-        'SGE': 'S-Paris (SBN)',
+        'SBLE': 'S-London (BL)',
+        'SGE': 'S-Paris (BN)',
         'SWE': 'M-SWE (SWE)',
         'VLVE': 'VL-Vatican (BAV)',
         'WBLE': 'W-London (BM)',
-        'PEth': 'PEth (PEth)',    # should this be PUL ?
+        'PEth': 'PEM (PUL)',
     }
 
     # mss_collections = ['PEth', 'EMIP', 'MSS', 'EMML']
