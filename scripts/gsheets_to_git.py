@@ -15,6 +15,8 @@ Example use:
 
 Setup:
 
+* pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib gitpython
+
 * (google sheets api setup/credentials documentation still todo)
 
 * Create or checkout a working copy of the git repository where
