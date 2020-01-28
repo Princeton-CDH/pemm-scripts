@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 
+'''
+Convert structured text file based on Macomber's handlist
+and CSV of incipits into a set of CSV files for manuscripts,
+canonical stories, and story instances.
+
+Input files are included in the data directory
+
+Usage::
+
+    python ./scripts/macomber_to_csv.py -f data/macomber-miracles.txt -i data/incipits.csv
+
+'''
+
+
 import argparse
 import csv
 import json
