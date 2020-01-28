@@ -1,7 +1,6 @@
 global.showIncipitSidebar = () => {
     const sidebarHtml = HtmlService.createHtmlOutputFromFile('incipits')
         .setTitle('Incipits')
-        .setWidth(800)
 
     SpreadsheetApp.getUi().showSidebar(sidebarHtml)
 }
