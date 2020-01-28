@@ -73,8 +73,24 @@ class MacomberToCsv:
         with open(self. schema_path) as schemafile:
             self.schema = json.load(schemafile, object_hook=OrderedDict)
 
-    def process_textfile(self, infile):
+    # nested default dict of dict for incipit lookup
+    # - lookup by macomber id, then repository, then manuscript id
+    incipits = defaultdict(lambda: defaultdict(dict))
+
+    def load_incipits(self, incipitfile):
+        # read incipit csv file into a nested dictionary for lookup
+        with open(incipitfile) as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                mac_id, incipit, repository, mss, notes = row
+                self.incipits[mac_id][repository][mss] = incipit
+
+    def get_incipit(self, macomber_id, collection, mss_id):
+        return self.incipits[macomber_id][collection].get(mss_id, '')
+
+    def process_textfile(self, infile, incipitfile):
         record = None
+        self.load_incipits(incipitfile)
         with open(infile) as txtfile:
             for line in txtfile:
                 # macomber id indicates start of a new record
@@ -196,11 +212,18 @@ class MacomberToCsv:
         if folio_end == 'v':
             folio_end = folio_start.replace('r', 'v')
 
+        # manuscript id is either passed in or included in regex
+        mss_id = mss_id or match.group('id')
+        # get incipit if known
+        incipit = self.get_incipit(canonical_record['Macomber ID'],
+                                   collection, mss_id)
+
         self.story_instances.append({
             # manuscript collection + id
             "Manuscript": "%s %s" %
             (self.collection_lookup.get(collection, collection),
-             mss_id or match.group('id')),
+             mss_id),
+            'Incipit': incipit,
             'Canonical Story ID': canonical_record['Macomber ID'],
             'Folio Start': folio_start,
             'Folio End': folio_end
@@ -229,12 +252,10 @@ class MacomberToCsv:
         with open('manuscripts.csv', 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            # NOTE: header should not be written, since we want to append to
-            # an existing Google Spreadsheet sheet
-            # TODO: text file repository names need to be converted
-            # to collection names in the spreadsheet
-            for repository, mss_ids in self.manuscripts.items():
-                for mss_id in mss_ids:
+            # sort by repository and then by manuscript id,
+            # to make this list easier to work with
+            for repository in sorted(self.manuscripts.keys()):
+                for mss_id in sorted(self.manuscripts[repository]):
                     writer.writerow({
                         'ID': mss_id,
                         # for now, default to value in the file if not found
@@ -258,6 +279,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Convert PEMM structured text file to CSV.')
     parser.add_argument('-f', '--file', required=True)
+    parser.add_argument('-i', '--incipits', required=True)
 
     args = parser.parse_args()
-    MacomberToCsv().process_textfile(args.file)
+    MacomberToCsv().process_textfile(args.file, args.incipits)
