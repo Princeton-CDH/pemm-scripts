@@ -60,13 +60,15 @@
             "name": "Collection",
             "fields": [
                 { "name": "Name", "protected": true },
-                { "name": "Abbreviation" },
-                { "name": "Institution" },
+                { "name": "Collection Abbreviation" },
+                { "name": "Institution Abbreviation" },
+                { "name": "Collection Name" },
+                { "name": "Institution Name" },
                 { "name": "Country" },
                 { "name": "City" },
                 { "name": "Latitude" },
                 { "name": "Longitude" },
-                { "name": "Source" }
+                { "name": "Source" },
                 { "name": "Notes" }
             ]
         },
