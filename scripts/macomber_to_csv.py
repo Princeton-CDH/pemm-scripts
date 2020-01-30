@@ -139,9 +139,14 @@ class MacomberToCsv:
                 # non-id lines are semi-colon delimited, i.e. field: value
                 elif ':' in line:
                     field, value = line.split(':', 1)
+                    # TODO: convert these into a lookup of 1-1 mappings
                     # macomber title
                     if field == 'Title':
                         record["Macomber Title"] = value.strip()
+                    elif field == 'Text':
+                        record['Print Version'] = value.strip()
+                    elif field == 'English translation':
+                        record['English Translation'] = value.strip()
 
                     # combined manuscripts field
                     # these are structured as `collection id (folio)`, e.g.
