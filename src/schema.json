@@ -66,6 +66,7 @@
                 { "name": "City" },
                 { "name": "Latitude" },
                 { "name": "Longitude" },
+                { "name": "Source" }
                 { "name": "Notes" }
             ]
         },
