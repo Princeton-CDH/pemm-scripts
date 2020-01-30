@@ -16,11 +16,11 @@ Usage::
 
 import argparse
 import csv
-from datetime import date
 import json
 import os
 import re
 from collections import OrderedDict, defaultdict
+from datetime import date
 
 
 SCRIPT_DIR = os.path.dirname(__file__)
@@ -72,6 +72,8 @@ class MacomberToCsv:
         'VLVE': 'VL-Vatican (BAV)',
         'WBLE': 'W-London (BM)',
         'PEth': 'PEM (PUL)',
+        'ZBNE': 'Z-Paris (BN)',
+        'BM': 'W-London (BM)'
     }
 
     # mss_collections = ['PEth', 'EMIP', 'MSS', 'EMML']
