@@ -18,7 +18,6 @@
                 { "name": "Incipit" },
                 { "name": "Macomber Incipit" },
                 { "name": "Confidence Score" },
-                { "name": "Print Versions", "protected": true },
                 { "name": "Notes" }
             ]
         },
@@ -32,6 +31,8 @@
                 { "name": "Hamburg ID", "protected": true},
                 { "name": "Other IDs", "protected": true },
                 { "name": "Other Titles" },
+                { "name": "English Translation"},
+                { "name": "Print Version"},
                 { "name": "Notes" }
             ]
         },
