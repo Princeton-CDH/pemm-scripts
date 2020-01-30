@@ -44,6 +44,7 @@
                 { "name": "Title" },
                 { "name": "Collection" },
                 { "name": "Original Collection" },
+                { "name": "Total Stories", "protected": true },
                 { "name": "Total Folios" },
                 { "name": "Total Pages" },
                 { "name": "Century" },
@@ -51,7 +52,6 @@
                 { "name": "Date Range End" },
                 { "name": "Date Note" },
                 { "name": "Provenance" },
-                { "name": "Number of Stories", "protected": true },
                 { "name": "Link" },
                 { "name": "Notes" }
             ]

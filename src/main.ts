@@ -135,7 +135,7 @@ global.main = () => {
     spreadsheet.getRangeByName('manuscript__total_pages')
         .setDataValidation(positiveIntegerRule)
 
-    spreadsheet.getRangeByName('manuscript__number_of_stories')
+    spreadsheet.getRangeByName('manuscript__total_stories')
         .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
     spreadsheet.getRangeByName('manuscript__date_range_start')
