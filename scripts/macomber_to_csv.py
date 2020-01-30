@@ -263,6 +263,10 @@ class MacomberToCsv:
             (self.collection_lookup.get(collection, collection),
              mss_id),
             'Incipit': incipit,
+            # imported incipits should be marked as Macomber incipit
+            'Macomber Incipit': int(bool(incipit)),  # 1 if incipit else 0
+            # mark macomber incipits as high confidence
+            'Confidence Score': 'High' if incipit else '',
             'Canonical Story ID': canonical_record['Macomber ID'],
             'Folio Start': folio_start,
             'Folio End': folio_end
