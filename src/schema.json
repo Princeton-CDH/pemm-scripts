@@ -16,6 +16,7 @@
                 { "name": "Miracle Number" },
                 { "name": "Number of Paintings" },
                 { "name": "Incipit" },
+                { "name": "Macomber Incipit" },
                 { "name": "Confidence Score" },
                 { "name": "Print Versions", "protected": true }
             ]

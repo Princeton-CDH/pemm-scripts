@@ -193,6 +193,9 @@ global.main = () => {
     spreadsheet.getRangeByName('story_instance__confidence_score')
         .setDataValidation(confidenceScoreRule)
 
+    spreadsheet.getRangeByName('story_instance__macomber_incipit')
+        .setDataValidation(booleanRule)
+
     // story origin
     spreadsheet.getRangeByName('story_origin__region')
         .setDataValidation(regionRule)
