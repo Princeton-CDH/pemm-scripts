@@ -9,3 +9,6 @@ build/*
 
 # editor config
 .vscode
+
+# generated csv for sublime text to sheets import
+output/*

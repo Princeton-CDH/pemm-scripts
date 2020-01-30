@@ -16,6 +16,7 @@ Usage::
 
 import argparse
 import csv
+from datetime import date
 import json
 import os
 import re
@@ -86,11 +87,18 @@ class MacomberToCsv:
     # project schema from typescript src directory
     schema_path = os.path.join(SCRIPT_DIR, '..', 'src', 'schema.json')
 
+    # output dir
+    output_dir = 'output'
+
     def __init__(self):
         # load project schema from typescript src
         # NOTE: use ordered dict to ensure order (not guaranteed pre py3.7)
         with open(self. schema_path) as schemafile:
             self.schema = json.load(schemafile, object_hook=OrderedDict)
+
+        # create output directory if it doesn't exist
+        if not os.path.isdir(self.output_dir):
+            os.mkdir(self.output_dir)
 
     # nested default dict of dict for incipit lookup
     # - lookup by macomber id, then repository, then manuscript id
@@ -267,11 +275,17 @@ class MacomberToCsv:
                       if sheet['name'] == sheet_name][0]
         return [f['name'] for f in sheet_info['fields']]
 
+    def output_filename(self, name):
+        '''generate csv output path; files will be created
+        in an output directory with current date as prefix.'''
+        return os.path.join(self.output_dir,
+                            '%s-%s.csv' % (date.today().isoformat(), name))
+
     def output_canonical_stories(self):
         '''Generate CSV output for canonical stories'''
         # get CSV field names from schema
         fieldnames = self.get_schema_fields('Canonical Story')
-        with open('canonical_stories.csv', 'w') as csvfile:
+        with open(self.output_filename('canonical_stories'), 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             # NOTE: header should not be written, since we want to append to
@@ -281,9 +295,7 @@ class MacomberToCsv:
     def output_manuscripts(self):
         '''Generate CSV output for manuscripts'''
         fieldnames = self.get_schema_fields('Manuscript')
-        # FIXME: needs to skip or include formulas for auto-generated fields
-        # - name, number of stories
-        with open('manuscripts.csv', 'w') as csvfile:
+        with open(self.output_filename('manuscripts'), 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             # sort by repository and then by manuscript id,
@@ -300,7 +312,7 @@ class MacomberToCsv:
     def output_story_instances(self):
         '''Generate CSV output for story instances'''
         fieldnames = self.get_schema_fields('Story Instance')
-        with open('story_instances.csv', 'w') as csvfile:
+        with open(self.output_filename('story_instances'), 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             # NOTE: header should not be written, since we want to append to
