@@ -18,7 +18,8 @@
                 { "name": "Incipit" },
                 { "name": "Macomber Incipit" },
                 { "name": "Confidence Score" },
-                { "name": "Print Versions", "protected": true }
+                { "name": "Print Versions", "protected": true },
+                { "name": "Notes" }
             ]
         },
         {
@@ -30,7 +31,8 @@
                 { "name": "Poncelet Number" },
                 { "name": "Hamburg ID", "protected": true},
                 { "name": "Other IDs", "protected": true },
-                { "name": "Other Titles" }
+                { "name": "Other Titles" },
+                { "name": "Notes" }
             ]
         },
         {
@@ -49,7 +51,8 @@
                 { "name": "Date Note" },
                 { "name": "Provenance" },
                 { "name": "Number of Stories", "protected": true },
-                { "name": "Link" }
+                { "name": "Link" },
+                { "name": "Notes" }
             ]
         },
         {
@@ -61,14 +64,16 @@
                 { "name": "Country" },
                 { "name": "City" },
                 { "name": "Latitude" },
-                { "name": "Longitude" }
+                { "name": "Longitude" },
+                { "name": "Notes" }
             ]
         },
         {
             "name": "Story Origin",
             "fields": [
                 { "name": "Name" },
-                { "name": "Region" }
+                { "name": "Region" },
+                { "name": "Notes" }
             ]
         }
     ]
