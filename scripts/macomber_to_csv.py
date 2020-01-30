@@ -26,6 +26,11 @@ SCRIPT_DIR = os.path.dirname(__file__)
 
 
 class MacomberToCsv:
+    '''Convert structured text file based on Macomber handlist
+    into a set of related CSV files for use with Google sheets.
+    Uses the schema.json file in the scripts directory to
+    determine the order of fields in the output.
+    '''
 
     # regex to parse macomber ids in format: MAC0001-A
     macomber_id_re = re.compile(r'^MAC(\d{4})(-[A-F][1-2]?)?')
@@ -92,7 +97,8 @@ class MacomberToCsv:
     incipits = defaultdict(lambda: defaultdict(dict))
 
     def load_incipits(self, incipitfile):
-        # read incipit csv file into a nested dictionary for lookup
+        '''Read incipit CSV file into a nested dictionary for lookup
+        so that known incipits can be included in the story instance CSV.'''
         with open(incipitfile) as csvfile:
             reader = csv.reader(csvfile)
             for row in reader:
@@ -100,9 +106,12 @@ class MacomberToCsv:
                 self.incipits[mac_id][repository][mss] = incipit
 
     def get_incipit(self, macomber_id, collection, mss_id):
+        '''Get incipit text, if present, for an story instance based on
+        Macomber id, collection, and manuscript id.'''
         return self.incipits[macomber_id][collection].get(mss_id, '')
 
     def process_textfile(self, infile, incipitfile):
+        '''Process the macomber text file and output CSVs.'''
         record = None
         self.load_incipits(incipitfile)
         with open(infile) as txtfile:
@@ -167,6 +176,10 @@ class MacomberToCsv:
                 print(mss_ref)
 
     def parse_manuscripts(self, collection, manuscripts, canonical_record):
+        '''Parse a manuscript reference; add records to the list of
+        recognized story instances when the reference can be parsed; add
+        to the list of unparsed references when it cannot.'''
+
         # strip whitespace and punctuation we want to ignore
         manuscripts = manuscripts.strip().strip('."')
         # skip if empty or "None"
@@ -218,6 +231,10 @@ class MacomberToCsv:
 
     def add_story_instance(self, collection, canonical_record, match,
                            mss_id=None):
+        '''Add a story instance to the list.  Takes a collection
+        abbreviation, current canonical record, regular expression match
+        for the manuscript (may include folio start, folio end, and
+        manuscript id), and optional manuscript id.'''
         folio_start = match.group('start')
         # folio end should use end if found,
         # or start for single-page stories
@@ -244,12 +261,14 @@ class MacomberToCsv:
         })
 
     def get_schema_fields(self, sheet_name):
-        # get field names from JSON schema
+        '''Get a list of field names for the specified sheet from the
+        JSON schema'''
         sheet_info = [sheet for sheet in self.schema['sheets']
                       if sheet['name'] == sheet_name][0]
         return [f['name'] for f in sheet_info['fields']]
 
     def output_canonical_stories(self):
+        '''Generate CSV output for canonical stories'''
         # get CSV field names from schema
         fieldnames = self.get_schema_fields('Canonical Story')
         with open('canonical_stories.csv', 'w') as csvfile:
@@ -260,6 +279,7 @@ class MacomberToCsv:
             writer.writerows(self.canonical_stories)
 
     def output_manuscripts(self):
+        '''Generate CSV output for manuscripts'''
         fieldnames = self.get_schema_fields('Manuscript')
         # FIXME: needs to skip or include formulas for auto-generated fields
         # - name, number of stories
@@ -278,6 +298,7 @@ class MacomberToCsv:
                     })
 
     def output_story_instances(self):
+        '''Generate CSV output for story instances'''
         fieldnames = self.get_schema_fields('Story Instance')
         with open('story_instances.csv', 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
