@@ -18,12 +18,6 @@ global.main = () => {
         .setAllowInvalid(false)
         .build()
 
-    const incipitRule = SpreadsheetApp.newDataValidation()
-        .requireValueInRange(spreadsheet.getRangeByName('canonical_story__incipit'))
-        .setHelpText('Incipit must match a Canonical Story.')
-        .setAllowInvalid(false)
-        .build()
-
     const canonicalStoryRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('canonical_story__macomber_id'))
         .setHelpText('Must reference a Canonical Story Macomber ID.')
@@ -157,9 +151,6 @@ global.main = () => {
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
         .setDataValidation(storyOriginRule)
-
-    spreadsheet.getRangeByName('canonical_story__incipit_source')
-        .setDataValidation(manuscriptRule)
 
     // use @ to set text format; center for readability
     spreadsheet.getRangeByName('canonical_story__macomber_id')

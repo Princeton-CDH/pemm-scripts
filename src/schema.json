@@ -27,8 +27,6 @@
                 { "name": "Macomber Title" },
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
-                { "name": "Incipit", "protected": true },
-                { "name": "Incipit Source" },
                 { "name": "Hamburg ID", "protected": true},
                 { "name": "Other IDs", "protected": true },
                 { "name": "Other Titles" }
