@@ -1,6 +1,8 @@
 import { setupSheet } from './sheet'
+import { setupSpreadsheet } from './spreadsheet'
 import { setupValidation } from './validation'
 
+// full spreadsheet schema JSON file
 import schema from './schema.json'
 
 /**
@@ -11,6 +13,7 @@ global.onOpen = () => {
     SpreadsheetApp.getUi()
         .createMenu('PEMM')
         .addItem('Set up active sheet', 'setupActiveSheet')
+        .addItem('Set up all sheets', 'setupAllSheets')
         .addItem('Set up validation', 'setupAllValidation')
         .addToUi()
 }
@@ -45,4 +48,12 @@ global.setupActiveSheet = (): void => {
 global.setupAllValidation = (): void => {
     const spreadsheet = SpreadsheetApp.getActiveSpreadsheet()
     setupValidation(spreadsheet)
+}
+
+/**
+ * Set up all sheets, creating them if they don't exist, and apply validation.
+ */
+global.setupAllSheets = (): void => {
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+    setupSpreadsheet(spreadsheet, schema)
 }
