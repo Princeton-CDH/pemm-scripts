@@ -26,7 +26,7 @@ from datetime import date
 SCRIPT_DIR = os.path.dirname(__file__)
 
 
-class MacomberToCsv:
+class MacomberToCSV:
     '''Convert structured text file based on Macomber handlist
     into a set of related CSV files for use with Google sheets.
     Uses the schema.json file in the scripts directory to
@@ -340,4 +340,4 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--incipits', required=True)
 
     args = parser.parse_args()
-    MacomberToCsv().process_textfile(args.file, args.incipits)
+    MacomberToCSV().process_textfile(args.file, args.incipits)
