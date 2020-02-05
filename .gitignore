@@ -7,8 +7,16 @@ build/
 # log files
 yarn-error.log
 
+# built files & data
+build/
+output/
+
 # editor config
 .vscode
 
 # clasp credentials
 .clasp.json
+
+# python environment
+env/
+venv/
