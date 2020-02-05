@@ -8,7 +8,8 @@
   "scripts": {
     "login": "clasp login",
     "setup": "clasp create --title PEMM --rootDir ./build",
-    "build": "DEPLOY_ENV=dev webpack --watch",
+    "build": "DEPLOY_ENV=dev webpack",
+    "dev": "DEPLOY_ENV=dev webpack --watch",
     "pull": "clasp pull",
     "push": "clasp push"
   },
