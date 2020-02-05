@@ -112,7 +112,7 @@ class MacomberToCSV:
         with open(incipitfile) as csvfile:
             reader = csv.reader(csvfile)
             for row in reader:
-                mac_id, incipit, repository, mss, notes = row
+                mac_id, incipit, repository, mss, _ = row
                 self.incipits[mac_id][repository][mss] = incipit
 
     def get_incipit(self, macomber_id, collection, mss_id):
@@ -144,7 +144,7 @@ class MacomberToCSV:
                     # TODO: convert these into a lookup of 1-1 mappings
                     # macomber title
                     if field == 'Title':
-                        record["Macomber Title"] = value.strip()
+                        record['Macomber Title'] = value.strip()
                     elif field == 'Text':
                         record['Print Version'] = value.strip()
                     elif field == 'English translation':
@@ -163,10 +163,10 @@ class MacomberToCSV:
                             # TODO: handle refs like G-1
                             # split on first space, if present
                             if ' ' in mss_ref:
-                                collection, mss = mss_ref.split(' ', 1)
+                                collection, _ = mss_ref.split(' ', 1)
                             elif '-' in mss_ref:
                                 # otherwise split on first dash
-                                collection, mss = mss_ref.split('-', 1)
+                                collection, _ = mss_ref.split('-', 1)
                             else:
                                 # error/warn?
                                 continue
