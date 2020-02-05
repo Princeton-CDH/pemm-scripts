@@ -7,11 +7,16 @@ build/
 # log files
 yarn-error.log
 
+# built files & data
+build/
+output/
+
 # editor config
 .vscode
 
-# generated csv for sublime text to sheets import
-output/*
-
 # clasp credentials
 .clasp.json
+
+# python environment
+env/
+venv/
