@@ -1,14 +1,22 @@
 # dependencies
-node_modules
+node_modules/
+
+# built files
+build/
 
 # log files
 yarn-error.log
 
-# built files
-build/*
+# built files & data
+build/
+output/
 
 # editor config
 .vscode
 
 # clasp credentials
 .clasp.json
+
+# python environment
+env/
+venv/
