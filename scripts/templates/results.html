@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+    <title>search results for {{ request.form.incipit }}</title>
+    <style>
+        li { margin-bottom: 0.5em; }
+        .id { color: brown; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>search results</h1>
+    <p>{{ total }} total results for "{{ request.form.incipit }}"</p>
+    {% if results|length > 0 %}
+    <ol>
+        {% for result in results %}
+        <li>
+            <span>{{ result.incipit_txt_gez }}</span><br/>
+            <span class="id">{{ result.id }}</span>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endif %}
+</body>
+</html>
