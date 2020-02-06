@@ -27,32 +27,58 @@ and turn on the "Google Apps Script API" toggle.
 
 ![Enable Apps Script API](https://user-images.githubusercontent.com/744973/54870967-a9135780-4d6a-11e9-991c-9f57a508bdf0.gif)
 
-finally, create a new apps script project:
+next, create a new apps script project:
 ```sh
 yarn setup # or npm run setup
 ```
-choose the `standalone` project type. now you're ready to make changes
-to the code.
+choose the `sheets` project type. `clasp` will automatically create a new
+google sheets spreadsheet called "PEMM" in your google drive and initialize
+an apps script project bound to that sheet.
+
+finally, compile the project's code and install it in your spreadsheet:
+```sh
+yarn build && yarn push # or npm run build && npm run push
+```
+
+if you open the newly created google sheet from your drive, you should now
+see the project's custom menu appear after a short delay. running commands for 
+the first time may prompt you to authenticate with google.
+
 ### making changes
-before editing source code, run a development build server with webpack:
+when you make changes to source code in the `src/` folder, you can rebuild the
+project's code with:
 ```sh
 yarn build # or npm run build 
 ```
-this will bundle all of the typescript that is loaded from `main.ts` and
+this will bundle all of the typescript that is loaded from `src/main.ts` and
 transpile it into google apps script, creating the `build.gs` file in `build/`.
-webpack will watch for changes and recompile the `build.gs` file when you save.
+
+when actively developing, you can instead run a server with:
+```sh
+yarn dev # or npm run dev
+```
+this way, webpack will watch for changes and recompile the `build.gs` file 
+when you save any file.
+
 ### pushing your changes
-when you've finished making changes, you can push them up to google:
+when you've finished making changes, you can push them up to google, which will
+"install" the latest version in your spreadsheet:
 ```sh
 yarn push # or npm run push
 ```
 this will push the files in `build/` up to your project in the google apps
-script IDE, overwriting its current contents. you can open the project by
+script IDE, overwriting its current contents.
+
+### debugging code
+
+you can see your deployed version of the project by
 visiting the [google suite developer hub](https://script.google.com/home) and
-clicking on your project. to enter the IDE, click "open project". here, you can
-run or debug functions that have been exported into the global scope by binding
-them to the `global` object in `main.ts`. note that the first time you run a
-function, google will ask you to grant permissions to the apps script project.
+clicking on your project. to enter the IDE, click "open project".
+
+here, you can run or debug functions that have been exported into the global
+scope by binding them to the `global` object in `main.ts`. note that the first
+time you run a function, google may ask you to grant permissions to the apps
+script project.
 
 ## license
 this project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).
