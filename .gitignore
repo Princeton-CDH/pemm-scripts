@@ -1,9 +1,6 @@
 # dependencies
 node_modules/
 
-# built files
-build/
-
 # log files
 yarn-error.log
 
