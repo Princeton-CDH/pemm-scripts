@@ -336,7 +336,7 @@ Text: Budge, Miracles, p. 19.
 English translation: Budge, One Hundred, p. 26.
 PEth: 20.35 (46r-47r); 20.4 (3v-4r); 41.25 (57v-58v); 46.9 (14v-15v); 46.122 (145v-146r); 47.8 (32v-35v);
 EMIP: 601.8 (9r–10r); 601.329 (175v);
-MSS: G-39; ZBNE 60-9; 61-7; CRA 52-15; 54 (28b); 55 (23a); SBLE 32-8; BM 2-11; 3-15; VLVE 267 (30b); 298 (13a,2lla); SALE 23-7; 43-9; LUE 30-20; 32-15; CBS-8; CCBE 951-8; DULE 12 (84b); AECE l (llb,39a).
+MSS: G-39; ZBNE 60-9; 61-7; CRA 52-15; 54 (28b); 55 (23a); SBLE 32-8; BM 2-11; 3-15; VLVE 267 (30b); 298 (13a,2lla); SALE 23-7; 43-9; LUE 30-20; 32-15; CBS-8; CCBE 951-8; DULE 12 (84b); AECE 1 (11b,39a).
 EMML: 2275 (197a); 6938 (69b); 5520 (45a); 6949 (125a); 2378 (27a); 6640 (22a); 2059 (130a); 2060 (168b); 2066 (117b); 2802 (61b); 6196 (24a); 7543 (34b).
 Keywords: Europeans [Afrengi]; Frenchmen; Icons; Painters; Preservation from falling; Scaffolding;
 Incipit: wa-hall o aṣadu be ~esi ṣacali, wa-albo za-yetmassallo ba-we'etu azman ba-gabira ~eel (6938). Wa-hallawat aQatti beta krestiyan ṣannayt; wa-soba fa~$a.tnU Qeni$ota, ma$'a aQadu mm~mmm be'ese ma~ ce1 (MS: mesl) wa-bo'a gaba beta krestiyan wa-gabra carata (6949).
@@ -843,7 +843,7 @@ Title: The monks of Saint Anthony celebrate Holy Week at Däbrä QWesqWam.
 Summary: Cerulli, Il libro, p. 209_; 'T-3~, p, i5'4ˀ,
 PEth: 46.99 (116r-117r): How the Virgin Mary appeared to the people at Däbrä Qʷusəqʷam during passion week of the year of the martyrs 1112 [1396 AD];
 EMIP: 601.165 (100rv): How the Virgin Mary appeared in Däbrä Qwusqwam when Bishop Gabriel stayed there and died during the celebration of the passion week;
-MSS: G-77; CRA 52-64; 53-89; VLVE 298(98b), HBS 158(144a).
+MSS: G-77; CRA 52-64; 53-89; VLVE 298(98b); HBS 158(144a).
 EMML: 6938(116a); 4618(129b); 7543(60a); 3051(92a); 2952(64b); 2058(74a); 2424(65a).
 Keywords: Anthony (St.), monastery of; Däbrä Abba Entoneyos; Däbrä Qʷəsqʷam; Qʷəsqʷam; Gabriel, bishop; Holy Week; Martyrs dates; Matthew I, Patriarch of Alexandria; Monasteries; Monks; Quseya;
 Incipit: wa-ba-c amat 1000 wa-100 10 wa-2 la-samacetat, ~ ba~epu manakosat em-Däbrä Abuna Entoneyos kama yegbaru samuna pemamat ba-Däbrä QWesqWam (6938).
@@ -1095,7 +1095,7 @@ Keywords: Alms; Beggars; Bread; Commemorations; Feasts; Food; Good works; Rich p
 Incipit: Wa-hallo aμadu beˀesi ra<l teqqa wa-yegabber tazkara la-Egzeˀetena••••wa-yetqerrab qwerbana ba-ba<ala la-Egzeˀetena .•.• wa-albo kale< megbara ṣannay (7543).
 
 MAC0107.
-Title: The story of Saint Mary the Egyptian. 
+Title: The story of Saint Mary the Egyptian.
 English translation: Budge, One Hundred, p. 282
 MS$: G-107; CRA 53-22; WBLE 77(119a); VLVE 298(184a).
 EMML: 3872(7b); 4618(101a); 2060(125b); 7543(72b); 3051(211a); 2952(93b); 2058(88a).
@@ -1437,7 +1437,7 @@ Title: When Pariqos of Fesa confesses his sins to the bishop, the latter, refusi
 PEth: 41.54 (82r-83r);
 EMIP: 601.41 (26v–27r);
 MSS: CRA-52-5 (?); 53-38.
-EMML: 2059(93a); 2056(92a); 642(146b); 76(238b); 329(78b); 1606(79a); 683(77b),
+EMML: 2059(93a); 2056(92a); 642(146b); 76(238b); 329(78b); 1606(79a); 683(77b);
 Keywords: Absolutions; Bishops, archbishops; Confessions; Feza; Pariqos from Feza; Penitents; Philotheus, bishop; Pilgrims; Santiago de Compostella;
 Incipit: Wa-hallo apadu be>esi em-sab>a Fe~a za-semu pariqos; /a-apatta <elata pora gaba Abba Filatawos, eppis qoppos za-safayat, lottu ~aqqa Egz>etena . ..• wa-ta>amna gabehu gatawe>ihu (2059). Ta>ammeriha la-Egze~etena.,.,te>~ta sem,(madtanita kwellu ca1am1\..:::ge~ta 4 ,;y'~ ~ wa-enza yenabber eppis ~oJpo{ apatta <eiata/lma~>a gabehu be>esi wa---J ta>amna gati>ato, wa-i-tawakfo we>etu eppis qoppoa (683).
 
@@ -1513,7 +1513,7 @@ MAC0148.
 Title: The pregnant woman who was caught by the tide while going to the church of Saint Michael (Mont Saint Michel)
 Text: Budge, Miracles, p. 50, T-88, p. 300.
 PEth:
-MSS: G-150; ZBNE 60-32; 61-30; CRA 52-38,96; 54(107b); SBLE 32-3l; BM 2-35; 3-39; VLVE 272(63a); 298(24b); SALE 23-30; 43-32; LUE 30-43,68; 32-31; CF 2-16; CBS-31; HBS 59-14; CCBE 951-31; CL- 27; DULE 12(86b); AECE 1(35b).
+MSS: G-150; ZBNE 60-32; 61-30; CRA 52-38,96; 54(107b); SBLE 32-3l; BM 2-35; 3-39; VLVE 272(63a); 298(24b); SALE 23-30; 43-32; LUE 30-43,68; 32-31; CF 2-16; CBS-31; HBS 59-14; CCBE 951-31; CL 27; DULE 12(86b); AECE 1(35b).
 EMML: 1573(27b); 2275(49b); 3872(42b); 6917(33a); 4618(16a); 5520(162a); 6949(81a); 1692(50a); 3923(48a); 6640(52a); 2059(19b); 2060(40b); 2066(140a); 6196(94a); 7543(92b); 2831(23a).
 Keywords: Churches; Michael the Archangel (St.), church of; Mont Saint Michel; Pregnant women; Tide;
 Incipit: Wa-hallawat apatti hagar za-westeta penu~ beta Krestiyan za-tapan~at ba- semu la-liqa mala>ekt Mika>el, wa-bezuh sab> beiu<awiyan iyyanattegu gaysa ama ba'alu la-liqa mala>ekt Mika>el la-lla-kwellu <a.mat ama 10 wa-2 la-warga gedar. Wa-apatta ' elata, soba hallawu y~pawweru westa f enot l a-ba~ip westa ye>eti beta Krestiya.n, wa-nahu ma~>a deciia may em-bapr (3872). /Tabehla kama hallawat apatti bapr za-ta' addu kwello 'alama, wa-ba-westa~enfa la-ye>eti bapr hallawat apatti beta Krestiya.n pene~t ba-sema qeddus Mika>el liqa mala>ekt (1573).
@@ -1574,16 +1574,16 @@ Text: Budge, Miracles, p. 23; Cerulli, Il libro, pp. 522 and 523.
 English translation: Budge, One Hundred, p. 39.
 PEth: 8.22 (41r-41v); 20.37 (48r-v); 41.28 (60v-61r); 43.25 (32v-33r); 46.11a (17rv); 47.11 (42r-43v);
 EMIP: 601.11 (11rv);
-MSS: ZBNE 60-12; 61-10; 62-31; 63-3l; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; J-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS- II; 272(128b); 298(14b); SALE 23-10; 4)-12; LUE 30-23,69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
+MSS: ZBNE 60-12; 61-10; 62-31; 63-3l; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; J-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS-11; 272(128b); 298(14b); SALE 23-10; 4)-12; LUE 30-23,69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
 EMML: 7089(15b); 3536(37b); 7220(10a); 5105(36a); 2275(27b); 3872(48a); 6938(150b); 6917(34a,41a); 2282(33a); 4618(23b); 5182(7a); 5520(134b); 6949(89b); 4688(50b); 3923(36a); 6640(27b); 2059(56b); 2060(186a); 2066(120b); 2802(118a); 5420(29a); 6196(32a); 7543(95b); 2831(28a).
 Keywords: Barbara from Bethlehem; Bethlehem; Churches; Jews; Judah, tribe of; Juliana from Bethlehem; Robbers; Sisters;
 Incipit: wa-hallawa kel'e anest, a>mata Egze>etena Maryam ba-Beta Le~em em-awalda Yehuda, wa-a~atta ' elata (yenaggedt) enza ya~awwera Iyyarusalem, yesaggeda la-ba'ala felsata ~egaha la-Egze'e ena (3872). / Wa-kona kel'e anest enza yapawwera westa beta Krestiyana la-Maryam, wa-enza ya~awwera ba-fenot, tan~e 'u la'elehon fayat (5105 .
 
 MAC0155.
 Title: The sister of Emperor Constantine who prayed to know how Saint Mary bore the Word of God, but then failed to recognize her Son when he appeared to her in church.
-English translations: Budge, One Hundred, p. 164. 
+English translations: Budge, One Hundred, p. 164.
 PEth: 8.23 (41v-43r);
-MSS: ZBNE 60-51; 62-32; WBLE 77(51a); GVE 117(38b); CF 2-23; CBS-79; CL-34;  CRA 52-84; 53-9; HBS59-21.
+MSS: ZBNE 60-51; 62-32; WBLE 77(51a); GVE 117(38b); CF 2-23; CBS-79; CL-34;  CRA 52-84; 53-9; HBS 59-21.
 EMML: 3872(48b); 6938(151a); 2060(47a); 7543(96a); 3051(172a); 2952(133b);  7089(16b); 3536(38a); 7220(11a); 5105(36b + 48a + 37a); 2275(66a); 6917(41b); 4618(24a,147b); 6949(90a); 3923(64b); 2060(171b); 2066(146a); 2831(49b).
 Keywords: Visions, apparitions; Christ; Constantine, emperor; Daughters; Kings, emperors; Helena (St.); Holy Cross; Nativity of Christ; Princesses; Rome; Theodosia, princess;
 Incipit: Wa-astar>aya cabiyy ta>ammer za-gabro Egzi>ena Iyyasus Krəstos ba-eda emmu, Egze>etena . .. . ba-hagara Rome ba-mawacela mange~tu la-QWastantinos wa- emmu, Eleni nege~t. Wa-kamahu kona, wa-hallaw/t egetu la-QWastantinos negu~ za-sema Tawdoseya (3872). /  Tabehla kama hallawat apatti be>esit ~annayt za- tenabber westa beta Krestiyan za-Egze >etena ••.• wa- tafaqqera l a-Egze>etena . •.. ba-kwellu l ebba wa-ba-kwellu kehilota, wa-konat tastabaiie/a la-Egze>etena .•.. wa-tebfla: Be~u< anti, o-Egze >eteya Maryam Mariham. Effo wal adkiyo la-Wal deki, waped Qala Egzi>abQer? (7089).
@@ -1636,7 +1636,7 @@ English translation: Budge, One Hundred, p. 341.
 Text: T-70, p. 253
 PEth:
 EMIP: 601.195 (121r);
-MSS: CRA 53-98;lVLVE 298(231a); CL-39;DULE 12(48a); AECE 1(50b).
+MSS: CRA 53-98; VLVE 298(231a); CL-39;DULE 12(48a); AECE 1(50b).
 EMML: 7089(32a); 1573(32b); 3536(47b); 7220(24a); 2275(90b); 3872(53b); 6938(157b); 6917(49a); 2282(52b); 4618(33a,62b); 5182(25a); 6949(96a); 4688(35a); 1692(42a); 2059(31a); 2060(53a); 7543(99a); 2831(16b).
 Keywords: Bee keepers; Eflender; Honey; Magicians, sorcerers; Satan; Sorcerers;
 Incipit: Wa-hallo apadu be>esi hayabe ma<ar za-yelammed nehba bezuga rakabo fadfada em-kwellu sab> , Wa-em-ze getto Saypan ba-mekra ekkuy wa-rasayo yepur gaba be>esit apatti ma~arrit (3872). / Tabehla kama hallo apadu be>esi westa hagara Eflender, wa-kona yefaqqed
@@ -1734,7 +1734,7 @@ Text: T-91, p. 306.
 English translation: Budge, One Hundred, p. 166.
 PEth:
 EMIP: 601.215 (132r–133r); 601.66 (47v–49r);
-MSS: CRA 53-102; WBLE 77(54a); VLVE 298(193b); HBS 59-42; CL-47 bis.
+MSS: CRA 53-102; WBLE 77(54a); VLVE 298(193b); HBS 59-42; CL-47.
 EMML: 7089(49b); 3536(65b + 50a); 7220(38b); 2275(69a); 3872(61a); 6917(56b); 4618(41a,115a); 6949(57a); 4688(17b); 1692(78b); 2059(33a); 2060(59b);2066(42a); 2802(36b); 7543(103a); 2831(62a).
 Keywords: Aboli, merchant; Alms; Constantinople; Friends; Jews; Loans; Merchants; Rich persons; Riches;
 Incipit: Wa-nabara ~ westa hagara QWest enteneya be'esi za-semu Aboli, esma ba<l wa-nagadi we>etu, wateqqa hallawo fequr wa-<ark me'man em- sab>a Rome, em-zamada mange~t be>esihu za-semu Bagido (3872). / Tabehla kama hallo ba-westa hagara QWestenteneya be'esi ba<l, wa-kona lottu <arka kebur, masfen em-<abbayta ye>eti hagar (7089).
@@ -1841,7 +1841,7 @@ MAC0179.
 Title: The monk who has carried by the bretheren to church when he became too sick to walk.
 PEth: 41.77 (107v-108r); 43.7 (11r-12r); 46.2 (10rv);
 EMIP: 601.58 (34v–35r);
-MSS: VLVE298(229b); LUE30-5;32-38; HBS 59-52; CL-56.
+MSS: VLVE298(229b); LUE 30-5;32-38; HBS 59-52; CL-56.
 EMML: 1573(41a); 3536(75b); 4522(54a); 5105(75a); 2275(22b); 3872(72b); 6917(72b); 2282(60b); 5520(40a); 6949(23b); 4688(88a); 2378(24b); 3923(71a); 2059(114a); 2060(75b); 2066(55a); 2802(57b); 7543(111a); 2831(19a).
 Keywords: Däbrä Efrem; Islands; Old men; Matoreya, spring of; Springs; Monasteries; Monks; Rivers; Tigris River; Weakness;
 Incipit: Wa-hallo maˀkala Baṣa Tegros dasset za-yessammay Däbrä Efrem, wa-yenabberu westeta bezugan manakosat; wa-em westetomu hallo be>esi za-mankWasa em-ne>su, wa-yetla>ak la-Egze >etena ba-~annay amleko ba-feqra zi>aha (3872). / wa-hallo aDadu dabr za-manakosat haba ~enfa bapr, wa-hallo westetu apadu n/ egw za-mankwasa em-ne>su, wa-we>etussa be>esi ~a;nay we>etu (1573).
@@ -2198,7 +2198,7 @@ Title: The vision of Gregory the Seer [ra'eya hebu'at] .
 Text: T-108, p. 391.
 PEth: 46.38 (43r-44r): How Gregory heard about the glory of the Virgin Mary;
 EMIP: 601.345 (182rv): How Gregory, the Seer of Mystery (Rä’aye Ḫǝbu’at), saw the glory of the Virgin Mary in heaven;
-MSS: CRA 52-104; VLVE 298(32a); CL-93,
+MSS: CRA 52-104; VLVE 298(32a); CL-93;
 EMML: 3872(112a); 7543(129b); 5522(42b); 2952(177a); 2058(146b); 6062(15a); 642(128b).
 Keywords: Visions, apparitions; Gregory the Seer;
 Incipit: Yebe Gorgoreyos, raˀeya bebu'at, enza yayedde<sebpatiha la-Egzeˀetena ... .za-re>ya ba-samay (????)
@@ -2429,7 +2429,7 @@ Title: Saint Peter gives Saint John Chrysostom the keys of the kingdom and Saint
 PEth: 46.52 (53rv);
 EMIP: 601.278 (160rv);
 MSS: ZBNE 60-104; GVE 43(233a); VLVE 298(39b).
-EMML: 3872(128a); 7543(138a); 3051(166a); 2952(219b); 2058(155b); 6062(47a); 3031(163b),
+EMML: 3872(128a); 7543(138a); 3051(166a); 2952(219b); 2058(155b); 6062(47a); 3031(163b);
 Keywords: Visions, apparitions; Constantinople; John Chrysostom (St.); Patriarchs (ecclesiastical);
 Incipit: Za-kama astar>ayatto la-Yopannes Afa Warq ba-albas ~a<ada kama za-barad. Salota •••• Wa-hallo apadu be'esyliqa pappasat za-hagara QWestenteneyaJza-semu Yopannes Afa Warq, wa-enza hallo we>etu em-qedma yen~a> ~imata qessenna (3872).
 
@@ -2437,7 +2437,7 @@ MAC0242.
 Title: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
 PEth: 46.53 (53v-54r);
 EMIP: 601.279 (160v);
-MSS: ZBNE 60-88; CRA 52-116 (?); 54(124b); VLVE 298(39b,236a); LUE 30-52,
+MSS: ZBNE 60-88; CRA 52-116 (?); 54(124b); VLVE 298(39b,236a); LUE 30-52;
 EMML: 3872(128b); 7543(138b); 3051(166a); 2952(219a); 2058(155b); 6062(47b); 3031(163b).
 Keywords: Bethlehem; Burnings; Houses, homes; Jews, opponents of Saint Mary; Magistrates; Officials; Punishments; Transitus miracles;
 Incipit: Za-kama wa~ˀat esat wa-aw<ayomu la-Ayhud. Salota•..• wa-em-degra games mawāˁel, enza hallawat Egzeˀetena•••• ba-Beta Lepem, aˀemaramakWannen wa-lifana kahnat kama Egziˀena, Iyyasus Krəstos, westa beta (3872).
@@ -2758,7 +2758,7 @@ Incipit: Semeˁu, abaweya qeddusan, agaw geran, ella hallawkemu ba-rete<t• hay
 MAC0277.
 Title: The vision of a certain saint about the fate of a priest who swore falsely.
 PEth:
-MSS: CRA 52-150,
+MSS: CRA 52-150
 EMML: 3872(148b); 7543(149a); 3051(126b); 2058(167a); 3031(132a); 2424(93b); 2392(113a).
 Keywords: Visions, apparitions; Forswearing; Priests; Swearing falsely;
 Incipit: Za-astar'a¥atto (i.e. Za-arˀaya~to?) la-aQadu beˀesi ta ˀammeriha wa-mankeratiha, za-gabrat laˁela kahen maQali ba-Qassat, arˀayattoem-qeddusan (3872).
@@ -3793,7 +3793,7 @@ Title: The man who would not eat before receiving Holy Communion.
 PEth:
 MSS: CRA 52-50; WBLE 77(143a); CCBE 951-32.
 English translation: Budge, One Hundred, p. 307.
-EMML: 2282(39a); 6949(153b); 2060(170b); 2308(86a); 3051(100b); 2999(8lb,200b); 2221(60a).
+EMML: 2282(39a); 6949(153b); 2060(170b); 2308(86a); 3051(100b); 2999(81b,200b); 2221(60a).
 Keywords: Communion; Eucharist;
 Incipit: Tabehla kama hallo ahadu be ?esi za-yafaqqer QWerbana, lllllll'WJ!PHm • wa-iyyet~em ekla za-enbala yensaJ QWerbana.(2282).
 
@@ -4001,7 +4001,7 @@ Title: Saint Mary heals a poor man from skin disease whom people had refused to 
 PEth:
 MSS: CRA 52-48 (?); WBLE 77(132a).
 English translation: Budge, One Hundred, p. 301.
-EMML: 6949(144a); 2963(127a); 3051(48a); 2999(198a); 2221(45a); 2766(48a); 2928(85a) • .,_7(pg(-501:,),
+EMML: 6949(144a); 2963(127a); 3051(48a); 2999(198a); 2221(45a); 2766(48a); 2928(85a) • .,_7(pg(-501:,)
 Keywords: Churches; Communion; Eucharist; Healings, Skin disease; Lepers; Litters; Poor persons;
 Incipit: Tabehla ba-enta a~adu naday za-ye~awwerewwo ma~Jblll wa-.... kwellantahu abaq wa-zelgus. Wa-a.h atta Celata fatawa yensa? QWerbina ama 10 wa-6 la-Nahase (6949) •
 
@@ -4628,7 +4628,7 @@ Title: Synaxary entry for the 16th of Yakkatit: Saint Mary receives the Pact of 
 Text: Budge, Miracles, pp. 8 and 77; T-12, p. 55.
 PEth:
 MSS: ZBNE 60-92 (?); CRA 52-118 & 119 (?); BM 2-37; 3-50; CBS-33; CCBE 950-2.
-EMML: 2378(92a); 3378(48b); 642(52b); 22(102b + lO3b); 712(29a); 307937b); 1606(163b).
+EMML: 2378(92a); 3378(48b); 642(52b); 22 (102b + 103b); 712(29a); 307937b); 1606(163b).
 Keywords: Genbot; John the Evangelist (St.); Pact of Mercy; Prayers of Saint Mary; Synaxary; Yakkatit;
 Incipit: Wa-kona em-dehra ~~rga Egz1~ena, Iyyasus Krəstos, westa sam-ay, o./nas1' o segahś ne~UQa, wa-nabara ba-yamana Abuhu, fa~1mo kwello ~eggatesbe~t za-enbala ha~1ṣat ba~ett1ta, wa-sal1~o ~emamata masqal basega,ba-sem!atu wa-ba-faqadu, za-gabro ba-enta mad9an1tena, tadaga la-Egze?etena Maryam westa beta YoQannes rad~u (2378).
 
@@ -5385,7 +5385,7 @@ Incipit: Wa-ka<ba semeˁu za-gabrat l ottu la-Sa.mu'el Egzeˀetena•.•• Wa-
 MAC0556.
 Title: The cross at Däbrä Qʷəsqʷam that used to bless when the priest saying Mass blessed.
 PEth:
-MSS: 
+MSS:
 EMML: 1304(46a).
 Keywords: Blessings; Children; Churches; Crosses; Däbrä Qʷəsqʷam; Qʷəsqʷam; Eucharist; Mass; Priests; Punishments;
 Incipit: Wa-hallo masqal westa Däbrä Qwesqwa.m za-sequl westa qamara beta Krestiyan, wa-soba yeqeddes Qwerbana, la-ema kona kahna ne~uṣa, soba yebl:Fannu $agga Manfas Qeddus la.< elena, yebarrek we ' etu masqal la< ela hebest ba-kama lemad (1304).
