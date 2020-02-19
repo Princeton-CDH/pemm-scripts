@@ -49,8 +49,8 @@ class TestMacomberToCSV:
         # check the last added story instance
         story_inst = self.mac.story_instances[-1]
         expected_values = {
-            # TODO should just be 41
-            'Manuscript': '%s 41.8' % self.mac.collection_lookup[collection],
+            'Manuscript': '%s 41' % self.mac.collection_lookup[collection],
+            'Miracle Number': '8',
             'Incipit': '',
             'Macomber Incipit': 0,
             'Confidence Score': '',
@@ -105,6 +105,19 @@ class TestMacomberToCSV:
         assert story_inst['Folio Start'] == '25v'
         assert story_inst['Folio End'] == '25v'
 
+        # ignore .? for order, e.g. EMDL: 681.? (103v–104r);
+        mac_id = '138'
+        collection = 'EMDL'
+        match = self.mac.mss_id_re.match('681.? (103v–104r);')
+        self.mac.add_story_instance(collection, {'Macomber ID': mac_id},
+                                    match)
+        story_inst = self.mac.story_instances[-1]
+        assert story_inst['Manuscript'] == '%s 681' % (
+            self.mac.collection_lookup[collection])
+        assert not story_inst['Miracle Number']
+        assert story_inst['Folio Start'] == '103v'
+        assert story_inst['Folio End'] == '104r'
+
     def test_parse_manuscripts(self):
         # handles multiple references and adds story instances
         # clear out story instance list
@@ -120,11 +133,12 @@ class TestMacomberToCSV:
                    for si in self.mac.story_instances)
         # sanity check handoff to add story instance
         assert self.mac.story_instances[0]['Manuscript'] == \
-            '%s 41.29' % self.mac.collection_lookup[collection]
+            '%s 41' % self.mac.collection_lookup[collection]
+        assert self.mac.story_instances[0]['Miracle Number'] == '29'
         assert self.mac.story_instances[0]['Folio Start'] == '61r'
         # also adds to manuscript list
         assert collection in self.mac.manuscripts
-        assert '41.29' in self.mac.manuscripts[collection]
+        assert '41' in self.mac.manuscripts[collection]
 
         # handle multiple locations in single mss, e.g.
         # EMML: 6938 (43v); 5520 (53r); 4205 (25v + 51r + 26r)

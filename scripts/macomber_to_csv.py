@@ -45,7 +45,9 @@ class MacomberToCSV:
     #   2059(20b bis)
     folio_regex = r'(?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?'
     folio_re = re.compile(folio_regex)
-    mss_id_re = re.compile(r'^(?P<id>[\w.]+) ?\(' + folio_regex + r'\)')
+    # Format for mss ids with a period is id.## or id.? for story order.
+    mss_id_re = re.compile(
+        r'^(?P<id>[^.\s]+)(?P<order>\.[\d?]+)? ?\(' + folio_regex + r'\)')
 
     # translate collection names from the macomber file
     # to the form needed for the spreadsheet
@@ -270,12 +272,17 @@ class MacomberToCSV:
         # get incipit if known
         incipit = self.get_incipit(canonical_record['Macomber ID'],
                                    collection, mss_id)
+        # order information is included in some MSS ids
+        story_order = match.groupdict().get('order', '')
+        if story_order:
+            story_order = story_order.strip('.?')
 
         self.story_instances.append({
             # manuscript collection + id
-            "Manuscript": "%s %s" %
+            'Manuscript': '%s %s' %
             (self.collection_lookup.get(collection, collection),
              mss_id),
+            'Miracle Number': story_order,
             'Incipit': incipit,
             # imported incipits should be marked as Macomber incipit
             'Macomber Incipit': int(bool(incipit)),  # 1 if incipit else 0
