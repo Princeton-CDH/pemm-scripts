@@ -193,7 +193,13 @@ class MacomberToCSV:
     def parse_manuscripts(self, collection, manuscripts, canonical_record):
         '''Parse a manuscript reference; add records to the list of
         recognized story instances when the reference can be parsed; add
-        to the list of unparsed references when it cannot.'''
+        to the list of unparsed references when it cannot.
+
+        :param collection: collection abbrevation in the macomber text file
+        :param manuscripts: manuscript reference (mss id, folio, etc)
+        :param canonical_record: dict with current canonical story details,
+            notably macomber id
+        '''
 
         # strip whitespace and punctuation we want to ignore
         manuscripts = manuscripts.strip().strip('."')
@@ -229,6 +235,7 @@ class MacomberToCSV:
                 # if includes + or , indicates multiple occurrences
                 # within a single manuscript
                 mss_id, folio_refs = manuscript.split('(', 1)
+                mss_id = mss_id.strip()  # remove any whitespace
                 folios = re.split(' ?[+,] ?',
                                   folio_refs.strip(')'))
                 for location in folios:
