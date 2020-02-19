@@ -166,14 +166,20 @@ class MacomberToCSV:
                         for mss_ref in mss_refs:
                             # split on first space, if present
                             # remainder
-                            if ' ' in mss_ref:
-                                collection, mss = mss_ref.split(' ', 1)
-                            elif '-' in mss_ref:
-                                # otherwise split on first dash (e.g. G-1)
-                                collection, mss = mss_ref.split('-', 1)
-                            else:
-                                # error/warn?
-                                continue
+                            # if the manuscript ref starts with an alpha char,
+                            # it has a collection id
+                            if mss_ref and mss_ref[0].isalpha():
+                                if ' ' in mss_ref:
+                                    collection, mss = mss_ref.split(' ', 1)
+                                elif '-' in mss_ref:
+                                    # otherwise split on first dash (e.g. G-1)
+                                    collection, mss = mss_ref.split('-', 1)
+                                else:
+                                    # error/warn?
+                                    continue
+                            # otherwise, collection is inferred
+                            # from previous record
+                            # e.g. VLVE 267(52b); 272(113a); 298(21b);
 
                             if collection not in self.collection_lookup:
                                 print('warning: bad collection %s / %s' %
@@ -225,8 +231,7 @@ class MacomberToCSV:
             # first check for multiple folio notation
             # + or , indicates multiple occurrences within a single manuscript
             if '+' in manuscript or ',' in manuscript:
-                # for now, skip things without folio numbers
-                # (how to handle TBD)
+                # some records have folio numbers in parens
                 if '(' not in manuscript:
                     self.mss_unparsed.append(manuscript)
                     continue
@@ -246,7 +251,8 @@ class MacomberToCSV:
                             collection, canonical_record, match, mss_id)
                     else:
                         # failed to parse one in a multiple
-                        self.mss_unparsed.append(location)
+                        self.mss_unparsed.append('%s / %s' % (location,
+                                                              manuscript))
 
             # not a multiple folio ref
             else:
@@ -259,7 +265,8 @@ class MacomberToCSV:
 
                 else:
                     # failed to parse
-                    self.mss_unparsed.append(manuscript)
+                    self.mss_unparsed.append('%s / %s' % (manuscript,
+                                                          manuscripts))
 
     def add_story_instance(self, collection, canonical_record, match,
                            mss_id=None):
