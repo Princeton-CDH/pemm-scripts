@@ -70,6 +70,7 @@ class TestMacomberToCSV:
         story_inst = self.mac.story_instances[-1]
         expected_values = {
             'Manuscript': '%s 6938' % self.mac.collection_lookup[collection],
+            'Miracle Number': '',
             'Incipit': self.mac.get_incipit(mac_id, collection, '6938'),
             'Macomber Incipit': 1,
             'Confidence Score': 'High',
@@ -177,8 +178,22 @@ class TestMacomberToCSV:
         assert story_inst['Folio Start'] == '151a'
         assert story_inst['Folio End'] == '151a'
 
-        # test unparsable
+        # handle id-order, e.g. ZBNE 62-30
         self.mac.story_instances = []
-        self.mac.parse_manuscripts(collection, 'foobar', {'Macomber ID': 85})
-        assert not self.mac.story_instances
-        assert 'foobar' in self.mac.mss_unparsed
+        self.mac.parse_manuscripts('ZBNE', '62-30', {'Macomber ID': 138})
+        # parsed and successfully added
+        assert self.mac.story_instances
+        story_inst = self.mac.story_instances[-1]
+        assert story_inst['Manuscript'] == \
+            '%s 62' % self.mac.collection_lookup['ZBNE']
+        assert story_inst['Miracle Number'] == '30'
+        # also added to manuscripts
+        assert 'ZBNE' in self.mac.manuscripts
+        assert '62' in self.mac.manuscripts['ZBNE']
+
+        # test unparsable
+        # NOTE: more forgiving regex means hard to find an unparseable example
+        # self.mac.story_instances = []
+        # self.mac.parse_manuscripts(collection, '7(pg(-50', {'Macomber ID': 8})
+        # assert not self.mac.story_instances
+        # assert 'foobar' in self.mac.mss_unparsed

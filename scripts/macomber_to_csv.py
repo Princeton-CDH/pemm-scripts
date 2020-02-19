@@ -45,9 +45,11 @@ class MacomberToCSV:
     #   2059(20b bis)
     folio_regex = r'(?P<start>\d+[rvab]) ?[-–]? ?(?P<end>(\d+)?[rvab])?( bis)?'
     folio_re = re.compile(folio_regex)
-    # Format for mss ids with a period is id.## or id.? for story order.
+    # Format for mss ids with a period or dash indicates story order.
+    # e.g. 601.141,  681.?, ZBNE 62-30
     mss_id_re = re.compile(
-        r'^(?P<id>[^.\s]+)(?P<order>\.[\d?]+)? ?\(' + folio_regex + r'\)')
+        r'^(?P<id>[^.\s\-()]+)(?P<order>(\.|-)[\d?]+)?( ?\(' +
+        folio_regex + r'\))?')
 
     # translate collection names from the macomber file
     # to the form needed for the spreadsheet
@@ -162,21 +164,22 @@ class MacomberToCSV:
 
                         mss_refs = [m.strip() for m in value.split(';')]
                         for mss_ref in mss_refs:
-                            # TODO: handle refs like G-1
                             # split on first space, if present
+                            # remainder
                             if ' ' in mss_ref:
-                                collection, _ = mss_ref.split(' ', 1)
+                                collection, mss = mss_ref.split(' ', 1)
                             elif '-' in mss_ref:
-                                # otherwise split on first dash
-                                collection, _ = mss_ref.split('-', 1)
+                                # otherwise split on first dash (e.g. G-1)
+                                collection, mss = mss_ref.split('-', 1)
                             else:
                                 # error/warn?
                                 continue
 
                             if collection not in self.collection_lookup:
-                                print('warning: bad collection %s' % collection)
+                                print('warning: bad collection %s / %s' %
+                                      (collection, mss_ref))
                             else:
-                                self.parse_manuscripts(collection, mss_ref, record)
+                                self.parse_manuscripts(collection, mss, record)
 
                     # specific repositories with manuscripts with this story
                     # field is the name of the manuscript repository/collection
@@ -219,27 +222,22 @@ class MacomberToCSV:
             if ':' in manuscript:
                 manuscript = manuscript.split(':')[0]
 
-            match = self.mss_id_re.match(manuscript)
-            if match:
-                # add the manuscript id to repository set
-                self.manuscripts[collection].add(match.group('id'))
-                # add a new story instance
-                self.add_story_instance(collection, canonical_record, match)
-
-            # if parsing failed, check for multiple folio notation
-            elif '+' in manuscript or ',' in manuscript:
+            # first check for multiple folio notation
+            # + or , indicates multiple occurrences within a single manuscript
+            if '+' in manuscript or ',' in manuscript:
                 # for now, skip things without folio numbers
                 # (how to handle TBD)
                 if '(' not in manuscript:
                     self.mss_unparsed.append(manuscript)
                     continue
 
-                # if includes + or , indicates multiple occurrences
-                # within a single manuscript
+                # split manuscript id from list of folio refs
                 mss_id, folio_refs = manuscript.split('(', 1)
                 mss_id = mss_id.strip()  # remove any whitespace
+                # split out each set of folio locations
                 folios = re.split(' ?[+,] ?',
                                   folio_refs.strip(')'))
+                # add each as a story
                 for location in folios:
                     match = self.folio_re.match(location)
                     if match:
@@ -249,9 +247,19 @@ class MacomberToCSV:
                     else:
                         # failed to parse one in a multiple
                         self.mss_unparsed.append(location)
+
+            # not a multiple folio ref
             else:
-                # failed to parse at all
-                self.mss_unparsed.append(manuscript)
+                match = self.mss_id_re.match(manuscript)
+                if match:
+                    # add the manuscript id to repository set
+                    self.manuscripts[collection].add(match.group('id'))
+                    # add a new story instance
+                    self.add_story_instance(collection, canonical_record, match)
+
+                else:
+                    # failed to parse
+                    self.mss_unparsed.append(manuscript)
 
     def add_story_instance(self, collection, canonical_record, match,
                            mss_id=None):
@@ -273,9 +281,8 @@ class MacomberToCSV:
         incipit = self.get_incipit(canonical_record['Macomber ID'],
                                    collection, mss_id)
         # order information is included in some MSS ids
-        story_order = match.groupdict().get('order', '')
-        if story_order:
-            story_order = story_order.strip('.?')
+        story_order = match.groupdict().get('order', None) or ''
+        story_order = story_order.strip('.?-')
 
         self.story_instances.append({
             # manuscript collection + id
@@ -306,6 +313,7 @@ class MacomberToCSV:
         return os.path.join(self.output_dir,
                             '%s-%s.csv' % (date.today().isoformat(), name))
 
+    # TODO: byte order mark for utf-8
     def output_canonical_stories(self):
         '''Generate CSV output for canonical stories'''
         # get CSV field names from schema
