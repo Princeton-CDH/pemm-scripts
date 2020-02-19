@@ -251,8 +251,8 @@ class MacomberToCSV:
                             collection, canonical_record, match, mss_id)
                     else:
                         # failed to parse one in a multiple
-                        self.mss_unparsed.append('%s / %s' % (location,
-                                                              manuscript))
+                        self.mss_unparsed.append(
+                            '%s %s / %s' % (collection, location, manuscript))
 
             # not a multiple folio ref
             else:
@@ -265,8 +265,8 @@ class MacomberToCSV:
 
                 else:
                     # failed to parse
-                    self.mss_unparsed.append('%s / %s' % (manuscript,
-                                                          manuscripts))
+                    self.mss_unparsed.append(
+                        '%s %s / %s' % (collection, manuscript, manuscripts))
 
     def add_story_instance(self, collection, canonical_record, match,
                            mss_id=None):
