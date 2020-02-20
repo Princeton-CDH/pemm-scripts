@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>search results</h1>
-    <p>{{ total }} total results for "{{ request.form.incipit }}"</p>
+    <p>{{ total }} result{% if total > 1 %}s{% endif %} for "{{ request.form.incipit }}"</p>
     {% if results|length > 0 %}
     <ol>
         {% for result in results %}

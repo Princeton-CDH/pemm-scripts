@@ -1,4 +1,4 @@
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from flask import g
 import pytest
@@ -24,7 +24,6 @@ def client():
 def test_index(client):
     # check home page
     rv = client.get('/')
-    print(rv.data)
     assert 'version %s' % __version__ in rv.data.decode()
     assert b'<form action="/search" method="post">' in rv.data
     assert b'<input type="hidden" name="format" value="html"/>' in rv.data
@@ -44,4 +43,23 @@ def test_get_solr(mocksolrclient, client):
     server.get_solr()
     mocksolrclient.assert_not_called()
 
+
+@patch('scripts.server.SolrClient')
+def test_search(mocksolrclient, client):
+    test_solr_result = Mock(docs=[
+        {'id': 1}
+    ], numFound=1)
+    mocksolrclient.return_value.query.return_value = test_solr_result
+    mocksolrclient.return_value.query.return_value = test_solr_result
+
+    test_search_string = 'አስተርአየቶ'
+    rv = client.post('/search', data=dict(incipit=test_search_string))
+    assert rv.get_json() == test_solr_result.docs
+
+    # request html
+    rv = client.post('/search', data=dict(
+        incipit=test_search_string, format='html'
+    ))
+    assert b'search results' in rv.data
+    assert '1 result for "%s"' % test_search_string in rv.data.decode()
 

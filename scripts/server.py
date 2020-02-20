@@ -7,10 +7,9 @@ Run a debug server for development with:
     $ flask run
 
 '''
-import json
 import os
 
-from flask import Flask, render_template, request, g
+from flask import Flask, g, jsonify, render_template, request
 from parasolr.solr.client import SolrClient
 
 from scripts import __version__
@@ -22,10 +21,12 @@ SOLR_CORE = os.getenv('SOLR_CORE', 'pemm')
 # create a new flask app from this module
 app = Flask(__name__)
 
+
 @app.route('/')
 def root():
     '''Display version info and a basic html search form.'''
     return render_template('index.html', version=__version__)
+
 
 @app.route('/search', methods=['POST'])
 def search():
@@ -35,10 +36,11 @@ def search():
     # if html response was requested, render results.html template
     if 'format' in request.form and request.form['format'] == 'html':
         return render_template('results.html', results=response.docs,
-                                total=response.numFound)
+                               total=response.numFound)
 
     # by default, return JSON
-    return json.dumps(response.docs)
+    return jsonify(response.docs)
+
 
 def get_solr():
     '''Get a shared-per-request connection to solr, creating if none exists.'''
