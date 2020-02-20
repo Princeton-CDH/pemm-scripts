@@ -627,7 +627,7 @@ Title: Three virgins come to serve Saint Mary as she is about to give birth.
 Text: Chaine, p. 26.
 PEth:
 EMDL: 681.? (106rv): How the Virgin Mary told three virgins how she conceived Jesus Christ;
-MSS: CRA 52-94, CRA 52-137; CRA 53-27; VLVE 298(73b).
+MSS: CRA 52-94; CRA 52-137; CRA 53-27; VLVE 298(73b).
 EMML: 3872 (139a); 7543 (46b,144a); 2963 (79a); 3051 (118b,154b); 2058 (59b,162a); 3031 (152b); 2424 (81b)
 Keywords: Nativity of Christ; Virgins;
 Incipit: Za-kama tase'ela salastu danagel za-kama waladat Amlaka. Wa-em-ze ma~ˀa gabeha 3 danagel ella yetqannaya latti wa-yebelaha: rttegezenni,o-Egzeˀeteya Maryam, na~nassa nemaṣṣe' mesleki (2058).
@@ -1048,7 +1048,7 @@ Title: Saint Mary blesses Scete, which Saint Macarius chooses for his monastery.
 Summary: Cerulli, Il libro, p. 183.
 PEth: 41.17 (45v-48r); 43.103 (120r-123r);
 EMIP: 601.229 (145v–146r);
-MSS: G-88; CRA 53-2, CRA 53-95; VLVE 298(169a).
+MSS: G-88; CRA 53-2; CRA 53-95; VLVE 298(169a).
 EMML: 6938(125a); 7543(64a); 2056(144a); 2952(76a); 2058(78b); 3378(127b); 76(232b).
 Keywords: Däbrä Abba Maqares; Däbrä Metmaq; Flight into Egypt; Macarius (St.); Macarius (St.), monastery of; Salome, servant of the Holy Family;
 Incipit: Wa-kona soba gadarat Egze'etena Maryam mesla fequrWalda westa Däbrä
@@ -1321,7 +1321,7 @@ MAC0117.
 Title: The Apostles gather for the funeral of Saint Mary.
 PEth:
 EMIP: 601.337 (178v–179r); 601.338 (179rv);
-MSS: G-118; ZBNE 60-89; CRA 52-69,CRA 52-117; CRA 53-65; CRA 54(122a); CL-l.
+MSS: G-118; ZBNE 60-89; CRA 52-69; CRA 52-117; CRA 53-65; CRA 54(122a); CL-l.
 EMML: 3872(17a); 7543(78a); 2952(107a); 2058(94a); 1581(54b); 2563(61a); 2784(28a).
 Inci pit: Wa-kona em-degra tagabeˀu ṣawareyat l a-genzata Egzeˀetena   .• bo ell a m]l)mm~1 tan~e'u em-maqaberihomu wa-bo ella ma~ˀu ba-dammana (3872).
 Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; Jews, opponents of Saint Mary; Transitus miracles;
@@ -1543,7 +1543,7 @@ English translation: Budge, One Hundred, p. 334.
 PEth: 8.5 (9r-10v); 41.52 (80v-81v); 43.19 (25r-26r); 46.107 (128rv);
 EMIP: 601.141 (86rv); 601.39 (25v–26r); 601.204 (126v);
 EMDL: 681.? (103v–104r);
-MSS: G-140; ZBNE 62-30; 63-30; CRA 54(145b); WBLE 77(33b); VLVE 272(27b); 298(208b); LUE 30-58; CF 2-6; CBS-65; HBS 42-7, HBS 59-5; DULE 12(49b).
+MSS: G-140; ZBNE 62-30; 63-30; CRA 54(145b); WBLE 77(33b); VLVE 272(27b); 298(208b); LUE 30-58; CF 2-6; CBS-65; HBS 42-7; HBS 59-5; DULE 12(49b).
 EMML: 1573(14b); 5105(14a); 2275(31b); 3872(34b); 6917(21a); 2282(26b); 4618(7b); 5520(14b); 6949(70b); 1692(19a); 2378(7a); 664o(63a); 2059(53b); 2060(30b); 2066(47a); 2802(45a); 5420(29b + 26a); 7543(88a); 2831(39a)
 Keywords: Astiras, deacon; Carmel; Deacons; Garisat; Islands; Mediterranean Sea [Bahr Iyyariko]; Sinners;
 Incipit: Wa-nabara aḥadu diyaqon westa dasset za-westa Bapra Iyyariko mangala Qarmelos, esma z~wi we>etu z~-yegabber bezuoa gatawe>a wa-fedul em-oatawe>a sab> kama Sadom wa-Gamora (3872).
@@ -1605,7 +1605,7 @@ Text: Budge, Miracles, p. 41
 English translation: Budge, One Hundred, p. 85.
 PEth: 20.77 (81r-81v); 41.56 (84r-85r); 43.38 (50v-51v); 43.3 (6v-8r); 46.27 (27v-28r); 47.27 (80v-81r);
 EMIP: 601.27 (19v–20r); 601.316 (171v–172r);
-MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12,39;LUE 30-12,61; 31-4; 32-27,45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
+MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; 39;LUE 30-12; 61; 31-4; 32-27,45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
 EMML: 1573(18b); 3536(20b); 5105(11a); 2275(26b); 3872(37a); 6917(26a); 2282(42a); 4618(11a); 5182(4b); 5520(8a); 6949(74a); 4688(32b,108a); 1692(24a); 2378(3b); 3923(44a); 664o(48b,102b); 2059(20b bis); 2060(33a); 2066(45b,134b); 2802(40b); 5420(30b); 6196(79a); 7543(89b); 2831(32b,43a).
 Keywords: Anastasius, deacon; Constantinople; Deacons; Prayers; Rome; Tafassehiyat;
 Incipit: wa-hallo apadu be'esi za-semu Anestoseyos ba-hagara Rome za-Baranesteseya (EMML 2058: za-Baranpeya), farahe Egzi'ab};.ter wa-yafaqqera l a-Egze'etena .••. wa-yegayyes haba beta Krestiyan yaqerreb latti aptrge ne~upa za-mesla ~alot, enza yesebbep waddesota la-Maryam (3872)./ Wa-hallo apadu be'esi wa-yenabber westa apadu mak.an za-yafaqqero l a-Egzi'abper wa-la-Egze'etena ...• wa-ye~elli zanta ~alota ~'llfilYl!lhilmWlllV enta westeta mWJ!Ulrll!:wmwmi:mliJilWlllwnliwiiwmymimiwih:HH®gamwmtmml~~ a 'ekw etota wa-wadde s ota la-Maryam (4618).
@@ -1643,7 +1643,7 @@ Text: T-78, p. 276
 English translation: Budge, One Hundred, p. 332.
 PEth: 8.10 (17v-19v); 41.59 (86v-87r); 43.16 (21v-22v);
 EMIP: 601.43 (27v–28r); 601.153 (93r-93v): How the Virgin Mary punished a wealthy man when he insulted a priest who only knew how to recite the Anaphora of Our Lady;
-MSS: G-147; WBLE 77(9a); GVE 8(10a); 24(53b); VLVE 272(143b); 298(75b); LUE 30-63; CF 2-13; CBS-80; HBS 42-5, HBS 59-10; CL-13.
+MSS: G-147; WBLE 77(9a); GVE 8(10a); 24(53b); VLVE 272(143b); 298(75b); LUE 30-63; CF 2-13; CBS-80; HBS 42-5; HBS 59-10; CL-13.
 EMML: 1573(21a); 3536(23a); 5105(18a); 2275(23b); 3872(38b); 6917(28a); 2282(45a); 4618(13b,61b); 5182(5a); 6949(76a); 1692(28b); 3923(45a); 6640(67a); 2059(79b); 2060(35b); 7543(90b); 2831(35a).
 Keywords: Anaphora of Saint Mary; Andrew, priest; Caesarea; Churches; Priests;
 Incipit: wa-hallo apadu kahen qasis ba-hagara Qisareya za- semu Endereyas, wa-hallo ba-heyya beta Krestiyan za-ta~an~a ba-sema l a-Egze'etena •••. wa-bezll!} sab', kahnat wa-diyaqonat yetgabe 'u westeta wa-yenaggeru ba-enta <ebaya ta'ammeriha (MS: za- iyyj'™lllller) za-tegabber, esma we'etu qasis za-semu Ender eyas i yya'ammer kal'a qeddase za-enbala qeddaseha la-Egze>etena Maryam (7543).
@@ -1679,7 +1679,7 @@ MAC0148.
 Title: The pregnant woman who was caught by the tide while going to the church of Saint Michael (Mont Saint Michel)
 Text: Budge, Miracles, p. 50, T-88, p. 300.
 PEth:
-MSS: G-150; ZBNE 60-32; 61-30; CRA 52-38,CRA 52-96; CRA 54(107b); CRA 55(78a); SBLE 32-3l; BM 2-35; 3-39; VLVE 272(63a); 298(24b); SALE 23-30; 43-32; LUE 30-43,LUE 30-68; LUE 32-31; CF 2-16; CBS-31; HBS 59-14; CCBE 951-31; CL 27; DULE 12(86b); AECE 1(35b).
+MSS: G-150; ZBNE 60-32; 61-30; CRA 52-38; CRA 52-96; CRA 54(107b); CRA 55(78a); SBLE 32-3l; BM 2-35; 3-39; VLVE 272(63a); 298(24b); SALE 23-30; 43-32; LUE 30-43;LUE 30-68; LUE 32-31; CF 2-16; CBS-31; HBS 59-14; CCBE 951-31; CL 27; DULE 12(86b); AECE 1(35b).
 EMML: 1573(27b); 2275(49b); 3872(42b); 6917(33a); 4618(16a); 5520(162a); 6949(81a); 1692(50a); 3923(48a); 6640(52a); 2059(19b); 2060(40b); 2066(140a); 6196(94a); 7543(92b); 2831(23a).
 Keywords: Churches; Michael the Archangel (St.), church of; Mont Saint Michel; Pregnant women; Tide;
 Incipit: Wa-hallawat apatti hagar za-westeta penu~ beta Krestiyan za-tapan~at ba- semu la-liqa mala>ekt Mika>el, wa-bezuh sab> beiu<awiyan iyyanattegu gaysa ama ba'alu la-liqa mala>ekt Mika>el la-lla-kwellu <a.mat ama 10 wa-2 la-warga gedar. Wa-apatta ' elata, soba hallawu y~pawweru westa f enot l a-ba~ip westa ye>eti beta Krestiya.n, wa-nahu ma~>a deciia may em-bapr (3872). /Tabehla kama hallawat apatti bapr za-ta' addu kwello 'alama, wa-ba-westa~enfa la-ye>eti bapr hallawat apatti beta Krestiya.n pene~t ba-sema qeddus Mika>el liqa mala>ekt (1573).
@@ -1722,7 +1722,7 @@ Text: Budge, Miracles, pp. 47 and 48; T-90, p. 304.
 English translation: Budge, One Hundred, pp. 98 ad 101.
 PEth: 46.30 (30v-31v); 47.30 (88v-89v);
 EMIP: 601.214 (131v–132r); 601.29 (21r-21v);
-MSS: ZBNE 60-31; CRA 52-37; SBLE 32-30; BM 2-33,BM 2-34; 3-38; GVE 8(11b); 24(57a); VLVE 267(64b); 272(42a,119a); SALE 43-31; LUE 30-42; 32-30; CF 2-20; CBS-30; HBS 42-6; 59-18; 129(52b); CCBE 951-30; AECE 1(34a).
+MSS: ZBNE 60-31; CRA 52-37; SBLE 32-30; BM 2-33;BM 2-34; 3-38; GVE 8(11b); 24(57a); VLVE 267(64b); 272(42a,119a); SALE 43-31; LUE 30-42; 32-30; CF 2-20; CBS-30; HBS 42-6; 59-18; 129(52b); CCBE 951-30; AECE 1(34a).
 EMML: 7089(112b); 1573(38a); 3536(34a); 5105(47a + 35a); 2275(64b); 3872(46a); 6938(147b); 6917(38b); 2282(50b); 1618(21b + 27a + 22a,53b); 5182(23b); 6949(86b); 4688(47b); 1692(35b); 3923(55a,63b); 6640(51a); 2059(83a); 2060(45b); 2066(139a); 6196(90b); 7543(94b); 2831(7b + 4a).
 Keywords: Afomeya from Samr; Brigands; Euphemia, widow; Executions; Philemon, brigand; Poor persons; Preservation from execution; Preservation from hanging; Samr; Sons; Widows;
 Incipit: wa-hallawat apatti be>esit ba-hagara Sa.mer za-sema/fomeya, wa-eber ye>eti wa-~enest ba-nedet, WJIUl3rnmroromm wa-hallawa apadu wald, wa- albatti kal>a, i-walda wa- i-walatta, za-enbalehu (3872). / Wa-hallawat apatti maballat za-tetla>ak westa beta Krestiyana l a-Egze>etena M~ Maryam, wa-batti a,b.ada walda ne>usa, wa-tamapa~~eno watra gaba Egze >etena Maryam (4618) / Wa-konat enka be>esit nadayt, wa-batti a~ada walda, wa-konat ye>eti be>esit tebawwe' westa beta Krestiyan wa-tebawwe> oaba ~ecla Egze>etena Maryam (1573).
@@ -1746,7 +1746,7 @@ Text: Budge, Miracles, p. 23; Cerulli, Il libro, pp. 522 and 523.
 English translation: Budge, One Hundred, p. 39.
 PEth: 8.22 (41r-41v); 20.37 (48r-v); 41.28 (60v-61r); 43.25 (32v-33r); 46.11a (17rv); 47.11 (42r-43v);
 EMIP: 601.11 (11rv);
-MSS: ZBNE 60-12; 61-10; 62-31; 63-3l; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; 3-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS-11; 272(128b); 298(14b); SALE 23-10; 4)-12; LUE 30-23, LUE 30-69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
+MSS: ZBNE 60-12; 61-10; 62-31; 63-3l; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; 3-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS-11; 272(128b); 298(14b); SALE 23-10; 4)-12; LUE 30-23; LUE 30-69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
 EMML: 7089(15b); 3536(37b); 7220(10a); 5105(36a); 2275(27b); 3872(48a); 6938(150b); 6917(34a,41a); 2282(33a); 4618(23b); 5182(7a); 5520(134b); 6949(89b); 4688(50b); 3923(36a); 6640(27b); 2059(56b); 2060(186a); 2066(120b); 2802(118a); 5420(29a); 6196(32a); 7543(95b); 2831(28a).
 Keywords: Barbara from Bethlehem; Bethlehem; Churches; Jews; Judah, tribe of; Juliana from Bethlehem; Robbers; Sisters;
 Incipit: wa-hallawa kel'e anest, a>mata Egze>etena Maryam ba-Beta Le~em em-awalda Yehuda, wa-a~atta ' elata (yenaggedt) enza ya~awwera Iyyarusalem, yesaggeda la-ba'ala felsata ~egaha la-Egze'e ena (3872). / Wa-kona kel'e anest enza yapawwera westa beta Krestiyana la-Maryam, wa-enza ya~awwera ba-fenot, tan~e 'u la'elehon fayat (5105 .
@@ -1777,7 +1777,7 @@ MAC0157.
 Title: The pious official who was accused of embezzlement and of having an affair with the wife of his lord.
 PEth: 20.23 (31r-32r); 41.61 (88v-89r); 43.15 (20v-21v);
 EMIP: 601.45 (28v–29r);
-MSS: ZBNE 62-33; CRA 53-40; VLVE 272(147a); 298(73a); CF 2-25; CBS-38; HBS59-23; CCBE 950-3; CL-36; DULE 12(43b).
+MSS: ZBNE 62-33; CRA 53-40; VLVE 272(147a); 298(73a); CF 2-25; CBS-38; HBS 59-23; CCBE 950-3; CL-36; DULE 12(43b).
 EMML: 7089(22b); 1573(29a); 3536(41b); 7220(16a); 5105(39a); 2275(59a); 3872(50b); 6938(153b); 6917(44a); 4618(28a,151a); 5220(154a); 6949(17b); 4688(114a); 2340(194a); 6640(70a); 2059(57a); 2060(50a); 7543(97a); 2831(24b).
 Keywords: Accusations; Armateyos from Ephesus; Embezzlements; Ephesus; Magistrates; Officials; Riches;
 Incipit: Wa-hallo apadu makWannen ba-hagara Efeson za-semu Armateyas, esma ~annay be>esihu, wa-farahe Egzi>abper we >etu, wa-fadfadassa yafaqqera la-Egze >etena Maryam ba-kwellu l ebbu, wa-yetqannay latti ba-kwellu haylu. Wa-hallo Egzi>abper barakato yemalle> westa betu, wa-yewessek sisaya ba-diba sisayu (3872). / Tabehla kama hallo apadu masfen ba-westa apatti hagar za-~annay geczu, wa-yafaqqero la-Egzi>abper wa-la-Egze>etena .... ba-kwellu l ebbu wa-ba-kWell u kehilotu, wa-ba-enta-ze ~aggawo Egzi>abper cabiyya ~agga wa-wahabo ~annayata bezuGata. wa-qan>u 1acelehu ekkuyan sab>, wa-poru baba negu~ (7089).
@@ -1828,7 +1828,7 @@ Text: Budge, Miracle, p. 4. Cf. also Cerulli, Il libro, p. 219.
 English translation: Budge, One Hundred, p. 8.
 PEth: 20.31 (42r-43r); 43.5 (8v-9v); 46.4 (11rv);
 EMIP: 601.3 (6v–7r); 601.314 (171rv);
-MSS: ZBNE 60-4; 61-2; 62-45; CRA 52-10; 54(15a); 55(12b); SBLE 32-3; BM 2-6; 3-10; VLVE 267(17a); 272(45a); 298(1Ob); SALE 43-4; LUE 30-15, LUE 30-70; 32-10; CBS-3; HBS 59-27; CCBE 951-3; CL-40; DULE 12(81b); AECE 1(7b,52a); SWE 15(60a).
+MSS: ZBNE 60-4; 61-2; 62-45; CRA 52-10; 54(15a); 55(12b); SBLE 32-3; BM 2-6; 3-10; VLVE 267(17a); 272(45a); 298(1Ob); SALE 43-4; LUE 30-15; LUE 30-70; 32-10; CBS-3; HBS 59-27; CCBE 951-3; CL-40; DULE 12(81b); AECE 1(7b,52a); SWE 15(60a).
 EMML: 7089(34a); 1573(33b); 3536(49a); 7220(25b); 5105(43); 5105 (109a); 2275 (92a); 3872(54b); 6938(158b); 6917(50a); 2282(34a,73b); 4618(34b); 5182(7b); 5520(17a); 6949(49a); 4688(37b); 2378(8a); 3923(36b); 6640(15a, 97b); 2059(31b,105a); 2060(181b); 2066(113b); 2802(46a); 5420(10a); 6196(13b); 7543(99b); 2831(9a,56b).
 Keywords: Akhmim; Alexandria; Hebrews; Old men; Monks; Rejuvenations; Weakness;
 Incipit: Wa-hallo apadu be>esi <Ebrawi yenabber ba-hagara Akmim, esma fadfada yafaqqera la-Egze>etena .... em-serwa lebbu ba-ferhat wa-ba-ra<ad, wa-iyye~arre< em-afuhu zekra sema za-mes/ a sagid wa-genay (3872). / Tabehla kama hallo apadu manakos westa dabr emenna fdbarata (MS: adbarat)
