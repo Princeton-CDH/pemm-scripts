@@ -561,7 +561,7 @@ Title: The story of the icon of Saint Mary of Däbrä Sedeneya, attributed to Cy
 Text: Cerulli, Il libro, pp. 247, 257, 264; T-8, p. 43.
 PEth:
 EMIP: 601.83 (61v–63r): How the icon of the Virgin Mary came from Jerusalem to the city of Ṣedenya;
-MSS: G-llO; ZBNE 60-49; GVE 117 (35b); VLVE 298 (212b).
+MSS: G-110; ZBNE 60-49; GVE 117 (35b); VLVE 298 (212b).
 EMML 7543 (41b); 2056 (149f); 2952(97a); 2044(45b); 2058 (54a); 2378 (90b); 6062 (37a).
 Keywords: Cyril (St.) of Jerusalem; Däbrä Sedeneya; Homilies; Martha from Sedeneya; Patriarchs (ecclesiastical); Saydnaya; Sedeneya;
 Incipit: Dersan za-darasa Abba Qerelos, eppis qoppos za-hagara Iyyarusalem qeddest, ba-enta ~e<la Egzeˀetena..••za-hallawat ba-Däbrä Sedeneya oabaa.tiatti hagar em-ahgura Da.masqo••.• Wa-em-deora zentu, o-fequraneya, anani ereˀi beˀese emennekemu za-ye$awwer tagadlo (2058).
@@ -736,7 +736,7 @@ Text: Budge, Miracles, p. 31.
 English translation: Budge, One Hundred, p. 59.
 PEth: 20.41 (51v-52v); 41.35 (66v-67v); 46.18 (21v-22r); 47.18 (58r-59r);
 EMIP: 601.18 (15r); 601.320 (173r);
-MSS: G-55; ZBNE 60-19; 61-17; 62-38; CRA 52-25; 54 (59a); 55 (46a); SBLE 32-1; BM 2-21; 3-26; GVE ll7 (29b); VLVE 267 (42b); 298 (18a); SALE 23-17; 43-19; LUE 30-30; 32-20; CBS-18; CCBE 951-18; DULE 12 (36b); AECE 1 (20b).
+MSS: G-55; ZBNE 60-19; 61-17; 62-38; CRA 52-25; 54 (59a); 55 (46a); SBLE 32-1; BM 2-21; 3-26; GVE 117 (29b); VLVE 267 (42b); 298 (18a); SALE 23-17; 43-19; LUE 30-30; 32-20; CBS-18; CCBE 951-18; DULE 12 (36b); AECE 1 (20b).
 EMML: 6938 (90a); 2282 (68b); 6640 (38b); 2059 (41a); 2060 (147a, 190a); 2066 (126b); 6196 (52b); 7543 (50a).
 Keywords: Brothers; Copyists; Manuscripts; Miracles of Saint Mary; Scribes;
 Incipit: Wa-hallawu ba-aQatti hagar em-ahgura Krestiyan 2 agaw fequran, wa-$efuqa yetfaqqaru ba-baynatihomu, wa-ya'a.mmeru (MS: wa-yaˀmeru) gebra ed, wa-gebra edomussa $etiif (6938).
@@ -1544,7 +1544,7 @@ PEth: 8.5 (9r-10v); 41.52 (80v-81v); 43.19 (25r-26r); 46.107 (128rv);
 EMIP: 601.141 (86rv); 601.39 (25v–26r); 601.204 (126v);
 EMDL: 681.? (103v–104r);
 MSS: G-140; ZBNE 62-30; 63-30; CRA 54(145b); WBLE 77(33b); VLVE 272(27b); 298(208b); LUE 30-58; CF 2-6; CBS-65; HBS 42-7; HBS 59-5; DULE 12(49b).
-EMML: 1573(14b); 5105(14a); 2275(31b); 3872(34b); 6917(21a); 2282(26b); 4618(7b); 5520(14b); 6949(70b); 1692(19a); 2378(7a); 664o(63a); 2059(53b); 2060(30b); 2066(47a); 2802(45a); 5420(29b + 26a); 7543(88a); 2831(39a)
+EMML: 1573(14b); 5105(14a); 2275(31b); 3872(34b); 6917(21a); 2282(26b); 4618(7b); 5520(14b); 6949(70b); 1692(19a); 2378(7a); 6640(63a); 2059(53b); 2060(30b); 2066(47a); 2802(45a); 5420(29b + 26a); 7543(88a); 2831(39a)
 Keywords: Astiras, deacon; Carmel; Deacons; Garisat; Islands; Mediterranean Sea [Bahr Iyyariko]; Sinners;
 Incipit: Wa-nabara aḥadu diyaqon westa dasset za-westa Bapra Iyyariko mangala Qarmelos, esma z~wi we>etu z~-yegabber bezuoa gatawe>a wa-fedul em-oatawe>a sab> kama Sadom wa-Gamora (3872).
 
@@ -1606,7 +1606,7 @@ English translation: Budge, One Hundred, p. 85.
 PEth: 20.77 (81r-81v); 41.56 (84r-85r); 43.38 (50v-51v); 43.3 (6v-8r); 46.27 (27v-28r); 47.27 (80v-81r);
 EMIP: 601.27 (19v–20r); 601.316 (171v–172r);
 MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; 39;LUE 30-12; 61; 31-4; 32-27,45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
-EMML: 1573(18b); 3536(20b); 5105(11a); 2275(26b); 3872(37a); 6917(26a); 2282(42a); 4618(11a); 5182(4b); 5520(8a); 6949(74a); 4688(32b,108a); 1692(24a); 2378(3b); 3923(44a); 664o(48b,102b); 2059(20b bis); 2060(33a); 2066(45b,134b); 2802(40b); 5420(30b); 6196(79a); 7543(89b); 2831(32b,43a).
+EMML: 1573(18b); 3536(20b); 5105(11a); 2275(26b); 3872(37a); 6917(26a); 2282(42a); 4618(11a); 5182(4b); 5520(8a); 6949(74a); 4688(32b,108a); 1692(24a); 2378(3b); 3923(44a); 6640(48b,102b); 2059(20b bis); 2060(33a); 2066(45b,134b); 2802(40b); 5420(30b); 6196(79a); 7543(89b); 2831(32b,43a).
 Keywords: Anastasius, deacon; Constantinople; Deacons; Prayers; Rome; Tafassehiyat;
 Incipit: wa-hallo apadu be'esi za-semu Anestoseyos ba-hagara Rome za-Baranesteseya (EMML 2058: za-Baranpeya), farahe Egzi'ab};.ter wa-yafaqqera l a-Egze'etena .••. wa-yegayyes haba beta Krestiyan yaqerreb latti aptrge ne~upa za-mesla ~alot, enza yesebbep waddesota la-Maryam (3872)./ Wa-hallo apadu be'esi wa-yenabber westa apadu mak.an za-yafaqqero l a-Egzi'abper wa-la-Egze'etena ...• wa-ye~elli zanta ~alota ~'llfilYl!lhilmWlllV enta westeta mWJ!Ulrll!:wmwmi:mliJilWlllwnliwiiwmymimiwih:HH®gamwmtmml~~ a 'ekw etota wa-wadde s ota la-Maryam (4618).
 
@@ -1793,7 +1793,7 @@ English translation: Budge, One Hundred, p. 75.
 PEth: 41.62 (89r-91r); 43.36 (46v-49v); 46.25 (25v-27r); 47.25 (74v-79r);
 EMIP: 601.25 (18r–19r);
 MSS: ZBNE 60-26; 61-24; CRA 52-32; 54(81a); 55(62b); SBLE 32; BM 2-28;3-33; VLVE 267(52b); 272(113a); 298(21b);  SALE 23-24; 43-26; LUE 30-37; 32-33; CF 2-26; CBS-25; HBS 59-24; CCBE 951-25; CL-37; DULE 12(93a); AECE 1(26b).
-EMML: 7089(24b); 1573(30a); 3536(43a); 7220(17b); 2275(60b); 3872(51a); 6938(154a); 6917(45a); 4205(49a + 53a); 4618(29a); 5520(75b); 6949(91a); 1692(92a); 2378(42a); 664o(47b); 2059(133b); 2060(50b); 2066(132a); 2802(80b); 6196(71a); 7543(97b); 2831(52b).
+EMML: 7089(24b); 1573(30a); 3536(43a); 7220(17b); 2275(60b); 3872(51a); 6938(154a); 6917(45a); 4205(49a + 53a); 4618(29a); 5520(75b); 6949(91a); 1692(92a); 2378(42a); 6640(47b); 2059(133b); 2060(50b); 2066(132a); 2802(80b); 6196(71a); 7543(97b); 2831(52b).
 Keywords: Carmelite prioress; Däbrä Qarmelos; Deacons; Nuns; Seductions; Sexual sins; Sophia, prioress;
 Incipit: wa-nabarat apatti emma menet ba-Daora;Qarmeieyos za-sema Sofeya, be)esit gerit, ~epeqt la-megbara lannay wa-~alleyo, wa-tetla)ak la-feta Egze)etena Maryam ba-bezug ~ama wa-ba-<abiyy qene (3872). / Tabehla kama hallawat apatti emma menet westa apatti dabr emenna adbarat,:J wa-hallawa westa ye)eti dabr b~uba.n danagel, wa-yet>ezzaza latti. Wa-konat ye>eti /\ emma menet za-lannay ge<za (7<i89).
 
@@ -3085,7 +3085,7 @@ MAC0278.
 Title: Abbas sees a vision of Saint Mary blessing the monks who were chanting the Psalms.
 PEth:
 MSS: None.
-EMML: 3872(149a); 7543(149a); 3051(127a); 2952(237b); 2058(167a); 303l(132b); 2424(93b).
+EMML: 3872(149a); 7543(149a); 3051(127a); 2952(237b); 2058(167a); 3031(132b); 2424(93b).
 Keywords: Abbas; Visions, apparitions; Chanting; Monks; Psalms;
 Incipit: wa-hallo aQadu Abbas za-yezemmer watra ba-MazmuraDawit. Yebe lalihu: Enza e~elli ~alota ba-westa ~oma<teya, re'iku ra>eya geruma (3872).
 
@@ -3639,7 +3639,7 @@ MAC0327.
 Title: The three pious priests and monks who wore fine clothes.
 Text: T-53, p. 201.
 PEth:
-MSS: AECE l(lO3b).
+MSS: AECE 1(103b).
 EMML: 2275(153b); 642(46a); 730(257a); 2251(150a); 814(112a); 665(101b); 683(90b).
 Keywords: Clothes, vestments; Monasteries; Monks; Priests;
 Incipit: Wa-hallawu ba-ahadu dabr J kahnat heran wa-sannayan wa-• ma' merana qala masaheft za-Beluy wa-za-Haddis, wa-yafaqqeru • • • tasargewota ba-albas qapint (2275).
@@ -4631,7 +4631,7 @@ MAC0419.
 Title: Oz, the Byzantine monk, is shown a vision of Hell by Saint Urael.
 PEth:
 MSS: ZBNE 60-73; VLVE 298(82a); DULE 12(20b,91b).
-EMML: 6640(104a); 2058(11b); 158l(37a); 3475(40a); 3497(40b); 642(106b); 2800(96b).
+EMML: 6640(104a); 2058(11b); 1581(37a); 3475(40a); 3497(40b); 642(106b); 2800(96b).
 Keywords: Visions, apparitions; Hell; Oz, Byzantine monk; Monks; Romans; Urael (St.) the Archangel;
 Incipit: Wa-hallo ahadu ma nakos Romawi za-semu co.z. ba-Däbrä Kuraza za yafaqqera la-Egze·-'etena •••• Wa-ba-ahatti Celat azzazatto la-ura~el • mal'ak kama yar-'eyo mahedara hate'an tawwayan (6640) •
 
@@ -4641,7 +4641,7 @@ Title: The man who accepted fine clothes as a bribe for future favors.
 Text: Getatchew Haile, in North East African Studies 4,1 (1980), p. 19.
 PEth:
 MSS: None.
-EMML: 2059(69a); 2060(152a); 193l(67b).
+EMML: 2059(69a); 2060(152a); 1931(67b).
 Keywords: Bribes; Clothes, vestments;
 Incipit: Wa-hallawat ah• atti hagar em-ahgura Krestiyan, wa-yenabberu westeta sab' Krestiy~n ~abiyy«n ba-bfuE ceqbat (2059).
 
@@ -6144,7 +6144,7 @@ MAC0566.
 Title: Bishop Deraleyos in Däbrä Gass, who was a lazy monk.
 PEth:
 MSS: None.
-EMML: ll56(84a); 329(43a).
+EMML: 1156(84a); 329(43a).
 Keywords: Bishops, archbishops; Däbrä Gass; Deraleyos, bishop; Monks;
 Incipit: Wa-hallo aḥadu eppis qoppos ba-Däbrä Ga~~ za-semu Deraleyos, pakkay manak.os, wa-iyye'ammer zammero Dawit wa-anbebo maṣapeft (1156).
 
@@ -6283,7 +6283,7 @@ MAC0580.
 Title: The clergy wish to receive Communion on the feast of Easter from Archbishop Maximus in Jerusalem.
 PEth:
 MSS: None.
-EMML: ll56(92a); 329(32a).
+EMML: 1156(92a); 329(32a).
 Keywords: Bishops, archbishops; Clergy; Communion; Easter; Eucharist; Jerusalem; Maximus, archbishop;
 Incipit: Wa-hallo aḥadu pappas za-semu Maksimos ba-hagara Iyyarusalem, maˀmer wa-labawi, ṣadeq wa-aragawi. Wa-se<na qawima, wa-dakma gaylu,wa-ikehla qaddeso Q,Werban (1156).
 
@@ -6310,7 +6310,7 @@ MAC0583.
 Title: Saints Michael and Gabriel appear while Abbot Eliab is teaching his monks, who are given bread from Heaven.
 PEth:
 MSS: None.
-EMML: ll56(93b); 329(37a).
+EMML: 1156(93b); 329(37a).
 Keywords: Abbots; Visions, apparitions; Bread; Eliab, abbot; Gabriel the Archangel (St.); Heaven; Michael the Archangel (St.); Monks; Scete; Teaching;
 Incipit: Wa-hallo aḥadu aba menet za-semu Eleyab, wa-enza hallo ba-gadama Asqetes, tarakabomu la-60 gadamaweyan, wa-taziyanawwomu nagaraEgziˀabper (1156).
 
@@ -6346,7 +6346,7 @@ MAC0587.
 Title: Aqlemeya, a poor woman from Rome, who was tied to a tree by brigands for five days and nights.
 PEth:
 MSS: None.
-EMML: ll56(95b); 329(39a).
+EMML: 1156(95b); 329(39a).
 Keywords: Aqlemya from Rome; Brigands; Childlessness; Feasts; Rome; Trees;
 Incipit: wa-hallawat apatti beˀesit ba-hagara Rom za-sema Aqlemeya, wa-albatti welud wa-i-neway wa-terit, wa-nadayit ye'eti, wa-bapettu tesaffi mudaya la-cetan (1156).
 
