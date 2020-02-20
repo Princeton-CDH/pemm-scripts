@@ -10,6 +10,7 @@ Run a debug server for development with:
 import os
 
 from flask import Flask, g, jsonify, render_template, request
+from parasolr.query import SolrQuerySet
 from parasolr.solr.client import SolrClient
 
 from scripts import __version__
@@ -38,16 +39,22 @@ def search():
         search_term = request.args.get('incipit', '')
         output_format = request.args.get('format', '')
 
-    response = get_solr().query(q='incipit_txt_gez:"%s"' % search_term)
+    queryset = SolrQuerySet(get_solr())
+    if search_term:
+        queryset = queryset.search(incipit_txt_gez="%s" % search_term) \
+            .order_by('-score') \
+            .only('*', 'score')
+
+    results = queryset.get_results()
 
     # if html response was requested, render results.html template
     if output_format == 'html':
-        return render_template('results.html', results=response.docs,
-                               total=response.numFound,
+        return render_template('results.html', results=results,
+                               total=queryset.count(),
                                search_term=search_term)
 
     # by default, return JSON
-    return jsonify(response.docs)
+    return jsonify(results)
 
 
 def get_solr():

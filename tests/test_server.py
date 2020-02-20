@@ -44,17 +44,26 @@ def test_get_solr(mocksolrclient, client):
     mocksolrclient.assert_not_called()
 
 
-@patch('scripts.server.SolrClient')
-def test_search(mocksolrclient, client):
-    test_solr_result = Mock(docs=[
+@patch('scripts.server.SolrQuerySet')
+def test_search(mocksolrqueryset, client):
+    # create Mock solr client and set in app context
+    g.solr = Mock()
+
+    # simulate queryset fluent interface
+    mocksqs = mocksolrqueryset.return_value
+    for method in ['search', 'order_by', 'only']:
+        getattr(mocksqs, method).return_value = mocksqs
+
+    test_solr_docs = [
         {'id': '1-A', 'incipit_txt_gez': 'በእንተ፡ ዘከመ፡ አስተርአየቶ፡'}
-    ], numFound=1)
-    mocksolrclient.return_value.query.return_value = test_solr_result
-    mocksolrclient.return_value.query.return_value = test_solr_result
+    ]
+    mocksqs.get_results.return_value = test_solr_docs
+    mocksqs.count.return_value = 1
 
     test_search_string = 'አስተርአየቶ'
     rv = client.post('/search', data=dict(incipit=test_search_string))
-    assert rv.get_json() == test_solr_result.docs
+    assert rv.get_json() == test_solr_docs
+    mocksolrqueryset.assert_called_with(g.solr)
 
     # request html
     rv = client.post('/search', data=dict(
@@ -62,8 +71,8 @@ def test_search(mocksolrclient, client):
     ))
     assert b'search results' in rv.data
     assert '1 result for "%s"' % test_search_string in rv.data.decode()
-    assert test_solr_result.docs[0]['id'] in rv.data.decode()
-    assert test_solr_result.docs[0]['incipit_txt_gez'] in rv.data.decode()
+    assert test_solr_docs[0]['id'] in rv.data.decode()
+    assert test_solr_docs[0]['incipit_txt_gez'] in rv.data.decode()
 
     # also handle GET
     rv = client.get('/search?incipit=%s&format=html' % test_search_string)
