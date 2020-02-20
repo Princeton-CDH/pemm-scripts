@@ -15,6 +15,7 @@ Usage::
 
 
 import argparse
+import codecs
 import csv
 import json
 import os
@@ -320,22 +321,25 @@ class MacomberToCSV:
         return os.path.join(self.output_dir,
                             '%s-%s.csv' % (date.today().isoformat(), name))
 
-    # TODO: byte order mark for utf-8
     def output_canonical_stories(self):
         '''Generate CSV output for canonical stories'''
         # get CSV field names from schema
         fieldnames = self.get_schema_fields('Canonical Story')
         with open(self.output_filename('canonical_stories'), 'w') as csvfile:
+            # write utf-8 byte order mark at the beginning of the file
+            csvfile.write(codecs.BOM_UTF8.decode())
+
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            # NOTE: header should not be written, since we want to append to
-            # an existing Google Spreadsheet sheet
             writer.writerows(self.canonical_stories)
 
     def output_manuscripts(self):
         '''Generate CSV output for manuscripts'''
         fieldnames = self.get_schema_fields('Manuscript')
         with open(self.output_filename('manuscripts'), 'w') as csvfile:
+            # write utf-8 byte order mark at the beginning of the file
+            csvfile.write(codecs.BOM_UTF8.decode())
+
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             # sort by repository and then by manuscript id,
@@ -353,12 +357,11 @@ class MacomberToCSV:
         '''Generate CSV output for story instances'''
         fieldnames = self.get_schema_fields('Story Instance')
         with open(self.output_filename('story_instances'), 'w') as csvfile:
+            # write utf-8 byte order mark at the beginning of the file
+            csvfile.write(codecs.BOM_UTF8.decode())
+
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            # NOTE: header should not be written, since we want to append to
-            # an existing Google Spreadsheet sheet
-            # TODO: text file repository names need to be converted
-            # to collection names in the spreadsheet
             writer.writerows(self.story_instances)
 
 
