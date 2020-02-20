@@ -28,15 +28,23 @@ def root():
     return render_template('index.html', version=__version__)
 
 
-@app.route('/search', methods=['POST'])
+@app.route('/search', methods=['GET', 'POST'])
 def search():
-    '''Search for an incipit and return a list of similar results.'''
-    response = get_solr().query(q='incipit_txt_gez:"%s"' % request.form['incipit'])
+    '''Search for an incipit and return a list of matching results.'''
+    if request.method == 'POST':
+        search_term = request.form['incipit']
+        output_format = request.form.get('format', '')
+    elif request.method == 'GET':
+        search_term = request.args.get('incipit', '')
+        output_format = request.args.get('format', '')
+
+    response = get_solr().query(q='incipit_txt_gez:"%s"' % search_term)
 
     # if html response was requested, render results.html template
-    if 'format' in request.form and request.form['format'] == 'html':
+    if output_format == 'html':
         return render_template('results.html', results=response.docs,
-                               total=response.numFound)
+                               total=response.numFound,
+                               search_term=search_term)
 
     # by default, return JSON
     return jsonify(response.docs)

@@ -47,7 +47,7 @@ def test_get_solr(mocksolrclient, client):
 @patch('scripts.server.SolrClient')
 def test_search(mocksolrclient, client):
     test_solr_result = Mock(docs=[
-        {'id': 1}
+        {'id': '1-A', 'incipit_txt_gez': 'በእንተ፡ ዘከመ፡ አስተርአየቶ፡'}
     ], numFound=1)
     mocksolrclient.return_value.query.return_value = test_solr_result
     mocksolrclient.return_value.query.return_value = test_solr_result
@@ -62,4 +62,10 @@ def test_search(mocksolrclient, client):
     ))
     assert b'search results' in rv.data
     assert '1 result for "%s"' % test_search_string in rv.data.decode()
+    assert test_solr_result.docs[0]['id'] in rv.data.decode()
+    assert test_solr_result.docs[0]['incipit_txt_gez'] in rv.data.decode()
 
+    # also handle GET
+    rv = client.get('/search?incipit=%s&format=html' % test_search_string)
+    assert b'search results' in rv.data
+    assert '1 result for "%s"' % test_search_string in rv.data.decode()

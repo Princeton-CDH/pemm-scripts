@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-    <title>search results for {{ request.form.incipit }}</title>
+    <title>search results for {{ search_term }}</title>
     <style>
         li { margin-bottom: 0.5em; }
         .id { color: brown; font-style: italic; }
@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>search results</h1>
-    <p>{{ total }} result{% if total > 1 %}s{% endif %} for "{{ request.form.incipit }}"</p>
+    <p>{{ total }} result{% if total > 1 %}s{% endif %} for "{{ search_term }}"</p>
     {% if results|length > 0 %}
     <ol>
         {% for result in results %}
