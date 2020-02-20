@@ -41,11 +41,21 @@ def search():
 
     queryset = SolrQuerySet(get_solr())
     if search_term:
-        queryset = queryset.search(incipit_txt_gez="%s" % search_term) \
+        queryset = queryset.highlight('incipit_txt_gez', q=search_term,
+                                      method='unified', fragsize=0) \
+            .search(incipit_txt_gez=search_term) \
             .order_by('-score') \
             .only('*', 'score')
 
     results = queryset.get_results()
+    if search_term:
+        # patch in the highlighted incipits into the main result
+        # to avoid accessing separately in the template or json
+        highlights = queryset.get_highlighting()
+        for i, row in enumerate(results):
+            highlighted_incipit = highlights[row['id']]['incipit_txt_gez'][0]
+            if highlighted_incipit:
+                row['incipit_txt_gez'] = highlighted_incipit
 
     # if html response was requested, render results.html template
     if output_format == 'html':
