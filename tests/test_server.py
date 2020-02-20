@@ -69,12 +69,15 @@ def test_search(mocksolrqueryset, client):
     rv = client.post('/search', data=dict(
         incipit=test_search_string, format='html'
     ))
-    assert b'search results' in rv.data
-    assert '1 result for "%s"' % test_search_string in rv.data.decode()
+    assert b'Search Results' in rv.data
+    assert b'1 result' in rv.data
+    # search string set as input value
+    assert 'value="%s"' % test_search_string in rv.data.decode()
     assert test_solr_docs[0]['id'] in rv.data.decode()
     assert test_solr_docs[0]['incipit_txt_gez'] in rv.data.decode()
 
     # also handle GET
     rv = client.get('/search?incipit=%s&format=html' % test_search_string)
-    assert b'search results' in rv.data
-    assert '1 result for "%s"' % test_search_string in rv.data.decode()
+    assert b'Search Results' in rv.data
+    assert 'value="%s"' % test_search_string in rv.data.decode()
+    assert b'1 result' in rv.data
