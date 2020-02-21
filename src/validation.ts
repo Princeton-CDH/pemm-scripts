@@ -1,7 +1,7 @@
 import { Spreadsheet } from './spreadsheet'
 
 export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
-
+    
     /* create data validation */
     const manuscriptRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('manuscript__name'))
@@ -12,12 +12,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     const collectionRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('collection__name'))
         .setHelpText('Collection must be listed on Collections sheet.')
-        .setAllowInvalid(false)
-        .build()
-
-    const incipitRule = SpreadsheetApp.newDataValidation()
-        .requireValueInRange(spreadsheet.getRangeByName('canonical_story__incipit'))
-        .setHelpText('Incipit must match a Canonical Story.')
         .setAllowInvalid(false)
         .build()
 
@@ -138,7 +132,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('manuscript__total_pages')
         .setDataValidation(positiveIntegerRule)
 
-    spreadsheet.getRangeByName('manuscript__number_of_stories')
+    spreadsheet.getRangeByName('manuscript__total_stories')
         .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
     spreadsheet.getRangeByName('manuscript__date_range_start')
@@ -154,9 +148,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
         .setDataValidation(storyOriginRule)
-
-    spreadsheet.getRangeByName('canonical_story__incipit_source')
-        .setDataValidation(manuscriptRule)
 
     // use @ to set text format; center for readability
     spreadsheet.getRangeByName('canonical_story__macomber_id')
@@ -199,6 +190,9 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('story_instance__confidence_score')
         .setDataValidation(confidenceScoreRule)
 
+    spreadsheet.getRangeByName('story_instance__macomber_incipit')
+        .setDataValidation(booleanRule)
+        
     // story origin
     spreadsheet.getRangeByName('story_origin__region')
         .setDataValidation(regionRule)
@@ -209,10 +203,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     spreadsheet.getRangeByName('collection__latitude')
         .setDataValidation(latitudeRule)
-        .setNumberFormat('0.00000')
-
-    spreadsheet.getRangeByName('collection__longitude')
-        .setDataValidation(longitudeRule)
         .setNumberFormat('0.00000')
 
     /* return spreadsheet when setup completed */
