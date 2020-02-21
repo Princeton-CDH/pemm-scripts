@@ -300,7 +300,7 @@ class MacomberToCSV:
             'Miracle Number': story_order,
             'Incipit': incipit,
             # imported incipits should be marked as Macomber incipit
-            'Macomber Incipit': int(bool(incipit)),  # 1 if incipit else 0
+            'Macomber Incipit': bool(incipit),  # true if incipit else false
             # mark macomber incipits as high confidence
             'Confidence Score': 'High' if incipit else '',
             'Canonical Story ID': canonical_record['Macomber ID'],
