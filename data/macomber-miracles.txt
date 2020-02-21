@@ -1,5 +1,5 @@
 ﻿-1-
-paragraph and; equals field separater
+paragraph and; equals field separator
 title, text, summary, English translation, MSS, EMML, Keywords, Incipit (one Explicit)
 
 
@@ -170,7 +170,7 @@ Text: Budge, Miracles, p. 70; Cerulli, Il libro, p. 290.
 English translation: Budge, One Hundred, p. 129.
 PEth: 8.16 (30r-33v); 41.49 (77r-79r); 43.32 (40r-43r); 46.45 (47r-48v); 47.37 (103v-106v);
 EMIP: 601.241 (149v–150r);
-MSS: G-40; ZBNE 60-37; 101-1; CRA 52-8; 53-1; SBLE 32 (39r); BM 3-42; GVE 117 (41v); VLVE 298 (140r); SALE 23-1; 43-2; LUE 30-2; 31-16; CF 1-16; CBS 72M HBS 74-II; AECE 1 (40v).
+MSS: G-40; ZBNE 60-37; 101-1; CRA 52-8; 53-1; SBLE 32 (39r); BM 3-42; GVE 117 (41v); VLVE 298 (140r); SALE 23-1; 43-2; LUE 30-2; 31-16; CF 1-16; CBS-72; HBS 74-II; AECE 1 (40v).
 EMML: 2275 (198r); 6938 (70r); 4618 (58r); 5520 (4r); 2378 (3r); 2059 (111r); 2060 (154v); 2066 (38v); 2772 (190r); 2802 (31v); 7543 (23r).
 Keywords: Potters; Syria; Syrians; Wəddase Maryam;
 Incipit: Sǝmʿu, ʾabawǝya wa-ʾaḫawǝya, kama nǝngǝrkǝmu taʾammǝra ʿabbāya za-kona la-ʾƎgzǝʾǝtǝna… za-nagaru ʾabaw qǝddusān, samāʿtǝya ʾƎgziʾabḥer kama ʾiyyǝwēssǝk wa-ʾiyyānattǝg. Yǝbeluna: Nabara ba-mǝdra Sorǝyā bǝʾǝsi labḥāwi farāhe ʾƎgziʾabḥer / ስምዑ፡ አበውየ፡ ከመ፡ ንንግርክሙ፡ ተአምረ፡ ዐባየ፡ ዘኮነ፡ ለእግዝእትነ፡… ዘነገሩ፡ አበው፡ ቅዱሳን፡ ሰማዕትየ፡ እግዚአብሔር፡ ከመ፡ ኢይዌስክ፡ ወኢያነትግ፡ ይቤሉነ፡ ነበረ፡ በምድረ፡ ሶርያ፡ ብእሲ፡ ለብሓዊ፡ ፈራሄ፡ እግዚአብሔር፡ (6938).
@@ -529,7 +529,7 @@ MAC0042.
 Title: The church built on the tomb of Saint Mary that will turn into a ship.
 PEth:
 EMIP: 601.293 (163v);
-MSS: G-43; 2BE 62-36 (?); CRA 54 (147a); GVE 29 (46a); VLVE 298 (61b,233b); DULE 12 (39b).
+MSS: G-43; ZBNE 62-36; CRA 54 (147a); GVE 29 (46a); VLVE 298 (61b,233b); DULE 12 (39b).
 EMML: 6938 (76a); 2282 (40b); 4618 (125b); 3923 (16b); 2059 (48a); 7543 (40b); 2686 (42b).
 Keywords: Churches; Tombs; Graves; Mysteries; Ships;
 Incipit: Semeˁu, abaweyn wa-agaweya, zanta me~tira mankera wa-madmema za-nagaruna abawina qeddusan, za-rak.abewwo $eQufa westa ma$aQeft qeddusat. wa-yebelu: Arna yema$$eˀ Egziˀena ba-daggem me$ˀatu (6938).
@@ -541,7 +541,7 @@ Text: Budge, Miracles, p. 26.
 English translation: Budge, One Hundred, p. 47.
 PEth: 41.31 (62v-63v); 46.81 (97v-98v); 46.14 (19rv); 47.14 (48v-50v); 47.27 (34v-36r);
 EMIP: 601.14 (12v–13r);
-MSS: G-44; ZBNE 60-15; ZBNE 61-13; ZBNE 62-37; CRA 52-21; 54 (46a); 55 (36b); SBLE 17 (4a); 32-14; BM 2-17; 3-22; GVE 117 (22b); VLVE 267 (35b); 298 (15b,62a); SALE 23-13; 43-15; LUE 30-20; 32-26; CBS 14; CCBE 951-14; AECE 1 (16b).
+MSS: G-44; ZBNE 60-15; ZBNE 61-13; ZBNE 62-37; CRA 52-21; 54 (46a); 55 (36b); SBLE 17 (4a); 32-14; BM 2-17; 3-22; GVE 117 (22b); VLVE 267 (35b); 298 (15b,62a); SALE 23-13; 43-15; LUE 30-20; 32-26; CBS-14; CCBE 951-14; AECE 1 (16b).
 EMML: 2275 (195b); 6938 (76b); 5520 (35a, 140b); 2378 (22a); 6640 (32a); 2060 (187b); 2066 (52b, 95a, 122v); 2802 (54b,122a); 6196 (40a); 7543 (40b).
 Keywords: Blindness; Mercurius (St.), church of; Mesr; Priests; Yohannes Bakansi, priest;
 Incipit: Wa-hallawat beta Krestiyan ba-hagara Mesr ba-sema sama<et Pulupader Marqorewos (wa-nabara westeta) beˀesi manakos qasis za-semu YoQannesBakansi (6938).
@@ -573,7 +573,7 @@ Text: Budge, Miracles, p. 25.
 English translation: Budge, One Hundred, p. 45.
 PEth: 20.38 (48v-49v); 41.30 (62rv); 43.39 (51v-52v); 46.13 (18rv); 47.13 (47r-48v);
 EMIP: 601.13 (12rv);
-MSS: G-46; ZBNE 60-14; 61-12; 62-18; 63-18; CRA 52-20/; 54 (44b); 55 (34b); SBLE 17 (4b); 32-13; BM 2-16; 3-21; GVE 43(227b); 73 (67b); VLVE 267 (34b); 298 (15b); SALE 23-12; 43-14; LUE 30-25; 32-4; CBS 13; CCBE 951-13; AECE 1 (16a).
+MSS: G-46; ZBNE 60-14; 61-12; 62-18; 63-18; CRA 52-20/; 54 (44b); 55 (34b); SBLE 17 (4b); 32-13; BM 2-16; 3-21; GVE 43(227b); 73 (67b); VLVE 267 (34b); 298 (15b); SALE 23-12; 43-14; LUE 30-25; 32-4; CBS-13; CCBE 951-13; AECE 1 (16a).
 EMML: 6938 (78b); 2282 (37b); 4205(21a); 4618 (73a); 5520 (139a); 6949 (137b); 1692 (104a); 6640 (31a); 2059(41b); 2060 (187a); 2066 (122a); 2937 (174a); 7543 (43b).
 Keywords: Churches; Däbrä Eqona; Dreams; Greece [Ser]; Mediterranean Sea [Bahr Iyyariko]; Priests; Ser;
 Incipit: Taˀammeriha (la-Egzeˀetena Maryam) za-kona ba-hagara Ser< . wa-hallo dabr ba-$enfa Iyyariko, wa-nugu matana manfaqa me<raf (6938).
@@ -694,7 +694,7 @@ Text: Budge, Miracles, p. 29.
 English translation: Budge, One Hundred, p. 57.
 PEth: 20.40 (50v-51v); 41.34 (65v-66v); 43.35 (45r-46v); 46.17 (21rv); 47.17 (56r-58r);
 EMIP: 601.17 (14v–15r);
-MSS: G-53; ZBNE 60-18; 61-16; CRA 52-24; 54 (56a); 55 (44a); SBLE 32-17; BM 2-20; 3-25; GVE 117 (27a); VLVE 267 (41a); 298 (17b); SALE 23-16; 43-18; LUE 30-29; 32-19; CBS 17 (?); CCBE 951-17; AECE 1(19b).
+MSS: G-53; ZBNE 60-18; 61-16; CRA 52-24; 54 (56a); 55 (44a); SBLE 32-17; BM 2-20; 3-25; GVE 117 (27a); VLVE 267 (41a); 298 (17b); SALE 23-16; 43-18; LUE 30-29; 32-19; CBS-17; CCBE 951-17; AECE 1(19b).
 EMML: 6938 (88b); 5520 (61b); 2378 (35a); 3923 (98a); 6640 (36b); 2060 (22b,189b); 2066 (61b, 125b); 2802 (71a); 6196 (49b); 7543 (48a).
 Keywords: Daughters; Husbands; Poor persons; Widows;
 Incipit: Wa-hallawat beˀesit nadayt wa-mota meta wa-gadaga awalda, l a-apatti sema Maryam wa-la-kaleˀt sema Marta ~linh wa-la-sal sit sema YaWahit (6938).
@@ -715,7 +715,7 @@ Text: Budge, Miracles,p. 28.
 English translation: Budge, One Hundred, p. 53.
 PEth: 41.33 (64v-65v); 43.29 (37r-38v); 46.16 (20r-21r); 47.16 (54r-56r);
 EMIP: 601.16 (13v–14v);
-MSS: G-52; ZBNE 60-17; 61-15; CRA 52-23; 54 (52b) 55 (44a); SBLE 32-16; BM 2-19; 3-24; GVE 117 (24b); VLVE 267 (38b); 298 (17a); SALE 23-15; 43-17; LUE 30-28; 32-34; CBS 16; BM 2-19; 3-24; CCBE 951-16; AECE 1 (18b).
+MSS: G-52; ZBNE 60-17; 61-15; CRA 52-23; 54 (52b) 55 (44a); SBLE 32-16; BM 2-19; 3-24; GVE 117 (24b); VLVE 267 (38b); 298 (17a); SALE 23-15; 43-17; LUE 30-28; 32-34; CBS-16; BM 2-19; 3-24; CCBE 951-16; AECE 1 (18b).
 EMML: 6938 (87b); 5520 (59a); 2378 (33b); 6640 (34b); 2060 (21a); 2066 (124b); 2802 (69b); 6196 (46a); 7543 (49a).
 Keywords: Abraham from Baderman; Baderman; Blindness; Daughters; Gera Anest, wife of Abraham from Baderman; Rich persons; Said (Upper Egypt); Wives;
 Incipit: Wa-hallawat hagar em-ahgura /e<id za-tessammay Baderman, wa-yenabber westeta beˀesi za-semu Abreham wa-sema beˀesitu Gra Anest (6938).
@@ -806,7 +806,7 @@ Incipit: Wa-hallo aḥadu beˀesi kapadi wa-yagadder westa hagara Quseya, wa-ba<
 
 MAC0068.
 Title: Saint Mary appears to the martyr, Giyorgis Haddis, in prison.
-Text: Budge, lp. 3_g•..1..JZ.... tˀ""' i~1<1tr:
+Text: Budge, Miracles, p.32:
 English translation: Budge, One Hundred, p. 61.
 PEth: 20.43 (53rv); 41.36 (67v-68r); 43.45 (61rv); 46.19 (22rv); 47.19 (60v-62r);
 EMIP: 601.19 (15r-15v);
@@ -962,7 +962,7 @@ Incipit: Wa-hallo ba-hagar za-tessammay Elkesus beˀesi qasis za-semKu ati~J:: K
 
 MAC0083.
 Title: The story of the two brothers from Dalga who were dyers.
-Text: Budge, Mircles, p. 34.
+Text: Budge, Miracles, p. 34.
 English translation: Budge, One Hundred, p. 65.
 PEth: 41.38 (68v-69v); 46.21 (23r-24r); 47.21 (63v-66r);
 EMIP: 601.21 (16rv);
@@ -1003,7 +1003,7 @@ Incipit: Wa-hallo aQadu beˀesi ba-hagara SenQut za-semu YoQannes, em-neˀsu za-
 
 MAC0087.
 Title: The Jews plot to burn the body of Saint Mary.
-Text: T-3, p. 27. ~]-IS·
+Text: T-3, p. 27.
 PEth:
 EMIP: 601.75 (54rv): How Saint Gabriel took the body of the Virgin Mary and put it under the tree of life in Paradise, and how 600 Jews who tried to burn the body of the Virgin Mary were baptized when they saw the earth swallow one of their number who had insulted Christ and the Virgin Mary;
 MSS: G-84; ZBNE 60-95; 62-15; 63-15; CRA 52-40; 53-65; VLVE 298(183a); CBS-35.
@@ -1014,7 +1014,7 @@ Incipit: Wa-kona soba te<mat mota Egzeˀetena Maryam ama 20 wa-1 la-1err, tamaka
 
 MAC0088.
 Title: A Roman official is prevented from approaching the Holy Sepulcher.
-Text: . Budge,.L P• ~4.
+Text: . Budge, Miracles, p. 74.
 English translation: Budge, One Hundred, p. 141.
 PEth: 43.43 (57r-58r); 46.101 (118rv);
 EMIP: 601.298 (164v–165r);
@@ -1150,7 +1150,7 @@ MAC0101.
 Title: Saint Mary saves the soul of a brigand who was slain by the miraculous spring.
 English translation: Budge, One Hundred, p. 277.
 PEth:
-MSS: G-101; ZBNE 02-43; CRA 52-73; 54(144b); SBLE 15(10a); WBLE 77(? 110b); GVE 29(47a); VLVE 267(67b); 298(233a); WBLE 15(10a); CBS-62; HBS 59-37.
+MSS: G-101; ZBNE 02-43; CRA 52-73; 54(144b); SBLE 15(10a); WBLE 77(110b); GVE 29(47a); VLVE 267(67b); 298(233a); WBLE 15(10a); CBS-62; HBS 59-37.
 EMML: 3536(132b); 5105(156a); 2275(120b); 3872(3b); 6917(118b); 1960(2a); 4205(29b); 6949(134b); 1692(54a); 6640(91b); 2059(17b); 2060(139b); 2066(45a); 2802(39b); 7543(70b).
 Keywords: Brigands; Dormition of Saint Mary; Matoreya, spring of; Springs;
 Incipit: Wa-em-degra acrafat Egzeˀetena Maryam, ma~ˀa kaleˀ fayatay gaba weˀetu may za-naqca em-taota egra la-Maryam, mJR~mmm~ weCilo gaba qatila nafs (2058).
@@ -1159,7 +1159,7 @@ Incipit: Wa-em-degra acrafat Egzeˀetena Maryam, ma~ˀa kaleˀ fayatay gaba weˀ
 MAC0102.
 Title: Homily on the miracles of Saint Mary.
 PEth:
-MSS: G-102; CRA 53-28; 54(129b) (?).
+MSS: G-102; CRA 53-28; 54(129b).
 EMML: 3872(4a); 7543(70b); 2952(89a); 2058(86a); 642(191a); 3378(134a); 22(65b).
 Keywords: Angels; Homilies; Temple of Solomon;
 Incipit: Seme cu, magebara Beta Krestiyan, ella maṣaˀkemu kama tesmecu tacma taˀammeriha la-Dengel. Wa-em-degra ledata ba-3 cam.at, abeˀeWa westa Beta. Maqdas, wa-ba-heyya nabarat 10 wa-2 ca.mat (7543).
@@ -1414,7 +1414,7 @@ Title: The man who was possessed by a spirit of epilepsy [nagargar] for 47 years
 English translation: Budge, One Hundred, p. 275.
 PEth:
 EMIP: 601.231 (146v);
-MSS: G-126; ZBNE 60-53 (?); CRA 54(140a); WBLE 77(109b); CBS-84; HBS 59-35.
+MSS: G-126; ZBNE 60-53; CRA 54(140a); WBLE 77(109b); CBS-84; HBS 59-35.
 EMML: 3536(129a); 2275(117b); 3872(23a); 6917(116b); 4618(51b); 6949(132a); 1692(51b); 2060(177b); 5420(18a); 7543(81b).
 Keywords: Angels; Demons; Epileptics; Food; Healings, Epilepsy; Possessed persons;
 Incipit: Wa-nabarki 10 wa-2 <amata enza tetnazzazi em-mala'ekt, wa-ya.maṣṣeˀu watra 0sisayaki, wa-setekini (MS: satekini) sete samay za-eni_samay za-taqadoa. Wa-ma~ˀa aoadu be 'esi za-agazo nagargar ~ <amatat, wa-gWelqWa <amatatihu 40 wa-7 <a.mat (3872). Wa-ma~ˀa aoadu beˀesi za-ahazo ganen wa-nagargar 40 wa-7 <amata (2275) ,
@@ -1509,7 +1509,7 @@ Incipit: Wa-hallo aṣadu beˀesi ba-hagara Sidona, walda keburan em-zamada mang
 MAC0135.
 Title: The sinful deacon who was healed by a drop of Saint Mary's milk.
 PEth:
-MSS: G-137; ZBNE 62-2; 63-2; CRA 53-35; VLVE 267(16b); 298(76a); LUE 30-44; CF 2-3; CBS 47; HBS 59-2; DULE 12(80b); AECE 1(79a).
+MSS: G-137; ZBNE 62-2; 63-2; CRA 53-35; VLVE 267(16b); 298(76a); LUE 30-44; CF 2-3; CBS-47; HBS 59-2; DULE 12(80b); AECE 1(79a).
 EMML: 1573(10b); 5105(3b,103a); 2275(19b); 3872(31b); 6917(17b); 2282(23b); 4618(4a); 5182(2a); 5520(26b); 6949(67b); 1692(13a); 2378(13b + 18a); 6640(58a); 2059(84a); 2060(26a); 2066(51b); 2802(53a); 5420(32a); 7543(86b); 2831(12a).
 Keywords: Cilicia; Deacons; Demons; Magistrates; Officials; Milk; Sinners; Soldiers; Tarsus; Warriors;
 Incipit: Wa-hallo westa rarsis za-Qileqiya beˀesi parawi masfen za-negus, wa-yegabber <abiyya gatiˀata, wa-rekusa weˀetu za-ba-semessa diyaqon (3872). Tabehla kaina hallo aḥadu diyaqon westa aṣatti hagar za-i-j:Yeklu nagira ekayo wa-gataweˀihu (2059).
@@ -2139,7 +2139,7 @@ Text: Budge, Miralces, p. 13.
 English translation: Budge, One Hundred, p. 6.
 PEth: 20.30 (41v-42r); 23.2 (28v-29v); 41.20 (54v); 43.4 (8rv); 46.3 (10v-11r); 47.3 (19r-20r);
 EMIP: 601.315 (171v);
-MSS: ZBNE 60-3; 61-1; 62-48; 70-3; CRA 52-9; 54(13a); 55(11b); SBLE 15(5b); 17(3a); 32-2; BM 2-5; 3-9; GVE 12(29b); 43(229a); VLVE 267(16a); 272(55b); 298(1oa); SALE 23-2; 43-3; 133(43b); LUE 30-3; 32-9; CBS-2; HBS 59-60; CCBE ~51-7;-64; DULE 12(81a); AECE 1(7a); SWE 15(58b).
+MSS: ZBNE 60-3; 61-1; 62-48; 70-3; CRA 52-9; 54(13a); 55(11b); SBLE 15(5b); 17(3a); 32-2; BM 2-5; 3-9; GVE 12(29b); 43(229a); VLVE 267(16a); 272(55b); 298(1oa); SALE 23-2; 43-3; 133(43b); LUE 30-3; 32-9; CBS-2; HBS 59-60; CCBE 951-2;-CL-64; DULE 12(81a); AECE 1(7a); SWE 15(58b).
 EMML: 1573(50b); 3536(88a); 4522(97a); 5105(93a); 2275(113b); 3872(79b); 6938(168a); 6917(82b); 2282(36b); 4205(34b); 5182(12b); 5520(9b); 6949(34b); 1692(71a); 2378(4b); 3923(74a); 6640(14a); 2059(29a); 2060(18ob); 2066(113a); 2802(41b); 5420(17b); 6196(12a); 7543(114b); 2831(86a).
 Keywords: Farmers; Hail Mary; Peasants;
 Incipit: wa-hallo aḥadu beˀesi gabbarawi za-kona yawatter kwello <elata salama la-Egzeˀetena.... sarka wa-nagha wa-manfaqa ma<alt, wa-nabara kama-zemm bezu!}a mawāˁela. wa-apatta <elata yebela: 0-Egzeˀeteya mastaṣahelt, esma ansa watra kama-ze ehub salamaki za-enbala gafrat, wa-antini, la-ment za-ittagabbe'i litta salameya (3872).
@@ -2383,7 +2383,7 @@ MAC0209.
 Title: The wealthy man to whom Saint Mary appeared in the form of a bird to save the countryside from pestilence.
 PEth: 46.35 (41rv);
 EMIP: 601.255 (154rv);
-MSS: ZBNE 60-76 (?); VLVE 298(30b); CL-87.
+MSS: ZBNE 60-76 ; VLVE 298(30b); CL-87.
 EMML: 3872(107a); 2282(72a); 2059(68a); 2060(89b); 7543(126b); 2686(56b); 3051(54b).
 Keywords: Visions, apparitions; Birds; Pestilences; Rich persons; Preservation from pestilence;
 Incipit: wa-hallo aḥadu beˀesi ba-apatti hagar, wa-weˀetu beesi ba<l weˀetu fadfada em-kWellomu sab>a ye>eti hagar, wa-bottu warqa wa-berura wa- albasa kebura wa-bezug gebarihu teqqa. Wa-em-ze ma~>a mot <abiyy wa-agata l a-hagaru (3872).
@@ -2537,7 +2537,7 @@ Incipit: Za-kama astarˀayatto la-timotewos, liqa pappasatza-Ellaskendereya,ba-w
 MAC0224.
 Title: Saint Mary appears to Anthony, a monk of Däbrä Qʷəsqʷam.
 PEth: 20.86 (86v-87r): How the Virgin Mary appeared at Däbrä Qʷusəqʷam, according to Saint Anthony;
-MSS: ZBNE 62-12; 63-12; CRA 52-106A (?); VLVE 298(35b).
+MSS: ZBNE 62-12; 63-12; CRA 52-106A; VLVE 298(35b).
 EMML: 3872(116b); 6938(178a); 7543(132a); 2056(127b); 3051(160b); 2952(181b); 2058(149a).
 Keywords: Anthony, monk of Däbrä Qʷəsqʷam; Visions, apparitions; Däbrä Qʷəsqʷam; Qʷəsqʷam; Entons, monk of Däbrä Qʷəsqʷam; Monasteries; Monks;
 Incipit: Za-astar'ayatto l a-Entons za-Däbrä QWesqWam. Salota•••. Ana, ~ntons za-Däbrä Qʷəsqʷam, ~orku wa-sabku wa-nomku nesti ta (3872).
@@ -2546,7 +2546,7 @@ Incipit: Za-astar'ayatto l a-Entons za-Däbrä QWesqWam. Salota•••. Ana, ~
 MAC0225.
 Title: The vision of Anthony of Däbrä Qʷəsqʷam (continued).
 PEth: 46.47 (49r): How the Virgin Mary appeared to the Saint Anthony to tell the archbishop Timothy to construct a church in her name;
-MSS: CRA 52-106B (?); VLVE 298(36a).
+MSS: CRA 52-106B; VLVE 298(36a).
 EMML: 3872(117a); 6938(178b); 7543(132a); 3051(160b); 2058(149b); 6062(24a); 3031(158b).
 Keywords: Anthony, monk of Däbrä Qʷəsqʷam; Visions, apparitions; Däbrä Qʷəsqʷam; Qʷəsqʷam; Monks; Patriarchs (ecclesiastical); Timothy, Patriarch of Alexandria;
 Incipit: Za-kama astar'ayatto la-aṣadu em-ne'usan enza hallo mesla Abba Timotewos, liqa pappasat za-Ellaskendereya. Salota.... Yebe we'etu qeddusza-reˀya ra'eya: Wa-re'ikewwa l a-Egze>etena ••.• wa-ye'eti ta'awwad awda la-liqa pappasat (3872).
@@ -2565,7 +2565,7 @@ MAC0227.
 Title: Message of Saint Mary to Anthony, monk of Däbrä Qʷəsqʷam.
 PEth: 46.46 (48v-49r): How the Virgin Mary appeared to Saint Anthony about the monastery;
 EMIP:
-MSS: CRA 52-108 (?); DULE 12(87b).
+MSS: CRA 52-108; DULE 12(87b).
 EMML: 3872(118a); 6938(179b); 7543(132b); 3051(161a); 2058(149b); 2968(67a); 3031(159a).
 Keywords: Anthony, monk of Däbrä Qʷəsqʷam; Visions, apparitions; Däbrä Qʷəsqʷam; Qʷəsqʷam; Monasteries; Monks;
 Incipit: Wa-we'etussa yebe: Ansa re'ikeWa ka<bala-qeddest Dengel ba-zatti (MS:za-zatti) lelit, wa-ye'eti tebelanni: Esma kidana Waldeya fequr gebuc (3872)
@@ -2587,7 +2587,7 @@ MAC0229.
 Title: The blessing given to the animals at Däbrä Qʷəsqʷam by the anointing of Saint Mary.
 PEth: 20.85 (85v-86v); 46.48 (49v); 46.49 (49v-50v);
 EMIP: 601.132 (83v); 601.133 (83v–84r);
-MSS:CRA 52-110 (?); VLVE 298(37a); LUE 30-50 (?).
+MSS:CRA 52-110; VLVE 298(37a); LUE 30-50.
 EMML: 3872(119a); 7543(133a); 3051(37b,161b); 2952(207a); 2058(150a); 6062(26b); 3031(52a).
 Keywords: Animals; Anointings; Anthony, monk of Däbrä Qʷəsqʷam; Visions, apparitions; Blessings; Däbrä Qʷəsqʷam; Qʷəsqʷam; Entons, monk of Däbrä Qʷəsqʷam;
 Incipit: Za-kama astarˀajatto la-Entons za-Däbrä Qʷəsqʷam, wa-za-kama reˀya westa edeha biral e qeb> . SalotJ •.•• Wa-astar>ayatanni Egze >eteya .••. gize sark, westa edeha birale qeb> (3872).
@@ -2616,7 +2616,7 @@ MAC0232.
 Title: The vision of Timothy of Alexandria: The flight into Egypt.
 PEth: 46.123 (146r-147v);
 EMIP: 601.343 (180v–181v);
-MSS: CRA 52-113 (?); VLVE 298(212a).
+MSS: CRA 52-113; VLVE 298(212a).
 EMML: 3872(122a); 7543(135a); 2952(210b); 2058(152a); 642(54a); 2337(214b); 76(55a).
 Keywords: Visions, apparitions; Gabriel the Archangel (St.); Patriarchs (ecclesiastical); Timothy, Patriarch of Alexandria;
 Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Salota••.• Wa-nahu astarˀayo Gabreˀel malˀak la-Yosef, enza yebl:Taneṣṣeˀ wa-neṣaˀ peiana wa-emmo wa-pur emdra Gebṣ (3872).
@@ -2625,7 +2625,7 @@ Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Salot
 MAC0233.
 Title: The vision of Timothy of Alexandria: The Holy Family receives hospitality from a shepherd.
 PEth:
-MSS: CRA 52-114 (?).
+MSS: CRA 52-114.
 EMML: 3872(123a); 6938(181a); 7543(135b); 3051(162b); 2952(212a); 2058(152b); 3031(159b).
 Keywords: Visions, apparitions; Patriarchs (ecclesiastical); Timothy, Patriarch of Alexandria;
 Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Sal ota•.•• wa-soba <adawna wa-galafnaha la-entekku mak.arat kwellaza-westa entakti fenawit (3872).
@@ -2634,7 +2634,7 @@ Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Sal o
 MAC0234.
 Title: The vision of Timothy of Alexandria: The Holy Family crosses the Nile at Asmunayn.
 PEth:
-MSS: CRA 52-115 (?).
+MSS: CRA 52-115.
 EMML: 3872(123b); 7543(135b); 3051(163a); 2952(212b); 2058(153a); 3031(160a); 2424(115a).
 Keywords: Visions, apparitions; Asmunin; Patriarchs (ecclesiastical); Timothy, Patriarch of Alexandria;
 Incipit: Za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. 9alota. wa-em-degra zentu galafna westa hagar kale>t, wa-i-gadaganna ferhat (2058).
@@ -2643,7 +2643,7 @@ Incipit: Za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. 9alot
 MAC0235.
 Title: The vision of Timothy of Alexandria: The Christ Child grants Saint Mary a vision of his future glory.
 PEth:
-MSS: None(?).
+MSS: None.
 EMML: 3872(124a); 6938(181b); 7543(136a); 3051(163b); 2058(153a); 3031(160b); 2424(115b).
 Keywords: Visions, apparitions; Patriarchs (ecclesiastical); Timothy, Patriarch of Alexandria;
 Incipit: Za-kama astarˀayatto •wa-tanagaratto la-Timotewos, liqa pappasat. 9alota•••.Wa-yebelanni fequr Waldeya, enf yebl: 0-Waladiteya, r e >eyi 9aba mate~t (3872).
@@ -2714,7 +2714,7 @@ MAC0242.
 Title: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
 PEth: 46.53 (53v-54r);
 EMIP: 601.279 (160v);
-MSS: ZBNE 60-88; CRA 52-116 (?); 54(124b); VLVE 298(39b,236a); LUE 30-52;
+MSS: ZBNE 60-88; CRA 52-116; 54(124b); VLVE 298(39b,236a); LUE 30-52;
 EMML: 3872(128b); 7543(138b); 3051(166a); 2952(219a); 2058(155b); 6062(47b); 3031(163b).
 Keywords: Bethlehem; Burnings; Houses, homes; Jews, opponents of Saint Mary; Magistrates; Officials; Punishments; Transitus miracles;
 Incipit: Za-kama wa~ˀat esat wa-aw<ayomu la-Ayhud. Salota•..• wa-em-degra games mawāˁel, enza hallawat Egzeˀetena•••• ba-Beta Lepem, aˀemaramakWannen wa-lifana kahnat kama Egziˀena, Iyyasus Krəstos, westa beta (3872).
@@ -3056,7 +3056,7 @@ Incipit: Za-kama astarˀayatto wa-astaf~epatto ama <elata<eraftu. Salata.•.•
 MAC0275.
 Title: Saint Mary appears to Saint Theodore the Anatolian.
 PEth:
-MSS: CRA 52-89(?); 148; 53-19(?); VLVE 298(54a).
+MSS: CRA 52-89; 148; 53-19; VLVE 298(54a).
 EMML: 3872(145b); 7543(147b); 3051(124a); 2058(165b); 3031(129b); 2424(91b); 642(195a).
 Keywords: Angels; Visions, apparitions; Martyrs; Dates; Theodore (St.) the Anatolian;
 Incipit: za-kama astarˀayatto la-Tewoderos Mesfaqawi mesla Walda, Mad3ane <Alam. Wa-yemaṣṣe'u 3abehu mala'ekt ba-kwellu gize la-Tewoderosza-em-Sarawit (3872).
@@ -3430,7 +3430,7 @@ PEth:
 MSS: None.
 EMML: 5105(49a).
 Keywords:
-Explicit: Wa-kona we~etu wald yenagger .h.., iruta la-Egze?etena •••• ba-kwellu gize, wa-konu kwellomu ella yesammecewwo yesebbeh.ew wo la-Egzi?abh. er 5'io5 1ecu1, wa-a'kwata.wwa la-qeddest Dengel •••• S. alota •••• (5105).
+Explicit: Wa-kona we~etu wald yenagger .h.., iruta la-Egze'etena •••• ba-kwellu gize, wa-konu kwellomu ella yesammecewwo yesebbeh.ew wo la-Egzi?abh. er 5'io5 1ecu1, wa-a'kwata.wwa la-qeddest Dengel •••• S. alota •••• (5105).
 
 
 MAC0311.
@@ -3458,7 +3458,7 @@ MAC0313.
 Title: The paralytic who was healed on the 16th of Nahase.
 PEth:
 EMIP: 601.377 (197r);
-MSS: ZBNE 60-53(?); VLVE 267 (?Oa).
+MSS: ZBNE 60-53; VLVE 267 (70a).
 EMML: 5105(138a); 2275(28a); 4618(76a); 6949(137a); 2831(29a); 2308(71b); 2686(32a).
 Keywords: Dreams; Healings, Paralysis; Nahase; Paralytics;
 Incipit: Semecuke za-gabrat Egze'etena •••• ama 10 wa-6 la-Na~ase. Wanabara al;ladu ma~agWe t wes ta at;a tti hagar, wa-astar ~aya tto ba-t].elm (5105)
@@ -3469,7 +3469,7 @@ Title: A priest becomes insane after his entire family dies of the plague.
 English translation: Budge, One Hundred, p. 313.
 PEth:
 EMIP: 253.? (117rv): How a certain man became mad after his family died, How Our Lady Mary cured him and he served her the remainder of his life;
-MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(?Ob); AECE 1.
+MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(70b); AECE 1.
 EMML: 5105(139a); 2275(189b); 6949(136a); 2059(72b); 2060(153b); 2831(28b); 2308(72a).
 Keywords: Children; Families; Insanity; Pestilences; Priests; Wives;
 Incipit: Wa-hallo a~adu qas1s, wa-galqu be ?esitu mmam wa-daqiqu (5105).
@@ -3585,7 +3585,7 @@ Incipit: Wa-kona zentu nagar em-detra waladatto la-Egziˀ ena, Iyyasus Krəstos,
 MAC0322.
 Title: The people of an Egyptian town set fierce dogs on the Holy Family.
 PEth:
-MSS: ZBNE 60-80(?); SALE 23-32 (?).
+MSS: ZBNE 60-80; SALE 23-32.
 EMML: 2275(144a); 2066(99a); 2802(127a); 2056(106a); 642(19b); 929(80b); 2800(47a).
 Keywords: Dogs; Egyptians; Holy Family; Families; Flight into Egypt; Thirst; Towns;
 Incipit: Wa-enza tahawwer Egze =ˀetena•••• em-hagar westa hagar, gWayiya .emenna ma catu la-Herods regum, wa-ba~Qat westa a~atti hagar emadyamata Geb~, wa-sab=>a ye:>eti hagar ekkuyan emmuntu (2275).
@@ -3606,7 +3606,7 @@ MAC0324.
 Title: The Holy Family visits the king of the Semites.
 Text: T-73, p. 261.
 PEth:
-MSS: ZBNE 60-83(?).
+MSS: ZBNE 60-83.
 EMML: 2275(148a); 642(18a); 730(59a); 544(63b); 2251(141b); 665(131a); 683(101b).
 Keywords: Kings, emperors; Holy Family; Families; Flight into Egypt; Semites;
 Incipit: Wa-hallo aQadu be:ˀes1 em-daqiqa Sem za-sannay ge czu wa-retu~lebbu. [source]
@@ -3679,7 +3679,7 @@ PEth:
 MSS: None
 EMML: 814(116a) 2275(165a); 642(174b); 730(260b); 2251(156b); 814(116a); 665(104b); 683(92b).
 Keywords: Adultery; Churches; Ethiopians; Forswearing; Husbands; Punishments; Sexual sins; Swearing falsely;
-Incipit: Necuke, o-daqiqa Beta Krestiyan, nengerkemu mankera ta~ammeriha 'dijmm la-Egze7 etena •••• za-kama gabrat ta?am.mera ba-beh. era Agcaz1 bade eyanj mawa cela mangestu la-ahadu negus retuca haymanot wa-mafqare Beta • Kresttyan qeddest. Wa-hallawat ah. atti beta Kresttyan enta tah.a n.s at ba-sema la-Egze?etena •••• wa-bezu3anJ wa-~emuman yetfewwasu soba yegayyesu wa-yeba~~eQu naba ye~eti beta Krestiyan (2275).
+Incipit: Necuke, o-daqiqa Beta Krestiyan, nengerkemu mankera ta~ammeriha 'dijmm la-Egze7 etena •••• za-kama gabrat ta?am.mera ba-beh. era Agcaz1 bade eyanj mawa cela mangestu la-ahadu negus retuca haymanot wa-mafqare Beta • Kresttyan qeddest. Wa-hallawat ah. atti beta Kresttyan enta tah.a n.s at ba-sema la-Egze'etena •••• wa-bezu3anJ wa-~emuman yetfewwasu soba yegayyesu wa-yeba~~eQu naba ye~eti beta Krestiyan (2275).
 
 
 -79-
@@ -3751,7 +3751,7 @@ PEth:
 MSS: None.
 EMML: 2275(174a); 730(266b).
 Keywords: Kings, emperors; Magistrates; Officials; Oaths; Quarrels; Retainers; Swearing falsely;
-Incipit: Wa-hallo a~adu makWannen za-yafaqqera la-Egze?etena ~ryam ba-1/ kwellu lebbu wa-ba-kWellu ~e,11nahu, wa-hallawu em-ta~etehu sayyamta medr bezuhan, wa-emennehomu hallawu 2 sayyamt ella yetba~asu watra \.J wa-yetqattalu ba-s.e nuc qatl (2275) •
+Incipit: Wa-hallo a~adu makWannen za-yafaqqera la-Egze'etena ~ryam ba-1/ kwellu lebbu wa-ba-kWellu ~e,11nahu, wa-hallawu em-ta~etehu sayyamta medr bezuhan, wa-emennehomu hallawu 2 sayyamt ella yetba~asu watra \.J wa-yetqattalu ba-s.e nuc qatl (2275) •
 
 
 MAC0337.
@@ -3770,7 +3770,7 @@ PEth:
 MSS: None.
 EMML: 2275(177b); 730(268a).
 Keywords: Burials; Churches; Kings, emperors; Retainers;
-Incipit: Wa-hallo ah.a du kebur negu§ za-yafaqqera fadfada la-Egze?etena •••• ba-kWellu lebbu wa-yetla?aka ba-kWellu baylu, wa-.h ana.s a latti h. awaza maqdas ba-sema zi?aha, wa-asargawa ba-warq wa-ba-berur (2275).
+Incipit: Wa-hallo ah.a du kebur negu§ za-yafaqqera fadfada la-Egze'etena •••• ba-kWellu lebbu wa-yetla?aka ba-kWellu baylu, wa-.h ana.s a latti h. awaza maqdas ba-sema zi?aha, wa-asargawa ba-warq wa-ba-berur (2275).
 
 
 -82-
@@ -3802,7 +3802,7 @@ EMIP:
 MSS: None.
 EMML: 2275(180b); 642(173a); 730(270a); 665(112a); 683(95b); 682(181b); 213(43b).
 Keywords: Visions, apparitions; Churches; Church furnishings; Sunday; Thieves;
-Incipit: Wa-hallawat ah• atti beta Krest1yan enta tahansat ba-sema la- . . Egze ' etena •••• wa-ba-a~att1 em-mawacel ba-lel1ta e~ud bo7 u saraqt westa beta Krest1yana la-Egze?etena Maryam, wa-sabaru c:anaqe.s iha wa-nas' u kwello newaya qeddesat (2275).
+Incipit: Wa-hallawat ah• atti beta Krest1yan enta tahansat ba-sema la- . . Egze ' etena •••• wa-ba-a~att1 em-mawacel ba-lel1ta e~ud bo7 u saraqt westa beta Krest1yana la-Egze'etena Maryam, wa-sabaru c:anaqe.s iha wa-nas' u kwello newaya qeddesat (2275).
 
 
 MAC0342.
@@ -3811,7 +3811,7 @@ PEth:
 MSS: None.
 EMML: 2275(182b); 1180(130b); 730(271a).
 Keywords: Churches; Clothes, vestments; Loans; Silk; Weddings;
-Incipit: Seme cuke ta' ammeriha la-Egze' etena. beta Krestiyana Egze?etena Maryam, wa-ta~awa~a lebsa ~ar1r wa-~ora haba beta mar' a (2275).
+Incipit: Seme cuke ta' ammeriha la-Egze' etena. beta Krestiyana Egze'etena Maryam, wa-ta~awa~a lebsa ~ar1r wa-~ora haba beta mar' a (2275).
 
 
 -83-
@@ -3861,7 +3861,7 @@ EMIP: 601.85 (63v–64r): How the Virgin Mary gave birth while she was with Jose
 MSS: AECE 1(44a).
 EMML: 2275(189a); 2233(26a); 730(61a); 544(65b); 814(144a); 665(132b); 682(189b).
 Keywords: Bethlehem; Christ; Nativity of Christ;
-Incipit: Semecuke, kwellekemu daqiqa Beta Krestiyan, zenahi la-Egze?etena •••• za-kama gabrat .h.., ayla wa-ta~ammera ba-celata waladatto la-Egzi~ena wa-Madh~nina, Iyyasus Krəstos, ba-Beta Le~em za-Yehuda, esma kamahu s.e h.u f mifl!lllllrmy~w ba-nabiyy (2275).
+Incipit: Semecuke, kwellekemu daqiqa Beta Krestiyan, zenahi la-Egze'etena •••• za-kama gabrat .h.., ayla wa-ta~ammera ba-celata waladatto la-Egzi~ena wa-Madh~nina, Iyyasus Krəstos, ba-Beta Le~em za-Yehuda, esma kamahu s.e h.u f mifl!lllllrmy~w ba-nabiyy (2275).
 
 
 -84-
@@ -3898,7 +3898,7 @@ EMIP: 601.331 (176r);
 MSS: None.
 EMML: 2275(202b); 2724(55b); 642(53b); 712(200b); 730(106a); 544(122b); 814(149b).
 Keywords: Churches; Ethiopians; Jerusalem; Icons; Pilgrims; Romans; Shoes;
-Incipit: Hayl wa-ta~ammer za-gabrat Egze?etena Maryam ba-Iyyarusalem qeddest, hagaru la-negus <abtyy. Wa-hallo secla zt' aha la-Egze~etena ba-westa mesgadomu la-sab~a Rom, wa-kWellomu sab?a Geb.s wa-Afreng wa-Eskendereya wa-Soreya wa-Galateya yebawwe~u uaba ye' ett secl (2275).
+Incipit: Hayl wa-ta~ammer za-gabrat Egze'etena Maryam ba-Iyyarusalem qeddest, hagaru la-negus <abtyy. Wa-hallo secla zt' aha la-Egze~etena ba-westa mesgadomu la-sab~a Rom, wa-kWellomu sab?a Geb.s wa-Afreng wa-Eskendereya wa-Soreya wa-Galateya yebawwe~u uaba ye' ett secl (2275).
 
 
 MAC0351.
@@ -3908,7 +3908,7 @@ PEth:
 MSS: None.
 EMML: 2275(203b); 642(88a); 712(69a); 730(108a); 544(124b); 814(66b); 665(65b).
 Keywords: Anaphora of Saint Mary; Feasts; Priests; Rich persons; Churches;
-Incipit: Hayl wa-ta?ammer za-gabrat Egze?etena Maryam. Wa-hallawa heyya ahadu qasis farahe Egzt~abher za-yafaqqera la-Egze?etena Maryam ba- • . kwellu lebbu wa-ba-kWellu naylu, wa-iyyeqeddes za-enbala qeddaseha la-Egze~etena Maryam (2275).
+Incipit: Hayl wa-ta?ammer za-gabrat Egze'etena Maryam. Wa-hallawa heyya ahadu qasis farahe Egzt~abher za-yafaqqera la-Egze'etena Maryam ba- • . kwellu lebbu wa-ba-kWellu naylu, wa-iyyeqeddes za-enbala qeddaseha la-Egze~etena Maryam (2275).
 
 
 MAC0352.
@@ -4199,7 +4199,7 @@ PEth:
 MSS: G-93; CRA 53-58; VLVE 298(158a).
 EMML: 6938(134a); 2056(113a); 2952(79a); 76(158a); 22(106a); 1606(134a).
 Keywords: Badlay, King of Adal; Kings, emperors; Invasions; Zärˀa Yaˁəqob, Emperor of Ethiopia;
-Incipit: Ta' ammer za-gabrat lottu Egze?etena la-Zar ṣa Ya~eqob negus, za-tasamya QWes~an~1nos, i-kona ba-iammu wa-i-ba-~alotu wa-1-banes• h.u wa-1-ba-me.sw atu wa-1-ba-mehlelahu, i-ba-qawimotu wa-1-baanbe'-u (6938).
+Incipit: Ta' ammer za-gabrat lottu Egze'etena la-Zar ṣa Ya~eqob negus, za-tasamya QWes~an~1nos, i-kona ba-iammu wa-i-ba-~alotu wa-1-banes• h.u wa-1-ba-me.sw atu wa-1-ba-mehlelahu, i-ba-qawimotu wa-1-baanbe'-u (6938).
 
 
 MAC0380.
@@ -4253,7 +4253,7 @@ EMIP: 601.379 (197v);
 MSS: ZBNE 60-36; CRA 52-54; WBLE 77(140b); SBLE 39(91a); CCBE 915(2b) 951-32.
 EMML: 4618(53a); 6949(152a); 4215(21b); 2999(201a,237a); 2221(60b); 2660(52b); 2768(18b).
 Keywords: Fasting; Good works; Monks;
-Incipit: Wa-hallo a~adu manakos (MS: be7 es1) mam~mma-•• westar~att1hagar, wa-yes.a wwem s.o ma Egze?etena ba-tefseh. t, wa-albottu kal?a
+Incipit: Wa-hallo a~adu manakos (MS: be7 es1) mam~mma-•• westar~att1hagar, wa-yes.a wwem s.o ma Egze'etena ba-tefseh. t, wa-albottu kal?a
 meg,-~, ara sannay. Wa-em-ze mota, wa-ma.s ?u mala?ekta s.e lmat wawasadewwo westa SP ol (4618).
 
 
@@ -4266,12 +4266,12 @@ PEth:
 MSS: SBLE 28(165a); HBS 127(155a)
 EMML: 4618(57b); 5520(157a); 6949(152b); 2060(170a); 2066(105a); 2802(134a); 2963(139a).
 Keywords: Food; Hungry man;
-Incipit: Tabehla kama hallo ah.a du rehub za-yafaqqera la-Egze?etena •••• ...... wa-yesa?ela la-karsu mable?a watra, wa-ye?etini tehubo bebesta sannaya (69 49) •
+Incipit: Tabehla kama hallo ah.a du rehub za-yafaqqera la-Egze'etena •••• ...... wa-yesa?ela la-karsu mable?a watra, wa-ye?etini tehubo bebesta sannaya (69 49) •
 
 
 MAC0386.
 Title: The priest, Zacharias, who was about to hang himself so as not to see his son die.
-Incipit& Tabehla kama hallo ahadu rehub za-yafaqqera la-Egze?etena••••
+Incipit& Tabehla kama hallo ahadu rehub za-yafaqqera la-Egze'etena••••
 PEth:
 MSS: None.
 EMML: 4618(112b); 2999(242a).
@@ -4352,7 +4352,7 @@ PEth:
 MSS: None.
 EMML: 4618(136a).
 Keywords: Visions, apparitions;
-Incipit: Semecuke, o-hezba mahaymenan, ella ba-Krəstos me~menan, zategabber mankerata Egze?etena la-ella yafaqqerewwa, wa-tesaggewomu sannayata haba ze-~alam wa-ba-za-yemasse~ (4618).
+Incipit: Semecuke, o-hezba mahaymenan, ella ba-Krəstos me~menan, zategabber mankerata Egze'etena la-ella yafaqqerewwa, wa-tesaggewomu sannayata haba ze-~alam wa-ba-za-yemasse~ (4618).
 
 
 MAC0395.
@@ -4383,7 +4383,7 @@ PEth:
 MSS: None.
 EMML: 4618(141b).
 Keywords: Anthony, monk; Visions, apparitions; Preaching;
-Incipit: Wa-hallawat ahatti be?esit za-tafaqqera la-Egze?etena ba- • ta' ammeno sannay, wa-ahatta ~elata astar?ayatta Egze?etena Maryam • la-ye~etl be?esit wa-tebela: Tanse'1 em-heyya wa-h. ur1 me.h wara ahattt celat, wa-zennawl la-sab7 a hagar za-enaggerakk1 ana (4618) •
+Incipit: Wa-hallawat ahatti be?esit za-tafaqqera la-Egze'etena ba- • ta' ammeno sannay, wa-ahatta ~elata astar?ayatta Egze'etena Maryam • la-ye~etl be?esit wa-tebela: Tanse'1 em-heyya wa-h. ur1 me.h wara ahattt celat, wa-zennawl la-sab7 a hagar za-enaggerakk1 ana (4618) •
 
 
 MAC0398.
@@ -4501,7 +4501,7 @@ EMIP: 601.264 (157r);
 MSS: VLVE 267(73b).
 EMML: 6949(145a); 2963(128b); 3051(97a); 2999(199a); 2221(47a); 2768(33a); 3031(110b).
 Keywords: Kings, emperors; Lions; Preservation from wild animals; Washermen;
-Incipit: Tabehla kama hallo ahadu bejesi za-yafaqqera la-Egze?etena•••  ba-~ellu lebbu wa-ba-kWellu hell1nahu, wa-ya•h a•s s• eb lebso la-negus. *1 Wa-a~attal~lata enza ya~a~~eb dan1no, wa-ma~ ja anbasi wa-agaza kesado (6949).
+Incipit: Tabehla kama hallo ahadu bejesi za-yafaqqera la-Egze'etena•••  ba-~ellu lebbu wa-ba-kWellu hell1nahu, wa-ya•h a•s s• eb lebso la-negus. *1 Wa-a~attal~lata enza ya~a~~eb dan1no, wa-ma~ ja anbasi wa-agaza kesado (6949).
 
 
 MAC0408.
@@ -4536,7 +4536,7 @@ EMIP: 601.280 (160v–161r); 601.375 (196v);
 MSS: ZBNE 60-75; WBLE 77(138a); VLVE 267(76a).
 EMML: 6949(147a); 2963(13Ob); 3051(98a); 2999(8a,200b,257a); 2221(49b); 2768(36b,97a); 3572(28a,98b).
 Keywords: Churches; Dreams; Merchants; Poor persons; Riches; Shrines; Treasures; Wives;
-Incipit: Wa-hallo a~adu be?esi naday za-yafaqqera la-Egze?etena •••• wa-yebl: 0-emma Berhan, ese ?elakk1; semec1 se?elateya. Wa-hallaya ba-lebbu, enza JU1mmm yebl wa-yistaba~fec wa-yebls Mannu yeradde?ann1 kama e~ne~ mar~ula la-Egze?etena (6949).
+Incipit: Wa-hallo a~adu be?esi naday za-yafaqqera la-Egze'etena •••• wa-yebl: 0-emma Berhan, ese ?elakk1; semec1 se?elateya. Wa-hallaya ba-lebbu, enza JU1mmm yebl wa-yistaba~fec wa-yebls Mannu yeradde?ann1 kama e~ne~ mar~ula la-Egze'etena (6949).
 
 
 MAC0411.
@@ -4546,7 +4546,7 @@ PEth:
 MSS: WBLE 77(136a)
 EMML: 6949(147b); 2963(130b); 3051(98a); 3031(112a); 2424(70b); 642(154b); 2392(86a).
 Keywords: Gassa kalb; Hunters; Nets;
-Incipit: Tabehla kama hallo ahadu bej es1 nacawe araw1t, wa-yet?ammena • la-Egze?etena •••• em-serwa lebbu ba-kWellu megbara sanniy. wa-a•h atta ~elata gabra masgarta (MS: wa-asgara), wa-ta?e9za gaf~a kalb (6949).
+Incipit: Tabehla kama hallo ahadu bej es1 nacawe araw1t, wa-yet?ammena • la-Egze'etena •••• em-serwa lebbu ba-kWellu megbara sanniy. wa-a•h atta ~elata gabra masgarta (MS: wa-asgara), wa-ta?e9za gaf~a kalb (6949).
 
 
 MAC0412.
@@ -4691,7 +4691,7 @@ Title: Brigands try to steal from a church of Saint Mary in Syria but are unable
 PEth: 8.13 (23r-25r); 46.83 (99v-100v);
 EMIP: 601.187 (115r–116r);
 MSS: VLVE 272(191b); DULE 12(31b)
-EMML: 2060(96b); 2999(181b); 2270(34a); 3014(152a); 6062(64b); 642(187b); Jl65(46b).
+EMML: 2060(96b); 2999(181b); 2270(34a); 3014(152a); 6062(64b); 642(187b); 3165(46b).
 Keywords: Churches; Damascus; Sam; Syria; Thieves;
 Incipit: Wa-hallawat a~att1 beta Krest1yan ba-hagara ~m za-ta~an§at basema la-Egze~etena •••• wa-batti neway bezuha. Wa-ba-ahatt1 - (MSa V • Wa-batti) em-mawacel tamakaru fayat kama yesrequ newaya beta Krestiyan (2060).
 
@@ -4728,7 +4728,7 @@ MAC0429.
 Title: A thief is hanged upside down with the objects he stole from the church of Saint Mary in Sebkahad.
 PEth: 46.78 (95v-96v);
 MSS: VLVE 272(211a); 298(60a).
-EMML: 2060(102b); 6062(58b); 76(112b); JJOJ(66b); 2023(106a).
+EMML: 2060(102b); 6062(58b); 76(112b); 3303(66b); 2023(106a).
 Keywords: Churches; Church furnishings; Egypt; Sebkahad; Thieves;
 Incipit: Wa-hallawat ah• att1 beta Krest1yan ba-hagara Geb.s za-tah.a n.s at basema Egze'etena •••• wa-sema la-hagar Sebkahad. Wa-ba-ahatti (MS: Wa-• • batti) em-mawa cel mas~u saraqt, wa-bo'u ba-lel1t, wa-sabaru masakawa • beta Kresttyan (2060).
 
@@ -4880,10 +4880,10 @@ Incipit: Wa-hallawat ahatti dabr za-Egzej etena wa-mudaya qebecni hallo • ba-b
 MAC0444.
 Title: Saint Mary helps a poor man become wealthy.
 PEth:
-MSS: ZBNE 62-49 (?).
+MSS: ZBNE 62-49.
 EMML: 3051(206b); 3031(177b); 2424(143b); 2392(172a); 1978(156b); 1874(134a); 2337(264b).
 Keywords: Poor persons; Riches; Sons;
-Incipit: Seme cu, abawina wa-ahawina, za-gabrat Egze?etena la-ahadu . be 7 esi, enza abuhu wa-emmu senusan wa-albomu neway, esma senusan emmuntu, wa-weludomu sannay we ?etu,wa-yafaqqera la-Egze?etena Maryam wa-yezekkar sema kwello gize. Wa-kona we ?etu yes, el watra wa-yehub latti amme9a, ~etana seṣa latti, dorho nestita ba-amtana yekl (3051).
+Incipit: Seme cu, abawina wa-ahawina, za-gabrat Egze'etena la-ahadu . be 7 esi, enza abuhu wa-emmu senusan wa-albomu neway, esma senusan emmuntu, wa-weludomu sannay we ?etu,wa-yafaqqera la-Egze'etena Maryam wa-yezekkar sema kwello gize. Wa-kona we ?etu yes, el watra wa-yehub latti amme9a, ~etana seṣa latti, dorho nestita ba-amtana yekl (3051).
 
 
 MAC0445.
@@ -4894,7 +4894,7 @@ EMIP: 601.85 (63v–64r): How the Virgin Mary gave birth while she was with Jose
 MSS: None.
 EMML: 2952(24a); 642(12b); 839(26a); 2800(40a); 3378(41a,159b); 76(257a); 22(158a)
 Keywords: Augustus, Emperor of Rome; Bethlehem; Nativity of Christ;
-Incipit: Wa-kona soba mammn-fa--tafaṣama mawa cela zensa la-Egze?etena ........•••• waz?a te 7 ezaz em-haba Awgestos (2952).
+Incipit: Wa-kona soba mammn-fa--tafaṣama mawa cela zensa la-Egze'etena ........•••• waz?a te 7 ezaz em-haba Awgestos (2952).
 
 
 MAC0446.
@@ -4904,7 +4904,7 @@ EMIP: 601.84 (63rv): How the Virgin Mary gave birth to Jesus Christ and how the 
 MSS: None.
 EMML: 2952(25b); 839(28b); 2800(41b); 76(257b); 22(158a); 1156(102b); 1606(58b).
 Keywords: Bethlehem; Herders; Shepherds; Magi; Nativity of Christ;
-Incipit: aCba nenaggerakkemu, ah....,a w1na, zenaha la-Egze?etena. Wa-em-n dehra waladatto la-Egzijena ba-Beta Lehem za-Yehuda, wa-hallawu heyya ',/ . nolot, wa-yettagfhu kwello lel1ta enza yacaqqebu maraceyhomu (2952).
+Incipit: aCba nenaggerakkemu, ah....,a w1na, zenaha la-Egze'etena. Wa-em-n dehra waladatto la-Egzijena ba-Beta Lehem za-Yehuda, wa-hallawu heyya ',/ . nolot, wa-yettagfhu kwello lel1ta enza yacaqqebu maraceyhomu (2952).
 
 
 -110-
@@ -4973,7 +4973,7 @@ PEth:
 MSS: None.
 EMML: 2999(73a); 3572(90a); 642(113a); 1874(144a); 2326(133a); 2349(88b); 1156(94a).
 Keywords: Ermeyas from Sidon; Healings, Wounds; Milk; Sidon; Young men;
-Incipt: Wa-hallo ah• adu warezi ba-hagara Sidona za-semu Ermeyis, zayafaqqera l a-Egze?etena wa-yegabber baṣala ba-taṣammeno. Wa-baahatti Celat wazṣa westa zabc, wa-ahazewwo ma~kala qatl (2999)
+Incipt: Wa-hallo ah• adu warezi ba-hagara Sidona za-semu Ermeyis, zayafaqqera l a-Egze'etena wa-yegabber baṣala ba-taṣammeno. Wa-baahatti Celat wazṣa westa zabc, wa-ahazewwo ma~kala qatl (2999)
 
 
 -112-
@@ -5107,7 +5107,7 @@ PEth:
 MSS: DULE 12(56a).
 EMML: 1338(55b); 642(134b); 22(146b bis); 613(154b); 683(201a); 682(138b).
 Keywords: Asay from Iyyoram; Beatings; Childlessness; Kings, emperors; Husbands; Iyyoram; Iyyu, King of Iyyoram; Paraleya, wife of Asa; Paul, monk; Wives;
-Incipit: Wa-hallawat ahatti be,esit ba-hagara Iyyoram za-sema Paraleya,  be 7 esita 'Asa, mar'ata Iyyu negu~, wa-na barat ba-tek~z,enza yah.a mmem lebba, ba-enta za-alba weluda (13J8).
+Incipit: Wa-hallawat ahatti be,esit ba-hagara Iyyoram za-sema Paraleya,  be 7 esita 'Asa, mar'ata Iyyu negu~, wa-na barat ba-tek~z,enza yah.a mmem lebba, ba-enta za-alba weluda (3872).
 
 
 MAC0463.
@@ -5137,7 +5137,7 @@ PEth:
 MSS: None.
 EMML: 1581(82a); 642(112a); 1965(21b); 22(93a); 329(29b); 1156(90a); 1606(162a).
 Keywords: Däbrä Timona; Dragons; Ephrem, monk of Däbrä Timona; Fishermen; Monks;
-Incipit: Wa-hallo ah.a du manakos ba-Däbrä T. 1mona za-semu Efrem, casgare Casa la-manakosata dabr, wa-yegabber bacala z1'aha za-nas7at Ktdana Mehrat em-haba Walda, Krəstos, Egze?etena wa-la-lla <amat ba-• ,., Lelata ba'ala yasaggebomu la-kWellomu sab7 a dabr (1581) •
+Incipit: Wa-hallo ah.a du manakos ba-Däbrä T. 1mona za-semu Efrem, casgare Casa la-manakosata dabr, wa-yegabber bacala z1'aha za-nas7at Ktdana Mehrat em-haba Walda, Krəstos, Egze'etena wa-la-lla <amat ba-• ,., Lelata ba'ala yasaggebomu la-kWellomu sab7 a dabr (1581) •
 
 
 MAC0466.
@@ -5167,7 +5167,7 @@ EMDL: 681.? (89rv);
 MSS: None.
 EMML: 1581(110b); 3475(104b); 3378(80a,158b); 22(141b); 760(72a); 682 (41a,123b).
 Keywords: Houses, homes; Samuˀel, Abba, of Wali; Wali; Water; Wəddase Maryam;
-Incipit: Wa-enza yeˀelli kacba zentu abuna Samu,el wa-wa?,na anbebo weddaseha la-Egze?etena wa-anqalqala medr em-masaratu, wa-yenabber westetu Abba simu~el wa-talacala em-medr ma.t ana emat (1581) •
+Incipit: Wa-enza yeˀelli kacba zentu abuna Samu,el wa-wa?,na anbebo weddaseha la-Egze'etena wa-anqalqala medr em-masaratu, wa-yenabber westetu Abba simu~el wa-talacala em-medr ma.t ana emat (1581) •
 -116-
 
 
@@ -5185,9 +5185,9 @@ Title: Synaxary entry for the 16th of Yakkatit: Saint Mary receives the Pact of 
 Text: Budge, Miracles, pp. 8 and 77; T-12, p. 55.
 PEth:
 MSS: ZBNE 60-92; CRA 52-118; CRA 52-119; BM 2-37; 3-50; CBS-33; CCBE 950-2.
-EMML: 2378(92a); 3378(48b); 642(52b); 22 (102b + 103b); 712(29a); 307937b); 1606(163b).
+EMML: 2378(92a); 3378(48b); 642(52b); 22 (102b + 103b); 712(29a); 3079(37b); 1606(163b).
 Keywords: Genbot; John the Evangelist (St.); Pact of Mercy; Prayers of Saint Mary; Synaxary; Yakkatit;
-Incipit: Wa-kona em-dehra ~~rga Egz1~ena, Iyyasus Krəstos, westa sam-ay, o./nas1' o segahś ne~UQa, wa-nabara ba-yamana Abuhu, fa~1mo kwello ~eggatesbe~t za-enbala ha~1ṣat ba~ett1ta, wa-sal1~o ~emamata masqal basega,ba-sem!atu wa-ba-faqadu, za-gabro ba-enta mad9an1tena, tadaga la-Egze?etena Maryam westa beta YoQannes rad~u (2378).
+Incipit: Wa-kona em-dehra ~~rga Egz1~ena, Iyyasus Krəstos, westa sam-ay, o./nas1' o segahś ne~UQa, wa-nabara ba-yamana Abuhu, fa~1mo kwello ~eggatesbe~t za-enbala ha~1ṣat ba~ett1ta, wa-sal1~o ~emamata masqal basega,ba-sem!atu wa-ba-faqadu, za-gabro ba-enta mad9an1tena, tadaga la-Egze'etena Maryam westa beta YoQannes rad~u (2378).
 
 
 MAC0471.
@@ -5196,7 +5196,7 @@ PEth:
 MSS: None.
 EMML: 2378(94a); 2461(40b); 543(23b).
 Keywords: Visions, apparitions; Churches; Däbrä Metmaq; Feasts;
-Incipita: Wa-hallawat ahatti beta Krest1yan za-tahansat ba-sema Egze?etena wa-yetgabeˀu bitti kwellomu h.e zba Krestiyin ama 20 wa-1 la-warhi ~ Genbot, wa-yegabberu baṣala cabiyya ba-enta astar~eyota gassa gahida la-Egze~etena (2378).
+Incipita: Wa-hallawat ahatti beta Krest1yan za-tahansat ba-sema Egze'etena wa-yetgabeˀu bitti kwellomu h.e zba Krestiyin ama 20 wa-1 la-warhi ~ Genbot, wa-yegabberu baṣala cabiyya ba-enta astar~eyota gassa gahida la-Egze~etena (2378).
 
 
 MAC0472.
@@ -5205,7 +5205,7 @@ PEth:
 MSS: VLVE 298(151a); DULE 12(21a)
 EMML: 2968(44a); 642(110b); 929(70b); 2800(92b); 22(119b); 682(95a).
 Keywords: Visions, apparitions; Bishops, archbishops; Chalices; Europeans [Afrengi]; Gold; Jews; Tilas, archbishop;
-Incipit: Wa-hallo aṣadu be ?est (ˀi~~is ba-dawala Afrengi za-semu 'J'ilas, za-yefarreho la-Egzi?abher wa-yakabbera la-Egze?etena Wa-ahatta   t elata enza hallawa ba-newamu, astar?ayatto Egze~etena ba-enta sewa~ za-beta Krestiyan (2968) •
+Incipit: Wa-hallo aṣadu be ?est (ˀi~~is ba-dawala Afrengi za-semu 'J'ilas, za-yefarreho la-Egzi?abher wa-yakabbera la-Egze'etena Wa-ahatta   t elata enza hallawa ba-newamu, astar?ayatto Egze~etena ba-enta sewa~ za-beta Krestiyan (2968) •
 
 
 MAC0473.
@@ -5233,7 +5233,7 @@ PEth:
 MSS: ZBNE 60-77.
 EMML: 2968(114a); 22(97a); 453(75a).
 Keywords: Babies; Children; Husbands; Nurses; Preservation from execution; Rafts;
-Incipit: Wa-hallawat aṣatti be~esit za-tafaqqera la-Egze?etena watefarreho la-Egz1,abher, wa-metassa ekkuy teqqa, wa-nadayt ye?eti be' esit. Wa-soba aśnecatta nedet, bo7at westa aṣadu makwannen wakonat h• a•z anita (2968).
+Incipit: Wa-hallawat aṣatti be~esit za-tafaqqera la-Egze'etena watefarreho la-Egz1,abher, wa-metassa ekkuy teqqa, wa-nadayt ye?eti be' esit. Wa-soba aśnecatta nedet, bo7at westa aṣadu makwannen wakonat h• a•z anita (2968).
 
 
 MAC0476.
@@ -5298,7 +5298,7 @@ EMIP: 601.334 (177rv);
 MSS: None.
 EMML: 642(21b); 683(21a); 682(18b).
 Keywords: Assumption; Body of Saint Mary; Plato, philosopher; Transitus miracles; Transitus of Saint Mary;
-Incipit: Wa-hallo aṣadu be ?esi za-semu Afla~on, wa-ma~ ?a gaba felsata segaha la-Egze?etena mahaka kwello makana em-kWellomu makan (642) •
+Incipit: Wa-hallo aṣadu be ?esi za-semu Afla~on, wa-ma~ ?a gaba felsata segaha la-Egze'etena mahaka kwello makana em-kWellomu makan (642) •
 
 
 MAC0483.
@@ -5319,7 +5319,7 @@ PEth:
 MSS: None.
 EMML: 642(23a); 682(107a).
 Keywords: Visions, apparitions; Christ; Greatness of Saint Mary; John the Evangelist (St.); Revelations;
-Incipit: Ba-enta <ebaya wa-kebra la-Egze?etena Yebe Yo.h annes, Walda NagWedgWad, za-yafaqqero Egzt? Iyyasus ba-enta ~ebaya nes.h. ennahu, wa-Egze"' etena tafaqqero fadfada ba-kama yafaqqero Walda, wa awse atto wa-ebelo, Sema ' , o-Yo.h annes, engerka hebu<a (642).
+Incipit: Ba-enta <ebaya wa-kebra la-Egze'etena Yebe Yo.h annes, Walda NagWedgWad, za-yafaqqero Egzt? Iyyasus ba-enta ~ebaya nes.h. ennahu, wa-Egze"' etena tafaqqero fadfada ba-kama yafaqqero Walda, wa awse atto wa-ebelo, Sema ' , o-Yo.h annes, engerka hebu<a (642).
 
 
 -120-
@@ -5331,7 +5331,7 @@ PEth:
 MSS: None.
 EMML: 642(24a); 682(108a).
 Keywords: Visions, apparitions; Christ; Hell; Sinners;
-Incipit: Wa-tebe Egze?etena a Awsa~kewwo la-Waldeya wa-ebelo: Ar?eyanni soba 1waṣṣe' nafsa na~e' an em-segaha (642).
+Incipit: Wa-tebe Egze'etena a Awsa~kewwo la-Waldeya wa-ebelo: Ar?eyanni soba 1waṣṣe' nafsa na~e' an em-segaha (642).
 
 
 MAC0486.
@@ -5566,7 +5566,7 @@ PEth:
 MSS: DULE 12(80a).
 EMML: 642(116b); 1965(19b); 76(287a); 22(118b); 730(291a); 1156(87b); 329 (49a).
 Keywords: Insanity; Mesot; Nakedness; Sara from Mesot;
-Incipit: Wa-ha llawat aṣatti be~esit ba-hagara MesotJza-semci-Sara, zatafaqqera la-Egze?etena Wa-batti dawe ~e~uba, wa-aeaza la-zakwanena nagargWar (642).·
+Incipit: Wa-ha llawat aṣatti be~esit ba-hagara MesotJza-semci-Sara, zatafaqqera la-Egze'etena Wa-batti dawe ~e~uba, wa-aeaza la-zakwanena nagargWar (642).·
 
 
 MAC0507.
@@ -5575,7 +5575,7 @@ PEth:
 MSS: CRA 53-16.
 EMML: 642(120a); 2800(98b); 22(99a); 613(148a); 683(199a); 682(134b).
 Keywords: Barnabas from Sandafa; Icons; Sandafa;
-Incipit: Wa-hallo ahadu be~esi ba-ha gara Sandafa za-semu Barnabas, mafqare ṣalot wa-~om wa-gayase beta Krestiyan, za-kona yafaqqera la-Egze?etena wa-yettaggeh, ma calta wa-lelita enbala as. re ' o, anbebo weddaseha (642).
+Incipit: Wa-hallo ahadu be~esi ba-ha gara Sandafa za-semu Barnabas, mafqare ṣalot wa-~om wa-gayase beta Krestiyan, za-kona yafaqqera la-Egze'etena wa-yettaggeh, ma calta wa-lelita enbala as. re ' o, anbebo weddaseha (642).
 
 
 -124-
@@ -5597,7 +5597,7 @@ PEth:
 MSS: VLVE 298(114b,151b).
 EMML: 642(188a); 929(72b); 682(89b).
 Keywords: Beratila, wife of Emperor Constantine; Brothers; Constantine, emperor; Empresses; Jerusalem; Pilgrims; Wives;
-Incipit: Wa-hallo aṣadu negus za-semu Qwestan~inos, wa-sema beˀesitu Beratila, wa-tafaqqera la-Egze?etena Wa-takayada we ~etu negus mesla Egzi?abh.e r kama yeh. ur Iyyarusalem, .h..... aba tasaqla (642).
+Incipit: Wa-hallo aṣadu negus za-semu Qwestan~inos, wa-sema beˀesitu Beratila, wa-tafaqqera la-Egze'etena Wa-takayada we ~etu negus mesla Egzi?abh.e r kama yeh. ur Iyyarusalem, .h..... aba tasaqla (642).
 
 
 MAC0510.
@@ -5625,7 +5625,7 @@ PEth:
 MSS: None.
 EMML: 642(192b); 683(213a); 682(82b).
 Keywords: Homilies; Incarnation; Old women; Visitation of Saint Mary to St. Elizabeth;
-Incipit: Wa-.h orat Egze?etena Maryam ter?aya la-carag1t, wa-enta balyat z. ansat, esma amnat qala za-samcat (642).
+Incipit: Wa-.h orat Egze'etena Maryam ter?aya la-carag1t, wa-enta balyat z. ansat, esma amnat qala za-samcat (642).
 
 
 -126-
@@ -5656,7 +5656,7 @@ PEth:
 MSS: None.
 EMML: 642(193b); 683(214b); 682(84a).
 Keywords: Home of Saint Mary; Homilies; Incarnation;
-Incipit: Wa-tamay.t at tegbac 'h-' aba beta Egze? etena Wa-em-de...h., ra zentu, esma ba~Qa gizeha telad, wa-lewawi Yosef tawakfa wa-ṣa cemara kama Lz. ansat Egze ?etena (642) •
+Incipit: Wa-tamay.t at tegbac 'h-' aba beta Egze’etena Wa-em-de...h., ra zentu, esma ba~Qa gizeha telad, wa-lewawi Yosef tawakfa wa-ṣa cemara kama Lz. ansat Egze’etena (642) •
 
 
 MAC0516.
@@ -6028,7 +6028,7 @@ Incipit: Seme <uke za-kama astarˀayatto wa-zennawatto me~tira mange~ta samayat 
 MAC0555.
 Title: Saint Mary appears to Abba Samuˀel of Wali and promises blessings to those who drink the water over which they read her anaphora.
 PEth:
-EMDL: 681.? (89v–90r);
+EMDL: 681.53 (89v–90r);
 MSS: None.
 EMML: 1304(28b).
 Keywords: Anaphora of Saint Mary; Blessings; Prayers; Samuˀel, Abba, of Wali; Wali; Water; Wəddase Maryam;
@@ -6890,3 +6890,4 @@ MSS: CBS-78.
 EMML: None
 Keywords:
 Incipit: [none]
+
