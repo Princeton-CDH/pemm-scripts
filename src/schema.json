@@ -29,8 +29,6 @@
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
                 { "name": "Hamburg ID", "protected": true},
-                { "name": "Other IDs", "protected": true },
-                { "name": "Other Titles" },
                 { "name": "English Translation"},
                 { "name": "Print Version"},
                 { "name": "Notes" }
