@@ -45,7 +45,7 @@ def search():
                                       method='unified', fragsize=0) \
             .search(incipit_txt_gez=search_term) \
             .order_by('-score') \
-            .only('*', 'score')
+            .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score')
 
     results = queryset.get_results()
     if search_term:

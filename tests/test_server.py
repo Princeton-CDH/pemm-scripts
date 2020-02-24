@@ -77,7 +77,8 @@ def test_search(mocksolrqueryset, client):
     mocksolrqueryset.assert_called_with(g.solr)
     mocksqs.search.assert_called_with(incipit_txt_gez=test_search_string)
     mocksqs.order_by.assert_called_with('-score')
-    mocksqs.only.assert_called_with('*', 'score')
+    mocksqs.only.assert_called_with(
+        'id', 'macomber_id_s', 'incipit_txt_gez', 'score')
     mocksqs.highlight.assert_called_with(
         'incipit_txt_gez', q=test_search_string, method='unified', fragsize=0)
 
