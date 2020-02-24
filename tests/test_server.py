@@ -14,9 +14,7 @@ from scripts import __version__, server
 
 @pytest.fixture
 def client():
-    # FIXME incomplete
     server.app.config['TESTING'] = True
-
     with server.app.test_client() as client, server.app.app_context():
             yield client
 
