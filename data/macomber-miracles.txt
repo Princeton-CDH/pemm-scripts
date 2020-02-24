@@ -5,7 +5,7 @@ title, text, summary, English translation, MSS, EMML, Keywords, Incipit (one Exp
 
 MAC0001-A.
 Title: Vision of Theophilus of Alexandria.
-Text: Budge, Miracles [1900], p. 62; TGS-101 [1968], p. 337.
+Text: Budge, Miracles, p. 62; TGS-101, p. 337.
 Summary:
 English translation:
 PEth: 41.8 (21r-30r); 41.80 (110v-113r); 41.81 (113r-115v);
@@ -20,7 +20,7 @@ Note: Parts of this miracle can occur as distinct miracles (see below).
 
 MAC0001-B.
 Title: Satan appears to King Herod and advises him to kill the Innocents.
-Text: T-101 [Tasfā Gabra Śǝllāse 1968], p. 343:77.
+Text: T-101, p. 343:77.
 PEth:
 MSS: None.
 EMML: 1606 (54v).
@@ -30,7 +30,7 @@ Incipit: wa-ba-yeʾeti ʿǝlat mota Sǝmʿon kāhǝn ʾaragāwi. Wa-nabara Herod
 
 MAC0001-C.
 Title: The arrival of the Holy Family in Sāmǝnon.
-Text: T-101 [Tasfā Gabra Śǝllāse 1968], p. 347:118.
+Text: T-101, p. 347:118.
 PEth:
 MSS: None.
 EMML: 1156 (106r); 1606 (55r).
@@ -444,7 +444,7 @@ Incipit: wa-ka<ba yemaṣṣeˀu em-pezb nakiran wa-Tanbalat wa-kal<anhi, wa-yeb
 
 MAC0035-E.
 Title: The people toss their caps and kerchiefs into the air before the apparition of Saint Mary; occasionally she reaches out and takes one of them.
-Text: T-18, p. 94:153, preceded by T-18, p. 87:40.
+Text: T-18, p. 87:40; T-18, p. 94:153.
 PEth:
 MSS: None.
 EMML: 492 (51b).
@@ -558,7 +558,7 @@ Incipit: Wa-hallawat (ba-)aṣatti hagar ba-qeruba Mesr menet ba-sema Egzeˀet e
 
 MAC0045.
 Title: The story of the icon of Saint Mary of Däbrä Sedeneya, attributed to Cyril of Jerusalem.
-Text: Cerulli, Il libro, pp. 247, 257, 264; T-8, p. 43.
+Text: Cerulli, Il libro, p. 247, 257, 264; T-8, p. 43.
 PEth:
 EMIP: 601.83 (61v–63r): How the icon of the Virgin Mary came from Jerusalem to the city of Ṣedenya;
 MSS: G-110; ZBNE 60-49; GVE 117 (35b); VLVE 298 (212b).
@@ -624,7 +624,7 @@ Incipit: Za-gabratto ~e<la Egzeˀetena   . . za-emert gabarita Täˀammərat wa-
 
 MAC0051.
 Title: Three virgins come to serve Saint Mary as she is about to give birth.
-Text: Chaine, p. 26.
+Text: Chaine, Apocrypha, p. 26.
 PEth:
 EMDL: 681.? (106rv): How the Virgin Mary told three virgins how she conceived Jesus Christ;
 MSS: CRA 52-94; CRA 52-137; CRA 53-27; VLVE 298(73b).
@@ -711,7 +711,7 @@ Incipit: Wa-hallawat apatti beˀesit farahita Egziˀabper wa-mafqarita nadayan w
 
 MAC0059.
 Title: Elizabeth, the blind daughter of Abraham and Gera Anest of Baderman.
-Text: Budge, Miracles,p. 28.
+Text: Budge, Miracles, p. 28.
 English translation: Budge, One Hundred, p. 53.
 PEth: 41.33 (64v-65v); 43.29 (37r-38v); 46.16 (20r-21r); 47.16 (54r-56r);
 EMIP: 601.16 (13v–14v);
@@ -757,7 +757,7 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ IGNORE MAC0001-MAC0062; THEY HAVE ALREADY BEEN CLEANE
 
 MAC0063.
 Title: A man killed during the construction of the church of Däbrä Qʷəsqʷam is raised from the dead.
-Summary: Cerull i, Il libro, p . 206.
+Summary: Cerull i, Il libro, p. 206.
 PEth:
 MSS: G-57; VLVE 298(56a).
 EMML: 6938(93b); 7543(52a); 2952(41a); 2058(65a); 2999(33b); 3014(108a); 2326(70b).
@@ -806,7 +806,7 @@ Incipit: Wa-hallo aḥadu beˀesi kapadi wa-yagadder westa hagara Quseya, wa-ba<
 
 MAC0068.
 Title: Saint Mary appears to the martyr, Giyorgis Haddis, in prison.
-Text: Budge, Miracles, p.32:
+Text: Budge, Miracles, p. 32:
 English translation: Budge, One Hundred, p. 61.
 PEth: 20.43 (53rv); 41.36 (67v-68r); 43.45 (61rv); 46.19 (22rv); 47.19 (60v-62r);
 EMIP: 601.19 (15r-15v);
@@ -818,7 +818,7 @@ Incipit: wa-hallo aḥadu beˀesi mastagadel fadfada ba-kawina sem< ba-enta sema
 
 MAC0069.
 Title: Mareqos, King of Romeya, abandons his throne secretly to become a monk.
-Text: T-100, P• 333.
+Text: T-100, p. 333.
 PEth:
 MSS: G-66; ZBNE 60-61; SBLE 14(81b); VLVE 272(35b); 298(111b); CBS-34; DULE 12(40a); AECE 1(118a).
 EMML: 2275(228a); 6938(105b); 2282(65a); 4205(32a); 5520(121a); 2378(62b); 6640(90a); 2059(37a); 2060(144b); 2066(89b); 2802(112b); 7543(55b).
@@ -1014,7 +1014,7 @@ Incipit: Wa-kona soba te<mat mota Egzeˀetena Maryam ama 20 wa-1 la-1err, tamaka
 
 MAC0088.
 Title: A Roman official is prevented from approaching the Holy Sepulcher.
-Text: . Budge, Miracles, p. 74.
+Text: Budge, Miracles, p. 74.
 English translation: Budge, One Hundred, p. 141.
 PEth: 43.43 (57r-58r); 46.101 (118rv);
 EMIP: 601.298 (164v–165r);
@@ -1113,7 +1113,7 @@ Incipit: Wa-hallawu 2 fequran westa aQatti beta Krestiyan, wa-aQadu emennehomu y
 
 MAC0098.
 Title: The proud men who wanted to have a splendid icon of Saint Mary made.
-English translation: Budge, One Hundred, 268.
+English translation: Budge, One Hundred, p. 268.
 PEth:
 EMIP: 601.233 (147v–148r): How the Virgin Mary appeared to a Jeweler to forbid him from making an icon for certain arrogant people, and how she showed an icon of her which had been made by the angels to Abba Basiliyos;
 MSS: G-98; ZBNE 60-100; WBLE 77(105a); VLVE 267(78b); 298(155a); HBS 59-32; AECE 1(73a).
@@ -1125,7 +1125,7 @@ Note: See also miracles 124 and 264.
 
 MAC0099.
 Title: The stone-footed man (i. e., a man with gout) from France.
-Text: Budge,.lp. 35; Cerulli, Il libro, p. 4971
+Text: Budge, Miracles, p. 35; Cerulli, Il libro, p. 4971
 English translation: Budge, One Hundred, p. 68.
 PEth: 20.55 (63rv); 41.39 (70rv); 46.22 (24rv); 47.22 (67v-69v);
 EMIP: 601.22 (16v–17r);
@@ -1186,7 +1186,7 @@ Title: The persecution of the Christians during the patriarchate of Cosmas II.
 Summary: Cerulli, Il libro, p. 188.
 PEth:
 MSS: G-104; VLVE 298(210a).
-EMML: 3872(5b); 7543(71b); 91a); 2058(87a); 3378(134b); 76(191b); 22(66b).
+EMML: 3872(5b); 7543(71b); 2952 (91a); 2058(87a); 3378(134b); 76(191b); 22(66b).
 Keywords: Alexandria; Christians; Cosmas II, patriarch; Patriarchs (ecclesiastical); Persecutions;
 Incipit: wa-hallo 1 liqa pappasat za-hagara Eskendereya za-semu Qozmos, weˀetu ab qeddus em-hwe1qwa liqana (MS: liqa) pappasat 50 wa-4. wa-la-zentuqeddus ba~epaṣazan bezug (7543).
 
@@ -1321,7 +1321,7 @@ MAC0117.
 Title: The Apostles gather for the funeral of Saint Mary.
 PEth:
 EMIP: 601.337 (178v–179r); 601.338 (179rv);
-MSS: G-118; ZBNE 60-89; CRA 52-69; CRA 52-117; CRA 53-65; CRA 54(122a); CL-l.
+MSS: G-118; ZBNE 60-89; CRA 52-69; CRA 52-117; CRA 53-65; CRA 54(122a); CL-1.
 EMML: 3872(17a); 7543(78a); 2952(107a); 2058(94a); 1581(54b); 2563(61a); 2784(28a).
 Inci pit: Wa-kona em-degra tagabeˀu ṣawareyat l a-genzata Egzeˀetena   .• bo ell a m]l)mm~1 tan~e'u em-maqaberihomu wa-bo ella ma~ˀu ba-dammana (3872).
 Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; Jews, opponents of Saint Mary; Transitus miracles;
@@ -1338,7 +1338,7 @@ Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel 
 
 MAC0119.
 Title: When Tafoneya lays hands on the bier of Saint Mary, an angel cuts his arms off.
-Text: T-4, p. 30; Cha'tne, Apocrypha, p. 41:6.
+Text: T-4, p. 30; Chaine, Apocrypha, p. 41:6.
 PEth:
 EMIP: 601.79 (59rv): How the angel of God cut the hand of Tawǝfanya when he tried to burn the body of Mary;
 MSS: G-120; ZBNE 60-90; 62-44; CRA 52-43; 54(127a); VLVE 298(187a); CL-3.
@@ -1496,7 +1496,7 @@ Incipit: Za-gabrat taˀamm.era mesla fequr Walda. Wa-baba halloEgziˀena Iyyasus
 
 MAC0134.
 Title: The nominal Christian from Sidon who encountered a dragon.
-Text: T-63, P• 230. dt"\,
+Text: T-63, p. 230.
 English translation: Budge, One Hundred, p. 195.
 PEth:
 EMIP: 601.189 (116v–117v);
@@ -1527,7 +1527,7 @@ Incipit: Wa-g!~ṣaaḥadu beˀesi ba-hagara Galateya, fayatawi, qatale nafs, wa
 
 MAC0137.
 Title: The Emperor of Rome who erected an altar in his palace.
-Text: Cerulli, Il libro, pp. 412, 416; T-82, p. 283.
+Text: Cerulli, Il libro, p. 412, 416; T-82, p. 283.
 English Translation: Budge, One Hundred, p. 347.
 PEth:
 MSS: G-139; 77(32b); VLVE 267(23a); LUE 30-57; CF 2-5; HBS 59-4; AECE 1(113a).
@@ -1566,7 +1566,7 @@ Incipit: Wa-hallo apadu parawi za-negu~, esma farasawi we >etu, wa-yegabber bezu
 
 MAC0140.
 Title: The sinful deacon whom his enemies could not kill until he had confessed himself to a priest.
-Text: Budge, Miracles, p. 40; Cerulli, Il libro, pp. 514, 517; T-80, p. 280.
+Text: Budge, Miracles, p. 40; Cerulli, Il libro, p. 514, 517; T-80, p. 280.
 English translation: Budge, One Hundred, p. 83.
 PEth: 20.76 (80r-81r); 41.58 (85v-86v); 43.1 (1rv); 46.26 (27rv); 47.26 (79r-80v);
 EMIP: 601.26 (19r-19v);
@@ -1582,7 +1582,7 @@ Text: Budge, Miracles, p. 75; Cerulli, Il libro, p. 404.
 English translation: Budge, One Hundred, p. 143.
 PEth: 8.8 (13v-15v); 41.53 (81v-82r): How the Virgin Mary cut out and sewed a garment for Filatawos, a bishop of the city of Sä’id in Upper Egypt; 43.37 (49v-50v);
 EMIP: 601.40 (26r-26v); 601.143 (86v–87r); 601.330 (175v–176r); 601.254 (154r);
-MSS: G-143; CRA 53-37; BM 3-47; VLVE 272(135b); LUE 30-60; CF 2-9; CBS-68; HBS 59-8; CL-9; AECE l(110a).
+MSS: G-143; CRA 53-37; BM 3-47; VLVE 272(135b); LUE 30-60; CF 2-9; CBS-68; HBS 59-8; CL-9; AECE 1(110a).
 EMML: 1573(17a); 3536(19a); 5105(9a); 2275(33b); 3872(36a); 6917(24b); 2282(31a); 4618(10a); 6949(73a); 1692(22b); 3923(42a); 6640(65a); 2059(16a,92b); 2060(32a); 7543(89a); 2831(41b).
 Keywords: Bishops, archbishops; Clothes, vestments; Filawos, bishop; Penitents; Philotheus, bishop; Sackcloth; Said (Upper Egypt);
 Incipit: wa- hall o apadu eppis qoppos ba-hagara se<id za-La<elay Geb~ , geruy ba-kWelll ge<zu wa- sannaymegbaru wa-retu< fenawihu ba-haymanota Krəstos, wa-iyyadallu a-westa fetp/ la-ga~~a sab' mJMt£mrtitj ba-mawa<ela simatu (3872). / Wa-hallo apadu eppis qoppos ger (MS: para) ba-kwellu gebru wa- iyyadallu ba-mawa<ela simatu (1573).
@@ -1627,7 +1627,7 @@ Incipit: Wa-hallo apadu be'esi <Ebrawi em-za.mada keburan ba-hagara Iyyarusalem 
 
 MAC0144.
 Title: The pilgrim to Santiago whom Satan persuaded to mutilate himself after falling into a sexual sin.
-Text: Cerulli, Il libro, pp. 386., . 393-1 395; T-85, p. 291.
+Text: Cerulli, Il libro, p. 386, 393, 395; T-85, p. 291.
 English translation: Budge, One Hundred, p. 330 & 335.
 PEth: 20.29 (40r-41v);
 EMIP: 601.209 (129r); 601.327 (175r);
@@ -1718,8 +1718,8 @@ Incipit: Wa-kona l emadomu la-sab >a Rome ama bacala cerafta la-Egze>etena •�
 
 MAC0152.
 Title: The widow who prayed to Saint Mary and saved her only son from death by hanging.
-Text: Budge, Miracles, pp. 47 and 48; T-90, p. 304.
-English translation: Budge, One Hundred, pp. 98 ad 101.
+Text: Budge, Miracles, p. 47 & 48; T-90, p. 304.
+English translation: Budge, One Hundred, p. 98 & 101.
 PEth: 46.30 (30v-31v); 47.30 (88v-89v);
 EMIP: 601.214 (131v–132r); 601.29 (21r-21v);
 MSS: ZBNE 60-31; CRA 52-37; SBLE 32-30; BM 2-33;BM 2-34; 3-38; GVE 8(11b); 24(57a); VLVE 267(64b); 272(42a,119a); SALE 43-31; LUE 30-42; 32-30; CF 2-20; CBS-30; HBS 42-6; 59-18; 129(52b); CCBE 951-30; AECE 1(34a).
@@ -1734,7 +1734,7 @@ Text: Budge, Miracles, p. 21.
 English translation: Budge, One Hundred, p. 35.
 PEth: 8.21 (39r-41r); 23.4 (31r-34v); 41.27 (59r-60v); 43.24 (30v-32v); 46.11 (16r-17r); 47.10 (39r-42r);
 EMIP: 601.10 (10r–11r); 601.282 (161r);
-MSS: ZBNE 60-11; 61-9; CRA 52-17; 54(34b); 55(26b); SBLE 32-10; BM 2-13; 3-18; GVE 8(7b); 24(47b); VLVE 267(32a); 272(124a); 298(13b); SALE 23-9; 43-11; LUE 30-22; 32-1; CF 2-21; CBS-10; HBS 42-3; 59-19; CCBE 951-10; CL-32; AECE l(13a).
+MSS: ZBNE 60-11; 61-9; CRA 52-17; 54(34b); 55(26b); SBLE 32-10; BM 2-13; 3-18; GVE 8(7b); 24(47b); VLVE 267(32a); 272(124a); 298(13b); SALE 23-9; 43-11; LUE 30-22; 32-1; CF 2-21; CBS-10; HBS 42-3; 59-19; CCBE 951-10; CL-32; AECE 1(13a).
 EMML: 7089(13a,111b); 1573(65a); 3536(36b); 7220(8a); 5105(140a); 2275(55b); 3872(47a); 6938(149a); 6917(39b); 1960(5a); 4618(22a); 5520(10b); 6949(87b,119b); 2378(5a); 3923(57a,62b); 6640(24a); 2084(133b); 2059(130b); 2060(185a); 2066(119a); 2802(42b); 5420(24b); 6196(29a); 7543(95a); 2831(20b,29b,47b).
 Keywords: Churches; Icons; Princes; Rome; Roses; Young men; Zacharias, prince;
 Incipit: Wa-hallo apadu be'esi wareza za- ~annay sena lapeyu, za-semu Zakk.areyas, za-westa hagara Rome em-zamada naga~t. Wa-a~atta 'elata bo'a westa beta Krestiyan ka.ma ye~elli, wa-na~ara ~e'la la-Egze'etena (3872). / Wa-hallawat a~atti beta Krestiyan ba-apatti hagar ba-sema Maryam, wa-heyya hallo ~e'la Maryam za-~e'ul_ba-lebs.i(rlj!tnlil~m Wa-hallo a~adu be'esi za-~afn-ay gee zu, wa-yetammana ffi:m~~ltiHl!w@@ml)a-j:;ebu' lebb, wa-yenaUe' 50 ~ege rad (7089)
@@ -1742,7 +1742,7 @@ Incipit: Wa-hallo apadu be'esi wareza za- ~annay sena lapeyu, za-semu Zakk.areya
 
 MAC0154.
 Title: The two women who were attacked by robbers on their way to church.
-Text: Budge, Miracles, p. 23; Cerulli, Il libro, pp. 522 and 523.
+Text: Budge, Miracles, p. 23; Cerulli, Il libro, p. 522-523.
 English translation: Budge, One Hundred, p. 39.
 PEth: 8.22 (41r-41v); 20.37 (48r-v); 41.28 (60v-61r); 43.25 (32v-33r); 46.11a (17rv); 47.11 (42r-43v);
 EMIP: 601.11 (11rv);
@@ -1824,7 +1824,7 @@ kama yekun lottu ma<ara wa-sem<a bezuga fadfada em-kWellu agwarihu (7089).
 
 MAC0161.
 Title: The pious monk (or: Hebrew from Akhmim) whom Saint Mary made young.
-Text: Budge, Miracle, p. 4. Cf. also Cerulli, Il libro, p. 219.
+Text: Budge, Miracles, p. 4. Cf. also Cerulli, Il libro, p. 219.
 English translation: Budge, One Hundred, p. 8.
 PEth: 20.31 (42r-43r); 43.5 (8v-9v); 46.4 (11rv);
 EMIP: 601.3 (6v–7r); 601.314 (171rv);
@@ -1840,7 +1840,7 @@ Eskendereya, wa-kona yafaqqera la-Egze>etena •• •• ba-kWellu lebbu, wa-s
 
 MAC0162.
 Title: The pious monk scribe who used to write Saint Mary's name in golden ink.
-Text: Budge, Miracle, p. 15.
+Text: Budge, Miracles, p. 15.
 English translation: Budge, One Hundred, p. 10.
 PEth: 20.32 (43r-44r); 41.22 (55v-56r); 46.5 (11v-12v); 47.4 (22r-23v);
 EMIP: 601.145 (87v); 601.4 (7rv);
@@ -1852,8 +1852,8 @@ Incipit: Wa-hallo aḥadu beˀesi manakos za-semu Demyanos (MS: Dimyanos) za-yen
 
 MAC0163.
 Title: The Muslim whom Saint Mary told to receive baptism. Later, as Bishop of Rome, he cut off his hand because of a carnal thought.
-Text: Cerulli, Il libro, p. 439; Budge, Miracles, p. 15 .
-English translation: Budge, One Hundred, p. 17; Budge, One Hundred, p. 14 .
+Text: Budge, Miracles, p. 15; Cerulli, Il libro, p. 439
+English translation: Budge, One Hundred, p. 17 and p. 14 .
 PEth: 41.21 (55rv); 46.6 (12v-13r); 47.5 (23v-25v);
 EMIP: 601.363 (193rv); 601.5 (7v–8r); 601.308 (168v–169v);
 MSS: VLVE 272(160a): 298(146b); CL-65;  ZBNE 60-6; 61-4; CRA 52-12; 54(20b); 55(16a); SBLE 32-5; WBLE 77(82a); VLVE 267(19b); 272(75a); 298(11b); SALE 23-4; 43-6; LUE 30-17; 32-12; CBS-5; HBS 59-29; 129(55a); CCBE 951-5; CL-42; DULE 12(83a); AECE 1(8b,38a).
@@ -1909,7 +1909,7 @@ Incipit: Wa-hallawat apatti be'esit ba-hagara Rome ba-beta Sofeya za- sema Enbam
 
 MAC0168.
 Title: The noblewoman who was persuaded by her spiritual father to give away her fine clothes.
-Text: T-47, p . 182.
+Text: T-47, p. 182.
 English translation: Budge, One Hundred, p. 327.
 PEth:
 MSS: CRA 53-1O1; WBLE 77(28b); VLVE 298(79b);HBS 59-41; CL-47; DULE 12(11b); AECE 1(55b).
@@ -1933,7 +1933,7 @@ Incipit: Wa-nabara ~ westa hagara QWest enteneya be'esi za-semu Aboli, esma ba<l
 MAC0170.
 Title: Saint Mary saves from a lion a pious monk who had drunk too much wine.
 Text: Budge, Miracles, p. 72.
-English translation: Budge, One Hundred, p. 135 and 172.
+English translation: Budge, One Hundred, p. 135 & 172.
 PEth: 8.12 (21r-22r); 8.26 (44v-45v); 20.9 (9rv); 20.87 (87rv); 41.71 (98v-99v); 43.12 (15v-17r);
 EMIP: 601.54 (32v–33r); 601.273 (159r); 601.294 (163v–164r); 601.234 (148r);
 MSS: ZBNE 60-67; CRA 52-45; 53-45; WBLE 77(56a); BM 3-44; VLVE 298(228a); LUE 30-10; 32-44; HBS  59-43; CL-48.
@@ -2062,8 +2062,8 @@ Incipit: Wa-hallo aḥadu farasawi za-semu Nifon za-hagara Gala>ad, zehur we>etu
 
 MAC0181.
 Title: The monk custodian of the church who prayed to see Saint Mary.
-Text: O. Hofmann in Zeitschrift fur Assyriologie 34 (1922), 79-86.
-English translation: Budge, One Hundred, p. 208 and 210.
+Text: Hofmann, Assyriologie, p. 79-86.
+English translation: Budge, One Hundred, p. 208 & 210.
 PEth:
 MSS: WBLE 77(74a); GVE 69(53b); HBS 59-54; CL-58.
 EMML: 1573(47a); 3536(78b); 4522(68b); 5105(80b); 2275(83b); 3872(75a); 6917(75a); 4618(67b); 6949(26b); 1692(62a); 3923(72a); 7543(112a); 2831(78a).
@@ -2135,7 +2135,7 @@ Incipit: Wa-hallo aḥadu beˀesi ṣaraqi za-yessessay ba-ṣariq, wa-bapettu y
 
 MAC0187.
 Title: The peasant who complained to Saint Mary because she did not reply to his Hail Mary.
-Text: Budge, Miralces, p. 13.
+Text: Budge, Miracles, p. 13.
 English translation: Budge, One Hundred, p. 6.
 PEth: 20.30 (41v-42r); 23.2 (28v-29v); 41.20 (54v); 43.4 (8rv); 46.3 (10v-11r); 47.3 (19r-20r);
 EMIP: 601.315 (171v);
@@ -2151,7 +2151,7 @@ Incipit: wa-hallo aḥadu beˀesi gabbarawi za-kona yawatter kwello <elata salam
 MAC0188.
 Title: The Jewish cowherd who was baptized by his Christian companions.
 Text: T-67, p. 246.
-English translation: Budge, One Hundred, p. 6.217.
+English translation: Budge, One Hundred, p. 217.
 PEth:
 MSS: ZBNE 62-65; WBLE 77(84b); VLVE 272(164a); CL-66.
 EMML: 3536(91a); 4522(103b); 2275(89a); 3872(80b); 6917(85a); 4618(80b); 6949(37b); 2060(116b); 7543(115b); 2831(88b).
@@ -2361,7 +2361,7 @@ MAC0207.
 Title: The monk who saved the church of Saint Mary in Atrib by his prayers when its destruction had been ordered by the Caliph.
 Text: Budge, Miracles, p. 52; T-102, p. 357.
 Summary:  Cerulli, Il Libro, p. 216.
-English translation: Budge, One Hundred, p. 315 [obscured by pdf]
+English translation: Budge, One Hundred, p. 113
 PEth: 46.33 (34v-40r);
 MSS: ZBNE 60-34; CRA 52-39; BM 2-38; 3-41; VLVE 272(77b); 298(26a); LUE 31-l; CF 1-1; CBS-70; CL-85.
 EMML: 3872(101a); 4205(35a); 5520(86a); 1946(90a); 2378(47a); 2059(87a); 2060(80b); 2066(69a); 2802(86b); 7543(123a).
@@ -2911,7 +2911,7 @@ Incipit: Za-kama we<ya edeha la-Salome ba-gasisa segaha la-Maryam, wa-za-kama Qe
 
 MAC0261.
 Title: Saint John the Evangelist sees Christ kissing Saint Mary's burial cloth.
-Text: fflBilbm T-5, p. 32; Arras, De transitu II, p. 18:24.
+Text: T-5, p. 32; Arras, De transitu II, p. 18:24.
 PEth:
 MSS: CRA 52-135; VLVE 298(43a).
 EMML: 3872(138a); 7543(143b); 3051(117b); 2058(161b); 1581(56a); 3475(58b); 6062(46b).
@@ -3116,7 +3116,7 @@ Incipit: Taˀammera masqalu la-Walda, za-gabro Egziˀena,Iyyasus Krəstos, ba-en
 
 MAC0281.
 Title: Synaxary entry for 16 Nahase: The Apostles visit Saint Mary in heaven.
-Text: T-7, p. 40. CP.A ~:2.-100 ·
+Text: T-7, p. 40.·
 PEth:
 MSS: CRA 52-100; VLVE 298(196a).
 EMML: 3872(154a); 2059(142a); 2060(158b); 7543(152a); 3051(132a); 2058(170b); 3031(137a).
@@ -3139,7 +3139,7 @@ MAC0283.
 Title: A Christian community is attacked by a neighboring Muslim community.
 Text: T-30, p. 136.
 Summary: Cerulli, Il libro, p. 128.
-English translation: Getatchew Haile, in Northeast African Studies 2, 1 (1980), 71, 75.
+English translation: Getatchew Haile, NES, p. 71, 75.
 PEth:
 MSS: None.
 EMML: 3872(157a); 7543(153b); 3051(134b); 2058(172a); 3031(139b); 2424(100a); 642(181a).
@@ -3171,7 +3171,7 @@ Incipit: Za-gabrat taˀammera wa-mankera ba-aμatti nestit dawal, wa-yenabberu w
 
 MAC0286.
 Title: The Magicians who tried to cast a spell on the Epiphany water.
-Text: Cerulli, in Analecta Bollandiana 68 (1950), 436-452.
+Text: Cerulli, Bollandiana, p. 436-452.
 PEth:
 MSS: None.
 EMML: 3872(162b); 7543(156a); 3051(138b); 2058(174a); 3031(142a); 2424(103a); 2392(123b).
@@ -3181,7 +3181,7 @@ Incipit:
 
 MAC0287.
 Title: The birth of the prince, Batergela Maryam.
-Text: Getatchew Haile, in Journal of Ethiopian Studies 15 (1982), 40-48.
+Text: Getatchew Haile, JES, p. 40-48.
 PEth:
 MSS: CRA 52-97
 EMML: 3872(164b); 7543(157a); 2058(175b); 876(193a).
@@ -3191,8 +3191,8 @@ Incipit: Za-gabrat ta>ammera wa-mankera la-aμatti be>esita masfen ba-gayl a Wal
 
 MAC0288.
 Title: Batergela Maryam is accused of treason and is imprisoned.
-Text: T-42, p. 166; Cerulli in Rassegna di Studi Etiopi, 3 (1943), 131-138.
-English translation: Getatchew Haile, in Journal of Ethiopian Studies 15 (1982), 52-53.
+Text: T-42, p. 166; Cerulli, Rassegna, p. 131-138.
+English translation: Getatchew Haile, JES, p. 52-53.
 PEth:
 MSS: VLVE 298(163a).
 EMML: 3872(167a); 7543(158b); 3051(141a); 2058(177a); 3031(144a); 642(175a); 2424(104b).
@@ -3205,7 +3205,7 @@ Incipit: Za-gabrat taˀammera wa-mankera la-zekku wal d, Batargela t1"aryam. Sal
 
 MAC0289.
 Title: Batergela Maryam is protected from the plague; his calumniator is punished by the king.
-English translation: Getatchew Haile, in Journal of Ethiopian Studies 15 (1982), 53-55.
+English translation: Getatchew Haile, JES, p. 53-55.
 PEth:
 EMIP: 601.169 (102rv): How the Virgin Mary saved a prince’s son named Bätergela Maryam;
 MSS: None.
@@ -3516,7 +3516,7 @@ Incipit: Negba>ke haba tenta nagar . wa-soba tafa$$ama mawa<e l a ~ensa, waladat
 
 MAC0316-D.
 Title: When she is three years old, Saint Mary is taken to the Temple.
-Text: T-2, p . 26:26.
+Text: T-2, p. 26:26.
 PEth: 41.3 (14v-15v); 47.1 (13r-15r);
 EMIP: 601.92 (71r);
 MSS: VLVE 298(144b); HBS 157(5a).
@@ -3548,7 +3548,7 @@ Incipit: Seme cuke za-gabrat Egze .:>etena •••• daqiqa Beta Krest1yan, w
 
 MAC0319.
 Title: Saint Mary makes a covenant with King Dawit of Ethiopia.
-Text: Getatchew Haile, in Journal of Ethiopian Studies 16 (1983), 29-30.
+Text: Getatchew Haile, JES, p. 29-30.
 PEth:
 MSS: None.
 EMML: 2275(63a); 730(97b); 2251(71a); 544(111b); 213(125b).
@@ -3561,7 +3561,7 @@ Incip1 t: wa-retu<haymanotu wa-sanna'y ge' zu, wa-yafaqqera la-Egze.:> etena •
 
 MAC0320.
 Title: The general of King (Dawit) of Ethiopia who defected to the enemy.
-Text: Getatchew Haile, in Journal of Ethiopian Studies 16 (1983), 30.
+Text: Getatchew Haile, JES, p. 30.
 PEth:
 MSS: None.
 EMML: 2275(71a); 730(101b); 2251(78a); 544(116a); 213(127a).
@@ -3923,7 +3923,7 @@ Incipit: Wa-hallawat ahatti beta Kresttyan enta tahansat ba-sema la- • . . Egz
 
 MAC0353.
 Title: The man who lost a slave that he was about to sell in Barara.
-Text: Getatchew Haile, in Paideuma 27 (1981), 176-179.
+Text: Getatchew Haile, Paideuma, p. 176-179.
 PEth:
 MSS: None.
 EMML: 2275(208a); 730(110b); 544(127a); 213(129a).
@@ -3936,7 +3936,7 @@ Incipit: Seme <uke ta>ammeriha l a-Egze>etena Maryam. wa-hallo apadu nagadi bada
 
 MAC0354.
 Title: The monasteries summon King (Dawit) of Ethiopia to abdicate.
-Text: Cerulli, Il libro, p. 79; T-93, p . 313°
+Text: Cerulli, Il libro, p. 79; T-93, p. 313
 PEth:
 MSS: None.
 EMML: 2275(210b); 642(185b); 1180(164a); 730(111a); 544(128a); 665(152a); 683(113a).
@@ -4040,7 +4040,7 @@ Incipit: gayla Täˀamməriha la-Egzeˀetena.•.• za-gabrat l a<el a be~e<t w
 
 MAC0364.
 Title: The abbot who rejected the horologium and other works of Abba Giyorgis.
-Text: Getatchew Haile, in Orientalia Christiana Periodica 48 (1982),70-82.
+Text: Getatchew Haile, OCP, p. 70-82.
 PEth:
 MSS: None.
 EMML: 2275(233b); 2337(124a); 1180(139a); 730(122b); 544(141a); 213(131b).
@@ -4050,7 +4050,7 @@ Incipit: Sagga wa-gayla za-manker wa-madmem za-gabrat Egzeˀetena...• Wa-hallo
 
 MAC0365.
 Title: Saint Mary cuts short her visit to a pious monk when she hears her name invoked according to the horologium of Abba Giyorgis.
-Text: Getatchew Haile, in Orientalia Christiana Periodica 48 (1982), 82-90.
+Text: Getatchew Haile, OCP, 82-90.
 PEth:
 MSS: None.
 EMML: 2275(238a); 2337(126a); 1180(138a); 730(124b); 2251(170a); 544(143b); 213(133a).
@@ -4183,7 +4183,7 @@ Incipit: Seme~u, me ~manan, za-ar>ayat cezuba ba-westa ba<d hagar. • WatansI e
 
 MAC0378.
 Title: Saint Mary appears to Yohannes Kama.
-Text: Budge, Miracles, p. 76.-t.
+Text: Budge, Miracles, p. 76.
 English translation: Budge, One Hundred, p. 147.
 PEth: 20.63 (70r-71r): How the Virgin Mary appeared to Yoḥannəs Käma and How she commanded him to build a church;
 MSS: G-61; ZBNE 60-64; 62-39; VLVE 298(176b); BM 3-79.
@@ -4194,7 +4194,7 @@ Incipit: Wa-hallo al:adu be~esi qeddus za-semu YoQannes Kama, za-gassasa em-ne ~
 
 MAC0379.
 Title: Zärˀa Yaˁəqob and the invasion of Badlay.
-Text: Cerulli, in Africa Italiana 5 (1933), p. 82.
+Text: Cerulli, Italiana, p. 82.
 PEth:
 MSS: G-93; CRA 53-58; VLVE 298(158a).
 EMML: 6938(134a); 2056(113a); 2952(79a); 76(158a); 22(106a); 1606(134a).
@@ -4204,7 +4204,7 @@ Incipit: Ta' ammer za-gabrat lottu Egze'etena la-Zar ṣa Ya~eqob negus, za-tasa
 
 MAC0380.
 Title: Zärˀa Yaˁəqob is given a sign of Badlay's fall.
-Text: Cerulli, in Africa Italiana 5 (1933), p. 88.
+Text: Cerulli, Italiana, p. 88.
 PEth:
 MSS: G-94; CRA 53-59; VLVE 298(230a); DULE 12(67b).
 EMML: 6938(128a); 2952(84a); 642(96a); 3378(20b); 76(216b); 22(107b); 142(153a).
@@ -4217,7 +4217,7 @@ Incipit: Wa-kona enza hallo Zar'a Yaceqob ba-medra AgWabba, fannawa ' alawi sara
 
 MAC0381.
 Title: Saint Mary appears to the gabaz of her church in Waybela and tells him about the fall of Badlay.
-Text: Cerulli, in Africa Italiana 5 (1933), p. 89.
+Text: Cerulli, Italiana, p. 89.
 PEth:
 MSS: G-95; VLVE 298(230b).
 EMML: 6938(138b); 2952(85a); 642(200b); 76(209a); 22(108a); 142(154a); 382(101b).
@@ -4638,7 +4638,7 @@ Incipit: Wa-hallo ahadu ma nakos Romawi za-semu co.z. ba-Däbrä Kuraza za yafaq
 
 MAC0420.
 Title: The man who accepted fine clothes as a bribe for future favors.
-Text: Getatchew Haile, in North East African Studies 4,1 (1980), p. 19.
+Text: Getatchew Haile, NES, p. 19.
 PEth:
 MSS: None.
 EMML: 2059(69a); 2060(152a); 1931(67b).
@@ -4678,7 +4678,7 @@ Incipit: Wa-hallawat a~atti beta Krestiyan cabbay teqqa za-hagara Aspaneya za-h�
 
 MAC0424.
 Title: The priest from Cyprus who brought a particle of the Eucharist to a Jew.
-Text: Cerulli, in Abba Salama 1 (1970), 178-181.
+Text: Cerulli, Salama, p. 178-181.
 PEth:
 MSS: VLVE 272(186b); 298(72a); DULE 12(45b).
 EMML: 2060(94b); 76(117a); 1931(105a).
@@ -4707,7 +4707,7 @@ Incipit: Wa-hallawat ahatti beta Krestiyan za-tahansat ba-sema Egze~etena • �
 
 MAC0427.
 Title: Some Christians held captive by a Muslim are freed by an angel and are brought to Cyprus.
-Text: Cerulli, in Abba Salama 1 (1970), 181-185.
+Text: Cerulli, Salama, p. 181-185.
 PEth:
 MSS: VLVE 272(i99b).
 EMML: 2060(99a); 2968(95a); 329(168a).
@@ -4828,7 +4828,7 @@ Incipit: Wa-hallawat aṣatti be~es1t wa-tafaqqera la-Egze7 etena wawaladat ye'e
 
 MAC0439.
 Title: The European who tried to steal the icon of Saint Mary from Däbrä Sedeneya.
-Text: Cerulli, Il libro, p. 280; T-3l, p. 142.
+Text: Cerulli, Il libro, p. 280; T-31, p. 142.
 PEth:
 EMIP: 601.158 (97r): How the Virgin Mary performed a miracle through the icon of the city of Ṣedenǝya when a certain merchants tried to cut a piece from the icon and blood flowed out;
 MSS: ZBNE 60-50; VLVE 298(112b).
@@ -5182,7 +5182,7 @@ Incipit: Wa-kona em-denra Carga Egzi? ena, I yyasus Krəstos, westa samay, nast~
 
 MAC0470.
 Title: Synaxary entry for the 16th of Yakkatit: Saint Mary receives the Pact of Mercy.
-Text: Budge, Miracles, pp. 8 and 77; T-12, p. 55.
+Text: Budge, Miracles, p. 8 & 77; T-12, p. 55.
 PEth:
 MSS: ZBNE 60-92; CRA 52-118; CRA 52-119; BM 2-37; 3-50; CBS-33; CCBE 950-2.
 EMML: 2378(92a); 3378(48b); 642(52b); 22 (102b + 103b); 712(29a); 3079(37b); 1606(163b).
@@ -5837,7 +5837,7 @@ Incipit: Wa-hallo aḥadu eppis qoppos za-yebelo la-aḥadu beˀesi: Negeranni �
 
 MAC0535.
 Title: The Stephanites in Egypt and Palestine.
-Text: Cerulli, in Proceedings of the Third International Conference of Ethiopian Studies, vol. 2, Addis Ababa, 1970, p. 243-253.
+Text: Cerulli, Proceedings, p. 243-253.
 PEth:
 MSS: VLVE 298(234a)
 EMML: 76(166a); 1606(156a).
@@ -6641,7 +6641,7 @@ Incipit: Wa-ba-yeˀeti <elat makwanA za-Beta Lepem ṣawe ˀewwomu <edaw ella ta
 
 MAC0618.
 Title: The governor believes in Christ and rebukes the Jews (continuation of the preceding miracle).
-Text: Chaîne, Apocrypha, p.38:14
+Text: Chaîne, Apocrypha, p. 38:14
 PEth:
 MSS: ZBNE 53(47a); 54(ca. f. 56).
 EMML: 683(174b); 682(161a).
@@ -6691,7 +6691,7 @@ Incipit: Wa-hallo aḥadu beˀesi ba-ha.gara Dalga za-semu Agabos, beˀesi ṣaW
 
 MAC0623.
 Title: The Dormition.
-Text: Chatne, Apocrypha, p. 43:24.
+Text: Chaine, Apocrypha, p. 43:24.
 PEth:
 MSS: ZBNE 53(55b); 54(ca. f. 68).
 EMML: 682(163b).
