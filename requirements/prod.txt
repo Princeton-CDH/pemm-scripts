@@ -1,2 +1,6 @@
 ## production requirements
 
+flask
+# require develop version of parasolr for needed updates
+git+https://github.com/Princeton-CDH/parasolr@develop#egg=parasolr
+#parasolr
