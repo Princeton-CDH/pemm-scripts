@@ -205,6 +205,10 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setDataValidation(latitudeRule)
         .setNumberFormat('0.00000')
 
+    spreadsheet.getRangeByName('collection__longitude')
+        .setDataValidation(longitudeRule)
+        .setNumberFormat('0.00000')
+
     /* return spreadsheet when setup completed */
     return spreadsheet
 }
