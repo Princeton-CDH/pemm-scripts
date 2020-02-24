@@ -43,7 +43,7 @@ class TestMacomberToCSV:
         # match on a id + folio in a named collection section
         mac_id = '1-A'
         collection = 'PEth'
-        match = self.mac.mss_id_re.match('41.8 (21r-30r)')
+        match = self.mac.mss_id_re.match('41.8 (21r-30v)')
         self.mac.add_story_instance(collection, {'Macomber ID': mac_id},
                                     match)
         # check the last added story instance
@@ -55,8 +55,8 @@ class TestMacomberToCSV:
             'Macomber Incipit': 0,
             'Confidence Score': '',
             'Canonical Story ID': mac_id,
-            'Folio Start': '21r',
-            'Folio End': '30r'
+            'Folio Start': '21a',
+            'Folio End': '30b'
         }
         for key, val in expected_values.items():
             assert story_inst[key] == val, 'expected %s to be %s' % (key, val)
@@ -75,8 +75,8 @@ class TestMacomberToCSV:
             'Macomber Incipit': 1,
             'Confidence Score': 'High',
             'Canonical Story ID': mac_id,
-            'Folio Start': '9r',
-            'Folio End': '9r'
+            'Folio Start': '9a',
+            'Folio End': '9a'
         }
         for key, val in expected_values.items():
             assert story_inst[key] == val, 'expected %s to be %s' % (key, val)
@@ -88,8 +88,8 @@ class TestMacomberToCSV:
         self.mac.add_story_instance(collection, {'Macomber ID': mac_id},
                                     match)
         story_inst = self.mac.story_instances[-1]
-        assert story_inst['Folio Start'] == '12r'
-        assert story_inst['Folio End'] == '12v'
+        assert story_inst['Folio Start'] == '12a'
+        assert story_inst['Folio End'] == '12b'
 
         # test mss id not included in regex match, passed in as param
         # e.g. from entry like EMML: 4205 (25v + 51r + 26r)
@@ -103,8 +103,8 @@ class TestMacomberToCSV:
         assert story_inst['Manuscript'] == '%s %s' % (
             self.mac.collection_lookup[collection], mss_id)
         # check folios also
-        assert story_inst['Folio Start'] == '25v'
-        assert story_inst['Folio End'] == '25v'
+        assert story_inst['Folio Start'] == '25b'
+        assert story_inst['Folio End'] == '25b'
 
         # ignore .? for order, e.g. EMDL: 681.? (103v–104r);
         mac_id = '138'
@@ -116,8 +116,8 @@ class TestMacomberToCSV:
         assert story_inst['Manuscript'] == '%s 681' % (
             self.mac.collection_lookup[collection])
         assert not story_inst['Miracle Number']
-        assert story_inst['Folio Start'] == '103v'
-        assert story_inst['Folio End'] == '104r'
+        assert story_inst['Folio Start'] == '103b'
+        assert story_inst['Folio End'] == '104a'
 
     def test_parse_manuscripts(self):
         # handles multiple references and adds story instances
@@ -136,7 +136,7 @@ class TestMacomberToCSV:
         assert self.mac.story_instances[0]['Manuscript'] == \
             '%s 41' % self.mac.collection_lookup[collection]
         assert self.mac.story_instances[0]['Miracle Number'] == '29'
-        assert self.mac.story_instances[0]['Folio Start'] == '61r'
+        assert self.mac.story_instances[0]['Folio Start'] == '61a'
         # also adds to manuscript list
         assert collection in self.mac.manuscripts
         assert '41' in self.mac.manuscripts[collection]
@@ -154,19 +154,19 @@ class TestMacomberToCSV:
         # first story
         assert self.mac.story_instances[0]['Manuscript'] == \
             '%s 5520' % self.mac.collection_lookup[collection]
-        assert self.mac.story_instances[0]['Folio Start'] == '53r'
+        assert self.mac.story_instances[0]['Folio Start'] == '53a'
         # second story
         assert self.mac.story_instances[1]['Manuscript'] == \
             '%s 4205' % self.mac.collection_lookup[collection]
-        assert self.mac.story_instances[1]['Folio Start'] == '25v'
+        assert self.mac.story_instances[1]['Folio Start'] == '25b'
         # third story in same mss as second
         assert self.mac.story_instances[2]['Manuscript'] == \
             '%s 4205' % self.mac.collection_lookup[collection]
-        assert self.mac.story_instances[2]['Folio Start'] == '51r'
+        assert self.mac.story_instances[2]['Folio Start'] == '51a'
         # fourth story in same mss as second
         assert self.mac.story_instances[3]['Manuscript'] == \
             '%s 4205' % self.mac.collection_lookup[collection]
-        assert self.mac.story_instances[3]['Folio Start'] == '26r'
+        assert self.mac.story_instances[3]['Folio Start'] == '26a'
 
         # handle MSS: style references, e.g. MSS: CRA 53-17; VLVE 298 (151a).
         collection = 'CRA'

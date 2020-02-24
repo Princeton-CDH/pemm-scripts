@@ -269,6 +269,9 @@ class MacomberToCSV:
                     self.mss_unparsed.append(
                         '%s %s / %s' % (collection, manuscript, manuscripts))
 
+    # make folio notation consistent: convert all "r" to "a", "v" to "b"
+    folio_letters = str.maketrans('rv', 'ab')
+
     def add_story_instance(self, collection, canonical_record, match,
                            mss_id=None):
         '''Add a story instance to the list.  Takes a collection
@@ -279,9 +282,16 @@ class MacomberToCSV:
         # folio end should use end if found,
         # or start for single-page stories
         folio_end = match.group('end') or folio_start
+
         # handle ##rv; repeat start folio number
         if folio_end == 'v':
             folio_end = folio_start.replace('r', 'v')
+
+        # translate rv to ab for consistency
+        if folio_start:
+            folio_start = folio_start.translate(self.folio_letters)
+        if folio_end:
+            folio_end = folio_end.translate(self.folio_letters)
 
         # manuscript id is either passed in or included in regex
         mss_id = mss_id or match.group('id')
