@@ -279,9 +279,12 @@ class MacomberToCSV:
         for the manuscript (may include folio start, folio end, and
         manuscript id), and optional manuscript id.'''
         folio_start = match.group('start')
-        # folio end should use end if found,
-        # or start for single-page stories
-        folio_end = match.group('end') or folio_start
+        # folio end should use end if found
+        folio_end = match.group('end')
+        # for these three collections ONLY, infer folio end = folio start
+        # for single page stories (folio end is unknown for others)
+        if collection in ['PEth', 'EMDL', 'EMIP'] and not folio_end:
+            folio_end = folio_start
 
         # handle ##rv; repeat start folio number
         if folio_end == 'v':

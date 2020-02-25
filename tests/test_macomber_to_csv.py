@@ -76,10 +76,16 @@ class TestMacomberToCSV:
             'Confidence Score': 'High',
             'Canonical Story ID': mac_id,
             'Folio Start': '9a',
-            'Folio End': '9a'
         }
         for key, val in expected_values.items():
             assert story_inst[key] == val, 'expected %s to be %s' % (key, val)
+
+        # folio end not inferred from start depending on collection
+        collection = 'VLVE'
+        self.mac.add_story_instance(collection, {'Macomber ID': mac_id},
+                                    match)
+        story_inst = self.mac.story_instances[-1]
+        assert not story_inst['Folio End']
 
         # test handling rv notation, e.g.EMIP: 601.13 (12rv)
         mac_id = '46'
@@ -104,7 +110,7 @@ class TestMacomberToCSV:
             self.mac.collection_lookup[collection], mss_id)
         # check folios also
         assert story_inst['Folio Start'] == '25b'
-        assert story_inst['Folio End'] == '25b'
+        assert not story_inst['Folio End']
 
         # ignore .? for order, e.g. EMDL: 681.? (103v–104r);
         mac_id = '138'
@@ -176,7 +182,8 @@ class TestMacomberToCSV:
         assert story_inst['Manuscript'] == \
             '%s 298' % self.mac.collection_lookup[collection]
         assert story_inst['Folio Start'] == '151a'
-        assert story_inst['Folio End'] == '151a'
+        # single folio for this collection means end is unknown
+        assert not story_inst['Folio End']
 
         # handle id-order, e.g. ZBNE 62-30
         self.mac.story_instances = []
