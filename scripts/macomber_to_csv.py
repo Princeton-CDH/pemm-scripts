@@ -81,7 +81,7 @@ class MacomberToCSV:
         'BM': 'W-London (BM)'
     }
 
-    # mss_collections = ['PEth', 'EMIP', 'MSS', 'EMML']
+    # manuscript collections with their own field in the input text file
     mss_collections = ['PEth', 'EMIP', 'EMML', 'EMDL']
 
     # unique set of manuscripts
@@ -175,6 +175,11 @@ class MacomberToCSV:
                                 elif '-' in mss_ref:
                                     # otherwise split on first dash (e.g. G-1)
                                     collection, mss = mss_ref.split('-', 1)
+                                    # special case: these collections each
+                                    # have one manuscript only, the number
+                                    # is miracle order
+                                    # - adjust ref to add mss id 1
+                                    mss = '1-%s' % mss
                                 else:
                                     # error/warn?
                                     continue
