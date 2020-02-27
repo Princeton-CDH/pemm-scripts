@@ -509,7 +509,7 @@ Title: The miraculous spring of Mehzab.
 Text: Budge, Miracles, p. 75; T-20, p. 100.
 English translation: Budge, One Hundred, p. 145
 PEth:
-MSS: G-128; ZBNE 60-85; 62-25; 63-25; CRA 54 (137a); BM 3-48; VLVE 298 (209a); LUE 30-6; CBS-48; CL 19.
+MSS: G-128; ZBNE 60-85; 62-25; 63-25; CRA 54 (137a); BM 3-48; VLVE 298 (209a); LUE 30-6; CBS-48; CL-19.
 EMML: 3872 (26a); 2340 (194b); 7543 (39b,83a); 3051 (42a,152a); 2952 (110a); 2058 (52a, 99b); 1581(65a).
 Keywords: Matoreya, spring of; Springs; Sane;
 Incipit: Taˀa.mmeriha la-Egzeˀetena...•za-gabratto mesla fequr Walda ama 8 la-warea Sane westa beta Mepṣab za-< eweqt gaba ~ maq<a may buruk za-naq<a
@@ -4250,7 +4250,7 @@ Title: The monk whose only good work was observing the fast of Saint Mary.
 English translation: Budge, One Hundred, p. 309.
 PEth:
 EMIP: 601.379 (197v);
-MSS: ZBNE 60-36; CRA 52-54; WBLE 77(140b); SBLE 39(91a); CCBE 915(2b) 951-32.
+MSS: ZBNE 60-36; CRA 52-54; WBLE 77(140b); SBLE 39(91a); CCBE 951-32.
 EMML: 4618(53a); 6949(152a); 4215(21b); 2999(201a,237a); 2221(60b); 2660(52b); 2768(18b).
 Keywords: Fasting; Good works; Monks;
 Incipit: Wa-hallo a~adu manakos (MS: be7 es1) mam~mma-•• westar~att1hagar, wa-yes.a wwem s.o ma Egze'etena ba-tefseh. t, wa-albottu kal?a
