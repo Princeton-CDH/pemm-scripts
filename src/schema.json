@@ -28,7 +28,7 @@
                 { "name": "Macomber Title" },
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
-                { "name": "Hamburg ID", "protected": true},
+                { "name": "Hamburg ID"},
                 { "name": "English Translation"},
                 { "name": "Print Version"},
                 { "name": "Notes" }
@@ -37,7 +37,7 @@
         {
             "name": "Manuscript",
             "fields": [
-                { "name": "Name", "protected": true },
+                { "name": "Manuscript Name", "protected": true },
                 { "name": "ID" },
                 { "name": "Title" },
                 { "name": "Collection" },
