@@ -16,8 +16,8 @@ from parasolr.solr.client import SolrClient
 from scripts import __version__
 
 # read settings from environment on startup
-SOLR_URL = os.getenv('SOLR_URL', 'http://localhost:8983/solr/')
-SOLR_CORE = os.getenv('SOLR_CORE', 'pemm')
+SOLR_URL = os.getenv('PEMM_SOLR_URL', 'http://localhost:8983/solr/')
+SOLR_CORE = os.getenv('PEMM_SOLR_CORE', 'pemm')
 
 # create a new flask app from this module
 app = Flask(__name__)
