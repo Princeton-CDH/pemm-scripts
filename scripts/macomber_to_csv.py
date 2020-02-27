@@ -72,12 +72,12 @@ class MacomberToCSV:
         'LUE': 'L-Uppsala (UU)',
         'SALE': 'S-Rome (ANL)',
         'SBLE': 'S-London (BL)',
-        'SGE': 'S-Paris (BN)',
+        'SGE': 'S-Paris (BNF)',
         'SWE': 'M-SWE (SWE)',
         'VLVE': 'VL-Vatican (BAV)',
         'WBLE': 'W-London (BM)',
         'PEth': 'PEM (PUL)',
-        'ZBNE': 'Z-Paris (BN)',
+        'ZBNE': 'Z-Paris (BNF)',
         'BM': 'W-London (BM)'
     }
 
