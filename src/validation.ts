@@ -1,7 +1,7 @@
 import { Spreadsheet } from './spreadsheet'
 
 export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
-    
+
     /* create data validation */
     const manuscriptRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('manuscript__name'))
@@ -51,9 +51,17 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
      * See regex match documentation:
      * https://support.google.com/docs/answer/3098292?hl=en
      */
-    const folioRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(D2), "^[1-9]+\\d*[rvab]?$")')
-        .setHelpText('Folio must be a number optionally followed by "r", "v", "a", or "b".')
+    const folioRegex = '^[1-9]+\\d*[rvab]?$';
+    const folioHelpText = 'Folio must be a number optionally followed by "r", "v", "a", or "b".'
+    const folioStartRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(D2), "' + folioRegex + '")')
+        .setHelpText(folioHelpText)
+        .setAllowInvalid(false)
+        .build()
+
+    const folioEndRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(G2), "' + folioRegex + '")')
+        .setHelpText(folioHelpText)
         .setAllowInvalid(false)
         .build()
 
@@ -92,13 +100,13 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .build()
 
     const latitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(F2), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(H2), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
         .setHelpText('Must be a valid latitude between -90 and 90°.')
         .setAllowInvalid(false)
         .build()
 
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(G2), "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(I2), "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
         .setHelpText('Must be a valid longitude between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
@@ -167,13 +175,13 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     // display canonical story title based on canonical story id
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
-        .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2), )")
+        .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2, false), )")
 
     spreadsheet.getRangeByName('story_instance__folio_start')
-        .setDataValidation(folioRule)
+        .setDataValidation(folioStartRule)
 
     spreadsheet.getRangeByName('story_instance__folio_end')
-        .setDataValidation(folioRule)
+        .setDataValidation(folioEndRule)
 
     spreadsheet.getRangeByName('story_instance__column_start')
         .setDataValidation(positiveIntegerRule)
@@ -192,7 +200,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     spreadsheet.getRangeByName('story_instance__macomber_incipit')
         .setDataValidation(booleanRule)
-        
+
     // story origin
     spreadsheet.getRangeByName('story_origin__region')
         .setDataValidation(regionRule)
