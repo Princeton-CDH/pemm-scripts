@@ -31,19 +31,31 @@ Google Sheets; proper release & docs TBD
 import argparse
 import csv
 import os
+from types import SimpleNamespace
 
 from git import InvalidGitRepositoryError, Repo
-import trix
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 
-def sheet_filename(sheetname, mode='csv'):
+def sheet_filename(worksheet, mode='csv'):
     '''Generate an output filename based on a sheet name'''
-    return '%s.%s' % (sheetname.lower().replace(' ', '_'), mode)
+    return '%s.%s' % (worksheet.title.lower().replace(' ', '_'), mode)
 
 
 def pad_csv_row(values, size):
     '''add empty strings to make a list of values a specified length'''
     return (values + [''] * (size - len(values)))
+
+
+def init_gsheets_client():
+    scope = ['https://spreadsheets.google.com/feeds',
+             'https://www.googleapis.com/auth/drive']
+
+    # FIXME: how to specify the path? Relative to script, config/env?
+    credentials = ServiceAccountCredentials \
+        .from_json_keyfile_name('pemm_credentials.json', scope)
+    return gspread.authorize(credentials)
 
 
 def gsheet_to_csv(docid, outdir):
@@ -52,31 +64,26 @@ def gsheet_to_csv(docid, outdir):
 
     Returns a list of the files created and the name of the document.
     '''
-    tsheet = trix.Trix(docid)
-    # returns document title followed by list of sheets
-    sheetnames = tsheet.getSheets()
-    # remove document title
-    doctitle = sheetnames.pop(0)
+    gsheets_client = init_gsheets_client()
+    gsheet = gsheets_client.open_by_key(docid)
+
+    # get all worksheets
+    worksheets = gsheet.worksheets()
     filenames = []
-
-    # create output directory if it doesn't exist
-    if not os.path.isdir(outdir):
-        os.mkdir(outdir)
-
-    for sheetname in sheetnames:
-        filename = os.path.join(outdir, sheet_filename(sheetname))
+    for sheet in worksheets:
+        filename = os.path.join(outdir, sheet_filename(sheet))
         filenames.append(filename)
         with open(filename, 'w') as csvfile:
-            print('Saving %s as %s' % (sheetname, sheet_filename(sheetname)))
+            print('Saving %s as %s' % (sheet.title, sheet_filename(sheet)))
             csvwriter = csv.writer(csvfile)
-            sheet_data = tsheet.getRange(sheetname)
+            sheet_data = sheet.get_all_values()
             # determine the length of this sheet
             columns = len(sheet_data[0])
             # if rows are equal length, github will display nicely
             csvwriter.writerows([pad_csv_row(row, columns)
                                  for row in sheet_data])
 
-    return (filenames, doctitle)
+    return (filenames, gsheet.title)
 
 
 def update_gitrepo(repo_path, files, doctitle):
@@ -107,17 +114,40 @@ def update_gitrepo(repo_path, files, doctitle):
         print('No changes')
 
 
-if __name__ == "__main__":
+# default data dir within the git repo
+DEFAULT_DATA_DIR = 'data'
+
+
+def get_env_opts():
+    # check for environment variable configuration
+    return SimpleNamespace(
+        gitpath=os.getenv('PEMM_DATA_REPO_PATH', None),
+        datadir=os.getenv('PEMM_DATA_REPO_DATADIR', DEFAULT_DATA_DIR),
+        docid=os.getenv('PEMM_GSHEETS_DOCID', None)
+    )
+
+
+def get_cli_args():
+    # get command-line arguments
     parser = argparse.ArgumentParser(
         description='''Retrieve Google Sheets data as CSV and add to or
     update in a git repository.''')
-    parser.add_argument('-d', '--datadir', default='data',
+    parser.add_argument('-d', '--datadir', default=DEFAULT_DATA_DIR,
                         help='Data directory within the git repository')
     parser.add_argument('-g', '--gitpath', required=True,
                         help='Git repository working directory')
     parser.add_argument('docid', help='Google Sheets document id')
 
-    args = parser.parse_args()
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    # check environment variables for configuration first
+    args = get_env_opts()
+    # if not set, use command-line args
+    if not args.gitpath or not args.docid:
+        args = get_cli_args()
+
     filenames, doctitle = gsheet_to_csv(
         args.docid, os.path.join(args.gitpath, args.datadir))
     update_gitrepo(args.gitpath, filenames, doctitle)
