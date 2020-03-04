@@ -6,3 +6,4 @@ git+https://github.com/Princeton-CDH/parasolr@develop#egg=parasolr
 #parasolr
 gspread
 oauth2client
+gitpython
