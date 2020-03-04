@@ -74,6 +74,10 @@ def gsheet_to_csv(docid, outdir):
     gsheets_client = init_gsheets_client()
     gsheet = gsheets_client.open_by_key(docid)
 
+    # make sure the output dir exists
+    if not os.path.isdir(outdir):
+        os.mkdir(outdir)
+
     # get all worksheets
     worksheets = gsheet.worksheets()
     filenames = []
