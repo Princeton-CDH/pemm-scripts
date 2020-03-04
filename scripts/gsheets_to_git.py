@@ -19,6 +19,9 @@ Setup:
  JSON file as pemm_credentials.json
  (https://gspread.readthedocs.io/en/latest/oauth2.html)
 
+* Make sure to enable both the Google Drive API *and* Google Sheets API in the
+  Google developer console.
+
 * Give the email address in the credentials file read access to the Google
  sheet to be synchronized.
 

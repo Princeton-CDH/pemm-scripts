@@ -27,6 +27,9 @@ Instructions for setting up Google sheets sync:
 
 * Create credentials based on the [gspread OAuth2 documentation](https://gspread.readthedocs.io/en/latest/oauth2.html) and save the JSON file as pemm_credentials.json
 
+* Make sure to enable both the Google Drive API *and* Google Sheets API in the
+  Google developer console.
+
 * Give the email address in the credentials file read access to the
   Google sheet to be synchronized.
 
