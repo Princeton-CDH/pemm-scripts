@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+    <title>Search results for {{ search_term }}</title>
+    <style>
+        body {font-size: 14pt; }
+        li { margin-bottom: 0.5em; }
+        .id { color: brown; font-style: italic; }
+        input[type=text] {font-size: 16pt; width: 90%;}
+        .score {float: right; color: gray;}
+        em {color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+   <h1>Search Results</h1>
+
+    <form action="/search" method="get">
+        <input type="text" name="incipit" size="200" placeholder="enter incipit"
+            value="{{ search_term }}"/>
+        <input type="hidden" name="format" value="html"/>
+        <br/>
+        <input type="submit"/>
+    </form>
+    <p>{{ total }} result{% if total > 1 %}s{% endif %}</p>
+    {% if results|length > 0 %}
+    <ul>
+        {% for result in results %}
+        <li>
+            <b>{{ result.macomber_id_s }}</b>
+            <span lang="gez">{{ result.incipit_txt_gez|safe }}</span><br/>
+            <span class="score">{{ result.score }}</span>
+            <span class="id">{{ result.id }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
