@@ -21,6 +21,8 @@ to the PEMM project CSV file for story instances.
 
 import argparse
 import csv
+import os
+from types import SimpleNamespace
 
 from parasolr.solr.client import SolrClient
 
@@ -38,7 +40,8 @@ def index_incipits(solr_url, solr_core, incipitfile):
         csvreader = csv.DictReader(csvfile)
         incipit_rows = [
             row for row in csvreader
-            if row['Incipit'] and row['Confidence Score'] == 'High'
+            if row['Incipit'] and row['Confidence Score'] == 'High' and
+            row['Canonical Story ID']
         ]
         # index macomber id & incipit for any rows with an incipit
         solr.update.index([{
@@ -51,12 +54,29 @@ def index_incipits(solr_url, solr_core, incipitfile):
     print('Indexed %d records with incipits' % len(incipit_rows))
 
 
-if __name__ == "__main__":
+def get_env_opts():
+    # check for environment variable configuration
+    return SimpleNamespace(
+        solr_url=os.getenv('PEMM_SOLR_URL', None),
+        solr_core=os.getenv('PEMM_SOLR_CORE', None),
+        csvpath=os.getenv('PEMM_INCIPIT_CSVPATH', None)
+    )
+
+
+def get_cli_args():
+    # get command-line arguments
     parser = argparse.ArgumentParser(
         description='Convert PEMM structured text file to CSV.')
     parser.add_argument('solr_url', help='Solr URL')
     parser.add_argument('solr_core', help='Solr core')
     parser.add_argument('csvpath', help='Path to CSV file with incipits')
+    return parser.parse_args()
 
-    args = parser.parse_args()
+if __name__ == "__main__":
+    # check environment variables for configuration first
+    args = get_env_opts()
+    # if not set, use command line args
+    if not all([args.solr_url, args.solr_core, args.csvpath]):
+        args = get_cli_args()
+
     index_incipits(args.solr_url, args.solr_core, args.csvpath)
