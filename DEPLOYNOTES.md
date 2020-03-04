@@ -33,7 +33,8 @@ Instructions for setting up Google sheets sync:
 * Give the email address in the credentials file read access to the
   Google sheet to be synchronized.
 
-
+* See the module docstring in the `scripts/gsheets_to_git.py` file for more
+  instructions and example usage.
 
 
 

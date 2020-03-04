@@ -13,6 +13,11 @@ Example use:
 
     ./scripts/gsheets_to_git.py -g /path/to/local/gitrepo GOOGLE-DOCUMENT-ID
 
+Where GOOGLE-DOCUMENT-ID can be found in the URL when viewing the spreadsheet
+you want to sync, looking something like:
+
+1dfr9gE8EeIXaj4XXPwuuo2PtJwIUMM18dKfVN24f86A
+
 Setup:
 
 * Create credentials based on the gspread OAuth2 documentation and save the
