@@ -15,17 +15,16 @@ Example use:
 
 Setup:
 
-* pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib gitpython
+* Create credentials based on the gspread OAuth2 documentation and save the
+ JSON file as pemm_credentials.json
+ (https://gspread.readthedocs.io/en/latest/oauth2.html)
 
-* (google sheets api setup/credentials documentation still todo)
+* Give the email address in the credentials file read access to the Google
+ sheet to be synchronized.
 
 * Create or checkout a working copy of the git repository where
  the data  will be stored. It should be configured with a remote
  "origin" for remote synchronization before running the script.
-
-
-NOTE: currently using unreleased "trix" code for interacting with
-Google Sheets; proper release & docs TBD
 
 '''
 import argparse
