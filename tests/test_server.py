@@ -23,7 +23,7 @@ def test_index(client):
     # check home page
     rv = client.get('/')
     assert 'version %s' % __version__ in rv.data.decode()
-    assert b'<form action="/search" method="post">' in rv.data
+    assert b'<form action="/search" method="get">' in rv.data
     assert b'<input type="hidden" name="format" value="html"/>' in rv.data
     assert b'<input type="text" name="incipit"' in rv.data
 
@@ -34,7 +34,8 @@ def test_get_solr(mocksolrclient, client):
     # should initialize solr client and store in app context global
     server.get_solr()
     assert 'solr' in g
-    mocksolrclient.assert_called_with(server.SOLR_URL, server.SOLR_CORE)
+    mocksolrclient.assert_called_with(server.app.config['SOLR_URL'],
+                                      server.app.config['SOLR_CORE'])
 
     # if called again, should not re-initialize
     mocksolrclient.reset_mock()
