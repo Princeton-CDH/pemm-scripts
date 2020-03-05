@@ -52,10 +52,10 @@ def search():
         # patch in the highlighted incipits into the main result
         # to avoid accessing separately in the template or json
         highlights = queryset.get_highlighting()
-        for i, row in enumerate(results):
-            highlighted_incipit = highlights[row['id']]['incipit_txt_gez'][0]
-            if highlighted_incipit:
-                row['incipit_txt_gez'] = highlighted_incipit
+        for i, result in enumerate(results):
+            highlighted_incipits = highlights[result['id']]['incipit_txt_gez']
+            if highlighted_incipits:
+                result['incipit_txt_gez'] = highlighted_incipits[0]
 
     # if html response was requested, render results.html template
     if output_format == 'html':
