@@ -2,12 +2,14 @@
 '''
 An HTTP server that proxies requests to solr to search for similar incipits.
 
+Copy local_settings.cfg.sample to local_settings.cfg and configure
+asa appropriate for your environment.
+
 Run a debug server for development with:
     $ export FLASK_APP=scripts/server.py FLASK_ENV=development
     $ flask run
 
 '''
-import os
 
 from flask import Flask, g, jsonify, render_template, request
 from parasolr.query import SolrQuerySet
@@ -15,12 +17,10 @@ from parasolr.solr.client import SolrClient
 
 from scripts import __version__
 
-# read settings from environment on startup
-SOLR_URL = os.getenv('PEMM_SOLR_URL', 'http://localhost:8983/solr/')
-SOLR_CORE = os.getenv('PEMM_SOLR_CORE', 'pemm')
-
 # create a new flask app from this module
 app = Flask(__name__)
+# load configuration from local settings
+app.config.from_pyfile('local_settings.cfg')
 
 
 @app.route('/')
@@ -71,5 +71,5 @@ def get_solr():
     '''Get a shared-per-request connection to solr, creating if none exists.'''
     # see https://flask.palletsprojects.com/en/1.1.x/api/#flask.g
     if 'solr' not in g:
-        g.solr = SolrClient(SOLR_URL, SOLR_CORE)
+        g.solr = SolrClient(app.config['SOLR_URL'], app.config['SOLR_CORE'])
     return g.solr
