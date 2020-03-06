@@ -39,21 +39,26 @@ def search():
         search_term = request.args.get('incipit', '')
         output_format = request.args.get('format', '')
 
+    #: incipit query alias field syntax
+    search_incipit_query = '{!qf=$incipit_qf pf=$incipit_pf ps=2 v=$incipit_query}'
+
     queryset = SolrQuerySet(get_solr())
     if search_term:
-        queryset = queryset.highlight('incipit_txt_gez', q=search_term,
+        queryset = queryset.highlight('incipit_txt_gez',
                                       method='unified', fragsize=0) \
-            .search(incipit_txt_gez=search_term) \
+            .search(search_incipit_query) \
+            .raw_query_parameters(incipit_query=search_term) \
             .order_by('-score') \
             .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score')
 
     results = queryset.get_results()
-    if search_term:
+    if results and search_term:
         # patch in the highlighted incipits into the main result
         # to avoid accessing separately in the template or json
         highlights = queryset.get_highlighting()
         for i, result in enumerate(results):
-            highlighted_incipits = highlights[result['id']]['incipit_txt_gez']
+            highlighted_incipits = highlights[result['id']] \
+                .get('incipit_txt_gez', None)
             if highlighted_incipits:
                 result['incipit_txt_gez'] = highlighted_incipits[0]
 
