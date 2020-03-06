@@ -50,7 +50,8 @@ def test_search(mocksolrqueryset, client):
 
     # simulate queryset fluent interface
     mocksqs = mocksolrqueryset.return_value
-    for method in ['search', 'order_by', 'only', 'highlight']:
+    for method in ['search', 'order_by', 'only', 'highlight',
+                   'raw_query_parameters']:
         getattr(mocksqs, method).return_value = mocksqs
 
     test_solr_docs = [
@@ -74,12 +75,15 @@ def test_search(mocksolrqueryset, client):
         mock_highlighting['1-A']['incipit_txt_gez'][0]
 
     mocksolrqueryset.assert_called_with(g.solr)
-    mocksqs.search.assert_called_with(incipit_txt_gez=test_search_string)
+    # should be called with incipit query alias field
+    assert mocksqs.search.call_count == 1
+    mocksqs.raw_query_parameters \
+        .assert_called_with(incipit_query=test_search_string)
     mocksqs.order_by.assert_called_with('-score')
     mocksqs.only.assert_called_with(
         'id', 'macomber_id_s', 'incipit_txt_gez', 'score')
     mocksqs.highlight.assert_called_with(
-        'incipit_txt_gez', q=test_search_string, method='unified', fragsize=0)
+        'incipit_txt_gez', method='unified', fragsize=0)
 
     # request html
     rv = client.post('/search', data=dict(
