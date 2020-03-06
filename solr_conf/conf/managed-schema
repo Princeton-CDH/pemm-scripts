@@ -83,11 +83,12 @@
     <analyzer type="index">
      <charFilter class="solr.MappingCharFilterFactory" mapping="mapping-fold-fidel.txt"/>
       <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.SynonymGraphFilterFactory" expand="true" ignoreCase="true" synonyms="gez_synonyms.txt"/>
+      <filter class="solr.FlattenGraphFilterFactory"/> <!-- required on index analyzers after graph filters -->
     </analyzer>
     <analyzer type="query">
      <charFilter class="solr.MappingCharFilterFactory" mapping="mapping-fold-fidel.txt"/>
       <tokenizer class="solr.StandardTokenizerFactory"/>
-      <filter class="solr.SynonymGraphFilterFactory" expand="true" ignoreCase="true" synonyms="gez_synonyms.txt"/>
       <!-- <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/> -->
     </analyzer>
   </fieldType>
