@@ -7,7 +7,7 @@
         .id { color: brown; font-style: italic; }
         input[type=text] {font-size: 16pt; width: 90%;}
         .score {float: right; color: gray;}
-        em {color: red; font-weight: bold; }
+        em {color: red; font-weight: bold; font-style: normal; }
     </style>
 </head>
 <body>
@@ -20,7 +20,7 @@
         <br/>
         <input type="submit"/>
     </form>
-    <p>{{ total }} result{% if total > 1 %}s{% endif %}</p>
+    <p>Showing {{ results|length }} of {{ total }} result{% if total > 1 %}s{% endif %}</p>
     {% if results|length > 0 %}
     <ul>
         {% for result in results %}
