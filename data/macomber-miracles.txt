@@ -371,7 +371,7 @@ Text: Budge, Miracles, p. 19.
 English translation: Budge, One Hundred, p. 26.
 PEth: 20.35 (46r-47r); 20.4 (3v-4r); 41.25 (57v-58v); 46.9 (14v-15v); 46.122 (145v-146r); 47.8 (32v-35v);
 EMIP: 601.8 (9r–10r); 601.329 (175v);
-MSS: G-39; ZBNE 60-9; 61-7; CRA 52-15; CRA 54 (28b); CRA 55 (23a); SBLE 32-8; BM 2-11; 3-15; VLVE 267 (30b); 298 (13a,2lla); SALE 23-7; 43-9; LUE 30-20; 32-15; CBS-8; CCBE 951-8; DULE 12 (84b); AECE 1 (11b,39a).
+MSS: G-39; ZBNE 60-9; 61-7; CRA 52-15; CRA 54 (28b); CRA 55 (23a); SBLE 32-8; BM 2-11; 3-15; VLVE 267 (30b); 298 (13a,211a); SALE 23-7; 43-9; LUE 30-20; 32-15; CBS-8; CCBE 951-8; DULE 12 (84b); AECE 1 (11b,39a).
 EMML: 2275 (197a); 6938 (69b); 5520 (45a); 6949 (125a); 2378 (27a); 6640 (22a); 2059 (130a); 2060 (168b); 2066 (117b); 2802 (61b); 6196 (24a); 7543 (34b).
 Keywords: Europeans [Afrengi]; Frenchmen; Icons; Painters; Preservation from falling; Scaffolding;
 Incipit: wa-hall o aṣadu be ~esi ṣacali, wa-albo za-yetmassallo ba-we'etu azman ba-gabira ~eel (6938). Wa-hallawat aQatti beta krestiyan ṣannayt; wa-soba fa~$a.tnU Qeni$ota, ma$'a aQadu mm~mmm be'ese ma~ ce1 (MS: mesl) wa-bo'a gaba beta krestiyan wa-gabra carata (6949).
@@ -661,7 +661,7 @@ English translation: Budge, One Hundred, p. 33.
 Summary: Cerulli, Il libro, p. 192.
 PEth: 20.36 (47r-48r); 23.3 (29v-31r); 41.26 (58v-59r); 43.23 (30rv); 46.10 (15v-16r); 47.9 (35v-37v);
 EMIP: 601.205 (126v–127r); 601.9 (10r);
-MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; LUE 30-2l; CBS-9; 32-16, 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
+MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; LUE 30-21; CBS-9; 32-16; 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
 EMML: 5105 (144b); 2275 (37b); 6938 (61a); 4205 (26a); 4618 (75a); 5520 (57b); 6949 (138a); 2378 (33a); 6640 (26b); 2059 (30b); 2060 (184b); 2066 (118b); 2802 (69a); 6196 (27a); 7543 (47b).
 Keywords: Visions, apparitions; Däbrä Nagadeyan; Hospitals; Jerusalem; Icons; Monks; Scete; Yohannes, Bishop of Scete;
 Incipit: Semecu, abaweya wa-agaweya, zanta nagara za-kona ba-enta Egzeˀetena•••. eroma meprat, mmmmib:roro samacit la-za-sa'ala wa-mastaf~e~itla-~ezunan ba-aman, tawakkafit la-za-sa'ala ba-tebuc lebb wa-ba-~enuc haymanot. Wa-ef halloku ana naday Yopannes, esquf za-gadama Asqetes, ba-Däbrä Nagadeyan, azzazanni mamher kama etla'akkomu la-pemuman (6938). Wa-hallawat ~ecla Egzeˀetena.Maryam ba-Däbrä Nagadeyan ba-beta pemuman mangala me~raq (5520).
@@ -1330,7 +1330,7 @@ Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; 
 MAC0118.
 Title: The merchant from Senfewat who struck the icon of Saint Mary.
 PEth:
-MSS: G-119; CRA 52-75; 53-29,61; VLVE 298(86a); CL-2.
+MSS: G-119; CRA 52-75; 53-29; 61; VLVE 298(86a); CL-2.
 EMML: 3872(17b); 7543(78b); 2952(108a); 2058(94b); 642(92a); 3378(142a); 76(214a).
 Keywords: Icons; Merchants; Priests; Senfewat; Tomas, priest; Thomas, priest;
 Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel a zentu
@@ -1605,7 +1605,7 @@ Text: Budge, Miracles, p. 41
 English translation: Budge, One Hundred, p. 85.
 PEth: 20.77 (81r-81v); 41.56 (84r-85r); 43.38 (50v-51v); 43.3 (6v-8r); 46.27 (27v-28r); 47.27 (80v-81r);
 EMIP: 601.27 (19v–20r); 601.316 (171v–172r);
-MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; 39;LUE 30-12; 61; 31-4; 32-27,45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
+MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; 39;LUE 30-12; 61; 31-4; 32-27;45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
 EMML: 1573(18b); 3536(20b); 5105(11a); 2275(26b); 3872(37a); 6917(26a); 2282(42a); 4618(11a); 5182(4b); 5520(8a); 6949(74a); 4688(32b,108a); 1692(24a); 2378(3b); 3923(44a); 6640(48b,102b); 2059(20b bis); 2060(33a); 2066(45b,134b); 2802(40b); 5420(30b); 6196(79a); 7543(89b); 2831(32b,43a).
 Keywords: Anastasius, deacon; Constantinople; Deacons; Prayers; Rome; Tafassehiyat;
 Incipit: wa-hallo apadu be'esi za-semu Anestoseyos ba-hagara Rome za-Baranesteseya (EMML 2058: za-Baranpeya), farahe Egzi'ab};.ter wa-yafaqqera l a-Egze'etena .••. wa-yegayyes haba beta Krestiyan yaqerreb latti aptrge ne~upa za-mesla ~alot, enza yesebbep waddesota la-Maryam (3872)./ Wa-hallo apadu be'esi wa-yenabber westa apadu mak.an za-yafaqqero l a-Egzi'abper wa-la-Egze'etena ...• wa-ye~elli zanta ~alota ~'llfilYl!lhilmWlllV enta westeta mWJ!Ulrll!:wmwmi:mliJilWlllwnliwiiwmymimiwih:HH®gamwmtmml~~ a 'ekw etota wa-wadde s ota la-Maryam (4618).
@@ -2044,7 +2044,7 @@ MAC0179.
 Title: The monk who has carried by the bretheren to church when he became too sick to walk.
 PEth: 41.77 (107v-108r); 43.7 (11r-12r); 46.2 (10rv);
 EMIP: 601.58 (34v–35r);
-MSS: VLVE298(229b); LUE 30-5;32-38; HBS 59-52; CL-56.
+MSS: VLVE 298(229b); LUE 30-5;32-38; HBS 59-52; CL-56.
 EMML: 1573(41a); 3536(75b); 4522(54a); 5105(75a); 2275(22b); 3872(72b); 6917(72b); 2282(60b); 5520(40a); 6949(23b); 4688(88a); 2378(24b); 3923(71a); 2059(114a); 2060(75b); 2066(55a); 2802(57b); 7543(111a); 2831(19a).
 Keywords: Däbrä Efrem; Islands; Old men; Matoreya, spring of; Springs; Monasteries; Monks; Rivers; Tigris River; Weakness;
 Incipit: Wa-hallo maˀkala Baṣa Tegros dasset za-yessammay Däbrä Efrem, wa-yenabberu westeta bezugan manakosat; wa-em westetomu hallo be>esi za-mankWasa em-ne>su, wa-yetla>ak la-Egze >etena ba-~annay amleko ba-feqra zi>aha (3872). / wa-hallo aDadu dabr za-manakosat haba ~enfa bapr, wa-hallo westetu apadu n/ egw za-mankwasa em-ne>su, wa-we>etussa be>esi ~a;nay we>etu (1573).
@@ -2138,7 +2138,7 @@ Text: Budge, Miracles, p. 13.
 English translation: Budge, One Hundred, p. 6.
 PEth: 20.30 (41v-42r); 23.2 (28v-29v); 41.20 (54v); 43.4 (8rv); 46.3 (10v-11r); 47.3 (19r-20r);
 EMIP: 601.315 (171v);
-MSS: ZBNE 60-3; 61-1; 62-48; 70-3; CRA 52-9; 54(13a); 55(11b); SBLE 15(5b); 17(3a); 32-2; BM 2-5; 3-9; GVE 12(29b); 43(229a); VLVE 267(16a); 272(55b); 298(1oa); SALE 23-2; 43-3; 133(43b); LUE 30-3; 32-9; CBS-2; HBS 59-60; CCBE 951-2;-CL-64; DULE 12(81a); AECE 1(7a); SWE 15(58b).
+MSS: ZBNE 60-3; 61-1; 62-48; 70-3; CRA 52-9; 54(13a); 55(11b); SBLE 15(5b); 17(3a); 32-2; BM 2-5; 3-9; GVE 12(29b); 43(229a); VLVE 267(16a); 272(55b); 298(1oa); SALE 23-2; 43-3; 133(43b); LUE 30-3; 32-9; CBS-2; HBS 59-60; CCBE 951-2; CL-64; DULE 12(81a); AECE 1(7a); SWE 15(58b).
 EMML: 1573(50b); 3536(88a); 4522(97a); 5105(93a); 2275(113b); 3872(79b); 6938(168a); 6917(82b); 2282(36b); 4205(34b); 5182(12b); 5520(9b); 6949(34b); 1692(71a); 2378(4b); 3923(74a); 6640(14a); 2059(29a); 2060(18ob); 2066(113a); 2802(41b); 5420(17b); 6196(12a); 7543(114b); 2831(86a).
 Keywords: Farmers; Hail Mary; Peasants;
 Incipit: wa-hallo aḥadu beˀesi gabbarawi za-kona yawatter kwello <elata salama la-Egzeˀetena.... sarka wa-nagha wa-manfaqa ma<alt, wa-nabara kama-zemm bezu!}a mawāˁela. wa-apatta <elata yebela: 0-Egzeˀeteya mastaṣahelt, esma ansa watra kama-ze ehub salamaki za-enbala gafrat, wa-antini, la-ment za-ittagabbe'i litta salameya (3872).
