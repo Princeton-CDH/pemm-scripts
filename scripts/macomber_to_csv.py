@@ -159,39 +159,7 @@ class MacomberToCSV:
                     # these are structured as `collection id (folio)`, e.g.
                     # MSS: CRA 53-17; VLVE 298 (151a).
                     elif field == 'MSS':
-                        value = value.strip().strip('.')
-                        if value.lower() in ['', 'none']:
-                            continue
-
-                        mss_refs = [m.strip() for m in value.split(';')]
-                        for mss_ref in mss_refs:
-                            # split on first space, if present
-                            # remainder
-                            # if the manuscript ref starts with an alpha char,
-                            # it has a collection id
-                            if mss_ref and mss_ref[0].isalpha():
-                                if ' ' in mss_ref:
-                                    collection, mss = mss_ref.split(' ', 1)
-                                elif '-' in mss_ref:
-                                    # otherwise split on first dash (e.g. G-1)
-                                    collection, mss = mss_ref.split('-', 1)
-                                    # special case: these collections each
-                                    # have one manuscript only, the number
-                                    # is miracle order
-                                    # - adjust ref to add mss id 1
-                                    mss = '1-%s' % mss
-                                else:
-                                    # error/warn?
-                                    continue
-                            # otherwise, collection is inferred
-                            # from previous record
-                            # e.g. VLVE 267(52b); 272(113a); 298(21b);
-
-                            if collection not in self.collection_lookup:
-                                print('warning: bad collection %s / %s' %
-                                      (collection, mss_ref))
-                            else:
-                                self.parse_manuscripts(collection, mss, record)
+                        self.process_manuscript_list(value, record)
 
                     # specific repositories with manuscripts with this story
                     # field is the name of the manuscript repository/collection
@@ -206,6 +174,43 @@ class MacomberToCSV:
             print('Failed to parse these manuscript references:')
             for mss_ref in self.mss_unparsed:
                 print(mss_ref)
+
+    def process_manuscript_list(self, value, record):
+        # combined manuscripts field
+        # these are structured as `collection id (folio)`, e.g.
+        # MSS: CRA 53-17; VLVE 298 (151a).
+        value = value.strip().strip('.')
+        if value.lower() in ['', 'none']:
+            return
+
+        mss_refs = [m.strip() for m in value.split(';')]
+        for mss_ref in mss_refs:
+            # split on first space, if present
+            # if the manuscript ref starts with an alpha char,
+            # it has a collection id
+            if mss_ref and mss_ref[0].isalpha():
+                if ' ' in mss_ref:
+                    collection, mss = mss_ref.split(' ', 1)
+                elif '-' in mss_ref:
+                    # otherwise split on first dash (e.g. G-1)
+                    collection, mss = mss_ref.split('-', 1)
+                    # special case: these collections each
+                    # have one manuscript only, the number
+                    # is miracle order
+                    # - adjust ref to add mss id 1
+                    mss = '1-%s' % mss
+
+            # if not alpha, store entire reference as mss
+            # and infer collection from previous record
+            # e.g. VLVE 267(52b); 272(113a); 298(21b);
+            else:
+                mss = mss_ref
+
+            if collection not in self.collection_lookup:
+                print('warning: bad collection %s / %s' %
+                      (collection, mss_ref))
+            else:
+                self.parse_manuscripts(collection, mss, record)
 
     def parse_manuscripts(self, collection, manuscripts, canonical_record):
         '''Parse a manuscript reference; add records to the list of
@@ -267,8 +272,8 @@ class MacomberToCSV:
                     # add the manuscript id to repository set
                     self.manuscripts[collection].add(match.group('id'))
                     # add a new story instance
-                    self.add_story_instance(collection, canonical_record, match)
-
+                    self.add_story_instance(collection, canonical_record,
+                                            match)
                 else:
                     # failed to parse
                     self.mss_unparsed.append(

@@ -1,4 +1,5 @@
 import os
+from collections import defaultdict
 
 from scripts.macomber_to_csv import MacomberToCSV
 
@@ -204,3 +205,46 @@ class TestMacomberToCSV:
         # self.mac.parse_manuscripts(collection, '7(pg(-50', {'Macomber ID': 8})
         # assert not self.mac.story_instances
         # assert 'foobar' in self.mac.mss_unparsed
+
+    def test_process_manuscript_list(self):
+        self.mac.story_instances = []
+        self.mac.manuscripts = defaultdict(set)
+        mac_id = '404'
+        self.mac.process_manuscript_list(
+            'ZBNE 60-2; 70-2; CRA 52-91; 52(12a); 55(10b); WBLE 77(131a);',
+            {'Macomber ID': mac_id})
+        for repo in ['ZBNE', 'CRA', 'WBLE']:
+            assert repo in self.mac.manuscripts
+        # all of them should be story 404
+        assert all(instance['Canonical Story ID'] == mac_id
+                   for instance in self.mac.story_instances)
+        # expect six total
+        assert len(self.mac.story_instances) == 6
+        # 1. ZBNE 60-2
+        story_inst = self.mac.story_instances[0]
+        assert story_inst['Manuscript'] == \
+            '%s %s' % (self.mac.collection_lookup['ZBNE'], 60)
+        assert story_inst['Miracle Number'] == '2'
+        assert not story_inst['Folio Start']
+        assert not story_inst['Folio End']
+        # 2. ZBNE 70-2
+        story_inst = self.mac.story_instances[1]
+        assert story_inst['Manuscript'] == \
+            '%s %s' % (self.mac.collection_lookup['ZBNE'], 70)
+        assert story_inst['Miracle Number'] == '2'
+        assert not story_inst['Folio Start']
+        assert not story_inst['Folio End']
+        # 3. CRA 52-91;
+        story_inst = self.mac.story_instances[2]
+        assert story_inst['Manuscript'] == \
+            '%s %s' % (self.mac.collection_lookup['CRA'], 52)
+        assert story_inst['Miracle Number'] == '91'
+        assert not story_inst['Folio Start']
+        assert not story_inst['Folio End']
+        # 4. CRA 52(12a);
+        story_inst = self.mac.story_instances[3]
+        assert story_inst['Manuscript'] == \
+            '%s %s' % (self.mac.collection_lookup['CRA'], 52)
+        assert not story_inst['Miracle Number']
+        assert story_inst['Folio Start'] == '12a'
+        assert not story_inst['Folio End']
