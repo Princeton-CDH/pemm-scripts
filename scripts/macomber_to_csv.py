@@ -179,7 +179,9 @@ class MacomberToCSV:
         # combined manuscripts field
         # these are structured as `collection id (folio)`, e.g.
         # MSS: CRA 53-17; VLVE 298 (151a).
-        value = value.strip().strip('.')
+
+        # strip whitespace and period
+        value = value.strip(' \t\n\r.')
         if value.lower() in ['', 'none']:
             return
 
