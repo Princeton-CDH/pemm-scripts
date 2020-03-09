@@ -78,7 +78,7 @@ class MacomberToCSV:
         'WBLE': 'W-London (BM)',
         'PEth': 'PEM (PUL)',
         'ZBNE': 'Z-Paris (BNF)',
-        'BM': 'W-London (BM)'
+        'BM': 'B-Oslo (SCOL)'
     }
 
     # manuscript collections with their own field in the input text file
