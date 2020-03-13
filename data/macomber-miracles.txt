@@ -6791,7 +6791,7 @@ EMIP: 601.303 (167r): How Jesus Christ commanded John the Apostle to carry the b
 MSS: GVE 117(34a).
 EMML: None.
 Keywords: Apostles; Visions, apparitions; Christ; Dormition of Saint Mary; John the Evangelist (St.); Mountains;
-Incipit: wa-em-ze tagabe'u ṣawareyat gaba hallo abuya Yopannes laˁela dabr, wa-
+Incipit: wa-em-ze tagabe'u ṣawareyat gaba hallo abuya Yopannes laˁela dabr, wa- (GVE 117).
 
 
 MAC0634.
@@ -6800,7 +6800,7 @@ PEth:
 MSS: VLVE 298(95b).
 EMML: None.
 Keywords: Ascension of Christ; Chalcedon; Houses, homes; Nazareth;
-Incipit: Wa-kona em-degra <ergatu la-Egziˀena, Iyyasus Krəstos, lottu sebpat, ba-
+Incipit: Wa-kona em-degra <ergatu la-Egziˀena, Iyyasus Krəstos, lottu sebpat, ba-(VLVE 298)
 
 
 MAC0635.
@@ -6809,7 +6809,7 @@ PEth:
 MSS: VLVE 298(120a).
 EMML: None.
 Keywords: Apostles; Churches; Church destructions; Earthquakes; Homs; Sam; Syria;
-Incipit: Za-gabrat ba-hagara Finqe enta yebleWa gems em-adyama Sam. Wa-hallawat
+Incipit: Za-gabrat ba-hagara Finqe enta yebleWa gems em-adyama Sam. Wa-hallawat (VLVE 298)
 
 
 MAC0636.
@@ -6827,7 +6827,7 @@ PEth:
 MSS: VLVE 298(160b).
 EMML: None.
 Keywords: Phoenicia; Finqe; Greatness of Saint Mary; Homilies; Praise of Saint Mary's greatness;
-Incipit: Semeˁuke, abaweya wa-agaweya, pezba Krestiyan, <ebaya la-Egze'etena.••.
+Incipit: Semeˁuke, abaweya wa-agaweya, pezba Krestiyan, <ebaya la-Egze'etena.••.(VLVE 298)
 
 
 MAC0638.
@@ -6836,7 +6836,7 @@ PEth:
 MSS: VLVE 298(200b).
 EMML: None.
 Keywords: Anne from Constantinople; Constantinople; Dead raised to life;
-Incipit: Wa-hallawat apatti beˀesit ba-hagara Qwestenteneya za-sema ṣanna. Wa-pammat
+Incipit: Wa-hallawat apatti beˀesit ba-hagara Qwestenteneya za-sema ṣanna. Wa-pammat (VLVE 298)
 
 
 -152-
@@ -6848,7 +6848,7 @@ PEth:
 MSS: VLVE 298(202a).
 EMML: None.
 Keywords: Alexandria; Commemorations; Fathers; Feasts; Heirs; Sons;
-Incipit: Wa-hallo aḥadu beˀesi ba-hagara Ezkendereya, wa-kona yegabber tazkara la-
+Incipit: Wa-hallo aḥadu beˀesi ba-hagara Ezkendereya, wa-kona yegabber tazkara la-(VLVE 298).
 
 
 MAC0640.
@@ -6857,7 +6857,7 @@ PEth:
 MSS: None.
 EMML: 2044(48b).
 Keywords: Däbrä Sedeneya; Egyptians; Icons; Magistrates; Officials; Old men; Sedeneya;
-Incipit: Yebe aḥadu beˀesi: Taseˀelkewwo l a-aḥadu Gebṣawi aragawi , faraha Egziˀabper,
+Incipit: Yebe aḥadu beˀesi: Taseˀelkewwo l a-aḥadu Gebṣawi aragawi , faraha Egziˀabper (2004)
 
 
 MAC0641.
@@ -6866,7 +6866,7 @@ PEth:
 MSS: None.
 EMML: 1581(85b).
 Keywords: Flight into Egypt; Hope of salvation; Zärˀa Yaˁəqob, Emperor of Ethiopia;
-Incipit: Dersan za-darasa Zärˀa Yaˁəqob, Retu<a Miir,mlii:R (MS: Retu<ana) Haymanot, Eg
+Incipit: Dersan za-darasa Zärˀa Yaˁəqob, Retu<a Miir,mlii:R (MS: Retu<ana) Haymanot (1581).
 
 
 -153-
@@ -6881,12 +6881,21 @@ Keywords: Angels; Brigands; Christ; Desert; Egypt; Flight into Egypt; Holy Famil
 Incipit: Wa-em-dehra-ze astarˀayo malˀaka Egziˀabher la-Yosef ba-Gebṣ wa-yebelo:Taneśśeˀ wa-neśaˀ hezana wa-emmo wa-tamayyat medra Felesteˀem (22).
 
 
-MAC0643
+MAC0643.
 Title: Saint Mary appears to a Muslim who was about to teach the Islamic religion to a Christian who had been compelled to apostasize; the Muslim teacher is converted to Christianity and dies a martyr.
 PEth:
 EMIP: 601.135 (84r-84v);
 MSS: CBS-78.
 EMML: None
 Keywords:
-Incipit: Missing because not in any EMML manuscript (CBS-78)
+Incipit: Missing because not in any EMML manuscript (CBS-78).
+
+MAC0644.
+Title: A miracle story that does not appear in Macomber's file.
+PEth:
+EMIP: 
+MSS: 
+EMML: None
+Keywords:
+Incipit: none.
 
