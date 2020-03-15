@@ -1244,8 +1244,7 @@ Incipit: Wa-hallawat apatti beˀesit ~~~ Qisareya, wa-kona abuha ~ ba<la ba-peqq
 
 
 MAC0110.
-Title: Emperor Arcadius and the golden statue of Saint Mary; he asks Saint John
-Chrysostom to expound Mt. 1, 25.
+Title: Emperor Arcadius and the golden statue of Saint Mary; he asks Saint John Chrysostom to expound Mt. 1, 25.
 PEth:
 MSS: G-111; ZBNE 60-105; VLVE 298(95a); CBS-82.
 EMML: 3872(10b); 7543(74b); 2058(90a); 6062(44b); 3378(138a); 76(101b); 22(72a).
@@ -1264,7 +1263,7 @@ Incipit: wa-hallawat apatti beˀesit mesla pamata ba-dawala Qapra, wa-betani ba-
 
 
 MAC0112.
-Title: A poor woman with a broken leg is healed by the icon of Saint Mary in the
+Title: A poor woman with a broken leg is healed by the icon of Saint Mary in the church of Harat ar-Rum.
 PEth: 20.46 (55v); 41.44 (73v-74v); 43.31 (39r-40r); 46.24 (25rv); 47.24 (71r-73r);
 EMIP: 601.24 (17v–18r);
 MSS: G-113; ZBNE 60-25; 61-23; 62-23; 63-23; CRA 52-3l; 54(78a); 55(60a); SBLE 32-24; BM 2-27; 3-32; VLVE 267(50a); 298(21a,84b); SALE 23-23; 43-25; LUE 30-36; 32-25 ; CBS-24; CCBE 951-24; AECE 1(25b).
@@ -1440,7 +1439,7 @@ Incipit: Wa-hallo aḥadu makwannen ba-hagara Nro~ml'JlWB Naqiyos, (beˀesi ger)
 
 
 MAC0129.
-Title: The election of Patriarch Matthew I ,
+Title: The election of Patriarch Matthew I.
 PEth:
 MSS: G-130; ZBNE 60-66; VLVE 298(188a); CL-21.
 EMML: 3872(27a); 7543(83b); 2058(100a); 3378(147a); 76(128a); 22(78b); 329(100a).
@@ -5361,7 +5360,7 @@ Incipit: wa-enza hallona ba-medra (MSc medra) Yehuda ama 6 la-Hedar, nahu damman
 
 
 MAC0489.
-Title: The beginning of the history of the Ark of Zion in the giving of the Ten Commandments.
+Title:  Ark of Zion cycle: The beginning of the history of the Ark of Zion in the giving of the Ten Commandments.
 PEth:
 MSS: None.
 EMML: 642(27b); 2774(30b); 683(47a); 682(59a).
@@ -5370,7 +5369,7 @@ Incipit: Semecuni engerkemu ~enta mulada l a-~eyon, ṣawanena, ama ~oma 40 ma'a
 
 
 MAC0490.
-Title: The miracles of the Ark of Zion in the days of Joshua.
+Title: Ark of Zion cycle: The miracles of the Ark of Zion in the days of Joshua.
 PEth:
 MSS: None.
 EMML: 642(28a); 683(47b); 682(59b).
@@ -5379,7 +5378,7 @@ Incipit: Wa-soba mota Muse, tamatawa Iyyasu la-Seyon, enta ye?eti Eg-ze'etena Ma
 
 
 MAC0491.
-Title: The history of the Ark of Zion during the reigns of David and Solomon; Menelik takes the Ark toward Axum; when they reach the Red Sea, it parts before them.
+Title: Ark of Zion cycle: The history of the Ark of Zion during the reigns of David and Solomon; Menelik takes the Ark toward Axum; when they reach the Red Sea, it parts before them.
 PEth:
 MSS: None.
 EMML: 642(28a); 683(145a); 682(59b).
@@ -5388,7 +5387,7 @@ Incipit: Wa-em-ze nagsa Dawit, negusa Esra7 el, wa-~eWaweWa Elofelaweyan la-Tabo
 
 
 MAC0492.
-Title: The Ark of Zion is installed in Axum; the coming there of Abba Salama, who explains to the priests attending the Ark its true significance.
+Title: Ark of Zion cycle: The Ark of Zion is installed in Axum; the coming there of Abba Salama, who explains to the priests attending the Ark its true significance.
 PEth:
 MSS: None.
 EMML: 642(28b).
@@ -5397,7 +5396,7 @@ Incipit: wa-em-ze tagabeˀat zatti bapr kama qadami. wa-sobeha ba~μu ṣarawita
 
 
 MAC0493.
-Title: Homily on the giving of the Law and the fashioning of the Tabernacle.
+Title: Ark of Zion cycle: Homily on the giving of the Law and the fashioning of the Tabernacle.
 PEth:
 MSS: None.
 EMML: 642(70a).
@@ -5406,7 +5405,7 @@ Incipit: Ekell eμ wa-anakker, esebbep wa-ezemmer la-kebra ba<ala l a-taqWama fi
 
 
 MAC0494-A. [Macomber error]
-Title: Exhortation based on the conquest of Palestine by the Ark of Zion.
+Title: Ark of Zion cycle: Exhortation based on the conquest of Palestine by the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 683(146a); 682(60b).
@@ -5416,7 +5415,7 @@ Note: This miracle is divided into two parts (see following)
 
 
 MAC0494-B.
-Title: Continuation of the preceding homily: The crossing of the Jordan and the conquest of Palestine [the ark of Zion carried across Jordan].
+Title: Ark of Zion cycle: Continuation of the preceding Exhortation: The Ark of Zion crossing of the Jordan and the conquest of Palestine.
 PEth:
 MSS: None.
 EMML: 642(70b); 683(145b-146a); 682(60b-60b).
@@ -5426,7 +5425,7 @@ Note: This miracle is divided into two parts (see preceding)
 
 
 MAC0495-A.
-Title: King David and all Israel bring back the Ark of Zion.
+Title: Ark of Zion cycle: King David and all Israel bring back the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 642(72b); 22(161a); 683(148a-148b); 682(62b-63a)·
@@ -5436,7 +5435,7 @@ Note: This miracle is divided into two parts (see following).
 
 
 MAC0495-B.
-Title: Nathan tells King David that his son, Solomon, will build the Temple for the Ark of Zion.
+Title: Ark of Zion cycle: Nathan tells King David that his son, Solomon, will build the Temple for the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 683(148a); 682(63a).
@@ -5446,7 +5445,7 @@ Note: This miracle is divided into two parts (see preceding).
 
 
 MAC0496-A.
-Title: The Temple that King Solomon built for the Ark of Zion.
+Title: Ark of Zion cycle: The Temple that King Solomon built for the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 642(73b).
@@ -5456,7 +5455,7 @@ Note: The second part of this miracle occurs by itelf (see following)
 
 
 MAC0496-B.
-Title: Reflections on the construction of the Temple of Solomon.
+Title: Ark of Zion cycle: Reflections on the construction of the Temple of Solomon.
 PEth:
 MSS: None.
 EMML: 683(148b); 682(63b).
@@ -5466,7 +5465,7 @@ Note: This is the second part of this miracle, which occurs by itelf.
 
 
 MAC0497.
-Title: The Ark of Zion is brought into the Temple of Zion.
+Title: Ark of Zion cycle: The Ark of Zion is brought into the Temple of Zion.
 PEth:
 MSS: None.
 EMML: 642(74b); 683(149a); 682(64a).
@@ -5475,7 +5474,7 @@ Incipit: Netmayyatke haba zena nagar za-~enuti lana ba-enta maqdas za-Qanaṣa S
 
 
 MAC498.
-Title: God appears to King Solomon in a dream after the dedication of the Temple.
+Title: Ark of Zion cycle: God appears to King Solomon in a dream after the dedication of the Temple.
 PEth:
 MSS: None.
 EMML: 642(74b); 683(127a); 682(204b).
@@ -5484,7 +5483,7 @@ Incipit: Wa-ama samun celat, catawu ~ezb westa abyatihomu. Wa-astarˀayo Egziˀa
 
 
 MAC0499-A.
-Title: After the destruction of the Temple by Nebuchadnezzar, the Ark of Zion is hidden; the prophecy of Ezra concering it.
+Title: Ark of Zion cycle: After the destruction of the Temple by Nebuchadnezzar, the Ark of Zion is hidden; the prophecy of Ezra concering it.
 PEth:
 MSS: None.
 EMML: 642(75a).
@@ -5494,7 +5493,7 @@ Note: The second part of this miracle occurs by itself:
 
 
 MAC0499-B.
-Title: The prophecy of Ezra concerning the Ark of Zion (continued).
+Title: Ark of Zion cycle: The prophecy of Ezra concerning the Ark of Zion (continued).
 PEth:
 MSS: None.
 EMML: 683(149b); 682(64a).
@@ -5503,7 +5502,7 @@ Incipit: Wa-yebe aṣadu em-nabiyyat, ze-weˀetu <Ezra: Arna 30 <amat em-za-wadq
 
 
 MAC0500.
-Title: The precious stones used in building the Temple.
+Title: Ark of Zion cycle: The precious stones used in building the Temple.
 PEth:
 MSS: None.
 EMML: 642(75b); 683(150a); 682(64b).
@@ -5512,7 +5511,7 @@ Incipit: W:liimOO!Ull!lwmwmwmwmtmwmwilrilzm~WlilhmlizmDwmwmw:i,riYe be c Ezra: K
 
 
 MAC0501.
-Title: The vision of Zechariah concerning the Ark of Zion.
+Title: Ark of Zion cycle: The vision of Zechariah concerning the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 642(76a); 683(46b); 683(58b).
@@ -5603,13 +5602,13 @@ MAC0510.
 Title: Homily on the Annunciation and the Incarnation.
 PEth:
 MSS: None.
-EMML: 642(191b): [I'm not sure if it, supposed to be a different number before the "b" because the replacement number is cut off by the page.]; 683(212a); 682(81b).
+EMML: 642(191b); 683(212a); 682(81b).
 Keywords: Annunciation; Homilies;
 Incipit: Ba-enta sebkata Gena, wa-ba-enta Maryam wa-Elsabet, wa-ba-enta • Walda Egzij ab~er, ze-weˀetu Qal za-iyyetnaggar. Habanni qala zayezemmer sebQatika, bacl hebuC za-samra yetkassat (642).
 
 
 MAC0511.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily: the miraculous conception of Saint John the Baptist.
+Title: Homily on the Annunciation and the Incarnation (continuation): The Miraculous Conception of Saint John the Baptist.
 PEth:
 MSS: None.
 EMML: 642(192a); 683(212b); 682(82a).
@@ -5619,7 +5618,7 @@ ba-manker tawakfatto (642).
 
 
 MAC0512.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily: the Visitation.
+Title: Homily on the Annunciation and the Incarnation (continuation): The Visitation of Saint Mary to St. Elizabeth.
 PEth:
 MSS: None.
 EMML: 642(192b); 683(213a); 682(82b).
@@ -5631,7 +5630,7 @@ Incipit: Wa-.h orat Egze'etena Maryam ter?aya la-carag1t, wa-enta balyat z. ansa
 
 
 MAC0513.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily.
+Title: Homily on the Annunciation and the Incarnation (continuation): Gabriel the Archangel.
 PEth:
 MSS: None.
 EMML: 642(193a); 683(213b); 682(83a).
@@ -5641,7 +5640,7 @@ Incipit: Wa-fannawa ba-afa Gabre~el malˀak naba Walatta Dawit, wa-tamehrat Egze
 
 -127-
 MAC0514.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily.
+Title: Homily on the Annunciation and the Incarnation (continuation): Holy Spirit.
 PEth:
 MSS: None.
 EMML: 642(193b); 683(214a); 682(83b).
@@ -5650,7 +5649,7 @@ Incipit: Wa-Elsabe~ni enza cadi , esma melecta Manfas yeˀeti, acemarat anfar~ez
 
 
 MAC0515.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily.
+Title: Homily on the Annunciation and the Incarnation (continuation): Home of Saint Mary
 PEth:
 MSS: None.
 EMML: 642(193b); 683(214b); 682(84a).
@@ -5659,7 +5658,7 @@ Incipit: Wa-tamay.t at tegbac 'h-' aba beta Egze’etena Wa-em-de...h., ra zentu
 
 
 MAC0516.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily.
+Title: Homily on the Annunciation and the Incarnation (continuation): Mysteries.
 PEth:
 MSS: None.
 EMML: 642(194b); 683(215a); 682(84b).
@@ -5668,7 +5667,7 @@ Incipit: Mestir hebuc za-tanagra em-haba Ab, Amlakeka, yeˀqabewwo kama  '-' V i
 
 
 MAC0517.
-Title: Homily on the Annunciation and the Incarnation: Continuation of the preceding homily
+Title: Homily on the Annunciation and the Incarnation (continuation): Saint Elizabeth.
 PEth:
 MSS: None.
 EMML: 683(215b).
@@ -6122,7 +6121,7 @@ Incipit: Wa-hallawat apatti dabr ba-hagara Eskendereya, 'ayna may za-yesaqqeya, 
 
 
 MAC0564.
-Title: Sabela, a nun of Caesarea, who had a vision of Saint Mary while sleeping;.
+Title: Sabela, a nun of Caesarea, who had a vision of Saint Mary while sleeping.
 PEth:
 MSS: None.
 EMML: 1156(82a); 329(40a).
@@ -6417,7 +6416,7 @@ Incipit: Wa-hallo aDadu eppis qoppos ba-hagara QWest enteneya za-semu Bakkimos, 
 
 
 MAC0595.
-Title: The story of the martyr, Saint Romanus. None.
+Title: The story of the martyr, Saint Romanus. 
 PEth:
 MSS: None.
 EMML: 329(44b).
@@ -6580,7 +6579,7 @@ Incipit: Wa-ka<balla-yeˀeti beˀesit aknaf <abbryt manfasaweyan, ba-za-teṣarr
 
 -147-
 MAC0612.
-Title: Continuation of the preceding homily on the vision of the Apocalypse
+Title: Continuation of the preceding homily on the vision of the Apocalypse.
 PEth:
 MSS: None.
 EMML: 683(48b); 682(66a).
