@@ -3446,7 +3446,7 @@ Title: A priest becomes insane after his entire family dies of the plague.
 English translation: Budge, One Hundred, p. 313.
 PEth:
 EMIP: 253.? (117rv): How a certain man became mad after his family died, How Our Lady Mary cured him and he served her the remainder of his life;
-MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(70b); AECE 1.
+MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(70b); AECE 1 (43a) 
 EMML: 5105(139a); 2275(189b); 6949(136a); 2059(72b); 2060(153b); 2831(28b); 2308(72a).
 Keywords: Children; Families; Insanity; Pestilences; Priests; Wives;
 Incipit: Wa-hallo a~adu qas1s, wa-galqu be ?esitu mmam wa-daqiqu (5105).
