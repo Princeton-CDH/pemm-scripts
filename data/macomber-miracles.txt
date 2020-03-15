@@ -19,7 +19,7 @@ Note: Parts of this miracle can occur as distinct miracles (see below).
 
 
 MAC0001-B.
-Title: Satan appears to King Herod and advises him to kill the Innocents.
+Title: Vision of Theophilus of Alexandria (continued): Satan appears to King Herod and advises him to kill the Innocents.
 Text: T-101, p. 343:77.
 PEth:
 MSS: None.
@@ -29,7 +29,7 @@ Incipit: wa-ba-yeʾeti ʿǝlat mota Sǝmʿon kāhǝn ʾaragāwi. Wa-nabara Herod
 
 
 MAC0001-C.
-Title: The arrival of the Holy Family in Sāmǝnon.
+Title: Vision of Theophilus of Alexandria (continued): The arrival of the Holy Family in Sāmǝnon.
 Text: T-101, p. 347:118.
 PEth:
 MSS: None.
@@ -39,7 +39,7 @@ Incipit: Wa-ʾǝm-zǝ baṣḥa hagara Sāmǝnon; wǝsta qadāmi ʾanqaṣ mā�
 
 
 MAC0002.
-Title: The vision of Theophilus continued: Satan urges Herod to pursue the Holy Family.
+Title: Vision of Theophilus of Alexandria (continued): Satan urges Herod to pursue the Holy Family.
 Text:
 PEth:
 MSS: G-2; VLVE 298 (129v).
@@ -49,7 +49,7 @@ Incipit: Ba-ʾǝnta za-kama ʾastarʾayatto la-Tewofǝlos… ʾǝm-dǝkāma fǝn
 
 
 MAC0003.
-Title: The vision of Theophilus continued: The Holy Family returns from Egypt.
+Title: Vision of Theophilus of Alexandria (continued): The Holy Family returns from Egypt.
 Text:
 PEth:
 MSS: G-3; VLVE 298(131r).
@@ -80,7 +80,7 @@ Incipit: Wa-hallo ʾaḥadu bǝʾǝsi ba-hagara ʾAfrǝngi ʾǝm-ʾadyāma ʾAfr
 
 
 MAC0006.
-Title: During the famine of 1120 MM [likely 1404 CE], the Arabs try to plunder the monasteries.
+Title: During the famine of 1120 MM [likely 1404 CE], the Arabs try to plunder the monasteries of Egypt.
 Text:
 Summary: Cerulli, Il libro, p. 174.
 PEth:
@@ -134,7 +134,7 @@ Incipit: Wa-hallo ʾaḥadu bǝʾǝsi ba-hagara Sǝʿid ba-Däbrä ʾƎnṣǝnā
 
 
 MAC0011.
-Title: An Arab who contemns Saint Mary’s icon at Däbrä Qaləmon is punished.
+Title: An Arab who has contempt for Saint Mary’s icon at Däbrä Qaləmon is punished.
 Summary: Cerulli, Il libro, p. 176.
 PEth: 41.86 (124v-125v); 46.97 (114r-115r);
 MSS: G-11; VLVE 298 (90v); LUE 31-12; CF 1-12; CBS-59.
@@ -186,7 +186,7 @@ Incipit: Wa-hallo ba-ʾaḥatti hagar ʾǝm-ʾahgura Ṣǝʿid ʾǝm-śimata ʾe
 
 
 MAC0016.
-Title: Three Arabs who were journeying to the Rif.
+Title: Three Arabs who were journeying to the Rif on the Nile in Egypt.
 Text: Budge, Miracles, p. 24.
 English translation: Budge, One Hundred, p. 41.
 PEth: 41.29 (61r-62r); 43.26 (33r-34v); 46.12 (17v-18r); 47.12 (43v-45v);
@@ -266,7 +266,7 @@ Summary: Cerulli, Il libro, p. 211.
 PEth:
 MSS: G-20; ZBNE 60-68; CRA 53-76; VLVE 298 (67r).
 EMML: 6938 (47r); 5520 (82v); 2378 (45v); 2059 (60r); 2060 (67v); 2802 (84v); 7543 (29r).
-Keywords: Däbrä Mar Fiqetor; Estifanos, monk; Monasteries; Monks; Narqon; Priests; Sadaqa, monk; Victor (St.), monastery of;
+Keywords: Däbrä Mar Fiqetor (Egypt?); Estifanos, monk; Monasteries; Monks; Narqon; Priests; Sadaqa, monk; Victor (St.), monastery of;
 Incipit: Wa-hallawu kǝlʾetu manakosāt burukān ʾǝm-Däbrä samāʿt Mār Fiqǝṭor ba-māḫfada Nārqon / ወሀለዉ፡ ክልኤቱ፡ መነኮሳት፡ ቡሩካን፡ እምደብረ፡ ሰማዕት፡ ማር፡ ፊቅጦር፡ በማኅፈደ፡ ናርቆን፡ (6938).
 
 
@@ -335,7 +335,7 @@ Incipit: Wa-kona ba-zātti hagar kāʿba za-tǝssammay Mǝneta Diyāqon, wa-hall
 
 
 MAC0030.
-Title: The poor man from Aragon who was buried alive in a gold mine.
+Title: The poor man from Aragon [Spain] who was buried alive in a gold mine.
 English translation: Budge, One Hundred, p. 291
 PEth: 41.107 (161r-162r); 46.94 (110v-111v);
 MSS: G-36; WBLE 77 (143v); VLVE 272 (95v); 298 (143r); CBS-85.
@@ -343,8 +343,6 @@ EMML: 6938 (65r); 6949 (120r); 1692 (118v); 7543 (33r); 2058 (44r); 2999 (159v);
 Keywords: Aragon; Burials; Cappadocia; Europeans [Afrengi]; Gold; Mines; Preservation from burial alive;
 Incipit: Wa-hallo ʾaḥadu bǝʾǝsi ba-hagara ʾAragon ʾǝm-ʾadyāma Qaṗṗadoqǝyā wa-yāfaqqǝrā la-ʾƎgzǝʾǝtena… fadfāda wa-yǝgabbǝr baʿalā la-lla kwǝllu ʿǝlat / ወሀሎ፡ አሐዱ፡ ብእሲ፡ በሀገረ፡ አረጎን፡ እምአድያመ፡ ቀጰዶቅያ፡ ወያፈቅራ፡ ለእግዝእትነ፡ ፈድፋደ፡ ወይገብር፡ በዐላ፡ ለለ፡ ኵሉ፡ ዕለት፡ (6938).
 
-
-zzzzzzzzzzzzzzzzzzzzzz end of Bausi revised entries zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 MAC0031.
 Title: The cupbearer of the king of France.
 Text: T-83, p. 285.
@@ -387,29 +385,26 @@ Incipit: wa-hallawu ba-aQatti hagar sab' Krestiyan, wa-re~eqt emennehomu beta kr
 
 
 MAC0035-A1.
-Title: The apparitions of Saint Mary at Däbrä Metmaq.
+Title: Holy Family journey cycle: The apparitions of Saint Mary at Däbrä Metmaq.
 Text: T-18, p. 84.
 Summary: Cerulli, Il libro, p. 195.
 PEth: 8.14 (25r-27r); 41.98 (144v-150r); 46.79 (96r-97r); 47.35 (97v-99r);
 EMIP:
 MSS: G-26; ZBNE 60-40; CRA 53-50; VLVE 298 (137a); LUE 30-54; CBS-71; DULE 12 (24b).
 EMML: 6938 (52b); 7543 (35b); 2952 (192b); 2058(47a); 2999(145a); 1581 (66b); 3014 (18b).
-Keywords: Visions, apparitions; Däbrä Metmaq; Holy Family; Families; Flight into Egypt;
+Keywords: Visions, apparitions; Däbrä Metmaq; Holy Family; Families; Flight into Egypt; This miracle story also occurs without the initial promises made by Christ at the time of the visit of the Holy Family, see 35-A2. This miracle story can also occur divided variously into distinct miracles; see 35-B, 35-C.
 Incipit: 0-a,aw fequran, ~elewu a'zanikemu wa-astagabe 'u ~ellinakemu kama nengerkemu zanta nagara madmema za-iyyeba$~e~o ~ellina mawat i (6938).
-Note: This miracle story also occurs without the initial promises made by Christ at the time of the visit of the Holy Family, see 35-A2. This miracle story can also occur divided variously into distinct miracles; see 35-B, 35-C.
 
 
 MAC0035-A2.
-Title: The apparitions of Saint Mary at Däbrä Metmaq.
+Title: Holy Family journey cycle: The apparitions of Saint Mary at Däbrä Metmaq.
 Text: T-18, p. 87:36.
 PEth: 8.14 (25r-27r); 41.98 (144v-150r); 46.79 (96r-97r); 47.35 (97v-99r);
 EMIP:
 MSS: None
 EMML: 2805 (81a); 1606 (50a).
-Keywords: Visions, apparitions; Däbrä Metmaq; Holy Family; Families; Flight into Egypt;
+Keywords: Visions, apparitions; Däbrä Metmaq; Holy Family; Families; Flight into Egypt; This miracle story also occurs with the initial promises made by Christ at the time of the visit of the Holy Family, see 35-A1.
 Incipit: Wa-hallo ba-medra Gebṣ menet 'abbiyy za-yessammay Däbrä Metmaq, wa-emur weˀetu ba-bagaba kWellu (2805).
-Note: This miracle story also occurs with the initial promises made by Christ at the time of the visit of the Holy Family, see 35-A1.
-
 
 MAC0035-B.
 Title: At the consecration of Däbrä Metmaq, Saint Mary appears.
@@ -475,7 +470,7 @@ Incipit: Wa-hallo ba-zentu Däbrä Metmaq za-Egze'etena•.. •beˀesi Krestiya
 
 
 MAC0037.
-Title: Yeshaq, prior of Däbrä Metmaq, who fled to Scete to escape the burden of his office.
+Title: Yeshaq, prior of Däbrä Metmaq, who fled to Scete, Egypt, to escape the burden of his office.
 Summary: Cerulli, Il libro, p. 201.
 PEth:
 MSS: G-28; CRA 53-52; VLVE 298 (217a); HBS 15 (51b).
@@ -495,7 +490,7 @@ Incipit: wa-hallo aṣadu negu~ mesla waldu ba-hagara Mesr,wa-we ˀetu Tanbalata
 
 
 MAC0039.
-Title: Eulogius, the stonemason of Scete, who used to give hospitality to strangers.
+Title: Eulogius, the stonemason of Scete, Egypt, who used to give hospitality to strangers.
 Summary: Cerulli, I l libro, p. 188.
 PEth:
 MSS: G-60; VLVE 298 (174b).
@@ -536,7 +531,7 @@ Incipit: Semeˁu, abaweyn wa-agaweya, zanta me~tira mankera wa-madmema za-nagaru
 
 
 MAC0043.
-Title: The story of the blind priest, YoQannes Bakansi.
+Title: The story of the blind priest, Yohannes Bakansi.
 Text: Budge, Miracles, p. 26.
 English translation: Budge, One Hundred, p. 47.
 PEth: 41.31 (62v-63v); 46.81 (97v-98v); 46.14 (19rv); 47.14 (48v-50v); 47.27 (34v-36r);
@@ -623,7 +618,7 @@ Incipit: Za-gabratto ~e<la Egzeˀetena   . . za-emert gabarita Täˀammərat wa-
 
 
 MAC0051.
-Title: Three virgins come to serve Saint Mary as she is about to give birth.
+Title: Nativity of Christ cycle: Three virgins come to serve Saint Mary as she is about to give birth.
 Text: Chaine, Apocrypha, p. 26.
 PEth:
 EMDL: 681.? (106rv): How the Virgin Mary told three virgins how she conceived Jesus Christ;
@@ -731,7 +726,7 @@ Incipit: Wa-kona ba-hagara Se<id ṣabˀ mesla <Arab ba-baynatihomu. Wa-apatti e
 
 
 MAC0061.
-Title: The two brothers who copied the Miracles of Mary.
+Title: The two brothers who copied the Miracles of Mary and fell into the doing of a sin.
 Text: Budge, Miracles, p. 31.
 English translation: Budge, One Hundred, p. 59.
 PEth: 20.41 (51v-52v); 41.35 (66v-67v); 46.18 (21v-22r); 47.18 (58r-59r);
@@ -750,9 +745,6 @@ MSS: G-56; ZBNE 60-54; VLVE 298 (132a).
 EMML: 6938 (90b); 7543(50b); 2952 (38b); 2058 (63b); 1581 (26a); 3475 (30b); 2800 (52a).
 Keywords: Abbots; Miracles of Saint Mary; Monasteries;
 Incipit: Wa-kona ba-atiatti hagar em-ahgura Krestiyan, wa-hagarussa <abiyy yeˀeti wa-s4'a zi'aha, naga~tatiha wa-pappasatiha llXl!l.l1IHUl1 wa-kwellu tiezba, ed wa-anest, yafaqqereWa la-Ega.eˀetena (6938).
-
-
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ IGNORE MAC0001-MAC0062; THEY HAVE ALREADY BEEN CLEANED.ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 
 
 MAC0063.
@@ -1147,7 +1139,7 @@ oeianata (7543).
 
 
 MAC0101.
-Title: Saint Mary saves the soul of a brigand who was slain by the miraculous spring.
+Title: Saint Mary saves the soul of a thief who was slain by the miraculous spring.
 English translation: Budge, One Hundred, p. 277.
 PEth:
 MSS: G-101; ZBNE 62-43; CRA 52-73; CRA 54(144b); WBLE 77(110b); GVE 29(47a); VLVE 267(67b); 298(233a); SBLE 15(10a); CBS-62; HBS 59-37.
@@ -1170,10 +1162,6 @@ Title: Bishop Mercurius, whom the patriarch wanted to remove because of leprosy.
 Text: Budge, Miracles, p. 36.
 English translation: Budge, One Hundred, p. 71.
 PEth: 41.40 (70v-71r); 43.34 (44v-45r); 46.23 (24v-25r); 47.23 (69v-71r);
-
-
-
-
 EMIP: 601.23 (17rv);
 MSS: G-103; ZBNE 60-24; 61-22; CRA 52-30; 54(74a); 55(57a); SBLE 32-23; BM 2-26; 3-31; VLVE 267(49a); 298(20b); SALE 23-22; 43-24; LUE 30-35; 32-24; CBS-23; CCBE 951-23; AECE 1(25a).
 EMML: 3872(4b); 5520(66a); 2378(37a); 6640(46a); 2059(132b); 2060(193b); 2066(130b); 2802(74a); 6196(66a); 7543(71a).
@@ -1213,11 +1201,11 @@ Incipit: Wa-hallo aμadu beˀesi ra<l teqqa wa-yegabber tazkara la-Egzeˀetena�
 
 
 MAC0107.
-Title: The story of Saint Mary the Egyptian.
+Title: The story of the penitent harlot, Mary of Egypt.
 English translation: Budge, One Hundred, p. 282
 MS$: G-107; CRA 53-22; WBLE 77(119a); VLVE 298(184a).
 EMML: 3872(7b); 4618(101a); 2060(125b); 7543(72b); 3051(211a); 2952(93b); 2058(88a).
-Keywords: Alexandria; Egyptians; Mary the Egyptian (St.); Sexual sins;
+Keywords: Alexandria; Egyptians; Mary of Egypt (St.); Sexual sins;
 Incipit: wa-hall awat aṣatti beˀesit Geb$awit za-sema Maryam. Zatti qeddest konat Ella em-hagara~Eskendereya, wa-konu ~ abawihu Krestiyana (3872).
 Note: Three relatively recent manuscripts present only the final exhortation as a miracle: 2573(55a); 2620(76b); 3059(41a): Seme <u, o-agaweya, magebara Krestiyan, ella $aw<akemu nefμata qarn za-feqra la-Egzeˀetena (2573).
 
@@ -1244,7 +1232,7 @@ Incipit: Wa-hallawat apatti beˀesit ~~~ Qisareya, wa-kona abuha ~ ba<la ba-peqq
 
 
 MAC0110.
-Title: Emperor Arcadius and the golden statue of Saint Mary; he asks Saint John Chrysostom to expound Mt. 1, 25.
+Title: Emperor Arcadius and the golden statue of Saint Mary; he asks Saint John Chrysostom to expound on Matthew 1: 25.
 PEth:
 MSS: G-111; ZBNE 60-105; VLVE 298(95a); CBS-82.
 EMML: 3872(10b); 7543(74b); 2058(90a); 6062(44b); 3378(138a); 76(101b); 22(72a).
@@ -1336,7 +1324,7 @@ Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel 
 
 
 MAC0119.
-Title: When Tafoneya lays hands on the bier of Saint Mary, an angel cuts his arms off.
+Title: Assumption cycle: When Tafoneya lays hands on the bier of Saint Mary, an angel cuts his arms off.
 Text: T-4, p. 30; Chaine, Apocrypha, p. 41:6.
 PEth:
 EMIP: 601.79 (59rv): How the angel of God cut the hand of Tawǝfanya when he tried to burn the body of Mary;
@@ -1469,14 +1457,7 @@ Incipit: Wa-hallawat aṣatti beˀesit mesla ṣamata za-tafaqqera la-Egzeˀeten
 
 MAC0132.
 Title: The woman from Cairo whose children all died.
-PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r);
-
-
-
-
-41, ff. 76v–77r
-
-
+PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r); 41, ff. 76v–77r
 EMIP: 601.37 (24v–25r): How a certain woman was bereft of her nine children, how the Virgin Mary appeared to her and promised three children who would become priests, how she conceived three children who became priests and presided at her funeral
 MSS: G-133; ZBNE 62-29; 63-29; VLVE 267(68a); 272(134a); LUE 30-47; HBS 59-64; CL-24; DULE 12(90a,91a).
 EMML: 5105(95b,142b); 2275(36a); 3872(28b); 4618(78b); 6949(142a); 3923(103b); 6640(60a); 2066(104b); 2802(133b); 7543(84b).
@@ -1485,7 +1466,7 @@ Incipit: Wa-hallawat aṣatti beˀesit ba-dawala Q~ra, wa-waladat 9 weluda wa-mo
 
 
 MAC0133.
-Title: The places in Egypt visited by the Holy Family.
+Title: Holy Family journey cycle: The places in Egypt visited by the Holy Family.
 PEth:
 MSS: G-134; CRA 54(131b).
 EMML: 3872(29a); 7543(85a); 2058(101a); 642(79a); 3378(148a); 76(196b); 22(79b).
@@ -1515,7 +1496,7 @@ Incipit: Wa-hallo westa rarsis za-Qileqiya beˀesi parawi masfen za-negus, wa-ye
 
 
 MAC0136.
-Title: The brigand whom the king's soldiers could not kill.
+Title: The thief whom the king's soldiers could not kill.
 PEth: 41.51 (80rv); 43.20 (26r-27v); 46.106 (126v-128r);
 EMIP: 601.38 (25rv);
 MSS: G-138; ZBNE 62-3; ZBNE 63-3; CRA 53-36; VLVE 272(19b); VLVE 298(207b); LUE 30-46; LUE 32-46; CF 2-4; HBS 59-3.
@@ -1822,7 +1803,7 @@ kama yekun lottu ma<ara wa-sem<a bezuga fadfada em-kWellu agwarihu (7089).
 
 
 MAC0161.
-Title: The pious monk (or: Hebrew from Akhmim) whom Saint Mary made young.
+Title: The pious monk (or: the Jew from Akhmim) whom Saint Mary made young.
 Text: Budge, Miracles, p. 4. Cf. also Cerulli, Il libro, p. 219.
 English translation: Budge, One Hundred, p. 8.
 PEth: 20.31 (42r-43r); 43.5 (8v-9v); 46.4 (11rv);
@@ -1942,7 +1923,7 @@ Incipit: Wa-hallo aḥadu manakos za-semu Timotewos, magabe beta Krestiyana la-E
 
 
 MAC0171.
-Title: The husband who broke his vow that he would live in continence with his wife.
+Title: The husband who broke his vow that he would live celibately with his wife.
 Text: Cerulli, Il libro, p. 348; T-109, p. 394.
 English translation: Budge, One Hundred, p. 177.
 PEth: 20.26 (35v-37r);
@@ -2122,7 +2103,7 @@ Incipit: Tabehla soba faqadu agaw kama yetgabeˀu westa manbalis, tan~eˀu em-ab
 
 
 MAC0186.
-Title: The robber whom a bishop was commanded tosbury after he was executed.
+Title: The robber whom a bishop was commanded to bury after he was executed.
 PEth:
 EMIP: 601.50 (30v–31r);
 MSS: ZBNE 61-29; 62-47; VLVE 272(53b); 298(227b); CBS-43; HBS 59-69; CL-63; AEC1(61a).
@@ -2230,9 +2211,7 @@ PEth:
 EMIP: 601.49 (30rv);
 MSS: ZBNE 62- 53; CRA 53-43; WBLE 77(95a); GVE 12(31a); VLVE 272(58b); 298(227a); LUE 30-14; CL-73.
 EMML: 7089(84a); 3536(107a); 4522(135a); 2275(127b); 3872(87b); 6938(169b); 6917(99b); 4618(84a); 5182(14a,17b); 4688(112b); 3923(70a); 6640(76b); 2059(24b); 2060(142a); 5420(28b + 28a); 7543(119a).
-
-
-Keywords: Angels; Angels of darkness; Demons; Farmers; Peasants; Rich persons; Riches; Preservation from damnation; Robbers; Thieves;
+Keywords: Angels; Angels of darkness; Demons; Farmers; Peasants; Rich persons; Riches; Preservation from damnation; Robbers; Thieves
 Incipit: Wa-hallo abadu beˀesi gabr, ba<l weˀetu ba-neway, wa-babettu be<lussa kona em-newaya <ama~a, esma kona yahayyed 31lBi. newaya agwarihu(3872).
 
 
@@ -2282,7 +2261,7 @@ Incipit: Wa-hallo westa apatti hagar apadu dabr za- a<rafa liqu. Wa-teqa we>etu 
 
 
 MAC0200.
-Title: The young man who offered the ring he had received from his girl friend to the icon of Saint Mary.
+Title: The young man who offered the ring he had received from his girlfriend to the icon of Saint Mary.
 English translation: Budge, One Hundred, p. 256.
 PEth: 20.50 (58v-59v, 61rv): How a certain young man placed a ring on the finger of a icon of the Virgin Mary and How the virgin regarded it as an engagement ring;
 MSS: ZBNE 62-64; WBLE 77(99b); VLVE 272(182a); CL-78; DULE 12(9b).
@@ -2398,7 +2377,7 @@ Incipit: Täˀamməriha.. . . za-gabrat enza tapawwer 9abakabkaba mar<a sem<omu 
 
 
 MAC0211.
-Title: Saint Mary incenses Thecla (continuation of the preceding).
+Title: Saint Mary incenses Thecla (continuation).
 PEth:
 MSS: CL-89 .
 EMML: 3872(109a); 2059(64b); 2060(136a); 7543(127b); 2058(144b); 642(127a); 1931(63b).
@@ -2542,7 +2521,7 @@ Incipit: Za-astar'ayatto l a-Entons za-Däbrä QWesqWam. Salota•••. Ana, ~
 
 
 MAC0225.
-Title: The vision of Anthony of Däbrä Qʷəsqʷam (continued).
+Title: Saint Mary appears to Anthony of Däbrä Qʷəsqʷam (continued).
 PEth: 46.47 (49r): How the Virgin Mary appeared to the Saint Anthony to tell the archbishop Timothy to construct a church in her name;
 MSS: CRA 52-106B; VLVE 298(36a).
 EMML: 3872(117a); 6938(178b); 7543(132a); 3051(160b); 2058(149b); 6062(24a); 3031(158b).
@@ -2601,7 +2580,7 @@ Incipit: Semeˁuke, abaweya wa-anaweya, zanta taˀammera za-gabrat Egzeˀetena�
 
 
 MAC0231.
-Title: The vision of Timothy of Alexandria: The life of Saint Mary to the birth of Christ.
+Title: The vision of Timothy of Alexandria (continued): The life of Saint Mary to the birth of Christ.
 Text: T-105, p. 379.
 PEth:
 MSS: CRA 52-112; VLVE 298(38a).
@@ -2611,7 +2590,7 @@ Incipit: Za-kama astarˀayatto la-Timotewos, liqa pappasat, wa-nagaratto purayat
 
 
 MAC0232.
-Title: The vision of Timothy of Alexandria: The flight into Egypt.
+Title: The vision of Timothy of Alexandria (continued): The flight into Egypt.
 PEth: 46.123 (146r-147v);
 EMIP: 601.343 (180v–181v);
 MSS: CRA 52-113; VLVE 298(212a).
@@ -2621,7 +2600,7 @@ Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Salot
 
 
 MAC0233.
-Title: The vision of Timothy of Alexandria: The Holy Family receives hospitality from a shepherd.
+Title: The vision of Timothy of Alexandria (continued): The Holy Family receives hospitality from a shepherd.
 PEth:
 MSS: CRA 52-114.
 EMML: 3872(123a); 6938(181a); 7543(135b); 3051(162b); 2952(212a); 2058(152b); 3031(159b).
@@ -2630,7 +2609,7 @@ Incipit: za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. Sal o
 
 
 MAC0234.
-Title: The vision of Timothy of Alexandria: The Holy Family crosses the Nile at Asmunayn.
+Title: The vision of Timothy of Alexandria (continued): The Holy Family crosses the Nile at Asmunayn.
 PEth:
 MSS: CRA 52-115.
 EMML: 3872(123b); 7543(135b); 3051(163a); 2952(212b); 2058(153a); 3031(160a); 2424(115a).
@@ -2639,7 +2618,7 @@ Incipit: Za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. 9alot
 
 
 MAC0235.
-Title: The vision of Timothy of Alexandria: The Christ Child grants Saint Mary a vision of his future glory.
+Title: The vision of Timothy of Alexandria (continued): The Christ Child grants Saint Mary a vision of his future glory.
 PEth:
 MSS: None.
 EMML: 3872(124a); 6938(181b); 7543(136a); 3051(163b); 2058(153a); 3031(160b); 2424(115b).
@@ -2660,7 +2639,7 @@ Incipit: Za-kama astayatto la-kalb ~emu> ba-a~a<na. Salota •..• Wa-hallawat 
 
 
 MAC0237.
-Title: The vision of Timothy of Alexandria: Ahrufas, the guardian angel of Egypt, comes to the Holy Family.
+Title: The vision of Timothy of Alexandria (continued): Ahrufas, the guardian angel of Egypt, comes to the Holy Family.
 PEth:
 MSS: None.
 EMML: 3872(125a); 7543(136b); 3051(164a); 2952(214a); 2058(153b); 3031(161a); 2424(116a).
@@ -2669,7 +2648,7 @@ Incipit: Za-kama astar>ayatto wa-tanagaratto la-Timotewos, iqa pa~pasa~. $a1ota 
 
 
 MAC0238.
-Title: The vision of Timothy of Alexandria: The experience of the Holy Family in the district of Asmunayn.
+Title: The vision of Timothy of Alexandria (continued): The experience of the Holy Family in the district of Asmunayn.
 PEth:
 MSS: None.
 EMML: 3872(126a); 7543(137a); 3051(164b); 2952(215b); 2058(154a); 3031(161b); 2424(116b).
@@ -2681,7 +2660,7 @@ Incipit: Za-kama astarˀayatto wa-tanagaratto la-Timotewos, liqa pappasat. 9alot
 
 
 MAC0239.
-Title: The vision of Timothy of Alexandria: The Holy Family encounters brigands.
+Title: The vision of Timothy of Alexandria (continued): The Holy Family encounters thieves.
 PEth:
 MSS: None.
 EMML: 3872(126a); 7543(137a); 3051(164b); 2952(216a); 2058(154b); 3031(162a); 2424(117a).
@@ -2690,7 +2669,7 @@ Incipit: za-kama astar'ayatto wa- tanagaratto la-Timotewos , liqa pappasat. Solo
 
 
 MAC0240.
-Title: The vision of Timothy of Alexandria: The Holy Family arrives at Däbrä QWesqWam.
+Title: The vision of Timothy of Alexandria (continued): The Holy Family arrives at Däbrä QWesqWam.
 PEth:
 MSS: VLVE 298(221a).
 EMML: 3872(127b); 7543(138a); 3051(165b); 2952(218a); 2058(155a); 3031(163a); 2424(118a).
@@ -2709,7 +2688,7 @@ Incipit: Za-kama astar>ayatto la-Yopannes Afa Warq ba-albas ~a<ada kama za-barad
 
 
 MAC0242.
-Title: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
+Title: Assumption cycle: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
 PEth: 46.53 (53v-54r);
 EMIP: 601.279 (160v);
 MSS: ZBNE 60-88; CRA 52-116; 54(124b); VLVE 298(39b,236a); LUE 30-52;
@@ -2730,7 +2709,7 @@ Incipit: Za-kama tanagara Manfas Qeddus kebra la-Egzeˀetena..•• Salota•�
 
 
 MAC0244.
-Title: Saint Mary prays with the disciples.
+Title: Assumption cycle: Saint Mary prays with the disciples.
 Text: Arras, De transitu I, p. 96:12.
 PEth:
 MSS: CRA 52-118.
@@ -2740,7 +2719,7 @@ Incipit: Za-kama ṣallayat Egzeˀetena Maryam. Salota•..• Wa-ṣallayat Egz
 
 
 MAC0245.
-Title: Saint Mary prays with the disciples (continuation).
+Title: Assumption cycle: Saint Mary prays with the disciples (continuation).
 Text: Arras, De transitu I, p. 97:5.
 PEth:
 MSS: CRA 52-119; VLVE 298(82b).
@@ -2750,7 +2729,7 @@ Incipit: za-kama ṣalla ka<ba at Egzˀetena Maryam. Salota••  Wa-ka' ba ṣ
 
 
 MAC0246.
-Title: Saint Mary prays for the release of the souls in judgment.
+Title: Assumption cycle: Saint Mary prays for the release of the souls in judgment.
 Text: Arras, De transitu, II, p. 25:27.
 PEth:
 MSS: ZBNE 60-93; CRA 52-120.
@@ -2760,7 +2739,7 @@ Incipit: Za-kama awieˀat nafsata ella em-westa dayn. Salota.•••Efaqqedke 
 
 
 MAC0247.
-Title: Saint John the Evangelist sees a vision of Saint Mary in glory.
+Title: Assumption cycle: Saint John the Evangelist sees a vision of Saint Mary in glory.
 Text: Arras, De transitu II, p. 24:20. ~
 PEth:
 MSS: ZBNE 60-94; CRA 52-121; LUE 30-4.
@@ -2770,7 +2749,7 @@ Incipit: za-kama reˀya Yotiannes Walda Nagwedgwad ~ ba-<el ata felsata, ba-kama
 
 
 MAC0248.
-Title: Christ celebrates Mass for Saint Mary.
+Title: Assumption cycle: Christ celebrates Mass for Saint Mary.
 Text: Arras, De transitu II, p. 26:26.
 PEth:
 MSS: ZBNE 60-97; CRA 52-122; VLVE 298(83a); DULE 12(16b).
@@ -2784,7 +2763,7 @@ ba-tenbel la-emmu (2060).
 
 
 MAC0249.
-Title: Saint Mary asks Christ that the disciples preach her Transitus and Assumption.
+Title: Assumption cycle: Saint Mary asks Christ that the disciples preach her Transitus and Assumption.
 Text: Arras, De transitu II, p. 27:23.
 PEth:
 MSS: ZBNE 60-98; CRA 52-123; VLVE 298(154a).
@@ -2794,7 +2773,7 @@ Incipit: Za-kama tase'elatto Egzeˀetena maryam la-Walda kama yesbeku felsata wa
 
 
 MAC0250.
-Title: Saint Mary asks that Saint John be allowed to visit her dwelling place.
+Title: Assumption cycle: Saint Mary asks that Saint John be allowed to visit her dwelling place.
 Text: Arras, De transitu I, p. 87:8.
 PEth:
 MSS: CRA 52-124.
@@ -2804,7 +2783,7 @@ Incipit: Za-kama sa'alatto la-Walda kama yam~e'o la-Yopannes wa-terˀayo. Salota
 
 
 MAC0251.
-Title: Prochorus reports Saint John's visit to Saint Mary's dwelling place.
+Title: Assumption cycle: Prochorus reports Saint John's visit to Saint Mary's dwelling place.
 Text: Arras, De transitu II, p. 28:28.
 PEth:
 MSS: ZBNE 60-99; CRA 52-125.
@@ -2814,7 +2793,7 @@ Incipit: Za-kamare'ya magedara la-Egze'etena Maryam Yoṣannes Walda Nagwedgwad.
 
 
 MAC0252.
-Title: Saint Mary prays to be taken from this life.
+Title: Assumption cycle: Saint Mary prays to be taken from this life.
 Text: Arras, De transitu I, p. 86:14.
 PEth:
 EMIP: 601.136 (84v–85r); 601.336 (178rv);
@@ -2825,7 +2804,7 @@ Incipit: za-kama astar'aya Gabre'el mal'ak la-Egze'etenaMaryam. Salota•••.
 
 
 MAC0253.
-Title: The Jews go to Bethlehem to seize Saint Mary but are blinded.
+Title: Assumption cycle: The Jews go to Bethlehem to seize Saint Mary but are blinded.
 Text: Arras, De transitu I, p. 92:18.
 PEth:
 MSS: ZBNE 60-87; CRA 52-127; VLVE 298(236b); DULE 12(39a).
@@ -2838,7 +2817,7 @@ Incipit: za-kama coreya aceyyentihomu la-Ayhud (MS:la-Ayhu) wa-taṣallata. Salo
 
 
 MAC0254.
-Title: Christ, together with Saint Mary and the angels, appears to the Apostles and asks them to build churches in his name and hers throughout the world.
+Title: Assumption cycle: Christ, together with Saint Mary and the angels, appears to the Apostles and asks them to build churches in his name and hers throughout the world.
 Text: T-21, p. 101.
 PEth:
 EMIP: 601.90 (69v);
@@ -2860,7 +2839,7 @@ Incipit: Za-kama astar'ayattomu Maryam la-Uawareyat. Salata.••• Wa-enza Ua
 
 
 MAC0256.
-Title: Saint Mary, together with Saints Irene and Sophia, appears to Saint Basil and tells him where her icon is buried.
+Title: Saint Basil cycle: Saint Mary, together with Saints Irene and Sophia, appears to Saint Basil and tells him where her icon is buried.
 PEth: 46.55 (54v-55v); 46.58 (56v-57v);
 MSS: ZBNE 60-101; CRA 52-130; VLVE 298(40b).
 EMML: 3872(135a); 7543(142a); 3051(115a); 2952(228b); 2058(158b + 160a); 6062(32a); 3031(122a).
@@ -2869,7 +2848,7 @@ Incipit: Za-ka.ma astar'ayatto l a-Basleyos mesla kel'e awald. 9alota••.. wa
 
 
 MAC0257.
-Title: Saint Basil finds the buried icon of Saint Mary.
+Title: Saint Basil cycle: Saint Basil finds the buried icon of Saint Mary.
 PEth: 46.56 (55v-56r); 46.57 (56rv);
 EMIP: 601.233 (147v–148r);
 MSS: CRA 52-131; VLVE 198(41a,83b).
@@ -2879,7 +2858,7 @@ Incipit: za-ka.ma astar'ayatto Egze'etena Maryam la-Basleyos , eppis qoppos za-Q
 
 
 MAC0258.
-Title: Saint Mary tells Saint Basil to take two pillars from a pagan temple.
+Title: Saint Basil cycle: Saint Mary tells Saint Basil to take two pillars from a pagan temple.
 PEth:
 MSS: CRA 52-132; VLVE 298(41b).
 EMML: 3872(136a); 7543(142b); 3051(116a); 2952(230a); 2058(160a); 6062(34a); 3031(122b)
@@ -2888,7 +2867,7 @@ Incipit: Za-ka.ma astar'ayatto la-Basleyos. Akkonu enza enawwem astar'ayanni, ka
 
 
 MAC0259.
-Title: Saint Mary sets up the pillars in the church and makes a miraculous spring flow out at their base.
+Title: Saint Basil cycle: Saint Mary sets up the pillars in the church and makes a miraculous spring flow out at their base.
 PEth:
 MSS: CRA 52-133; VLVE 298(42a).
 EMML: 3872(137a); 7543(143a); 3051(116b); 2952(230b); 2058(160b); 6062(35a); 3031(123a).
@@ -2908,7 +2887,7 @@ Incipit: Za-kama we<ya edeha la-Salome ba-gasisa segaha la-Maryam, wa-za-kama Qe
 
 
 MAC0261.
-Title: Saint John the Evangelist sees Christ kissing Saint Mary's burial cloth.
+Title: Assumption cycle: Saint John the Evangelist sees Christ kissing Saint Mary's burial cloth.
 Text: T-5, p. 32; Arras, De transitu II, p. 18:24.
 PEth:
 MSS: CRA 52-135; VLVE 298(43a).
@@ -2918,7 +2897,7 @@ Incipit: Za-kama zenawa Yooannes Walda NagWedgWad, enzaye'emmeg magnaza enta la�
 
 
 MAC0262.
-Title: Saint Mary's soul descends from heaven in a tent of light.
+Title: Assumption cycle: Saint Mary's soul descends from heaven in a tent of light.
 Text: Arras, De transitu II, p. 19:26.
 PEth:
 MSS: CRA 52-136; VLVE 298(43b).
@@ -3113,7 +3092,7 @@ Incipit: Taˀammera masqalu la-Walda, za-gabro Egziˀena,Iyyasus Krəstos, ba-en
 
 
 MAC0281.
-Title: Synaxary entry for 16 Nahase: The Apostles visit Saint Mary in heaven.
+Title: Assumption cycle: Synaxary entry for 16 Nahase: The Apostles visit Saint Mary in heaven.
 Text: T-7, p. 40.·
 PEth:
 MSS: CRA 52-100; VLVE 298(196a).
@@ -3123,7 +3102,7 @@ Incipit: Taˀammeriha la-Egzeˀetena••••ba-kama tarakba ba-ma$aQefta Sen
 
 
 MAC0282.
-Title: Anonymous homily against the report that the Apostles abandoned the body of Saint Mary when they were attacked by the Jews during her funeral procession.
+Title: Assumption cycle: Anonymous homily against the report that the Apostles abandoned the body of Saint Mary when they were attacked by the Jews during her funeral procession.
 Text: T-6, p. 34.
 PEth:
 EMIP: 601.81 (60r–61r): How the apostles did not leave the body of Mary for fear of the Jews and how the angel of God encouraged them to claim the body;
@@ -3249,7 +3228,7 @@ Incipit: Semeˁuke, o-pezba Krestiyan, kama nayedde<kemu zanta Täˀamməra <abi
 
 
 MAC0293.
-Title: Saint Mary heals the daughter of Arsaban while still in the womb of Saint Anne.
+Title: Childhood of Mary cycle: Saint Mary heals the daughter of Arsaban while still in the womb of Saint Anne.
 PEth:
 MSS: HBS 59-67.
 EMML: 4618(105a); 2084(136b); 2060(198b); 7543(6a); 3051(194a); 2058(6a); 2999(186b).
@@ -3268,7 +3247,7 @@ Incipit: Wa-enza tetfallas em-Addam westa kar~u l a- Set, wa-Henok, wa-Qaynan ..
 
 
 MAC0295.
-Title: God sends Saint Gabriel to Saint Mary for the Annunciation.
+Title: Annunciation cycle: God sends Saint Gabriel to Saint Mary for the Annunciation.
 Text: T-13, p. 65.
 PEth:
 MSS: None.
@@ -3278,7 +3257,7 @@ Incipit: wa-yebelo EgziabtJ.er la-Gabre ˀel: wa-balla la-Walatta Seyon: Walda E
 
 
 MAC0296.
-Title: The Jews plot to kill Saint Mary because of the miracles she was working while still in the womb of Saint Anne.
+Title: Childhood of Mary cycle: The Jews plot to kill Saint Mary because of the miracles she was working while still in the womb of Saint Anne.
 Text: T-45, p. 176.
 PEth:
 EMIP: 601.344 (181v–182r);
@@ -3289,7 +3268,7 @@ Incipit: Kama ta'emeru ledata la-Egzeˀetena Maryam. wa-teqqatekkabber em-azmadi
 
 
 MAC0297.
-Title: The Annunciation.
+Title: Annunciation cycle: The Annunciation.
 PEth:
 EMIP: 601.87 (66rv);
 MSS: None.
@@ -3299,7 +3278,7 @@ Incipit: wa-ba-<elata etiuize 3 sa<at, ma~ˀa ~ gabehaGabre'el mal'ak geb/a, enz
 
 
 MAC0298.
-Title: Saint Mary leaves the Temple and enters the home of Saint Joseph.
+Title: Childhood of Mary cycle: Saint Mary leaves the Temple and enters the home of Saint Joseph.
 PEth:
 MSS: None .
 EMML: 3051(195b); 2044(6a); 2058(7a); 2999(246b); 2660(61a); 3572(13a); 3031(16a).
@@ -3313,7 +3292,7 @@ Incipit: wa-soba faṣama azmana nebrata westa beta maqdas, wa-tioru gabeha kahn
 
 
 MAC0299.
-Title: The Nativity; the adoration of the shepherds and the Magi.
+Title: The Nativity of Christ cyle: The adoration of the shepherds and the Magi.
 Text: T-10, p. 50.
 PEth:
 EMIP: 601.84 (63rv): How the Virgin Mary gave birth to Jesus Christ and how the wise men came to present their gifts;
@@ -3324,7 +3303,7 @@ Incipita Wa-nabaru hebura Yos~f mesla Maryam enza yebarrekewwo la-Eg-zi>ab~er. W
 
 
 MAC0300.
-Title: The Circumcision.
+Title: The Nativity of Christ cyle: The Circumcision.
 PEth:
 MSS: None.
 EMML: 3051(196b); 2044(7b); 2058(8a); 2999(248a); 2660(64b); 3572(15a); 2424(136b).
@@ -3333,7 +3312,7 @@ Incip1t: Waz:>u em-westa bacat Yosef wa-M.aryam wa- 'atawu Beta Lehem wa-beta Yo
 
 
 MAC0301.
-Title: Herod orders the slaughter of the Innocents; a hunter with his dogs finds the Holy Family in flight from the king.
+Title: Holy Family journey cycle: Herod orders the slaughter of the Innocents; a hunter with his dogs finds the Holy Family in flight from the king.
 PEth:
 MSS: None.
 EMML: 3051(197a); 2044(8b); 2058(8b); 2999(248b); 2660(66a); 3572(15b); 3031(18a).
@@ -3342,7 +3321,7 @@ Incipita Wa-s!ma Herods agbertihu wa-sabṣa betu wa-heswan1hu, makWanenta wa-ma
 
 
 MAC0302.
-Title: The hunter reports to King Demateyanos, who comes to visit the Holy Family.
+Title: Holy Family journey cycle: The hunter reports to King Demateyanos, who comes to visit the Holy Family.
 PEth:
 MSS: None.
 EMML: 3051(197b); 2058(8b); 2999(249a); 2660(67a); 3572(16a); 3031(80b); 2424(137b).
@@ -3354,7 +3333,7 @@ Incipit: Wa-em-ze ama sabe~t ~elat, h.a ra we ~etu nacawe araw1t haba ~ Demateya
 
 
 MAC0303.
-Title: Saint Gabriel tells Saint Mary to return from the mountains of Lebanon to Bethlehem.
+Title: Holy Family journey cycle: Saint Gabriel tells Saint Mary to return from the mountains of Lebanon to Bethlehem.
 PEth:
 MSS: None.
 EMML: 3051(198a); 2044(16b); 2058(9b); 2999(250a); 2660(69b); 3572(17a); 3031(19a).
@@ -3363,7 +3342,7 @@ Incip1ts Wa-warada Gabre7 el mal~ak hagara LiMnos .h..,, aba Maryam wa-yebelaa S
 
 
 MAC0304.
-Title: An angel tells Saint Joseph to take Saint Mary and her child to Egypt.
+Title: Holy Family journey cycle: An angel tells Saint Joseph to take Saint Mary and her child to Egypt.
 PEth: 46.72 (87v-88r);
 EMIP: 601.226 (143v–144r);
 MSS: None.
@@ -3373,7 +3352,7 @@ Incipit: Wa-gize manfaqa lelit astarṣayo malṣaka Egzi?abher la-Yosef ba-h•
 
 
 MAC0305.
-Title: All Israel is upset by the coming of the Magi; Saint Gabriel tells Saint Mary to flee to the mountains of Lebanon.
+Title: Holy Family journey cycle: All Israel is upset by the coming of the Magi; Saint Gabriel tells Saint Mary to flee to the mountains of Lebanon.
 PEth:
 MSS: None.
 EMML: 3051(199a); 2058(10a); 2999(251a); 2660(70b); 3572(18b); 3031(20a); 2424(139a).
@@ -3382,7 +3361,7 @@ Incipit: Wa-ba-we'etu (3051) •
 
 
 MAC0306.
-Title: The Magi find the Holy Family and depart; Saint Mary flees to Tiberias and from there to the mountains of Lebanon.
+Title: Holy Family journey cycle: The Magi find the Holy Family and depart; Saint Mary flees to Tiberias and from there to the mountains of Lebanon.
 PEth:
 MSS: None.
 EMML: 3051(199b); 2058(10b); 2999(251b); 2660(73a); 3572(19a); 3031(21a); 2424(139b).
@@ -3394,14 +3373,14 @@ Incipit: M1mma~ana enagger? L1tassa ya~az.z .e bann1 h.e ll1naya. wa-warada ba-f
 
 
 MAC0307.
-Title: The Holy Family stays in Dirde.
+Title: Holy Family journey cycle: The Holy Family stays in Dirde.
 EMML: 3051(200a); 2058(11a); 2999(252b); 2660(74b); 3572(20a); 3031(21b); 2424(140a).
 Keywords: Dirde; Holy Family; Families; Flight into Egypt;
 Incipit: Wa-em-dehra nabarat westa bacat, wa-waz)at em-heyya wa-bashat-..Dirde (MS: Dirdi) ()051).
 
 
 MAC0308.
-Title: Saint Mary's prayer while in the wilderness of Edomeyas.
+Title: Holy Family journey cycle: Saint Mary's prayer while in the wilderness of Edomeyas.
 PEth:
 MSS: None.
 EMML: 3051(200b); 2058(11b); 2999(253b); 2660(76b); 3572(21a); 3031(22a); 2424(140b).
@@ -3477,7 +3456,7 @@ Incipit: Wa-hallo a~adu qas1s, wa-galqu be ?esitu mmam wa-daqiqu (5105).
 
 
 MAC0315.
-Title: Saint Mary stays in the Temple.
+Title: The Childhood of Mary cycle: Saint Mary stays in the Temple.
 PEth:
 MSS: AECE 1(68b).
 EMML: 5105(141a); 2275(12b); 2066(25a); 3475(38a); 642(10a); 1799(25b); 2392(2a).
@@ -3486,7 +3465,7 @@ Incipit: Wa-kacba nenaggerakkemu, anawina, hiru.ta wa-ne~~ennah! la-Egze~etena M
 
 
 MAC0316-A.
-Title: The conception and nativity of Saint Mary.
+Title: The Childhood of Mary cycle: The conception and nativity of Saint Mary.
 Text: T-2, p. 23.
 PEth: 41.2 (13r-14v); 47.38 (107v-110r);
 EMIP: 601.74 (53r–54r);
@@ -3503,7 +3482,7 @@ Note: This is MAC0293.
 
 
 MAC0316-C.
-Title: The birth of Saint Mary on the first of Genbot.
+Title: The Childhood of Mary cycle: The birth of Saint Mary on the first of Genbot.
 Text: T- 2, p. 26:23.
 PEth:
 MSS: None.
@@ -3513,7 +3492,7 @@ Incipit: Negba>ke haba tenta nagar . wa-soba tafa$$ama mawa<e l a ~ensa, waladat
 
 
 MAC0316-D.
-Title: When she is three years old, Saint Mary is taken to the Temple.
+Title: The Childhood of Mary cycle: When she is three years old, Saint Mary is taken to the Temple.
 Text: T-2, p. 26:26.
 PEth: 41.3 (14v-15v); 47.1 (13r-15r);
 EMIP: 601.92 (71r);
@@ -3525,7 +3504,7 @@ Incipit: Wa-nabfa,ru Iyyaqem wa-~anna enza ya~a~~enu walattomu Maryam 3 <amata, 
 
 -74-
 MAC0317.
-Title: Saint Mary is espoused to Saint Joseph.
+Title: The Childhood of Mary cycle: Saint Mary is espoused to Saint Joseph.
 PEth:
 MSS: VLVE 298(145b); HBS 157(7a); AECE 1(7Ob).
 EMML: 2275(13b); 1581(38a); 3475(41a); 642(11a); 2392(3a); 2800(35b); 3378(39a).
@@ -3568,7 +3547,7 @@ Incipit: Wa-hallo ahadu negus Kresttyanawafqare Egzi jabher le'ul • • wa-maf
 
 
 MAC0321.
-Title: The rich Egyptian woman who refused to give water to the Holy Family.
+Title: The Holy Family journey cycle: The rich Egyptian woman who refused to give water to the Holy Family.
 PEth:
 EMIP: 601.227 (144r–145r);
 MSS: ZBNE 60-84; VLVE 298(166a); SALE 23-32.
@@ -3581,7 +3560,7 @@ Incipit: Wa-kona zentu nagar em-detra waladatto la-Egziˀ ena, Iyyasus Krəstos,
 
 
 MAC0322.
-Title: The people of an Egyptian town set fierce dogs on the Holy Family.
+Title: The Holy Family journey cycle: The people of an Egyptian town set fierce dogs on the Holy Family.
 PEth:
 MSS: ZBNE 60-80; SALE 23-32.
 EMML: 2275(144a); 2066(99a); 2802(127a); 2056(106a); 642(19b); 929(80b); 2800(47a).
@@ -3590,7 +3569,7 @@ Incipit: Wa-enza tahawwer Egze =ˀetena•••• em-hagar westa hagar, gWayiy
 
 
 MAC0323.
-Title: The hunter who discovered the Holy Family in flight is turned into a dog when he violates his oath not to reveal them.
+Title: The Holy Family journey cycle: The hunter who discovered the Holy Family in flight is turned into a dog when he violates his oath not to reveal them.
 Text: T-72, p. 256.
 PEth:
 EMIP: 601.196 (121r–122v): How the Virgin Mary punished a certain young man when he revealed the whereabouts of the hiding place of the Holy Family in Egypt, and how she heard the prayer of the governor of that land who interceded for the young man;
@@ -3601,7 +3580,7 @@ Incipit: Tabehla enka ba-enta ah• adu be~esi za-ma.h ala ba-h. assat wa-baenta
 
 
 MAC0324.
-Title: The Holy Family visits the king of the Semites.
+Title: The Holy Family journey cycle: The Holy Family visits the king of the Semites.
 Text: T-73, p. 261.
 PEth:
 MSS: ZBNE 60-83.
@@ -3611,7 +3590,7 @@ Incipit: Wa-hallo aQadu be:ˀes1 em-daqiqa Sem za-sannay ge czu wa-retu~lebbu. [
 
 
 MAC0325.
-Title: The Holy Family hides from brigands in a sycamore tree at Däbrä Metmaq.
+Title: The Holy Family journey cycle: The Holy Family hides from thieves in a sycamore tree at Däbrä Metmaq.
 Summary: Cerulli, Il libro, p. 205.
 [LB: I think there should be a semi-colon after the 28 in the MSS but there isn't one in the macomber version.]
 PEth: 41.13 (39v-42v);
@@ -3623,7 +3602,7 @@ Incipit: Tabehla ba-enta ella mas. ' u ekkuyan fayat kama yense~u newaya la-Egze
 
 
 MAC0326.
-Title: The Holy Family uses stones instead of a boat to cross the Nile.
+Title: The Holy Family journey cycle: The Holy Family uses stones instead of a boat to cross the Nile.
 Text: T-9, p. 48.
 PEth:
 EMIP: 601.348 (184v–185r);
@@ -3852,7 +3831,7 @@ Incipit: Wa-hallo aoadu manakos za-yafaqqera la-Egze~etena Maryam bakwellu lebbu
 
 
 MAC0347.
-Title: The nativity of Christ.
+Title: The Nativity of Christ cyle: The nativity of Christ
 Text: T-74, p. 265.
 PEth: 41.6 (18v-19v): How the Virgin Mary gave birth;
 EMIP: 601.85 (63v–64r): How the Virgin Mary gave birth while she was with Joseph in Bethlehem for the census;
@@ -4132,7 +4111,7 @@ Explicit: Wa-soba tas.e h.f a ze-ta~ammer1ha za-gabrat, ba-.z arra maq§afta wa-
 
 
 MAC0373.
-Title: A leopard carries off a goat that a poor man had bought in the market for the commemorative feast of Saint Mary.
+Title: A leopard carries off a goat that a poor man had bought in the market for the commemorative feast of Saint Mary at the church of Hagara Maryam.
 PEth:
 MSS: None.
 EMML: 3872(94b).
@@ -4141,7 +4120,7 @@ Incipit: Seme cu, mahiymenan, ta~ammerattha wa-mankeratiha, negeru laegWala ema~
 
 
 MAC0374.
-Title: The man who used to steal his food from the fields and would not admit it when questioned.
+Title: The man who used to steal his food from the fields and would not admit it when questioned at the church of Hagara Maryam.
 PEth:
 MSS: None.
 EMML: 3872(95a).
@@ -4406,7 +4385,7 @@ Incipit: Wa-hallo ahadu be✓esi hemum westa hagar (MS: hagara), wa-sallaya qedm
 
 
 MAC0400.
-Title: The five dolours of Saint Mary.
+Title: The five sorrows of Saint Mary.
 Text: Budge, Miracles, p. 10; Cerulli, Il libro, p. 336: T-49, p. 190.
 PEth: 20.12 (23v-24r); 41.10 (32rv); 46.86 (102v); 47.36 (102v-103v);
 EMIP: 601.175 (107r);
@@ -4444,7 +4423,6 @@ MAC0403.
 Title: Saint Mary appears to a monk and saves him from being deceived by Satan.
 Text: T-34, p. 145.
 English translation: Budge, One Hundred, p. 299.
-[LB: The MSS and EMML here seem kind of jumbled with the corrections on the back side of the page and the editing tools so I'm just gonna leave do what the front page has.]
 PEth:
 EMIP: 601.262 (156v);
 MSS: WBLE 77(130a); SBLE 39(90b); VLVE 298(123b); HBS 127(156a).
@@ -4616,7 +4594,7 @@ Incipit:  Tabehla kama hallo ahadu hate~ za-yafadfed feqra la-Egze~etena • V' 
 
 
 MAC0418.
-Title: A soldier redeems the Child Jesus from another soldier who was thinking of handing him over to King Herod.
+Title: The Nativity of Christ cycle: A soldier redeems the Child Jesus from another soldier who was thinking of handing him over to King Herod.
 PEth:
 EMIP: 601.368 (195rv);
 MSS: None.
@@ -4685,7 +4663,7 @@ Incipit: Wa-hallo ahadu beJes1 naday qasis ba-hagara Qopperos, wa-albottu • �
 
 
 MAC0425.
-Title: Brigands try to steal from a church of Saint Mary in Syria but are unable to bring what they have stolen out of the church.
+Title: Thieves try to steal from a church of Saint Mary in Syria but are unable to bring what they have stolen out of the church.
 PEth: 8.13 (23r-25r); 46.83 (99v-100v);
 EMIP: 601.187 (115r–116r);
 MSS: VLVE 272(191b); DULE 12(31b)
@@ -4744,7 +4722,7 @@ Incipit: Wa-hallo ahadu manakos sahafe ta?ammeriha la-Egze ' etena •••• 
 
 
 MAC0431.
-Title: The inhabitants of an Egyptian town who plot to hand Jesus over to King Herod are turned into animals.
+Title: Holy Family journey cycle: The inhabitants of an Egyptian town who plot to hand Jesus over to King Herod are turned into animals.
 PEth:
 MSS: ZBNE 60-82.
 EMML: 2066(100a); 2802(128b); 2056(107b); 642(20a); 929(82a); 2800(48b); 2804(83a).
@@ -4753,7 +4731,7 @@ Incipit: Wo-kona zentu nagar em-dehra waladatto la-Egzijena, Iyyasus V Krəstos,
 
 
 MAC0432.
-Title: The king of Egypt asks Saint Mary to bless his land.
+Title: Holy Family journey cycle: The king of Egypt asks Saint Mary to bless his land.
 PEth: 41.16 (44v-45v);
 EMIP: 601.198 (123rv);
 MSS: VLVE 298(165a); DULE 12(13b).
@@ -4763,7 +4741,7 @@ Incipit: Wa-enza hallawat Egze'etena Maryam westa medra Geb.s , wa-sami~o negus 
 
 
 MAC0433.
-Title: Saint Mary restores his eye to a brigand from Saf who had been deprived of it by order of the judge.
+Title: Saint Mary restores his eye to a thief from Saf who had been deprived of it by order of the judge.
 PEth:
 MSS: None.
 EMML: 2686(67a + 19a).
@@ -4784,7 +4762,7 @@ Incipit: Wa-hallawat ahatti be~es1t Ayhudawit za-bo>at westa beta la- • Egze~e
 
 
 MAC0435.
-Title: The Annunciation.
+Title: The Annunciation cycle: The Annunciation.
 Text: Chaine, Apocrypha, p. 9:16.
 PEth:
 MSS: None.
@@ -4804,7 +4782,7 @@ Incipit: Wa-hallo ahadu beˀesi manakos wa-yebe: Re,ikewwo la-ahadu beˀesi mast
 
 
 MAC0437.
-Title: On the conception of Christ.
+Title: The Annunciation cycle: On the conception of Christ.
 PEth: 41.5 (17r-18v): How the Virgin Mary immaculately conceived Jesus and How Joseph was told about her conception by the Holy Spirit in a dream so that he would not doubt her;
 MSS: None.
 EMML: 2963(84b); 2952(239a).
@@ -4845,7 +4823,7 @@ Incipit: Wa-em-debra nabarat Maryam 6 awra9a za-westa be~era (MS: zabe~ era) Ag�
 
 
 MAC0441.
-Title: The Holy Family returns from Egypt by way of Gaza.
+Title: Holy Family journey cycle: The Holy Family returns from Egypt by way of Gaza.
 PEth: 46.92 (107r-108r): How the Virgin Mary turned on the lamp in the City of Gaza;
 MSS: None.
 EMML: 3051(202b); 2999(255a); 2660(81a); 3572(23a); 3031(23b); 2424(142b); 2392(170b).
@@ -4854,7 +4832,7 @@ Incipit: Wa-gize manfaqa lel1t astarjayo mal7 aka Egzi?ab~er la-Yosef enza yebll
 
 
 MAC0442.
-Title: Saint Mary is welcomed when she returns to Galilee.
+Title: Holy Family journey cycle: Saint Mary is welcomed when she returns to Galilee.
 PEth:
 MSS: None.
 EMML: 3051(203a); 2999(255b); 2660(81b); 3572(23b); 3031(24a); 2190(93b); 2424(143a).
@@ -4885,10 +4863,10 @@ Incipit: Seme cu, abawina wa-ahawina, za-gabrat Egze'etena la-ahadu . be 7 esi, 
 
 
 MAC0445.
-Title: The Nativity of Christ.
+Title: The Nativity of Christ cyle: How the Virgin Mary gave birth (see no. 299)
 Text: T-11, p. 53.
-PEth: 41.6 (18v-19v): How the Virgin Mary gave birth;
-EMIP: 601.85 (63v–64r): How the Virgin Mary gave birth while she was with Joseph in Bethlehem for the census;
+PEth: 41.6 (18v-19v): 
+EMIP: 601.85 (63v–64r):
 MSS: None.
 EMML: 2952(24a); 642(12b); 839(26a); 2800(40a); 3378(41a,159b); 76(257a); 22(158a)
 Keywords: Augustus, Emperor of Rome; Bethlehem; Nativity of Christ;
@@ -4896,7 +4874,7 @@ Incipit: Wa-kona soba mammn-fa--tafaṣama mawa cela zensa la-Egze'etena .......
 
 
 MAC0446.
-Title: The shepherds and the magi come to worship Christ.
+Title: The Nativity of Christ cyle: The shepherds and the magi come to worship Christ.
 PEth: 41.7 (19v-21r);
 EMIP: 601.84 (63rv): How the Virgin Mary gave birth to Jesus Christ and how the wise men came to present their gifts;
 MSS: None.
@@ -4909,7 +4887,7 @@ Incipit: aCba nenaggerakkemu, ah....,a w1na, zenaha la-Egze'etena. Wa-em-n dehra
 
 
 MAC0447.
-Title: Saint Mary's stay in the Temple.
+Title: The Childhood of Mary cycle: Saint Mary's stay in the Temple.
 PEth:
 MSS: None.
 EMML: 2952(238b).
@@ -5041,7 +5019,7 @@ Incipit: Wa-hallo ahadu dabr za-manakosat, wa-yafaqqereWa la-Egze~etena •~eqqa
 
 
 MAC0460-A.
-Title: When Israel Sins against the Law, the Philistines defeat them and carry off the Ark of Zion, which then chastizes them.
+Title: Ark of Zion cycle: When Israel Sins against the Law, the Philistines defeat them and carry off the Ark of Zion, which then chastizes them.
 PEth:
 MSS: None.
 EMML: 834(182b);642(71b); 22(160b); 683(146b-146b); 682(61a-61b).
@@ -5051,7 +5029,7 @@ Note: This miracle also occurs divided into parts (see following).
 
 
 MAC0460-B.
-Title: The news of the capture of the Ark of Zion is brought to Eli.
+Title: Ark of Zion cycle: The news of the capture of the Ark of Zion is brought to Eli.
 PEth:
 MSS: None.
 EMML: 683(146b); 682(61b).
@@ -5060,7 +5038,7 @@ Incipit: Wa-roṣa aDadu beˀesi emenna qatl wa-boˀa gabehu la-Eli (683).
 
 
 MAC0460-C.
-Title: The Philistines bring the Ark of Zion to Azotus and put it into the temple of Dagon.
+Title: Ark of Zion cycle: The Philistines bring the Ark of Zion to Azotus and put it into the temple of Dagon.
 PEth:
 MSS: None.
 EMML: 22(160b).
@@ -5069,8 +5047,8 @@ Incipit: ~ezba Krestiyan, nengerkemu zenaha l a-Tabota ijeggu la-Lecu1 za-tarakb
 Note: This miracle also occurs divided into parts (see following)
 
 
-MAC0461-A. [problem: moved up]
-Title: The havoc wrought among the Philistines by the Ark of Zion.
+MAC0461-A.
+Title: Ark of Zion cycle: The havoc wrought among the Philistines by the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 834(183b); 642(72a); 22(160b); 683(147a-147b); 682(62a-62b)
@@ -5079,7 +5057,7 @@ Incipit: Semec.u ka'ba za-gabrat taṣammera emmena ~eyon samayawtt// pmdeDra a9
 
 
 MAC0461-B.
-Title: The Philistines consult magicians as to what they should do with the Ark of Zion.
+Title: Ark of Zion cycle: The Philistines consult magicians as to what they should do with the Ark of Zion.
 PEth:
 MSS: None.
 EMML: 683(147b); 682(62a).
@@ -5088,7 +5066,7 @@ Incipit: wa-we'eta gize ṣaweˀomu El ofeli wa-sabˀa Asqalona &imiln~~ wa-la-s
 
 
 MAC0461-C.
-Title: The Philistines send back the Ark of Zion on a cart drawn by two heifers.
+Title: Ark of Zion cycle: The Philistines send back the Ark of Zion on a cart drawn by two heifers.
 PEth:
 MSS: None.
 EMML: 682(62b).
@@ -5179,7 +5157,7 @@ Incipit: Wa-kona em-denra Carga Egzi? ena, I yyasus Krəstos, westa samay, nast~
 
 
 MAC0470.
-Title: Synaxary entry for the 16th of Yakkatit: Saint Mary receives the Pact of Mercy.
+Title: Synaxary entry for the 16th of Yakkatit: Saint Mary receives the Pact of Mercy (kidan mehret).
 Text: Budge, Miracles, p. 8 & 77; T-12, p. 55.
 PEth:
 MSS: ZBNE 60-92; CRA 52-118; CRA 52-119; BM 2-37; 3-50; CBS-33; CCBE 950-2.
@@ -5271,7 +5249,7 @@ Incipit: Wa-hallo ah• adu be::ˀes1 em-weluda Esra?el, s.a deq wa-farahe Egz1�
 
 
 MAC0480.
-Title: The Assumption as narrated by Saint John to Prochorus.
+Title: Assumption cycle: The Assumption as narrated by Saint John to Prochorus.
 PEth:
 EMIP: 601.332 (176rv);
 MSS: None.
@@ -5281,7 +5259,7 @@ Incipit: Zena felsata. Wa-ye::ˀezen Abrokoros, ana ankarku em-Cebaya seb.h at z
 
 
 MAC0481.
-Title: Saint John tells Prochorus how he and the other Apostles were brought together on the 15th of Naṣase.
+Title: Assumption cycle: Saint John tells Prochorus how he and the other Apostles were brought together on the 15th of Naṣase.
 PEth:
 MSS: None.
 EMML: 642(21a); 492(73b); 683(20b); 682(17b,169b).
@@ -5290,7 +5268,7 @@ Incipit: Zena felsata. Wa-ama tagabe' u kwellomu ṣawareyat, ana meslehomu, ba-
 
 
 MAC0482.
-Title: Plato is present at the Transitus of Saint Mary.
+Title: Assumption cycle: Plato is present at the Transitus of Saint Mary.
 PEth:
 EMIP: 601.334 (177rv);
 MSS: None.
@@ -5300,9 +5278,8 @@ Incipit: Wa-hallo aṣadu be ?esi za-semu Afla~on, wa-ma~ ?a gaba felsata segaha
 
 
 MAC0483.
-Title: Saint Thomas relates how he was taken to Heaven and saw the body of Saint Mary.
-[LB: I don't think there's supposed to be a text line here but I'm unsure as to whether or not it was addded by someone else.]
-Text: Budge, Legends,
+Title: Assumption cycle: Saint Thomas relates how he was taken to Heaven and saw the body of Saint Mary.
+Text: 
 PEth:
 EMIP: 601.335 (177v–178r);
 MSS: None.
@@ -5312,7 +5289,7 @@ Incipit: Wa-yebe Tomas: Enza halloku awa~fej aganenta westa Hendaki, yebelann1 t
 
 
 MAC0484.
-Title: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha.
+Title: Assumption cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha.
 PEth:
 MSS: None.
 EMML: 642(23a); 682(107a).
@@ -5324,7 +5301,7 @@ Incipit: Ba-enta <ebaya wa-kebra la-Egze'etena Yebe Yo.h annes, Walda NagWedgWad
 
 
 MAC0485.
-Title: Christ grants Saint Mary a vision of the sufferings of those in Hell.
+Title: Assumption cycle: Christ grants Saint Mary a vision of the sufferings of those in Hell.
 PEth:
 MSS: None.
 EMML: 642(24a); 682(108a).
@@ -5333,7 +5310,7 @@ Incipit: Wa-tebe Egze'etena a Awsa~kewwo la-Waldeya wa-ebelo: Ar?eyanni soba 1wa
 
 
 MAC0486.
-Title: The magi and their chief, Balaam, see the star of Christ's birth.
+Title: Nativity of Christ cycle: The magi and their chief, Balaam, see the star of Christ's birth.
 PEth:
 MSS: None.
 EMML: 642(24b); 3378(41a); 683(139a); 3805(142b); 682(35a).
@@ -5342,7 +5319,7 @@ Incipit: Za-kona em-qedma ledata la-qeddest Hanna 1000 wa-500 wa-20 • ṣamat.
 
 
 MAC0487.
-Title: A continuation of Christ's revelation to Saint Mary (nos. 483 and 484).
+Title: Assumption cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha (continuation).
 PEth:
 MSS: None.
 EMML: 642(25b).
