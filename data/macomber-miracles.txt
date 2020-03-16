@@ -618,7 +618,7 @@ Incipit: Za-gabratto ~e<la Egzeˀetena   . . za-emert gabarita Täˀammərat wa-
 
 
 MAC0051.
-Title: Nativity of Christ cycle: Three virgins come to serve Saint Mary as she is about to give birth.
+Title: Mary, Pregnancy of cycle: Three virgins come to serve Saint Mary as she is about to give birth.
 Text: Chaine, Apocrypha, p. 26.
 PEth:
 EMDL: 681.? (106rv): How the Virgin Mary told three virgins how she conceived Jesus Christ;
@@ -1324,7 +1324,7 @@ Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel 
 
 
 MAC0119.
-Title: Assumption cycle: When Tafoneya lays hands on the bier of Saint Mary, an angel cuts his arms off.
+Title: Mary, Assumption of cycle: When Tafoneya lays hands on the bier of Saint Mary, an angel cuts his arms off.
 Text: T-4, p. 30; Chaine, Apocrypha, p. 41:6.
 PEth:
 EMIP: 601.79 (59rv): How the angel of God cut the hand of Tawǝfanya when he tried to burn the body of Mary;
@@ -2688,7 +2688,7 @@ Incipit: Za-kama astar>ayatto la-Yopannes Afa Warq ba-albas ~a<ada kama za-barad
 
 
 MAC0242.
-Title: Assumption cycle: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
+Title: Mary, Assumption of cycle: The Jews try to burn down the house where Saint Mary is staying but are burned up instead.
 PEth: 46.53 (53v-54r);
 EMIP: 601.279 (160v);
 MSS: ZBNE 60-88; CRA 52-116; 54(124b); VLVE 298(39b,236a); LUE 30-52;
@@ -2709,7 +2709,7 @@ Incipit: Za-kama tanagara Manfas Qeddus kebra la-Egzeˀetena..•• Salota•�
 
 
 MAC0244.
-Title: Assumption cycle: Saint Mary prays with the disciples.
+Title: Mary, Assumption of cycle: Saint Mary prays with the disciples.
 Text: Arras, De transitu I, p. 96:12.
 PEth:
 MSS: CRA 52-118.
@@ -2719,7 +2719,7 @@ Incipit: Za-kama ṣallayat Egzeˀetena Maryam. Salota•..• Wa-ṣallayat Egz
 
 
 MAC0245.
-Title: Assumption cycle: Saint Mary prays with the disciples (continuation).
+Title: Mary, Assumption of cycle: Saint Mary prays with the disciples (continuation).
 Text: Arras, De transitu I, p. 97:5.
 PEth:
 MSS: CRA 52-119; VLVE 298(82b).
@@ -2729,7 +2729,7 @@ Incipit: za-kama ṣalla ka<ba at Egzˀetena Maryam. Salota••  Wa-ka' ba ṣ
 
 
 MAC0246.
-Title: Assumption cycle: Saint Mary prays for the release of the souls in judgment.
+Title: Mary, Assumption of cycle: Saint Mary prays for the release of the souls in judgment.
 Text: Arras, De transitu, II, p. 25:27.
 PEth:
 MSS: ZBNE 60-93; CRA 52-120.
@@ -2739,7 +2739,7 @@ Incipit: Za-kama awieˀat nafsata ella em-westa dayn. Salota.•••Efaqqedke 
 
 
 MAC0247.
-Title: Assumption cycle: Saint John the Evangelist sees a vision of Saint Mary in glory.
+Title: Mary, Assumption of cycle: Saint John the Evangelist sees a vision of Saint Mary in glory.
 Text: Arras, De transitu II, p. 24:20. ~
 PEth:
 MSS: ZBNE 60-94; CRA 52-121; LUE 30-4.
@@ -2749,7 +2749,7 @@ Incipit: za-kama reˀya Yotiannes Walda Nagwedgwad ~ ba-<el ata felsata, ba-kama
 
 
 MAC0248.
-Title: Assumption cycle: Christ celebrates Mass for Saint Mary.
+Title: Mary, Assumption of cycle: Christ celebrates Mass for Saint Mary.
 Text: Arras, De transitu II, p. 26:26.
 PEth:
 MSS: ZBNE 60-97; CRA 52-122; VLVE 298(83a); DULE 12(16b).
@@ -2763,7 +2763,7 @@ ba-tenbel la-emmu (2060).
 
 
 MAC0249.
-Title: Assumption cycle: Saint Mary asks Christ that the disciples preach her Transitus and Assumption.
+Title: Mary, Assumption of cycle: Saint Mary asks Christ that the disciples preach her Transitus and Assumption.
 Text: Arras, De transitu II, p. 27:23.
 PEth:
 MSS: ZBNE 60-98; CRA 52-123; VLVE 298(154a).
@@ -2773,7 +2773,7 @@ Incipit: Za-kama tase'elatto Egzeˀetena maryam la-Walda kama yesbeku felsata wa
 
 
 MAC0250.
-Title: Assumption cycle: Saint Mary asks that Saint John be allowed to visit her dwelling place.
+Title: Mary, Assumption of cycle: Saint Mary asks that Saint John be allowed to visit her dwelling place.
 Text: Arras, De transitu I, p. 87:8.
 PEth:
 MSS: CRA 52-124.
@@ -2783,7 +2783,7 @@ Incipit: Za-kama sa'alatto la-Walda kama yam~e'o la-Yopannes wa-terˀayo. Salota
 
 
 MAC0251.
-Title: Assumption cycle: Prochorus reports Saint John's visit to Saint Mary's dwelling place.
+Title: Mary, Assumption of cycle: Prochorus reports Saint John's visit to Saint Mary's dwelling place.
 Text: Arras, De transitu II, p. 28:28.
 PEth:
 MSS: ZBNE 60-99; CRA 52-125.
@@ -2793,7 +2793,7 @@ Incipit: Za-kamare'ya magedara la-Egze'etena Maryam Yoṣannes Walda Nagwedgwad.
 
 
 MAC0252.
-Title: Assumption cycle: Saint Mary prays to be taken from this life.
+Title: Mary, Assumption of cycle: Saint Mary prays to be taken from this life.
 Text: Arras, De transitu I, p. 86:14.
 PEth:
 EMIP: 601.136 (84v–85r); 601.336 (178rv);
@@ -2804,7 +2804,7 @@ Incipit: za-kama astar'aya Gabre'el mal'ak la-Egze'etenaMaryam. Salota•••.
 
 
 MAC0253.
-Title: Assumption cycle: The Jews go to Bethlehem to seize Saint Mary but are blinded.
+Title: Mary, Assumption of cycle: The Jews go to Bethlehem to seize Saint Mary but are blinded.
 Text: Arras, De transitu I, p. 92:18.
 PEth:
 MSS: ZBNE 60-87; CRA 52-127; VLVE 298(236b); DULE 12(39a).
@@ -2817,7 +2817,7 @@ Incipit: za-kama coreya aceyyentihomu la-Ayhud (MS:la-Ayhu) wa-taṣallata. Salo
 
 
 MAC0254.
-Title: Assumption cycle: Christ, together with Saint Mary and the angels, appears to the Apostles and asks them to build churches in his name and hers throughout the world.
+Title: Mary, Assumption of cycle: Christ, together with Saint Mary and the angels, appears to the Apostles and asks them to build churches in his name and hers throughout the world.
 Text: T-21, p. 101.
 PEth:
 EMIP: 601.90 (69v);
@@ -2887,7 +2887,7 @@ Incipit: Za-kama we<ya edeha la-Salome ba-gasisa segaha la-Maryam, wa-za-kama Qe
 
 
 MAC0261.
-Title: Assumption cycle: Saint John the Evangelist sees Christ kissing Saint Mary's burial cloth.
+Title: Mary, Assumption of cycle: Saint John the Evangelist sees Christ kissing Saint Mary's burial cloth.
 Text: T-5, p. 32; Arras, De transitu II, p. 18:24.
 PEth:
 MSS: CRA 52-135; VLVE 298(43a).
@@ -2897,7 +2897,7 @@ Incipit: Za-kama zenawa Yooannes Walda NagWedgWad, enzaye'emmeg magnaza enta la�
 
 
 MAC0262.
-Title: Assumption cycle: Saint Mary's soul descends from heaven in a tent of light.
+Title: Mary, Assumption of cycle: Saint Mary's soul descends from heaven in a tent of light.
 Text: Arras, De transitu II, p. 19:26.
 PEth:
 MSS: CRA 52-136; VLVE 298(43b).
@@ -3092,7 +3092,7 @@ Incipit: Taˀammera masqalu la-Walda, za-gabro Egziˀena,Iyyasus Krəstos, ba-en
 
 
 MAC0281.
-Title: Assumption cycle: Synaxary entry for 16 Nahase: The Apostles visit Saint Mary in heaven.
+Title: Mary, Assumption of cycle: Synaxary entry for 16 Nahase: The Apostles visit Saint Mary in heaven.
 Text: T-7, p. 40.·
 PEth:
 MSS: CRA 52-100; VLVE 298(196a).
@@ -3102,7 +3102,7 @@ Incipit: Taˀammeriha la-Egzeˀetena••••ba-kama tarakba ba-ma$aQefta Sen
 
 
 MAC0282.
-Title: Assumption cycle: Anonymous homily against the report that the Apostles abandoned the body of Saint Mary when they were attacked by the Jews during her funeral procession.
+Title: Mary, Assumption of cycle: Anonymous homily against the report that the Apostles abandoned the body of Saint Mary when they were attacked by the Jews during her funeral procession.
 Text: T-6, p. 34.
 PEth:
 EMIP: 601.81 (60r–61r): How the apostles did not leave the body of Mary for fear of the Jews and how the angel of God encouraged them to claim the body;
@@ -3456,7 +3456,7 @@ Incipit: Wa-hallo a~adu qas1s, wa-galqu be ?esitu mmam wa-daqiqu (5105).
 
 
 MAC0315.
-Title: The Childhood of Mary cycle: Saint Mary stays in the Temple.
+Title: Mary, Childhood of cycle: Saint Mary stays in the Temple.
 PEth:
 MSS: AECE 1(68b).
 EMML: 5105(141a); 2275(12b); 2066(25a); 3475(38a); 642(10a); 1799(25b); 2392(2a).
@@ -3465,7 +3465,7 @@ Incipit: Wa-kacba nenaggerakkemu, anawina, hiru.ta wa-ne~~ennah! la-Egze~etena M
 
 
 MAC0316-A.
-Title: The Childhood of Mary cycle: The conception and nativity of Saint Mary.
+Title: Mary, Conception of cycle: The conception and nativity of Saint Mary.
 Text: T-2, p. 23.
 PEth: 41.2 (13r-14v); 47.38 (107v-110r);
 EMIP: 601.74 (53r–54r);
@@ -3482,7 +3482,7 @@ Note: This is MAC0293.
 
 
 MAC0316-C.
-Title: The Childhood of Mary cycle: The birth of Saint Mary on the first of Genbot.
+Title: Mary, Nativity of cycle: The birth of Saint Mary on the first of Genbot.
 Text: T- 2, p. 26:23.
 PEth:
 MSS: None.
@@ -3492,7 +3492,7 @@ Incipit: Negba>ke haba tenta nagar . wa-soba tafa$$ama mawa<e l a ~ensa, waladat
 
 
 MAC0316-D.
-Title: The Childhood of Mary cycle: When she is three years old, Saint Mary is taken to the Temple.
+Title: Mary, Childhood of cycle: When she is three years old, Saint Mary is taken to the Temple.
 Text: T-2, p. 26:26.
 PEth: 41.3 (14v-15v); 47.1 (13r-15r);
 EMIP: 601.92 (71r);
@@ -3504,7 +3504,7 @@ Incipit: Wa-nabfa,ru Iyyaqem wa-~anna enza ya~a~~enu walattomu Maryam 3 <amata, 
 
 -74-
 MAC0317.
-Title: The Childhood of Mary cycle: Saint Mary is espoused to Saint Joseph.
+Title: Mary, Engagement of cycle: Saint Mary is espoused to Saint Joseph.
 PEth:
 MSS: VLVE 298(145b); HBS 157(7a); AECE 1(7Ob).
 EMML: 2275(13b); 1581(38a); 3475(41a); 642(11a); 2392(3a); 2800(35b); 3378(39a).
@@ -3547,7 +3547,7 @@ Incipit: Wa-hallo ahadu negus Kresttyanawafqare Egzi jabher le'ul • • wa-maf
 
 
 MAC0321.
-Title: The Holy Family journey cycle: The rich Egyptian woman who refused to give water to the Holy Family.
+Title: Holy Family journey cycle: The rich Egyptian woman who refused to give water to the Holy Family.
 PEth:
 EMIP: 601.227 (144r–145r);
 MSS: ZBNE 60-84; VLVE 298(166a); SALE 23-32.
@@ -3560,7 +3560,7 @@ Incipit: Wa-kona zentu nagar em-detra waladatto la-Egziˀ ena, Iyyasus Krəstos,
 
 
 MAC0322.
-Title: The Holy Family journey cycle: The people of an Egyptian town set fierce dogs on the Holy Family.
+Title: Holy Family journey cycle: The people of an Egyptian town set fierce dogs on the Holy Family.
 PEth:
 MSS: ZBNE 60-80; SALE 23-32.
 EMML: 2275(144a); 2066(99a); 2802(127a); 2056(106a); 642(19b); 929(80b); 2800(47a).
@@ -3569,7 +3569,7 @@ Incipit: Wa-enza tahawwer Egze =ˀetena•••• em-hagar westa hagar, gWayiy
 
 
 MAC0323.
-Title: The Holy Family journey cycle: The hunter who discovered the Holy Family in flight is turned into a dog when he violates his oath not to reveal them.
+Title: Holy Family journey cycle: The hunter who discovered the Holy Family in flight is turned into a dog when he violates his oath not to reveal them.
 Text: T-72, p. 256.
 PEth:
 EMIP: 601.196 (121r–122v): How the Virgin Mary punished a certain young man when he revealed the whereabouts of the hiding place of the Holy Family in Egypt, and how she heard the prayer of the governor of that land who interceded for the young man;
@@ -3580,7 +3580,7 @@ Incipit: Tabehla enka ba-enta ah• adu be~esi za-ma.h ala ba-h. assat wa-baenta
 
 
 MAC0324.
-Title: The Holy Family journey cycle: The Holy Family visits the king of the Semites.
+Title: Holy Family journey cycle: The Holy Family visits the king of the Semites.
 Text: T-73, p. 261.
 PEth:
 MSS: ZBNE 60-83.
@@ -3590,7 +3590,7 @@ Incipit: Wa-hallo aQadu be:ˀes1 em-daqiqa Sem za-sannay ge czu wa-retu~lebbu. [
 
 
 MAC0325.
-Title: The Holy Family journey cycle: The Holy Family hides from thieves in a sycamore tree at Däbrä Metmaq.
+Title: Holy Family journey cycle: The Holy Family hides from thieves in a sycamore tree at Däbrä Metmaq.
 Summary: Cerulli, Il libro, p. 205.
 [LB: I think there should be a semi-colon after the 28 in the MSS but there isn't one in the macomber version.]
 PEth: 41.13 (39v-42v);
@@ -3602,7 +3602,7 @@ Incipit: Tabehla ba-enta ella mas. ' u ekkuyan fayat kama yense~u newaya la-Egze
 
 
 MAC0326.
-Title: The Holy Family journey cycle: The Holy Family uses stones instead of a boat to cross the Nile.
+Title: Holy Family journey cycle: The Holy Family uses stones instead of a boat to cross the Nile.
 Text: T-9, p. 48.
 PEth:
 EMIP: 601.348 (184v–185r);
@@ -4594,7 +4594,7 @@ Incipit:  Tabehla kama hallo ahadu hate~ za-yafadfed feqra la-Egze~etena • V' 
 
 
 MAC0418.
-Title: The Nativity of Christ cycle: A soldier redeems the Child Jesus from another soldier who was thinking of handing him over to King Herod.
+Title: Christ, Nativity of cycle: A soldier redeems the Child Jesus from another soldier who was thinking of handing him over to King Herod.
 PEth:
 EMIP: 601.368 (195rv);
 MSS: None.
@@ -4762,7 +4762,7 @@ Incipit: Wa-hallawat ahatti be~es1t Ayhudawit za-bo>at westa beta la- • Egze~e
 
 
 MAC0435.
-Title: The Annunciation cycle: The Annunciation.
+Title: Mary, Annunciation of cycle: The Annunciation.
 Text: Chaine, Apocrypha, p. 9:16.
 PEth:
 MSS: None.
@@ -4782,7 +4782,7 @@ Incipit: Wa-hallo ahadu beˀesi manakos wa-yebe: Re,ikewwo la-ahadu beˀesi mast
 
 
 MAC0437.
-Title: The Annunciation cycle: On the conception of Christ.
+Title: Mary, Annunciation of cycle: On the conception of Christ.
 PEth: 41.5 (17r-18v): How the Virgin Mary immaculately conceived Jesus and How Joseph was told about her conception by the Holy Spirit in a dream so that he would not doubt her;
 MSS: None.
 EMML: 2963(84b); 2952(239a).
@@ -4863,7 +4863,7 @@ Incipit: Seme cu, abawina wa-ahawina, za-gabrat Egze'etena la-ahadu . be 7 esi, 
 
 
 MAC0445.
-Title: The Nativity of Christ cyle: How the Virgin Mary gave birth (see no. 299)
+Title: Christ, Nativity of cycle: How the Virgin Mary gave birth (see no. 299)
 Text: T-11, p. 53.
 PEth: 41.6 (18v-19v): 
 EMIP: 601.85 (63v–64r):
@@ -4874,7 +4874,7 @@ Incipit: Wa-kona soba mammn-fa--tafaṣama mawa cela zensa la-Egze'etena .......
 
 
 MAC0446.
-Title: The Nativity of Christ cyle: The shepherds and the magi come to worship Christ.
+Title: Christ, Nativity of cycle: The shepherds and the magi come to worship Christ.
 PEth: 41.7 (19v-21r);
 EMIP: 601.84 (63rv): How the Virgin Mary gave birth to Jesus Christ and how the wise men came to present their gifts;
 MSS: None.
@@ -4887,7 +4887,7 @@ Incipit: aCba nenaggerakkemu, ah....,a w1na, zenaha la-Egze'etena. Wa-em-n dehra
 
 
 MAC0447.
-Title: The Childhood of Mary cycle: Saint Mary's stay in the Temple.
+Title: Mary, Childhood of cycle: Saint Mary's stay in the Temple.
 PEth:
 MSS: None.
 EMML: 2952(238b).
@@ -5249,7 +5249,7 @@ Incipit: Wa-hallo ah• adu be::ˀes1 em-weluda Esra?el, s.a deq wa-farahe Egz1�
 
 
 MAC0480.
-Title: Assumption cycle: The Assumption as narrated by Saint John to Prochorus.
+Title: Mary, Assumption of cycle: The Assumption as narrated by Saint John to Prochorus.
 PEth:
 EMIP: 601.332 (176rv);
 MSS: None.
@@ -5259,7 +5259,7 @@ Incipit: Zena felsata. Wa-ye::ˀezen Abrokoros, ana ankarku em-Cebaya seb.h at z
 
 
 MAC0481.
-Title: Assumption cycle: Saint John tells Prochorus how he and the other Apostles were brought together on the 15th of Naṣase.
+Title: Mary, Assumption of cycle: Saint John tells Prochorus how he and the other Apostles were brought together on the 15th of Naṣase.
 PEth:
 MSS: None.
 EMML: 642(21a); 492(73b); 683(20b); 682(17b,169b).
@@ -5268,7 +5268,7 @@ Incipit: Zena felsata. Wa-ama tagabe' u kwellomu ṣawareyat, ana meslehomu, ba-
 
 
 MAC0482.
-Title: Assumption cycle: Plato is present at the Transitus of Saint Mary.
+Title: Mary, Assumption of cycle: Plato is present at the Transitus of Saint Mary.
 PEth:
 EMIP: 601.334 (177rv);
 MSS: None.
@@ -5278,7 +5278,7 @@ Incipit: Wa-hallo aṣadu be ?esi za-semu Afla~on, wa-ma~ ?a gaba felsata segaha
 
 
 MAC0483.
-Title: Assumption cycle: Saint Thomas relates how he was taken to Heaven and saw the body of Saint Mary.
+Title: Mary, Assumption of cycle: Saint Thomas relates how he was taken to Heaven and saw the body of Saint Mary.
 Text: 
 PEth:
 EMIP: 601.335 (177v–178r);
@@ -5289,7 +5289,7 @@ Incipit: Wa-yebe Tomas: Enza halloku awa~fej aganenta westa Hendaki, yebelann1 t
 
 
 MAC0484.
-Title: Assumption cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha.
+Title: Mary, Assumption of cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha.
 PEth:
 MSS: None.
 EMML: 642(23a); 682(107a).
@@ -5301,7 +5301,7 @@ Incipit: Ba-enta <ebaya wa-kebra la-Egze'etena Yebe Yo.h annes, Walda NagWedgWad
 
 
 MAC0485.
-Title: Assumption cycle: Christ grants Saint Mary a vision of the sufferings of those in Hell.
+Title: Mary, Assumption of cycle: Christ grants Saint Mary a vision of the sufferings of those in Hell.
 PEth:
 MSS: None.
 EMML: 642(24a); 682(108a).
@@ -5310,7 +5310,7 @@ Incipit: Wa-tebe Egze'etena a Awsa~kewwo la-Waldeya wa-ebelo: Ar?eyanni soba 1wa
 
 
 MAC0486.
-Title: Nativity of Christ cycle: The magi and their chief, Balaam, see the star of Christ's birth.
+Title: Christ, Nativity of cycle: The magi and their chief, Balaam, see the star of Christ's birth.
 PEth:
 MSS: None.
 EMML: 642(24b); 3378(41a); 683(139a); 3805(142b); 682(35a).
@@ -5319,7 +5319,7 @@ Incipit: Za-kona em-qedma ledata la-qeddest Hanna 1000 wa-500 wa-20 • ṣamat.
 
 
 MAC0487.
-Title: Assumption cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha (continuation).
+Title: Mary, Assumption of cycle: Saint Mary narrates to Saint John a revelation made to her by Christ on Golgotha (continuation).
 PEth:
 MSS: None.
 EMML: 642(25b).
@@ -6635,7 +6635,7 @@ Incipit: Wa-soba ṣabpa, yebelomu Manfas Q,eddus la-ṣaware;wat: Ne~eˀeWa l a
 
 
 MAC0620.
-Title: Homily on the Annunciation, preceded by the gospel text.
+Title: Mary, Annuciation of cycle: Homily on the Annunciation, preceded by the gospel text.
 PEth:
 MSS: None.
 EMML: 683(217a).
@@ -6644,7 +6644,7 @@ Incipit: Wa-ba-sades war!} ta.fanawa Gabre'el mal/ak em-gaba Egziˀabper hagara 
 
 
 MAC0621.
-Title: Continuation of the preceding homily on the Annunciation.
+Title: Mary, Annuciation of cycle: Homily on the Annunciation (continuation).
 PEth:
 MSS: None.
 EMML: 683(217b).
@@ -6665,7 +6665,7 @@ Incipit: Wa-hallo aḥadu beˀesi ba-ha.gara Dalga za-semu Agabos, beˀesi ṣaW
 
 
 MAC0623.
-Title: The Dormition.
+Title: Mary, Dormition of cycle: The Dormition.
 Text: Chaine, Apocrypha, p. 43:24.
 PEth:
 MSS: ZBNE 53(55b); 54(68).
@@ -6675,7 +6675,7 @@ Incipit: Wa-em-ze awśeˀanni Waldeya, Egziˀeya, wa-yebelanni: Kwello za-sa'alk
 
 
 MAC0624.
-Title: After the Annunciation, Zacharias blesses Saint Mary, who then goes to visit her cousin, Elizabeth.
+Title: Mary, Annuciation of cycle: After the Annunciation, Zacharias blesses Saint Mary, who then goes to visit her cousin, Elizabeth.
 PEth:
 MSS: None.
 EMML: 682(209a).
@@ -6684,7 +6684,7 @@ Incipit: Wa-em-ze faṣamat Jflmmmm fatlf weˀeta melata, wa-wasadat gaba Zakkar
 
 
 MAC0625.
-Title: When King Herod learns that the Holy Family is in the wilderness of Barta, an angel tells Saint Joseph to flee to the mountains of Lebanon.
+Title: Holy family journey cycle: When King Herod learns that the Holy Family is in the wilderness of Barta, an angel tells Saint Joseph to flee to the mountains of Lebanon.
 PEth:
 MSS: None.
 EMML: 682(209b).
@@ -6693,7 +6693,7 @@ Incipit: wa-soba sam'a Herods kama hallawat Egzeˀetena....mesla peiana ba-gadam
 
 
 MAC0626.
-Title: Herod commands King Gigar be brought to the olive tree.
+Title: Holy family journey cycle: Herod commands King Gigar be brought to the olive tree.
 PEth:
 MSS: None.
 EMML: 682(210a).
@@ -6702,7 +6702,7 @@ Incipit: wa-em-ze azzaza Herods kama yesadewwo la-qeddus Gigar gaba yeˀeti ' ei
 
 
 MAC0627.
-Title: The prayer of King Demateyanos.
+Title: Holy family journey cycle: The prayer of King Demateyanos.
 PEth:
 MSS: None.
 EMML: 682(210b).
@@ -6714,7 +6714,7 @@ Incipit: Wa-gize manfaqa lelit qoma Demateyanos, wa-safpa ' edawihu wa-anqa'dawa
 
 
 MAC0628.
-Title: When Saint Mary departs from the city of Itenin, its people weep.
+Title: Holy family journey cycle: When Saint Mary departs from the city of Itenin, its people weep.
 MSS: None.
 EMML: 682(211a).
 Keywords: Flight into Egypt; Itenin;
@@ -6722,7 +6722,7 @@ Incipit: Wa-tanse'at (MS: Wa-tanse'atna) Egzeˀetena Maryam wa-galafat em-heyya.
 
 
 MAC0629.
-Title: On the occasion of the marriage of Saints Joachim and Anne, prophecies are made concerning the birth of Saint Mary.
+Title: Mary, Nativity of cycle: On the occasion of the marriage of Saints Joachim and Anne, prophecies are made concerning the birth of Saint Mary.
 PEth:
 MSS: None.
 EMML: 682(212b).
@@ -6761,7 +6761,7 @@ Incipit: Wa-zanta sami'a Egzeˀetena Maryam em-afuhu la-fequr Walda, tebelo: Seb
 
 
 MAC0633.
-Title: Christ appears to the Apostles after the Dormition of Saint Mary.
+Title: Mary, Dormition of cycle: Christ appears to the Apostles after the Dormition of Saint Mary.
 PEth: 46.62 (65rv): How Jesus and John took the body of the Virgin Mary to heaven;
 EMIP: 601.303 (167r): How Jesus Christ commanded John the Apostle to carry the body of the Virgin Mary in a heavenly chariot and how the angels received the body of Mary with incense and praise; 601.124 (81v): How Jesus commanded John, the disciple, to take, by fiery chariots, the body of Saint Mary to paradise under the tree of life;
 MSS: GVE 117(34a).
@@ -6849,7 +6849,7 @@ Incipit: Dersan za-darasa Zärˀa Yaˁəqob, Retu<a Miir,mlii:R (MS: Retu<ana) H
 
 
 MAC0642.
-Title: When the Holy Family encounters brigands during their return journey from Egypt, Christ repairs the broken sword of Tetos.
+Title: Holy Family journey cycle: When the Holy Family encounters brigands during their return journey from Egypt, Christ repairs the broken sword of Tetos.
 PEth:
 MSS: None.
 EMML: 22(150b).
