@@ -166,6 +166,10 @@ class MacomberToCSV:
                     elif field in self.mss_collections:
                         self.parse_manuscripts(field, value, record)
 
+        # save the last canonical record
+        if record:
+            self.canonical_stories.append(record)
+
         self.output_manuscripts()
         self.output_canonical_stories()
         self.output_story_instances()
