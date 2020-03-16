@@ -34,6 +34,9 @@ Setup:
  the data  will be stored. It should be configured with a remote
  "origin" for remote synchronization before running the script.
 
+* To use the GitHub co-author functionality, create a sheet with the name
+ "_contributors" and these columns: google email, github username, github email
+
 '''
 import argparse
 import csv
@@ -72,8 +75,8 @@ class GSheetsToGit:
 
     # list of files generated from spreadsheet data
     updated_filenames = []
-    # name of the spreadsheet
-    gsheet_title = None
+    # users who modified the spreadsheet since last run
+    modifying_users = set()
 
     def __init__(self, docid, gitpath, datadir=None):
         self.docid = docid
@@ -88,6 +91,13 @@ class GSheetsToGit:
         # if there were changes, commit to git
         if self.updated_filenames:
             self.update_gitrepo()
+
+        # if everything succeeded,
+        # update the lastrun file with document last modification time
+        self.update_lastrun_info({
+            'modified': {
+                self.docid: self.format_time(self.gsheet_lastmod)
+            }})
 
     def init_google_clients(self):
         '''initialize google drive api and gspread client'''
@@ -124,13 +134,46 @@ class GSheetsToGit:
         return datetime.strptime(timestr, self.MODIFIED_TIME_FORMAT)
 
     def format_time(self, datetimeobj):
+        # convert datetime ojbect to string in expected format
         return datetimeobj.strftime(self.MODIFIED_TIME_FORMAT)
 
     def get_document_lastmodified(self):
+        '''use drive File API to get document last modified time'''
         results = self.drive_api.files() \
             .get(fileId=self.docid,
                  supportsAllDrives=True, fields='modifiedTime').execute()
         return self.parse_time(results.get('modifiedTime'))
+
+    def get_modifying_users(self, page_token=None):
+        '''Populate a list of emails for users who modified the document
+        since thelast time this script ran for this document'''
+
+        revision_fields = ','.join('revisions/%s' % field for field in [
+            'modifiedTime', 'lastModifyingUser/emailAddress'])
+        fields = 'nextPageToken,%s' % revision_fields
+
+        results = self.drive_api.revisions().list(
+            fileId=self.docid, fields=fields, pageToken=page_token).execute()
+
+        # if no last run info, compare with unix zero time
+        since_date = self.script_lastrun or datetime.fromtimestamp(0)
+
+        revisions = results.get('revisions')
+
+        # google returns revisions oldest first; reverse the order
+        revisions.reverse()
+        for revision in revisions:
+            if self.parse_time(revision['modifiedTime']) > since_date:
+                self.modifying_users.add(
+                    revision['lastModifyingUser']['emailAddress'])
+            else:
+                # ignore any revisions before our compare date
+                break
+
+        # if there is another page, continue looking for modifying users
+        page_token = results.get('nextPageToken', None)
+        if page_token:
+            self.get_modifying_users(page_token)
 
     # simple property caching
     _script_lastrun = None
@@ -158,23 +201,22 @@ class GSheetsToGit:
         Stores a list of the files created and document title on the class.
         '''
         # determine when the document was last modified
-        gsheet_lastmod = self.get_document_lastmodified()
+        self.gsheet_lastmod = self.get_document_lastmodified()
 
         # if we have a last script run modified date, compare against document
-        if self.script_lastrun and gsheet_lastmod == self.script_lastrun:
+        if self.script_lastrun and self.gsheet_lastmod == self.script_lastrun:
             # if not modified, bail out
             print('No changes since last run')
             return
 
-        gsheet = self.gspread.open_by_key(self.docid)
-        self.gsheet_title = gsheet.title
+        self.gsheet = self.gspread.open_by_key(self.docid)
 
         # make sure the output dir exists
         if not os.path.isdir(self.outdir):
             os.mkdir(self.outdir)
 
         # get all worksheets
-        worksheets = gsheet.worksheets()
+        worksheets = self.gsheet.worksheets()
         for sheet in worksheets:
             # do NOT synchronize github contributor emails
             if sheet.title == '_contributors':
@@ -191,12 +233,6 @@ class GSheetsToGit:
                 csvwriter.writerows([pad_csv_row(row, columns)
                                      for row in sheet_data])
 
-        # update the lastrun file with document last modification time
-        self.update_lastrun_info({
-            'modified': {
-                self.docid: self.format_time(gsheet_lastmod)
-            }})
-
     def update_gitrepo(self):
         '''Update the git repository and push changes.'''
         try:
@@ -205,12 +241,32 @@ class GSheetsToGit:
             print('%s is not a valid git repository' % self.gitpath)
             return
 
+        commit_msg = 'Automatic data updates from %s' % self.gsheet.title
+
+        # check for modifying users
+        self.get_modifying_users()
+        # if there are any, use the spreadsheet to map to github account
+        if self.modifying_users:
+            # get contributor spreadsheet data as a list of dict
+            contributors = self.gsheet.worksheet('_contributors') \
+                .get_all_records()
+            contributor_lookup = {}
+            for contrib in contributors:
+                contributor_lookup[contrib['google email']] = contrib
+
+            # construct co-author commit and add to the commit message
+            coauthors = []
+            coauth_msg = 'Co-authored-by: %(github username)s <%(github email)s>'
+            for user in self.modifying_users:
+                if user in contributor_lookup:
+                    coauthors.append(coauth_msg % contributor_lookup[user])
+
+            commit_msg = '%s\n\n%s' % (commit_msg, '\n'.join(coauthors))
+
         repo.index.add(self.updated_filenames)
         if repo.is_dirty():
             print('Committing changes')
-            repo.index.commit('Automatic data updates from %s' %
-                              self.gsheet_title)
-
+            repo.index.commit(commit_msg)
             try:
                 origin = repo.remote(name='origin')
                 # pull any remote changes
