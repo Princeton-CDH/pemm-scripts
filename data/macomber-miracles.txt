@@ -170,7 +170,7 @@ Text: Budge, Miracles, p. 70; Cerulli, Il libro, p. 290.
 English translation: Budge, One Hundred, p. 129.
 PEth: 8.16 (30r-33v); 41.49 (77r-79r); 43.32 (40r-43r); 46.45 (47r-48v); 47.37 (103v-106v);
 EMIP: 601.241 (149v–150r);
-MSS: G-40; ZBNE 60-37; 101-1; CRA 52-8; 53-1; SBLE 32 (39r); BM 3-42; GVE 117 (41v); VLVE 298 (140r); SALE 23-1; 43-2; LUE 30-2; 31-16; CF 1-16; CBS-72; HBS 74-II; AECE 1 (40v).
+MSS: G-40; ZBNE 60-37; 101-1; CRA 52-8; 53-1; SBLE 32 (39r); BM 3-42; GVE 117 (41v); VLVE 298 (140r); SALE 23-1; 43-2; LUE 30-2; 31-16; CF 1-16; CBS-72; HBS 74-11; AECE 1 (40v).
 EMML: 2275 (198r); 6938 (70r); 4618 (58r); 5520 (4r); 2378 (3r); 2059 (111r); 2060 (154v); 2066 (38v); 2772 (190r); 2802 (31v); 7543 (23r).
 Keywords: Potters; Syria; Syrians; Wəddase Maryam;
 Incipit: Sǝmʿu, ʾabawǝya wa-ʾaḫawǝya, kama nǝngǝrkǝmu taʾammǝra ʿabbāya za-kona la-ʾƎgzǝʾǝtǝna… za-nagaru ʾabaw qǝddusān, samāʿtǝya ʾƎgziʾabḥer kama ʾiyyǝwēssǝk wa-ʾiyyānattǝg. Yǝbeluna: Nabara ba-mǝdra Sorǝyā bǝʾǝsi labḥāwi farāhe ʾƎgziʾabḥer / ስምዑ፡ አበውየ፡ ከመ፡ ንንግርክሙ፡ ተአምረ፡ ዐባየ፡ ዘኮነ፡ ለእግዝእትነ፡… ዘነገሩ፡ አበው፡ ቅዱሳን፡ ሰማዕትየ፡ እግዚአብሔር፡ ከመ፡ ኢይዌስክ፡ ወኢያነትግ፡ ይቤሉነ፡ ነበረ፡ በምድረ፡ ሶርያ፡ ብእሲ፡ ለብሓዊ፡ ፈራሄ፡ እግዚአብሔር፡ (6938).
@@ -1128,10 +1128,10 @@ Incipit: Semeˁu, abawina wa-agawina, za-gabrat ta'a.mmera wa-mankera ba-beQera 
 
 
 MAC0100.
-Title: The daughter of the chief of the brigands is cured of her leprosy at the miraculous spring.
+Title: The daughter of the chief of the thieves is cured of her leprosy at the miraculous spring.
 English translation: Budge, One Hundred, p. 276.
 PEth:
-MSS: G-100; ZBNE 60-81; CRA 52-80; 54(138a); SBLE 15(7a); WBLE 77(110a); VLVE 298(78a); HBS 59-36; SWE 15(102b - abbreviated).
+MSS: G-100; ZBNE 60-81; CRA 52-80; 54(138a); SBLE 15(7a); WBLE 77(110a); VLVE 298(78a); HBS 59-36; SWE 15(102b).
 EMML: 3536(130b); 2275(118b); 6917(117b); 1960(2a); 4205(28a); 6949(133b); 1692(52b); 2084(127a); 2059(16b); 2060(138b); 2066(44a); 2802(38b); 7543(70a).
 Keywords: Bethlehem; Brigands; Daughters; Holy Family; Families; Flight into Egypt; Healings, Leprosy; Lepers; Matoreya, spring of; Springs; Nativity of Christ;
 Incipit: Wa-kona enka em-deg.ra waladatto la-feqt Walde, Iyyasus Krəstos, hallawat medra Beta Leoem, wa-azzaza Herods negu~ kama yeqtelu kwello
@@ -1317,7 +1317,7 @@ Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; 
 MAC0118.
 Title: The merchant from Senfewat who struck the icon of Saint Mary.
 PEth:
-MSS: G-119; CRA 52-75; 53-29; 61; VLVE 298(86a); CL-2.
+MSS: G-119; CRA 52-75; CRA 53-29, 61; VLVE 298(86a); CL-2.
 EMML: 3872(17b); 7543(78b); 2952(108a); 2058(94b); 642(92a); 3378(142a); 76(214a).
 Keywords: Icons; Merchants; Priests; Senfewat; Tomas, priest; Thomas, priest;
 Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel a zentu
@@ -1585,7 +1585,7 @@ Text: Budge, Miracles, p. 41
 English translation: Budge, One Hundred, p. 85.
 PEth: 20.77 (81r-81v); 41.56 (84r-85r); 43.38 (50v-51v); 43.3 (6v-8r); 46.27 (27v-28r); 47.27 (80v-81r);
 EMIP: 601.27 (19v–20r); 601.316 (171v–172r);
-MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; 39;LUE 30-12; 61; 31-4; 32-27;45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
+MSS: G-144; ZBNE 60-28; 61-26; CRA 51(65b); 52-34; 54(89a); 55(68b); SBLE 32-27; BM 2-30; 3-35; GVE 69(50b); 117(16b); VLVE 267(55b); 267(55b); 272(138b); 298(23a); SALE 23-26; 43-28; LUE 30-12; LUE 30-39; LUE 30-61; LUE 31-4; LUE 32-27; LUE 31-45; CF 1-4; 2-10; CBS-27; CBS-66; HBS 59-9; CCBE 951-27; CL-10; AECE 1(29b).
 EMML: 1573(18b); 3536(20b); 5105(11a); 2275(26b); 3872(37a); 6917(26a); 2282(42a); 4618(11a); 5182(4b); 5520(8a); 6949(74a); 4688(32b,108a); 1692(24a); 2378(3b); 3923(44a); 6640(48b,102b); 2059(20b bis); 2060(33a); 2066(45b,134b); 2802(40b); 5420(30b); 6196(79a); 7543(89b); 2831(32b,43a).
 Keywords: Anastasius, deacon; Constantinople; Deacons; Prayers; Rome; Tafassehiyat;
 Incipit: wa-hallo apadu be'esi za-semu Anestoseyos ba-hagara Rome za-Baranesteseya (EMML 2058: za-Baranpeya), farahe Egzi'ab};.ter wa-yafaqqera l a-Egze'etena .••. wa-yegayyes haba beta Krestiyan yaqerreb latti aptrge ne~upa za-mesla ~alot, enza yesebbep waddesota la-Maryam (3872)./ Wa-hallo apadu be'esi wa-yenabber westa apadu mak.an za-yafaqqero l a-Egzi'abper wa-la-Egze'etena ...• wa-ye~elli zanta ~alota ~'llfilYl!lhilmWlllV enta westeta mWJ!Ulrll!:wmwmi:mliJilWlllwnliwiiwmymimiwih:HH®gamwmtmml~~ a 'ekw etota wa-wadde s ota la-Maryam (4618).
@@ -1669,7 +1669,7 @@ MAC0149.
 Title: A man who drowned when a pilgrim ship sank is resuscitated.
 PEth:
 EMIP: 601.326 (174v–175r); 601.360 (192r);
-MSS: CRA 53-46; VLVE 272(149a); 298(22815); LUE 30-64; CF 2-17; HBS 59-15; CL-28.
+MSS: CRA 53-46; VLVE 272(149a); 298(228b); LUE 30-64; CF 2-17; HBS 59-15; CL-28.
 EMML: 1573(58b); 3536(29a); 2275(51a); 3872(43a); 6938(144a); 6917(34b); 2282(48b); 4618(17b); 5520(23a); 6949(19a,82a); 2378(11b); 3923(49b); 6640(85b); 2060(41b); 2066(50b); 2802(50b); 7543(93a); 2831(44a).
 Keywords: Bishops, archbishops; Gregory, bishop; Jerusalem; Pilgrims; Red Sea; Ships; Storms;
 Incipit: Wa-hallawat apatti gamar ' abbay enza tema~~e> em-mas< la-'arab ba-diba Bapra • Eretra, wa-hallawu bezug sab> westeta yapawweru Iyyarusalem mesla eppis qoppos za-semu Gorgoreyos (3872). /Wa-hallawat apatti pamar ' abbay ba-westa bapr wa-melu>an sab> westeta, wa-ra'danessa nagadeyan wa-liqawent ella westa pamar, wa-meslehomu hall awa eppis qoppos farahe fflJft Egzi >abper (2275).
@@ -1726,7 +1726,7 @@ Text: Budge, Miracles, p. 23; Cerulli, Il libro, p. 522-523.
 English translation: Budge, One Hundred, p. 39.
 PEth: 8.22 (41r-41v); 20.37 (48r-v); 41.28 (60v-61r); 43.25 (32v-33r); 46.11a (17rv); 47.11 (42r-43v);
 EMIP: 601.11 (11rv);
-MSS: ZBNE 60-12; 61-10; 62-31; 63-3l; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; 3-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS-11; 272(128b); 298(14b); SALE 23-10; 4)-12; LUE 30-23; LUE 30-69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
+MSS: ZBNE 60-12; 61-10; 62-31; 63-31; CRA 52-18; 54(38a); 55(29b); SBLE 32-11; BM 2-14; 3-19; GVE 29(46b); 73(110b); VLVE 267(25b); CBS-11; 272(128b); 298(14b); SALE 23-10; SALE 43-12; LUE 30-23; LUE 30-69; 32-2; CF 2-22; CBS-11; HBS 22(42a); 59-20; 129(53b,57a); CCBE 951-11; CL-33; AECE 1(14b); SWE 15(64a).
 EMML: 7089(15b); 3536(37b); 7220(10a); 5105(36a); 2275(27b); 3872(48a); 6938(150b); 6917(34a,41a); 2282(33a); 4618(23b); 5182(7a); 5520(134b); 6949(89b); 4688(50b); 3923(36a); 6640(27b); 2059(56b); 2060(186a); 2066(120b); 2802(118a); 5420(29a); 6196(32a); 7543(95b); 2831(28a).
 Keywords: Barbara from Bethlehem; Bethlehem; Churches; Jews; Judah, tribe of; Juliana from Bethlehem; Robbers; Sisters;
 Incipit: wa-hallawa kel'e anest, a>mata Egze>etena Maryam ba-Beta Le~em em-awalda Yehuda, wa-a~atta ' elata (yenaggedt) enza ya~awwera Iyyarusalem, yesaggeda la-ba'ala felsata ~egaha la-Egze'e ena (3872). / Wa-kona kel'e anest enza yapawwera westa beta Krestiyana la-Maryam, wa-enza ya~awwera ba-fenot, tan~e 'u la'elehon fayat (5105 .
@@ -1772,7 +1772,7 @@ Text: Budge, Miracles, p. 38
 English translation: Budge, One Hundred, p. 75.
 PEth: 41.62 (89r-91r); 43.36 (46v-49v); 46.25 (25v-27r); 47.25 (74v-79r);
 EMIP: 601.25 (18r–19r);
-MSS: ZBNE 60-26; 61-24; CRA 52-32; 54(81a); 55(62b); SBLE 32; BM 2-28;3-33; VLVE 267(52b); 272(113a); 298(21b);  SALE 23-24; 43-26; LUE 30-37; 32-33; CF 2-26; CBS-25; HBS 59-24; CCBE 951-25; CL-37; DULE 12(93a); AECE 1(26b).
+MSS: ZBNE 60-26; 61-24; CRA 52-32; 54(81a); 55(62b); SBLE 32-25; BM 2-28;3-33; VLVE 267(52b); 272(113a); 298(21b);  SALE 23-24; 43-26; LUE 30-37; 32-33; CF 2-26; CBS-25; HBS 59-24; CCBE 951-25; CL-37; DULE 12(93a); AECE 1(26b).
 EMML: 7089(24b); 1573(30a); 3536(43a); 7220(17b); 2275(60b); 3872(51a); 6938(154a); 6917(45a); 4205(49a + 53a); 4618(29a); 5520(75b); 6949(91a); 1692(92a); 2378(42a); 6640(47b); 2059(133b); 2060(50b); 2066(132a); 2802(80b); 6196(71a); 7543(97b); 2831(52b).
 Keywords: Carmelite prioress; Däbrä Qarmelos; Deacons; Nuns; Seductions; Sexual sins; Sophia, prioress;
 Incipit: wa-nabarat apatti emma menet ba-Daora;Qarmeieyos za-sema Sofeya, be)esit gerit, ~epeqt la-megbara lannay wa-~alleyo, wa-tetla)ak la-feta Egze)etena Maryam ba-bezug ~ama wa-ba-<abiyy qene (3872). / Tabehla kama hallawat apatti emma menet westa apatti dabr emenna adbarat,:J wa-hallawa westa ye)eti dabr b~uba.n danagel, wa-yet>ezzaza latti. Wa-konat ye>eti /\ emma menet za-lannay ge<za (7<i89).
