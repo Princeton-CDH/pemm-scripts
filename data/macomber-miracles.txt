@@ -1104,7 +1104,7 @@ Incipit: Wa-hallawu 2 fequran westa aQatti beta Krestiyan, wa-aQadu emennehomu y
 
 
 MAC0098.
-Title: The proud men who wanted to have a splendid icon of Saint Mary made.
+Title: Saint Basil cycle: The proud men who wanted to have a splendid icon of Saint Mary made.
 English translation: Budge, One Hundred, p. 268.
 PEth:
 EMIP: 601.233 (147v–148r): How the Virgin Mary appeared to a Jeweler to forbid him from making an icon for certain arrogant people, and how she showed an icon of her which had been made by the angels to Abba Basiliyos;
@@ -1375,7 +1375,7 @@ Incipit: Za-kama qasafatto la-Nestur nufuq, za-ṣarafa laˁelaEgzeˀeten8 Marya
 
 
 MAC0124.
-Title: Saint Basil and the rich man who refused to give him a tablet [saleda] for an icon of Saint Mary.
+Title: Saint Basil cycle: Saint Basil and the rich man who refused to give him a tablet [saleda] for an icon of Saint Mary.
 PEth:
 MSS: G-124; CRA 52-79; VLVE 298(89b).
 EMML: 3872(21b); 4618(106a); 7543(80b); 2058(97a); 2999(240b); 642(107a); 929(69b).
@@ -1408,7 +1408,7 @@ Incipit: Wa-nabarki 10 wa-2 <amata enza tetnazzazi em-mala'ekt, wa-ya.maṣṣe�
 
 
 MAC0127.
-Title: Saint Basil and the Jewish merchant of Caesarea who stole a golden plate from the church, but later became a Christian.
+Title: Saint Basil cycle: Saint Basil and the Jewish merchant of Caesarea who stole a golden plate from the church, but later became a Christian.
 Summary: Cerulli, Il libro, p. 217.
 PEth: 46.113 (134v-137r);
 MSS: G-127; CRA 53-3; CL-18.
