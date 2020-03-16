@@ -3228,7 +3228,7 @@ Incipit: Semeˁuke, o-pezba Krestiyan, kama nayedde<kemu zanta Täˀamməra <abi
 
 
 MAC0293.
-Title: Childhood of Mary cycle: Saint Mary heals the daughter of Arsaban while still in the womb of Saint Anne.
+Title: Mary, Nativity of cycle: Saint Mary heals the daughter of Arsaban while still in the womb of Saint Anne.
 PEth:
 MSS: HBS 59-67.
 EMML: 4618(105a); 2084(136b); 2060(198b); 7543(6a); 3051(194a); 2058(6a); 2999(186b).
@@ -3238,7 +3238,7 @@ Note: This miracle also occurs as part of MAC0316.
 
 
 MAC0294.
-Title: The descent of the holy seed from Adam to Saint Mary.
+Title: Mary, Conception of cycle: The descent of the holy seed from Adam to Saint Mary.
 PEth:
 MSS: SBLE 39(88b); GVE 117(13a)
 EMML: 4618(103a); 7543(6b); 3051(194b); 2058(6a); 2999(245a); 2513(90b); 2660(55b).
@@ -3247,7 +3247,7 @@ Incipit: Wa-enza tetfallas em-Addam westa kar~u l a- Set, wa-Henok, wa-Qaynan ..
 
 
 MAC0295.
-Title: Annunciation cycle: God sends Saint Gabriel to Saint Mary for the Annunciation.
+Title: Mary, Annunciation of cycle: God sends Saint Gabriel to Saint Mary for the Annunciation.
 Text: T-13, p. 65.
 PEth:
 MSS: None.
@@ -3257,7 +3257,7 @@ Incipit: wa-yebelo EgziabtJ.er la-Gabre ˀel: wa-balla la-Walatta Seyon: Walda E
 
 
 MAC0296.
-Title: Childhood of Mary cycle: The Jews plot to kill Saint Mary because of the miracles she was working while still in the womb of Saint Anne.
+Title: Mary, Nativity of cycle: The Jews plot to kill Saint Mary because of the miracles she was working while still in the womb of Saint Anne.
 Text: T-45, p. 176.
 PEth:
 EMIP: 601.344 (181v–182r);
@@ -3268,7 +3268,7 @@ Incipit: Kama ta'emeru ledata la-Egzeˀetena Maryam. wa-teqqatekkabber em-azmadi
 
 
 MAC0297.
-Title: Annunciation cycle: The Annunciation.
+Title: Mary, Annunciation of cycle: The Annunciation.
 PEth:
 EMIP: 601.87 (66rv);
 MSS: None.
@@ -3278,7 +3278,7 @@ Incipit: wa-ba-<elata etiuize 3 sa<at, ma~ˀa ~ gabehaGabre'el mal'ak geb/a, enz
 
 
 MAC0298.
-Title: Childhood of Mary cycle: Saint Mary leaves the Temple and enters the home of Saint Joseph.
+Title: Mary, Pregnancy of cycle: Saint Mary leaves the Temple and enters the home of Saint Joseph.
 PEth:
 MSS: None .
 EMML: 3051(195b); 2044(6a); 2058(7a); 2999(246b); 2660(61a); 3572(13a); 3031(16a).
@@ -3292,7 +3292,7 @@ Incipit: wa-soba faṣama azmana nebrata westa beta maqdas, wa-tioru gabeha kahn
 
 
 MAC0299.
-Title: The Nativity of Christ cyle: The adoration of the shepherds and the Magi.
+Title: Christ, Nativity of cycle: The adoration of the shepherds and the Magi.
 Text: T-10, p. 50.
 PEth:
 EMIP: 601.84 (63rv): How the Virgin Mary gave birth to Jesus Christ and how the wise men came to present their gifts;
@@ -3303,7 +3303,7 @@ Incipita Wa-nabaru hebura Yos~f mesla Maryam enza yebarrekewwo la-Eg-zi>ab~er. W
 
 
 MAC0300.
-Title: The Nativity of Christ cyle: The Circumcision.
+Title: Christ, Nativity of cycle: The Circumcision.
 PEth:
 MSS: None.
 EMML: 3051(196b); 2044(7b); 2058(8a); 2999(248a); 2660(64b); 3572(15a); 2424(136b).
