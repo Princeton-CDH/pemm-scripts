@@ -5,7 +5,7 @@ title, text, summary, English translation, MSS, EMML, Keywords, Incipit (one Exp
 
 MAC0001-A.
 Title: Vision of Theophilus of Alexandria.
-Text: Budge, Miracles, p. 62; TGS-101, p. 337.
+Text: Budge, Miracles, p. 62; TGS-101, p. 337. 
 Summary:
 English translation:
 PEth: 41.8 (21r-30r); 41.80 (110v-113r); 41.81 (113r-115v);
@@ -656,7 +656,7 @@ English translation: Budge, One Hundred, p. 33.
 Summary: Cerulli, Il libro, p. 192.
 PEth: 20.36 (47r-48r); 23.3 (29v-31r); 41.26 (58v-59r); 43.23 (30rv); 46.10 (15v-16r); 47.9 (35v-37v);
 EMIP: 601.205 (126v–127r); 601.9 (10r);
-MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; LUE 30-21; CBS-9; 32-16; 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
+MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; CBS-9; LUE 30-21; LUE 32-16, 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
 EMML: 5105 (144b); 2275 (37b); 6938 (61a); 4205 (26a); 4618 (75a); 5520 (57b); 6949 (138a); 2378 (33a); 6640 (26b); 2059 (30b); 2060 (184b); 2066 (118b); 2802 (69a); 6196 (27a); 7543 (47b).
 Keywords: Visions, apparitions; Däbrä Nagadeyan; Hospitals; Jerusalem; Icons; Monks; Scete; Yohannes, Bishop of Scete;
 Incipit: Semecu, abaweya wa-agaweya, zanta nagara za-kona ba-enta Egzeˀetena•••. eroma meprat, mmmmib:roro samacit la-za-sa'ala wa-mastaf~e~itla-~ezunan ba-aman, tawakkafit la-za-sa'ala ba-tebuc lebb wa-ba-~enuc haymanot. Wa-ef halloku ana naday Yopannes, esquf za-gadama Asqetes, ba-Däbrä Nagadeyan, azzazanni mamher kama etla'akkomu la-pemuman (6938). Wa-hallawat ~ecla Egzeˀetena.Maryam ba-Däbrä Nagadeyan ba-beta pemuman mangala me~raq (5520).
