@@ -4440,7 +4440,7 @@ Text: Budge, Miracles, p. 13.
 English translation: Budge, One Hundred, p. 310.
 PEth: 20.82 (84r); 41.53 (81v-82r); 47.33 (93r-94r);
 EMIP: 601.307 (168v); 601.265 (157r); 601.291 (163r);
-MSS: ZBNE 60-2; 70-2; CRA 52-91; 52(12a); 55(10b); WBLE 77(131a); SBLE 39(90b); GVE 92(7a); 146(69b); 242(23b); VLVE 267(15a,73b); 298(10a,123b); SALE 23-33; LUE 32-8; DULE 12(87b,92b).
+MSS: ZBNE 60-2; 70-2; CRA 52-91; CRA 54(12a); 55(10b); WBLE 77(131a); SBLE 39(90b); GVE 92(7a); 146(69b); 242(23b); VLVE 267(15a,73b); 298(10a,123b); SALE 23-33; LUE 32-8; DULE 12(87b,92b).
 EMML: 6949(144a); 2937(173b); 7543(162b); 2963(20a,127a); 3051(48a); 2999 (202a).
 Keywords: Clothes, vestments; Food; Monks; Poor persons;
 Incipit: Tabehla kama hallo ahadu manakos naday, wa-albottu albasa wa-araza wa-sisaya, wa-yetjammena la-Egze~etena •••• wa-yebela& Azzezt za-elabbes wa-za-eballe~ (6949).
