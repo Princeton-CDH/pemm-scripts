@@ -24,7 +24,7 @@
         {
             "name": "Canonical Story",
             "fields": [
-                { "name": "Macomber ID", "protected": true },
+                { "name": "Macomber ID"},
                 { "name": "Macomber Title" },
                 { "name": "Origin" },
                 { "name": "Poncelet Number" },
