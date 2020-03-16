@@ -3831,7 +3831,7 @@ Incipit: Wa-hallo aoadu manakos za-yafaqqera la-Egze~etena Maryam bakwellu lebbu
 
 
 MAC0347.
-Title: The Nativity of Christ cyle: The nativity of Christ
+Title: Christ, Nativity of cycle: The nativity of Christ
 Text: T-74, p. 265.
 PEth: 41.6 (18v-19v): How the Virgin Mary gave birth;
 EMIP: 601.85 (63v–64r): How the Virgin Mary gave birth while she was with Joseph in Bethlehem for the census;
