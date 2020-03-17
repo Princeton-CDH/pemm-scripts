@@ -5,7 +5,7 @@ title, text, summary, English translation, MSS, EMML, Keywords, Incipit (one Exp
 
 MAC0001-A.
 Title: Vision of Theophilus of Alexandria.
-Text: Budge, Miracles, p. 62; TGS-101, p. 337. 
+Text: Budge, Miracles, p. 62; TGS-101, p. 337.
 Summary:
 English translation:
 PEth: 41.8 (21r-30r); 41.80 (110v-113r); 41.81 (113r-115v);
@@ -656,7 +656,7 @@ English translation: Budge, One Hundred, p. 33.
 Summary: Cerulli, Il libro, p. 192.
 PEth: 20.36 (47r-48r); 23.3 (29v-31r); 41.26 (58v-59r); 43.23 (30rv); 46.10 (15v-16r); 47.9 (35v-37v);
 EMIP: 601.205 (126v–127r); 601.9 (10r);
-MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; CBS-9; LUE 30-21; LUE 32-16, 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
+MSS: G-31; ZBNE 60-10; 61-8; CRA 52-16; CRA 54 (31b); CRA 55 (25a); SBLE 32-9; BM 2-12; 3-16; VLVE 267 (24b,69b); 298 (13b); SALE 23-8; 43-10; CBS-9; LUE 30-21; LUE 32-16; 47; CCBE 951-9; DULE 12 (85b); SWE 15 (55b); AECE 1(12b, 111b).
 EMML: 5105 (144b); 2275 (37b); 6938 (61a); 4205 (26a); 4618 (75a); 5520 (57b); 6949 (138a); 2378 (33a); 6640 (26b); 2059 (30b); 2060 (184b); 2066 (118b); 2802 (69a); 6196 (27a); 7543 (47b).
 Keywords: Visions, apparitions; Däbrä Nagadeyan; Hospitals; Jerusalem; Icons; Monks; Scete; Yohannes, Bishop of Scete;
 Incipit: Semecu, abaweya wa-agaweya, zanta nagara za-kona ba-enta Egzeˀetena•••. eroma meprat, mmmmib:roro samacit la-za-sa'ala wa-mastaf~e~itla-~ezunan ba-aman, tawakkafit la-za-sa'ala ba-tebuc lebb wa-ba-~enuc haymanot. Wa-ef halloku ana naday Yopannes, esquf za-gadama Asqetes, ba-Däbrä Nagadeyan, azzazanni mamher kama etla'akkomu la-pemuman (6938). Wa-hallawat ~ecla Egzeˀetena.Maryam ba-Däbrä Nagadeyan ba-beta pemuman mangala me~raq (5520).
@@ -1317,7 +1317,7 @@ Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; 
 MAC0118.
 Title: The merchant from Senfewat who struck the icon of Saint Mary.
 PEth:
-MSS: G-119; CRA 52-75; CRA 53-29, 61; VLVE 298(86a); CL-2.
+MSS: G-119; CRA 52-75; CRA 53-29; 61; VLVE 298(86a); CL-2.
 EMML: 3872(17b); 7543(78b); 2952(108a); 2058(94b); 642(92a); 3378(142a); 76(214a).
 Keywords: Icons; Merchants; Priests; Senfewat; Tomas, priest; Thomas, priest;
 Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel a zentu
@@ -1457,7 +1457,7 @@ Incipit: Wa-hallawat aṣatti beˀesit mesla ṣamata za-tafaqqera la-Egzeˀeten
 
 MAC0132.
 Title: The woman from Cairo whose children all died.
-PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r); 41, ff. 76v–77r
+PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r); 41 76v–77r
 EMIP: 601.37 (24v–25r): How a certain woman was bereft of her nine children, how the Virgin Mary appeared to her and promised three children who would become priests, how she conceived three children who became priests and presided at her funeral
 MSS: G-133; ZBNE 62-29; 63-29; VLVE 267(68a); 272(134a); LUE 30-47; HBS 59-64; CL-24; DULE 12(90a,91a).
 EMML: 5105(95b,142b); 2275(36a); 3872(28b); 4618(78b); 6949(142a); 3923(103b); 6640(60a); 2066(104b); 2802(133b); 7543(84b).
@@ -3446,7 +3446,7 @@ Title: A priest becomes insane after his entire family dies of the plague.
 English translation: Budge, One Hundred, p. 313.
 PEth:
 EMIP: 253.? (117rv): How a certain man became mad after his family died, How Our Lady Mary cured him and he served her the remainder of his life;
-MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(70b); AECE 1 (43a) 
+MSS: WBLE 77(117b); GVE 92 (6a); VLVE 267(70b); AECE 1 (43a)
 EMML: 5105(139a); 2275(189b); 6949(136a); 2059(72b); 2060(153b); 2831(28b); 2308(72a).
 Keywords: Children; Families; Insanity; Pestilences; Priests; Wives;
 Incipit: Wa-hallo a~adu qas1s, wa-galqu be ?esitu mmam wa-daqiqu (5105).
@@ -4865,7 +4865,7 @@ Incipit: Seme cu, abawina wa-ahawina, za-gabrat Egze'etena la-ahadu . be 7 esi, 
 MAC0445.
 Title: Christ, Nativity of cycle: How the Virgin Mary gave birth (see no. 299)
 Text: T-11, p. 53.
-PEth: 41.6 (18v-19v): 
+PEth: 41.6 (18v-19v):
 EMIP: 601.85 (63v–64r):
 MSS: None.
 EMML: 2952(24a); 642(12b); 839(26a); 2800(40a); 3378(41a,159b); 76(257a); 22(158a)
@@ -5279,7 +5279,7 @@ Incipit: Wa-hallo aṣadu be ?esi za-semu Afla~on, wa-ma~ ?a gaba felsata segaha
 
 MAC0483.
 Title: Mary, Assumption of cycle: Saint Thomas relates how he was taken to Heaven and saw the body of Saint Mary.
-Text: 
+Text:
 PEth:
 EMIP: 601.335 (177v–178r);
 MSS: None.
@@ -6393,7 +6393,7 @@ Incipit: Wa-hallo aDadu eppis qoppos ba-hagara QWest enteneya za-semu Bakkimos, 
 
 
 MAC0595.
-Title: The story of the martyr, Saint Romanus. 
+Title: The story of the martyr, Saint Romanus.
 PEth:
 MSS: None.
 EMML: 329(44b).
@@ -6869,8 +6869,8 @@ Incipit: Missing because not in any EMML manuscript (CBS-78).
 MAC0644.
 Title: A miracle story that does not appear in Macomber's file.
 PEth:
-EMIP: 
-MSS: 
+EMIP:
+MSS:
 EMML: None
 Keywords:
 Incipit: none.
