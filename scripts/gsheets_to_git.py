@@ -82,7 +82,7 @@ class GSheetsToGit:
         self.docid = docid
         self.gitpath = gitpath
         self.datadir = datadir or self.DEFAULT_DATA_DIR
-        self.outdir = os.path.join(args.gitpath, args.datadir)
+        self.outdir = os.path.join(gitpath, datadir)
 
         self.init_google_clients()
 
@@ -286,7 +286,7 @@ def get_env_opts():
     # check for environment variable configuration
     return SimpleNamespace(
         gitpath=os.getenv('PEMM_DATA_REPO_PATH', None),
-        datadir=os.getenv('PEMM_DATA_REPO_DATADIR', None),
+        datadir=os.getenv('PEMM_DATA_REPO_DATADIR', GSheetsToGit.DEFAULT_DATA_DIR),
         docid=os.getenv('PEMM_GSHEETS_DOCID', None)
     )
 
@@ -314,5 +314,4 @@ if __name__ == "__main__":
 
     # NOTE: arg parsing could probably be better, and could be handled
     # within the class, but leaving as is for now
-
     GSheetsToGit(args.docid, args.gitpath, args.datadir)
