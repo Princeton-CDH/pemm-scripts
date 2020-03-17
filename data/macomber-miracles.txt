@@ -1317,7 +1317,7 @@ Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; 
 MAC0118.
 Title: The merchant from Senfewat who struck the icon of Saint Mary.
 PEth:
-MSS: G-119; CRA 52-75; CRA 53-29; VLVE 298(86a); CL-2.
+MSS: G-119; CRA 52-75; CRA 53-29; CRA 53-61; VLVE 298(86a); CL-2.
 EMML: 3872(17b); 7543(78b); 2952(108a); 2058(94b); 642(92a); 3378(142a); 76(214a).
 Keywords: Icons; Merchants; Priests; Senfewat; Tomas, priest; Thomas, priest;
 Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel a zentu
