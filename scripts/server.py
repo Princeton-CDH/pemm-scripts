@@ -66,7 +66,8 @@ def search():
     if output_format == 'html':
         return render_template('results.html', results=results,
                                total=queryset.count(),
-                               search_term=search_term)
+                               search_term=search_term,
+                               version=__version__)
 
     # by default, return JSON
     return jsonify(results)
