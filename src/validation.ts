@@ -4,7 +4,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     /* create data validation */
     const manuscriptRule = SpreadsheetApp.newDataValidation()
-        .requireValueInRange(spreadsheet.getRangeByName('manuscript__name'))
+        .requireValueInRange(spreadsheet.getRangeByName('manuscript__manuscript_name'))
         .setHelpText('Manuscript name must be listed on Manuscripts sheet.')
         .setAllowInvalid(false)
         .build()
@@ -125,7 +125,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     /* apply rules/formulas */
 
     // manuscript
-    spreadsheet.getRangeByName('manuscript__name') // auto-creates names like "Vatican (GVE) 23"
+    spreadsheet.getRangeByName('manuscript__manuscript_name') // auto-creates names like "Vatican (GVE) 23"
         .setFormula('=if(and(not(isblank(B2)), not(isblank(D2))), concatenate(D2, " ", B2),)')
 
     spreadsheet.getRangeByName('manuscript__collection')
