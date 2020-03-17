@@ -7,3 +7,4 @@ git+https://github.com/Princeton-CDH/parasolr@develop#egg=parasolr
 gspread
 oauth2client
 gitpython
+google-api-python-client
