@@ -6,21 +6,12 @@
     <title>{% block title %}{% endblock %}PEMM</title>
     {% endblock %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-    <style type="text/css">
-
-    footer {
-        background-color: white;
-        padding: 5px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-    </style>
-
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 </head>
 <body>
-    <main class="pa4 pb7">{% block content %}{% endblock %}</main>
+    <h1 class="bb b--orange bw2 pa2">The Princeton Ethiopian Miracles of Mary Project</h1>
+
+    <main class="pa4 pb7 f5">{% block content %}{% endblock %}</main>
 
     {% block footer %}
     <footer class="pv2 ph3 ph5-m ph6-l mid-gray">

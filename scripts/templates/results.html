@@ -5,37 +5,23 @@
 {% block head %}
  {{ super() }}
     <style>
-        body {font-size: 14pt; }
-        li {
-            padding-left: 1em;
-            margin-bottom: 0.5em;
-            list-style-type: none;
-        }
-        /*
-        li::marker {
-            font-weight: bold;
-            content: attr(data-id);
-        } */
-        .id { color: #5E2CA5; }
-        input[type=text] {font-size: 16pt; width: 90%;}
-        .score {float: right; color: #AAAAAA;}
+        /*input[type=text] {font-size: 16pt; width: 90%;}*/
+        /* style highlights tagged by Solr */
         em {color: #FF6300; font-weight: bold; font-style: normal; }
     </style>
 {% endblock %}
 
 {% block content %}
-<h1><a href="https://cdh.princeton.edu/projects/ethiopian-miracles-mary-project/" class="link b f3 f2-ns black-70 lh-solid">The Princeton Ethiopian Miracles of Mary Project</a></h1>
-
-   <h2>Incipit Search Results</h2>
+   <h2 class="f3 pa0 ma0">Incipit Search Results</h2>
 
     {% include 'incipit_form.html' %}
 
-    <p>Showing {{ results|length }} of {{ total }} result{% if total > 1 %}s{% endif %}</p>
+    <p class="fr w-100 w-20-ns ma0">Showing {{ results|length }} of {{ total }} result{% if total > 1 %}s{% endif %}</p>
     {% if results|length > 0 %}
-    <ul class="mw9 ml0 pl0 center ph3-ns">
+    <ul class="mw9 ml0 pl0 center ph3-ns list">
         <li class="f5 lh-copy cf ph2-ns serif fw2 pl0">
             <span class="fl w-20 w-10-ns pa2 tr">Macomber ID</span>
-            <span class="fl w-70 w-90-ns pa2">Incipit</span>
+            <span class="fl w-30 w-30-ns pa2">Incipit</span>
         </li>
         {% for result in results %}
         <li class="cf ph2-ns pl0" data-id="{{ result.macomber_id_s }}">
@@ -43,7 +29,7 @@
             <div class="fl w-80 pa2">
                 <span lang="gez">{{ result.incipit_txt_gez|safe }}</span><br/>
                 <!-- source mss -->
-                <span class="id fl">{{ result.id }}</span>
+                <span class="id fl purple">{{ result.id }}</span>
                 <!-- score + relevance bar -->
                 {% if result.score %}
                 <div class="fr w-30-ns w-100">
@@ -52,7 +38,7 @@
                         <div class="bg-light-blue h-100 mw-100" style="width:{{ result.score / 100 * 100 }}%">
                         </div>
                     </div>
-                    <span class="score">{{ result.score }}</span>
+                    <span class="score light-silver fr pa1">{{ result.score }}</span>
                 </div>
                 {% endif %}
 
