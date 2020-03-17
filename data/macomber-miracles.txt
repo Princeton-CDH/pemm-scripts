@@ -1317,7 +1317,7 @@ Keywords: Apostles; Christ; Clouds; Dead raised to life; Funeral of Saint Mary; 
 MAC0118.
 Title: The merchant from Senfewat who struck the icon of Saint Mary.
 PEth:
-MSS: G-119; CRA 52-75; CRA 53-29; 61; VLVE 298(86a); CL-2.
+MSS: G-119; CRA 52-75; CRA 53-29; VLVE 298(86a); CL-2.
 EMML: 3872(17b); 7543(78b); 2952(108a); 2058(94b); 642(92a); 3378(142a); 76(214a).
 Keywords: Icons; Merchants; Priests; Senfewat; Tomas, priest; Thomas, priest;
 Incipit: wa-kaCba nenagger akkemu mankera za-ṣaṣafa Abba Tomasqasis, laˀel a zentu
@@ -1457,7 +1457,7 @@ Incipit: Wa-hallawat aṣatti beˀesit mesla ṣamata za-tafaqqera la-Egzeˀeten
 
 MAC0132.
 Title: The woman from Cairo whose children all died.
-PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r); 41 76v–77r
+PEth: 20.76 (79v-80r): How the Virgin Mary gave children to a certain woman whose nine children had died when the woman promised that they would become priests and deacons; 41.48 (76v-77r).
 EMIP: 601.37 (24v–25r): How a certain woman was bereft of her nine children, how the Virgin Mary appeared to her and promised three children who would become priests, how she conceived three children who became priests and presided at her funeral
 MSS: G-133; ZBNE 62-29; 63-29; VLVE 267(68a); 272(134a); LUE 30-47; HBS 59-64; CL-24; DULE 12(90a,91a).
 EMML: 5105(95b,142b); 2275(36a); 3872(28b); 4618(78b); 6949(142a); 3923(103b); 6640(60a); 2066(104b); 2802(133b); 7543(84b).
