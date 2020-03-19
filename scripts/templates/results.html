@@ -12,24 +12,22 @@
 {% endblock %}
 
 {% block content %}
-   <h2 class="f3 pa0 ma0">Incipit Search Results</h2>
-
     {% include 'incipit_form.html' %}
 
     <p class="fr w-100 w-20-ns ma0">Showing {{ results|length }} of {{ total }} result{% if total > 1 %}s{% endif %}</p>
     {% if results|length > 0 %}
     <ul class="mw9 ml0 pl0 center ph3-ns list">
-        <li class="f5 lh-copy cf ph2-ns serif fw2 pl0">
+        <li class="f5 lh-copy cf ph2-ns serif fw6 pl0 avenir">
             <span class="fl w-20 w-10-ns pa2 tr">Macomber ID</span>
             <span class="fl w-30 w-30-ns pa2">Incipit</span>
         </li>
         {% for result in results %}
         <li class="cf ph2-ns pl0" data-id="{{ result.macomber_id_s }}">
-            <div class="fl w-20 w-10-ns pa2 b tr">{{ result.macomber_id_s }}</div>
+            <div class="fl w-20 w-10-ns pa2 b tr avenir fw5">{{ result.macomber_id_s }}</div>
             <div class="fl w-80 pa2">
                 <span lang="gez">{{ result.incipit_txt_gez|safe }}</span><br/>
                 <!-- source mss -->
-                <span class="id fl purple">{{ result.id }}</span>
+                <span class="id fl purple avenir">{{ result.id }}</span>
                 <!-- score + relevance bar -->
                 {% if result.score %}
                 <div class="fr w-30-ns w-100">
