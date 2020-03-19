@@ -89,7 +89,6 @@ def test_search(mocksolrqueryset, client):
     rv = client.post('/search', data=dict(
         incipit=test_search_string, format='html'
     ))
-    assert b'Search Results' in rv.data
     assert b'1 result' in rv.data
     # search string set as input value
     assert 'value="%s"' % test_search_string in rv.data.decode()
@@ -99,6 +98,5 @@ def test_search(mocksolrqueryset, client):
 
     # handle GET the same way as POST
     rv = client.get('/search?incipit=%s&format=html' % test_search_string)
-    assert b'Search Results' in rv.data
     assert 'value="%s"' % test_search_string in rv.data.decode()
     assert b'1 result' in rv.data
