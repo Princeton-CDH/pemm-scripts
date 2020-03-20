@@ -27,5 +27,22 @@
      <small class="f6 db tc">©2020 Trustees of Princeton University</small>
     </footer>
     {% endblock %}
+
+{% if env and env != 'development' %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87887700-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+   gtag('config', 'UA-87887700-7', {
+        'custom_map': {
+            'dimension1': 'env'
+        }
+    })
+    gtag('event', 'env_dimension', {'env': '{{ env }}'})
+   gtag('config', 'UA-87887700-7');
+</script>
+{% endif %}
 </body>
 </html>

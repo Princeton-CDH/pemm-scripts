@@ -26,7 +26,8 @@ app.config.from_pyfile('local_settings.cfg')
 @app.route('/')
 def root():
     '''Display version info and a basic html search form.'''
-    return render_template('index.html', version=__version__)
+    return render_template('index.html', version=__version__,
+                           env=app.config.get('ENV', None))
 
 
 @app.route('/search', methods=['GET', 'POST'])
@@ -67,7 +68,8 @@ def search():
         return render_template('results.html', results=results,
                                total=queryset.count(),
                                search_term=search_term,
-                               version=__version__)
+                               version=__version__,
+                               env=app.config.get('ENV', None))
 
     # by default, return JSON
     return jsonify(results)
