@@ -7,9 +7,9 @@ Tools for the [Princeton Ethiopian Miracles of Mary (PEMM)](https://cdh.princeto
 project, which catalogs folktales about miracles performed by the Virgin Mary
 recorded in classical Ethiopic manuscripts. This project uses the [Apps Script Spreadsheet Service](https://developers.google.com/apps-script/reference/spreadsheet/) to create and manipulate data stored in [Google Sheets](https://docs.google.com/spreadsheets/).
 
-## Data structure
+## Data Model
 
-[![data structure diagram](docs/v0.2_data-structure.svg)](docs/v0.2_data-structure.svg))
+[![data model diagram](docs/v0.2_data-model.svg)](docs/v0.2_data-model.svg)
 
 ## Development — Google Appscript code
 ### Setup
