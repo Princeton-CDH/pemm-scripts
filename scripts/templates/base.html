@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 </head>
 <body>
-    <h1 class="bb b--orange bw2 pa2 f3">The Princeton Ethiopian Miracles of Mary Project</h1>
+    <h1 class="bw2 pa2 pb0 f3">The Princeton Ethiopian Miracles of Mary Project</h1>
+    <h1 lang="gez" class="bb bw2 b--orange bw1 pa2 pt0 pb3 f4">የፕሪንስተን የኢትዮጵያ ተዓምራተ ማርያም ፕሮጀክት</h1>
 
-    <main class="pa4 pb7 f5">{% block content %}{% endblock %}</main>
+    <main class="pa4 pb2 f5">{% block content %}{% endblock %}</main>
 
     {% block footer %}
     <footer class="pv2 ph3 ph5-m ph6-l mid-gray">
@@ -27,5 +28,22 @@
      <small class="f6 db tc">©2020 Trustees of Princeton University</small>
     </footer>
     {% endblock %}
+
+{% if env and env != 'development' %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87887700-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+   gtag('config', 'UA-87887700-7', {
+        'custom_map': {
+            'dimension1': 'env'
+        }
+    })
+    gtag('event', 'env_dimension', {'env': '{{ env }}'})
+   gtag('config', 'UA-87887700-7');
+</script>
+{% endif %}
 </body>
 </html>

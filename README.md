@@ -7,6 +7,10 @@ Tools for the [Princeton Ethiopian Miracles of Mary (PEMM)](https://cdh.princeto
 project, which catalogs folktales about miracles performed by the Virgin Mary
 recorded in classical Ethiopic manuscripts. This project uses the [Apps Script Spreadsheet Service](https://developers.google.com/apps-script/reference/spreadsheet/) to create and manipulate data stored in [Google Sheets](https://docs.google.com/spreadsheets/).
 
+## Data Model
+
+![data model diagram](docs/v0.2_data-model.svg)
+
 ## Development — Google Appscript code
 ### Setup
 
@@ -41,7 +45,7 @@ Finally, compile the project's code and install it in your spreadsheet:
 yarn build && yarn push # or npm run build && npm run push
 ```
 
-Ff you open the newly created Google Sheet from your Drive, you should now
+If you open the newly created Google Sheet from your Drive, you should now
 see the project's custom menu appear after a short delay. running commands for
 the first time may prompt you to authenticate with google.
 
@@ -92,23 +96,22 @@ and one very simple Flask app.
 
 ### Setup
 
-- Recommended: create and activate a python 3.6 virtualenv::
-
-    python3.6 -m venv pemm
-    source pem/bin/activate
-
-- Install required python dependencies::
-
+- Recommended: create and activate a python 3.6 virtualenv:
+```
+python3.6 -m venv pemm
+source pem/bin/activate
+```
+- Install required python dependencies:
+```
     pip install -r requirements/dev.txt
-
+```
 
 See deploy notes and code for instructions on settings/configuration
 and how to run the scripts.
 
 ## Tests
 
-Not all code is tested, but the unit tests that exist can be run with
-`pytest`
+Not all code is tested, but the unit tests that exist can be run with `pytest`
 
 ## License
-This project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).
+This code is licensed under the [Apache 2.0 License](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).

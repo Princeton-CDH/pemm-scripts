@@ -164,8 +164,10 @@ class GSheetsToGit:
         revisions.reverse()
         for revision in revisions:
             if self.parse_time(revision['modifiedTime']) > since_date:
-                self.modifying_users.add(
-                    revision['lastModifyingUser']['emailAddress'])
+                # possible to have revisions without lastModifyingUser
+                if 'lastModifyingUser' in revision:
+                    self.modifying_users.add(
+                        revision['lastModifyingUser']['emailAddress'])
             else:
                 # ignore any revisions before our compare date
                 break
