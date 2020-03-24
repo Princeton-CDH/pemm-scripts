@@ -1,0 +1,6 @@
+# production and test requirements
+
+-r prod.txt
+
+pytest
+pytest-cov

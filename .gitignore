@@ -1,11 +1,25 @@
 # dependencies
-node_modules
+node_modules/
 
 # log files
 yarn-error.log
 
-# built files
-build/*
+# built files & data
+build/
+output/
 
 # editor config
 .vscode
+
+# clasp credentials
+.clasp.json
+
+# python environment
+env/
+venv/
+__pycache__/
+*.pyc
+
+
+# flask app local settings
+*.cfg

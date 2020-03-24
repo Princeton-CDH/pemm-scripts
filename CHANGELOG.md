@@ -1,5 +1,22 @@
 # Change log
 
+## 0.2
+
+Revised the appscript code to apply validation to an existing Google sheet,
+so that data could be converted to CSV and imported without overriding
+lookups and data validation.
+
+Includes two scripts meant to be run as cron jobs (sync to GitHub
+and index in Solr), and a simple Flask app for searching incipits.
+
+* As a researcher, I want to apply schema and data validation to an existing sheet so I can import data as a starting point.
+* As a researcher, I want the structured text file and incipits parsed into canonical stories, story instances, and manuscripts and imported into Google Sheets so I can work with the data in a more structured form.
+* As a researcher, I want data from Google Sheets synchronized to a GitHub repository to include contributor information so that people working on the data get credit for their work.
+* As a researcher, I want data from Google Sheets automatically synchronized to a GitHub repository in CSV format so that I have a versioned backup of the data.
+* As a researcher I want to search on high-confidence incipits so that I can check results that will be used in the sheets incipit lookup tool.
+* Various spreadsheet field changes and schema additiosn
+* Script to index incipit data in Solr
+
 ## 0.1
 
 Initial implementation of appscript code to create a Google sheet
