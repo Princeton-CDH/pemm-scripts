@@ -92,23 +92,22 @@ and one very simple Flask app.
 
 ### Setup
 
-- Recommended: create and activate a python 3.6 virtualenv::
-
-    python3.6 -m venv pemm
-    source pem/bin/activate
-
-- Install required python dependencies::
-
+- Recommended: create and activate a python 3.6 virtualenv:
+```
+python3.6 -m venv pemm
+source pem/bin/activate
+```
+- Install required python dependencies:
+```
     pip install -r requirements/dev.txt
-
+```
 
 See deploy notes and code for instructions on settings/configuration
 and how to run the scripts.
 
 ## Tests
 
-Not all code is tested, but the unit tests that exist can be run with
-`pytest`
+Not all code is tested, but the unit tests that exist can be run with `pytest`
 
 ## License
 This project is licensed under the [apache 2.0 license](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).
