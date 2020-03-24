@@ -9,7 +9,7 @@ recorded in classical Ethiopic manuscripts. This project uses the [Apps Script S
 
 ## Data Model
 
-[![data model diagram](docs/v0.2_data-model.svg)](docs/v0.2_data-model.svg)
+![data model diagram](docs/v0.2_data-model.svg)]
 
 ## Development — Google Appscript code
 ### Setup
