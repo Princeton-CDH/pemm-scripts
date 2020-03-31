@@ -78,17 +78,18 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .build()
 
     /* Note: for now, creating one validation rule for each field that
-     * needs it, since it needs to reference the cell at the start of
-     * the range.
+     * needs it, since it needs to reference the cell in that range.
+     * Referencing based on configured range with row offset based on
+     *  current row minus 1 (since ranges begin at row 2).
      */
     const fourDigitYearRuleDateRangeStart = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(I2), "^[1-9]\\d{3}$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(index(manuscript__date_range_start, row() - 1, 1)), "^[1-9]\\d{3}$")')
         .setHelpText('Must be a 4-digit year.')
         .setAllowInvalid(false)
         .build()
 
     const fourDigitYearRuleDateRangeEnd = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(J2), "^[1-9]\\d{3}$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(index(manuscript__date_range_end, row() - 1, 1)), "^[1-9]\\d{3}$")')
         .setHelpText('Must be a 4-digit year.')
         .setAllowInvalid(false)
         .build()
