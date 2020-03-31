@@ -94,12 +94,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setAllowInvalid(false)
         .build()
 
-    const centuryRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(H2), "^[1-9]\\d?\\.(00|25|50|75)$")')
-        .setHelpText('Must be a one or two-digit number followed by ".00", ".25", ".50", or ".75".')
-        .setAllowInvalid(false)
-        .build()
-
     const latitudeRule = SpreadsheetApp.newDataValidation()
         .requireFormulaSatisfied('=regexmatch(to_text(H2), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
         .setHelpText('Must be a valid latitude between -90 and 90°.')
@@ -149,10 +143,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     spreadsheet.getRangeByName('manuscript__date_range_end')
         .setDataValidation(fourDigitYearRuleDateRangeEnd)
-
-    spreadsheet.getRangeByName('manuscript__century')
-        .setDataValidation(centuryRule)
-        .setNumberFormat('0.00')
 
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
