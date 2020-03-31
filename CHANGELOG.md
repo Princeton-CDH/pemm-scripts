@@ -1,5 +1,13 @@
 # Change log
 
+## 0.2.1
+
+- Spreadsheet validation updates:
+  - Correct validation for Manuscript date range start and end
+  - Remove validation for Manuscript century
+- Correct typos in Ge'ez in incipit search tool
+
+
 ## 0.2
 
 Revised the appscript code to apply validation to an existing Google sheet,
