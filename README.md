@@ -49,6 +49,14 @@ If you open the newly created Google Sheet from your Drive, you should now
 see the project's custom menu appear after a short delay. running commands for
 the first time may prompt you to authenticate with google.
 
+To manually configure your apps script code to bind it to a different spreadsheet,
+you can edit the script id in your clasp.json file.  To find the script id
+for the spreadsheet you want to bind it to: with the spreadsheet open,
+select Tools -> Script editor. In the script editor, choose File -> Project
+properties, and select the script id. Copy it and replace the script id
+in your clasp.json file. Now when you build and push the code, it will
+update the code associated with the new spreadsheet.
+
 ### Making changes
 
 When you make changes to source code in the `src/` folder, you can rebuild the
