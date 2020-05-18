@@ -46,7 +46,8 @@ def index_incipits(solr_url, solr_core, incipitfile):
         # index macomber id & incipit for any rows with an incipit
         solr.update.index([{
             # identifier required for current Solr config
-            'id': '%(Manuscript)s %(Folio Start)s' % row,
+            'id': 'Mac%(Canonical Story ID)s %(Manuscript)s %(Folio Start)s' \
+                  % row,
             'macomber_id_s': row['Canonical Story ID'],
             'incipit_txt_gez': row['Incipit']
         } for row in incipit_rows])
