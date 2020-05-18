@@ -1,3 +1,10 @@
+0.3
+---
+
+Adds a new column to Story Instance sheet. Manually insert a new column
+before the Notes field, then run "Set up active sheet" and "Setup validation."
+
+
 0.2
 ---
 

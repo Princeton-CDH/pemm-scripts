@@ -18,6 +18,7 @@
                 { "name": "Incipit" },
                 { "name": "Macomber Incipit" },
                 { "name": "Confidence Score" },
+                { "name": "Exclude from ITool" },
                 { "name": "Notes" }
             ]
         },
