@@ -40,8 +40,9 @@ def index_incipits(solr_url, solr_core, incipitfile):
         csvreader = csv.DictReader(csvfile)
         incipit_rows = [
             row for row in csvreader
-            if row['Incipit'] and row['Confidence Score'] == 'High' and
-            row['Canonical Story ID']
+            if (row['Incipit'] and row['Confidence Score'] == 'High' and
+                row['Canonical Story ID']) and
+            not row.get('Exclude from ITool') == 'TRUE'
         ]
         # index macomber id & incipit for any rows with an incipit
         solr.update.index([{
