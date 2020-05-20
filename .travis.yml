@@ -1,6 +1,8 @@
 language: python
 python:
 - '3.5'
+node_js:
+- 10
 before_install:
 - cp scripts/local_settings.cfg.sample scripts/local_settings.cfg
 install:
