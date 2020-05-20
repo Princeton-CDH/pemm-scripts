@@ -38,7 +38,11 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .build()
 
     const regionRule = SpreadsheetApp.newDataValidation()
-        .requireValueInList(["Africa", "Europe", "Levant", "Other"])
+        .requireValueInList(["Africa confirmed", "Africa probably",
+            "Africa Egypt confirmed", "Africa Egypt probably",
+            "Africa Ethiopia confirmed", "Africa Ethiopia probably",
+            "Europe confirmed", "Europe probably", "Levant confirmed",
+            "Levant probably", "Unknown", "Other"])
         .setAllowInvalid(false)
         .build()
 
