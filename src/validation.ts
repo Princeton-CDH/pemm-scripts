@@ -82,18 +82,14 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
 
     const latitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())),
-            [-+]?([1-8]?\d(\.\d+)?|90(\.0+)
-            "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
-        .setHelpText('Must be a valid latitude between -90 and 90°.')
+        .requireNumberBetween(-90.0, 90.0)
+        .setHelpText('Must be a number between -90° and 90°.')
         .setAllowInvalid(false)
         .build()
 
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())),
-            [-+]?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?
-            "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
-        .setHelpText('Must be a valid longitude between -180° and 180°.')
+        .requireNumberBetween(-180.0, 80.0)
+        .setHelpText('Must be a number between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
 
