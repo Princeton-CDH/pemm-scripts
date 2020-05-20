@@ -80,14 +80,19 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setAllowInvalid(false)
         .build()
 
+
     const latitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())),
+            [-+]?([1-8]?\d(\.\d+)?|90(\.0+)
+            "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
         .setHelpText('Must be a valid latitude between -90 and 90°.')
         .setAllowInvalid(false)
         .build()
 
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())),
+            [-+]?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?
+            "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
         .setHelpText('Must be a valid longitude between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
@@ -98,7 +103,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
      */
     const macomberIDRule = SpreadsheetApp.newDataValidation()
         .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^[1-9]\\d*(-[A-F][1-2]?)?$")')
-        .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A2".')
+        .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A1" or "-A2".')
         .setAllowInvalid(false)
         .build()
 
