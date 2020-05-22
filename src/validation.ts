@@ -92,7 +92,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .build()
 
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireNumberBetween(-180.0, 80.0)
+        .requireNumberBetween(-180.0, 180.0)
         .setHelpText('Must be a number between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
