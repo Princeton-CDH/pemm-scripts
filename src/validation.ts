@@ -180,7 +180,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('story_instance__confidence_score')
         .setDataValidation(confidenceScoreRule)
 
-    spreadsheet.getRangeByName('story_instance__macomber_incipit')
+    spreadsheet.getRangeByName('story_instance__canonical_incipit')
         .setDataValidation(booleanRule)
 
     spreadsheet.getRangeByName('story_instance__exclude_from_itool')
