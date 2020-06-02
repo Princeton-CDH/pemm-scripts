@@ -53,7 +53,7 @@ def search():
             .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score',
                   'source_s')
 
-    results = queryset.get_results()
+    results = queryset.get_results(rows=50)
     if results and search_term:
         # patch in the highlighted incipits into the main result
         # to avoid accessing separately in the template or json
