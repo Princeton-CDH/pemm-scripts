@@ -107,7 +107,7 @@ and one very simple Flask app.
 - Recommended: create and activate a python 3.6 virtualenv:
 ```sh
 python3.6 -m venv pemm
-source pem/bin/activate
+source pemm/bin/activate
 ```
 - Install required python dependencies:
 ```sh
