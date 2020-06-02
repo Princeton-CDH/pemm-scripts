@@ -1,4 +1,4 @@
 # configuration settings for pemm flask app
 
 SOLR_URL = 'http://localhost:8983/solr/'
-SOLR_CORE = 'pemm_incipit9'
+SOLR_CORE = 'pemm_incipit'
