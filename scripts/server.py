@@ -3,7 +3,7 @@
 An HTTP server that proxies requests to solr to search for similar incipits.
 
 Copy local_settings.cfg.sample to local_settings.cfg and configure
-asa appropriate for your environment.
+as appropriate for your environment.
 
 Run a debug server for development with:
     $ export FLASK_APP=scripts/server.py FLASK_ENV=development

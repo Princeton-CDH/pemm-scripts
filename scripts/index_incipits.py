@@ -9,7 +9,7 @@ Requires parasolr:
 Create a solr core with the local solr configset for
 searching on Geʽez / Fidäl:
 
-    solr create_core -c pemm_incipit -d solr_conf
+    solr create_core -c pemm_incipit -d pemm_incipit
 
 Run this script, providing solr connection details and a path
 to the PEMM project CSV file for story instances.
