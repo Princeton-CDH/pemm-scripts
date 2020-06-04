@@ -3,7 +3,7 @@
 An HTTP server that proxies requests to solr to search for similar incipits.
 
 Copy local_settings.cfg.sample to local_settings.cfg and configure
-asa appropriate for your environment.
+as appropriate for your environment.
 
 Run a debug server for development with:
     $ export FLASK_APP=scripts/server.py FLASK_ENV=development
@@ -50,9 +50,10 @@ def search():
             .search(search_incipit_query) \
             .raw_query_parameters(incipit_query=search_term) \
             .order_by('-score') \
-            .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score')
+            .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score',
+                  'source_s')
 
-    results = queryset.get_results()
+    results = queryset.get_results(rows=20)
     if results and search_term:
         # patch in the highlighted incipits into the main result
         # to avoid accessing separately in the template or json

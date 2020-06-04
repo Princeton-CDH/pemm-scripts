@@ -9,7 +9,7 @@ Requires parasolr:
 Create a solr core with the local solr configset for
 searching on Geʽez / Fidäl:
 
-    solr create_core -c pemm_incipit -d solr_conf
+    solr create_core -c pemm_incipit -d pemm_incipit
 
 Run this script, providing solr connection details and a path
 to the PEMM project CSV file for story instances.
@@ -40,15 +40,18 @@ def index_incipits(solr_url, solr_core, incipitfile):
         csvreader = csv.DictReader(csvfile)
         incipit_rows = [
             row for row in csvreader
-            if row['Incipit'] and row['Confidence Score'] == 'High' and
-            row['Canonical Story ID']
+            if (row['Incipit'] and row['Confidence Score'] == 'High' and
+                row['Canonical Story ID']) and
+            not row.get('Exclude from ITool') == 'TRUE'
         ]
         # index macomber id & incipit for any rows with an incipit
         solr.update.index([{
             # identifier required for current Solr config
-            'id': '%(Manuscript)s %(Folio Start)s' % row,
+            'id': 'Mac%(Canonical Story ID)s %(Manuscript)s %(Folio Start)s' \
+                  % row,
             'macomber_id_s': row['Canonical Story ID'],
-            'incipit_txt_gez': row['Incipit']
+            'incipit_txt_gez': row['Incipit'],
+            'source_s': '%(Manuscript)s %(Folio Start)s' % row,
         } for row in incipit_rows])
 
     print('Indexed %d records with incipits' % len(incipit_rows))

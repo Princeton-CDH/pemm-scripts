@@ -105,21 +105,45 @@ and one very simple Flask app.
 ### Setup
 
 - Recommended: create and activate a python 3.6 virtualenv:
-```
+```sh
 python3.6 -m venv pemm
-source pem/bin/activate
+source pemm/bin/activate
 ```
 - Install required python dependencies:
-```
+```sh
     pip install -r requirements/dev.txt
 ```
 
 See deploy notes and code for instructions on settings/configuration
 and how to run the scripts.
 
+Copy the `solr_config` directory, rename it to `pemm_incipit` and place it within solr's
+`configsets` directory, found at `solr-[VERSION]/server/solr/configsets`. Then
+create a new core with that configset: `solr create_core -c pemm_incipit -d pemm_incipit`.
+
+The following command will index the incipits. 
+```sh
+python scripts/index_incipits.py http://localhost:8983/solr/ pemm_incipit [PATH_TO_INCIPIT_CSV]
+```
+A copy of the data is found at `data/story_instance.csv` for test purposes, but 
+it may not be updated as frequently. Consider placing 
+[pemm-data](https://github.com/Princeton-CDH/pemm-data) in the same directory 
+and use this path: `../pemm-data/data/story_instance.csv`.
+
+Copy the sample local settings config file and edit as necessary.
+```sh
+cp scripts/local_settings.cfg.sample scripts/local_settings.cfg
+```
+
+To run flask locally, issue the following commands:
+```sh
+export FLASK_APP=scripts/server.py FLASK_ENV=development
+flask run
+```
+
 ## Tests
 
-Not all code is tested, but the unit tests that exist can be run with `pytest`
+Not all code is tested, but the unit tests that exist can be run with `python -m pytest`
 
 ## License
 This code is licensed under the [Apache 2.0 License](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).

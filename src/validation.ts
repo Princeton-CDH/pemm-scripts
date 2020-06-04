@@ -38,7 +38,11 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .build()
 
     const regionRule = SpreadsheetApp.newDataValidation()
-        .requireValueInList(["Africa", "Europe", "Levant", "Other"])
+        .requireValueInList(["Africa confirmed", "Africa probably",
+            "Africa Egypt confirmed", "Africa Egypt probably",
+            "Africa Ethiopia confirmed", "Africa Ethiopia probably",
+            "Europe confirmed", "Europe probably", "Levant confirmed",
+            "Levant probably", "Unknown", "Other"])
         .setAllowInvalid(false)
         .build()
 
@@ -53,14 +57,8 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
      */
     const folioRegex = '^[1-9]+\\d*[rvab]?$';
     const folioHelpText = 'Folio must be a number optionally followed by "r", "v", "a", or "b".'
-    const folioStartRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(D2), "' + folioRegex + '")')
-        .setHelpText(folioHelpText)
-        .setAllowInvalid(false)
-        .build()
-
-    const folioEndRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(G2), "' + folioRegex + '")')
+    const folioRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "' + folioRegex + '")')
         .setHelpText(folioHelpText)
         .setAllowInvalid(false)
         .build()
@@ -77,32 +75,25 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setAllowInvalid(false)
         .build()
 
-    /* Note: for now, creating one validation rule for each field that
-     * needs it, since it needs to reference the cell in that range.
-     * Referencing based on configured range with row offset based on
-     *  current row minus 1 (since ranges begin at row 2).
+    /*
+     * Referencing based on row and column within the current sheet.
      */
-    const fourDigitYearRuleDateRangeStart = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(manuscript__date_range_start, row() - 1, 1)), "^[1-9]\\d{3}$")')
+    const fourDigitYearRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^[1-9]\\d{3}$")')
         .setHelpText('Must be a 4-digit year.')
         .setAllowInvalid(false)
         .build()
 
-    const fourDigitYearRuleDateRangeEnd = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(index(manuscript__date_range_end, row() - 1, 1)), "^[1-9]\\d{3}$")')
-        .setHelpText('Must be a 4-digit year.')
-        .setAllowInvalid(false)
-        .build()
 
     const latitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(H2), "^-?(([1-8]\\d(\\.\\d+)?)|90(\\.0+)?)$")')
-        .setHelpText('Must be a valid latitude between -90 and 90°.')
+        .requireNumberBetween(-90.0, 90.0)
+        .setHelpText('Must be a number between -90° and 90°.')
         .setAllowInvalid(false)
         .build()
 
     const longitudeRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(I2), "^-?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$")')
-        .setHelpText('Must be a valid longitude between -180° and 180°.')
+        .requireNumberBetween(-180.0, 180.0)
+        .setHelpText('Must be a number between -180° and 180°.')
         .setAllowInvalid(false)
         .build()
 
@@ -111,8 +102,8 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
      * Letters used run from A through F, with one case of A1/A2.
      */
     const macomberIDRule = SpreadsheetApp.newDataValidation()
-        .requireFormulaSatisfied('=regexmatch(to_text(A2), "^[1-9]\\d*(-[A-F][1-2]?)?$")')
-        .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A2".')
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^[1-9]\\d*(-[A-F][1-2]?)?$")')
+        .setHelpText('Must be a number optionally followed by "-A" through "-F" or "-A1" or "-A2".')
         .setAllowInvalid(false)
         .build()
 
@@ -139,10 +130,10 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setFormula('=if(not(isblank(A2)),countif(story_instance__manuscript, A2),)')
 
     spreadsheet.getRangeByName('manuscript__date_range_start')
-        .setDataValidation(fourDigitYearRuleDateRangeStart)
+        .setDataValidation(fourDigitYearRule)
 
     spreadsheet.getRangeByName('manuscript__date_range_end')
-        .setDataValidation(fourDigitYearRuleDateRangeEnd)
+        .setDataValidation(fourDigitYearRule)
 
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
@@ -169,10 +160,10 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2, false), )")
 
     spreadsheet.getRangeByName('story_instance__folio_start')
-        .setDataValidation(folioStartRule)
+        .setDataValidation(folioRule)
 
     spreadsheet.getRangeByName('story_instance__folio_end')
-        .setDataValidation(folioEndRule)
+        .setDataValidation(folioRule)
 
     spreadsheet.getRangeByName('story_instance__column_start')
         .setDataValidation(positiveIntegerRule)
@@ -189,7 +180,10 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('story_instance__confidence_score')
         .setDataValidation(confidenceScoreRule)
 
-    spreadsheet.getRangeByName('story_instance__macomber_incipit')
+    spreadsheet.getRangeByName('story_instance__canonical_incipit')
+        .setDataValidation(booleanRule)
+
+    spreadsheet.getRangeByName('story_instance__exclude_from_itool')
         .setDataValidation(booleanRule)
 
     // story origin

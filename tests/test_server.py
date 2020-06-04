@@ -55,7 +55,8 @@ def test_search(mocksolrqueryset, client):
         getattr(mocksqs, method).return_value = mocksqs
 
     test_solr_docs = [
-        {'id': '1-A', 'incipit_txt_gez': 'በእንተ፡ ዘከመ፡ አስተርአየቶ፡'}
+        {'id': '1-A', 'incipit_txt_gez': 'በእንተ፡ ዘከመ፡ አስተርአየቶ፡',
+         'source_s': 'HMML 1304'}
     ]
     mock_highlighting = {
         '1-A': {
@@ -81,7 +82,7 @@ def test_search(mocksolrqueryset, client):
         .assert_called_with(incipit_query=test_search_string)
     mocksqs.order_by.assert_called_with('-score')
     mocksqs.only.assert_called_with(
-        'id', 'macomber_id_s', 'incipit_txt_gez', 'score')
+        'id', 'macomber_id_s', 'incipit_txt_gez', 'score', 'source_s')
     mocksqs.highlight.assert_called_with(
         'incipit_txt_gez', method='unified', fragsize=0)
 
@@ -92,7 +93,7 @@ def test_search(mocksolrqueryset, client):
     assert b'1 result' in rv.data
     # search string set as input value
     assert 'value="%s"' % test_search_string in rv.data.decode()
-    assert test_solr_docs[0]['id'] in rv.data.decode()
+    assert test_solr_docs[0]['source_s'] in rv.data.decode()
     # make sure highlighted version is displayed
     assert mock_highlighting['1-A']['incipit_txt_gez'][0] in rv.data.decode()
 

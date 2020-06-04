@@ -1,3 +1,9 @@
+0.3
+---
+
+This release adds a new column to Story Instance sheet and updates validation across sheets. Manually insert a new column before the Notes field, then run "Set up all sheets" and "Setup validation."
+
+
 0.2
 ---
 
