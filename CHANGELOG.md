@@ -1,5 +1,29 @@
 # Change log
 
+## 0.3.0
+
+### Google Sheets
+
+- Bind regex validation by current row and column instead of hardcoded cell references
+- Use numeric validation instead of regex for latitude/longitude
+
+- Schema changes
+	- Rename Macomber Incipit to Canonical Incipit 
+	- Expand options for story management choice
+	- Include help text in the schema file and automatically add as notes to headers
+
+- Bug fixes
+	- Revise Solr IDs to ensure uniqueness to fix missing incipits
+	- Fix Manuscript sheet, Date Range field validation
+	- Named range is based on the initial number of rows
+
+### Incipit search
+
+- As a researcher, I want a way to exclude high-confidence incipits from the Incipit Tool so that incipits entered with typos or mistakes are not included in the search.
+
+- Show 20 results instead of 10 for incipit search
+
+
 ## 0.2.1
 
 - Spreadsheet validation updates:
