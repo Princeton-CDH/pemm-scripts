@@ -221,7 +221,7 @@ class GSheetsToGit:
         worksheets = self.gsheet.worksheets()
         for sheet in worksheets:
             # do NOT synchronize github contributor emails
-            if sheet.title == '_contributors':
+            if sheet.title.startswith('_'):
                 continue
             filename = os.path.join(self.outdir, sheet_filename(sheet))
             self.updated_filenames.append(filename)
