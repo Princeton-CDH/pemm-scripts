@@ -145,5 +145,9 @@ flask run
 
 Not all code is tested, but the unit tests that exist can be run with `python -m pytest`
 
+## Migration Notes
+
+Sheets starting with an underscore are ignored.
+
 ## License
 This code is licensed under the [Apache 2.0 License](https://github.com/Princeton-CDH/pemm-scripts/blob/master/LICENSE).
