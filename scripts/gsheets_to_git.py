@@ -220,7 +220,8 @@ class GSheetsToGit:
         # get all worksheets
         worksheets = self.gsheet.worksheets()
         for sheet in worksheets:
-            # do NOT synchronize github contributor emails
+            # do NOT synchronize github contributor emails,
+            # OR other internal sheets indicated by leading underscore
             if sheet.title.startswith('_'):
                 continue
             filename = os.path.join(self.outdir, sheet_filename(sheet))
@@ -229,11 +230,16 @@ class GSheetsToGit:
                 print('Saving %s as %s' % (sheet.title, sheet_filename(sheet)))
                 csvwriter = csv.writer(csvfile)
                 sheet_data = sheet.get_all_values()
-                # determine the length of this sheet
+                # skip if there is no data
+                if not sheet_data:
+                    continue
+
+                # determine the number of columns in this sheet
                 columns = len(sheet_data[0])
                 # if rows are equal length, github will display nicely
                 csvwriter.writerows([pad_csv_row(row, columns)
-                                     for row in sheet_data])
+                                     for row in sheet_data
+                                     if not empty_row(row)])  # skip if empty
 
     def update_gitrepo(self):
         '''Update the git repository and push changes.'''
@@ -282,6 +288,11 @@ class GSheetsToGit:
                 print('No origin repository, unable to push updates')
         else:
             print('No changes')
+
+
+def empty_row(row):
+    '''test if all values in a row are empty (empty string or FALSE)'''
+    return all(v in ['', 'FALSE'] for v in row)
 
 
 def get_env_opts():
