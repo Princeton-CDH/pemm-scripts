@@ -1,6 +1,6 @@
 {
   "name": "pemm",
-  "version": "0.4.0-dev",
+  "version": "0.4.0",
   "description": "The Princeton Ethiopian Miracles of Mary Project",
   "author": "The Center for Digital Humanities at Princeton <cdhdevteam@princeton.edu>",
   "license": "Apache-2.0",

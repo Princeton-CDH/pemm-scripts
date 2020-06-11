@@ -1,5 +1,22 @@
 # Change log
 
+## 0.4.0
+
+This release prepared data for easier data validation, ignoring empty rows, extra sheets, and setting up the schema for Frictionless Data.
+
+- Adds a JSON version of macomber-miracles.txt.
+
+### Syncing with Google Sheets
+
+- Ignore sheets that begin with an underscore.
+- Skip empty rows.
+
+### pemm-data
+
+- Adds Frictionless data package
+- GitHub Actions setup to validate CSVs
+
+
 ## 0.3.0
 
 ### Google Sheets
