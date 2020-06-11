@@ -1,3 +1,9 @@
+0.4
+---
+
+Sheets that should be excluded from sync to GitHub should be renamed to start with an underscore, and their counterpart csv files should be manually removed from `pemm-data`.
+
+
 0.3
 ---
 

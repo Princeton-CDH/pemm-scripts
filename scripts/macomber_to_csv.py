@@ -154,6 +154,8 @@ class MacomberToCSV:
                         record['Print Version'] = value.strip()
                     elif field == 'English translation':
                         record['English Translation'] = value.strip()
+                    elif field == 'Keywords':
+                        record['Macomber Keywords'] = value.strip()
 
                     # combined manuscripts field
                     # these are structured as `collection id (folio)`, e.g.
@@ -329,7 +331,7 @@ class MacomberToCSV:
             'Miracle Number': story_order,
             'Incipit': incipit,
             # imported incipits should be marked as Macomber incipit
-            'Macomber Incipit': bool(incipit),  # true if incipit else false
+            'Canonical Incipit': bool(incipit),  # true if incipit else false
             # mark macomber incipits as high confidence
             'Confidence Score': 'High' if incipit else '',
             'Canonical Story ID': canonical_record['Macomber ID'],
