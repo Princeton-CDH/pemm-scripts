@@ -48,7 +48,8 @@
                 { "name": "Hamburg ID"},
                 { "name": "English Translation"},
                 { "name": "Print Version"},
-                { "name": "Notes" }
+                { "name": "Notes" },
+                { "name": "Macomber Keywords" }
             ]
         },
         {
