@@ -2,5 +2,5 @@
 
 -r prod.txt
 
-pytest
-pytest-cov
+pytest>=5.4.3
+pytest-cov>=2.10
