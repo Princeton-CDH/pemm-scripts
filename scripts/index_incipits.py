@@ -52,6 +52,7 @@ def index_incipits(solr_url, solr_core, incipitfile):
             'macomber_id_s': row['Canonical Story ID'],
             'incipit_txt_gez': row['Incipit'],
             'source_s': '%(Manuscript)s %(Folio Start)s' % row,
+            'canonical_b': row['Canonical Incipit'] == 'TRUE',
         } for row in incipit_rows])
 
     print('Indexed %d records with incipits' % len(incipit_rows))
