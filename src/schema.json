@@ -18,6 +18,7 @@
                   "notes": "Column Start should have the column number in which the whole miracle story starts (including the obligatory first paragraph praising Mary, which is the same for every single story in the mss). \nThe column in which the unique first line of the story appears should go into another place, the \"Body of story start folio & line\" column. Frequently, these columns will be the same, but sometimes they are not." },
                 { "name": "Line Start",
                   "notes": "Line Start should have the line number in which the whole miracle story starts (including the obligatory first paragraph praising Mary, which is the same for every single story in the mss). \nThe unique first line of the story should go into another place, the \"Body of story start folio & line\" column." },
+                { "name": "Body of Story Start"},
                 { "name": "Folio End",
                    "notes": "The folio on which the miracle ends." },
                 { "name": "Column End",

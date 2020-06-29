@@ -1,3 +1,13 @@
+0.5
+---
+
+Schema changes require manual updates before re-applying sheet setup
+and validation:
+
+- On Story Instance sheet:
+   - Add a new column "Body of Story Start" between Line Start and and Folio End
+
+
 0.4
 ---
 
