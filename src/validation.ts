@@ -262,6 +262,12 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('story_instance__exclude_from_itool')
         .setDataValidation(booleanRule)
 
+    spreadsheet.getRangeByName('story_instance__story_incomplete')
+        .setDataValidation(booleanRule)
+
+    spreadsheet.getRangeByName('story_instance__miracles_sequence_number')
+        .setDataValidation(positiveIntegerRule)
+
     // story origin
     spreadsheet.getRangeByName('story_origin__region')
         .setDataValidation(regionRule)

@@ -1,5 +1,5 @@
 {
-    "title": "PEMM Data Master",
+    "title": "PEMM Data",
     "sheets": [
         {
             "name": "Story Instance",
@@ -38,7 +38,12 @@
                 { "name": "Exclude from ITool",
                   "notes": "Check to exclude from Incipit Search even when marked as high confidence." },
                 { "name": "Notes",
-                  "notes": "Notes field to report any inconsistencies, important details, concerns, oddities, and so on. You must paste the complete incipit here if you amend the incipit in the incipit field." }
+                  "notes": "Notes field to report any inconsistencies, important details, concerns, oddities, and so on. You must paste the complete incipit here if you amend the incipit in the incipit field." },
+                { "name": "Story Incomplete" },
+                { "name": "Blank TM folios" },
+                { "name": "Ethiopic Story Number" },
+                { "name": "Story Variation" },
+                { "name": "Miracles sequence number" }
             ]
         },
         {
@@ -115,7 +120,8 @@
             "fields": [
                 { "name": "Name" },
                 { "name": "Region" },
-                { "name": "Notes" }
+                { "name": "Notes" },
+                { "name": "Town/Country" }
             ]
         }
     ]
