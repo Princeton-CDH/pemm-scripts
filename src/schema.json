@@ -78,7 +78,20 @@
                 { "name": "Date Note" },
                 { "name": "Provenance" },
                 { "name": "Link" },
-                { "name": "Notes" }
+                { "name": "Notes" },
+                { "name": "Hamburg MS ID" },
+                { "name": "Macomber Manuscript" },
+                { "name": "Delamarter Manuscript" },
+                { "name": "Columns per page" },
+                { "name": "Line range per column" },
+                { "name": "Lines per column" },
+                { "name": "Characters per line" },
+                { "name": "Latitude" },
+                { "name": "Longitude" },
+                { "name": "Place Recorded/Purchased" },
+                { "name": "Catalog" },
+                { "name": "Catalog Total Stories Note" },
+                { "name": "Catalog Total Stories" }
             ]
         },
         {

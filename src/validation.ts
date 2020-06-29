@@ -125,6 +125,19 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setAllowInvalid(false)
         .build()
 
+    const singleDigitRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^[1-9]$")')
+        .setHelpText('Must be a single digit number.')
+        .setAllowInvalid(false)
+        .build()
+
+    const twoDigitRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^[1-9]\d?$")')
+        .setHelpText('Must be a one or two digit number.')
+        .setAllowInvalid(false)
+        .build()
+
+
     /* apply rules/formulas */
 
     // manuscript
@@ -152,6 +165,35 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('manuscript__date_range_end')
         .setDataValidation(fourDigitYearRule)
 
+    spreadsheet.getRangeByName('manuscript__macomber_manuscript')
+        .setDataValidation(booleanRule)
+
+    spreadsheet.getRangeByName('manuscript__delamarter_manuscript')
+        .setDataValidation(booleanRule)
+
+    spreadsheet.getRangeByName('manuscript__columns_per_page')
+        .setDataValidation(singleDigitRule)
+        .setNumberFormat('0')
+
+    spreadsheet.getRangeByName('manuscript__lines_per_column')
+        .setDataValidation(twoDigitRule)
+        .setNumberFormat('#0')
+
+    spreadsheet.getRangeByName('manuscript__characters_per_line')
+        .setDataValidation(twoDigitRule)
+        .setNumberFormat('#0')
+
+    spreadsheet.getRangeByName('manuscript__latitude')
+        .setDataValidation(latitudeRule)
+        .setNumberFormat('0.00000')
+
+    spreadsheet.getRangeByName('manuscript__longitude')
+        .setDataValidation(longitudeRule)
+        .setNumberFormat('0.00000')
+
+    spreadsheet.getRangeByName('manuscript__catalog_total_stories')
+        .setDataValidation(positiveIntegerRule)
+
     // canonical story
     spreadsheet.getRangeByName('canonical_story__origin')
         .setDataValidation(storyOriginRule)
@@ -173,7 +215,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setHorizontalAlignment('center')
 
     spreadsheet.getRangeByName('canonical_story__clavis_id')
-        .setDataValidation(clavisIdRule
+        .setDataValidation(clavisIdRule)
         .setNumberFormat('@')
         .setHorizontalAlignment('center')
 
