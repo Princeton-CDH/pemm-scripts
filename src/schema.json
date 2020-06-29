@@ -52,7 +52,13 @@
                 { "name": "English Translation"},
                 { "name": "Print Version"},
                 { "name": "Notes" },
-                { "name": "Macomber Keywords" }
+                { "name": "EMIP Summary"},
+                { "name": "Hamburg Titles"},
+                { "name": "Macomber Keywords" },
+                { "name": "CSM Number"},
+                { "name": "Clavis ID" },
+                { "name": "Translation of Story into English" },
+                { "name": "Translations; formerly English Translation" }
             ]
         },
         {

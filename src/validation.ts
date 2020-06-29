@@ -107,6 +107,23 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setAllowInvalid(false)
         .build()
 
+    const csmNumberRule = SpreadsheetApp.newDataValidation()
+        .requireNumberBetween(1, 420)
+        .setHelpText('Must be a number from 1 to 420.')
+        .setAllowInvalid(false)
+        .build()
+
+    const ponceletNumberRule = SpreadsheetApp.newDataValidation()
+        .requireNumberBetween(1, 1783)
+        .setHelpText('Must be a number from 1 to 1783.')
+        .setAllowInvalid(false)
+        .build()
+
+    const clavisIdRule = SpreadsheetApp.newDataValidation()
+        .requireFormulaSatisfied('=regexmatch(to_text(index(A:ZZ, row(), column())), "^CAe [1-9]\d{3}$")')
+        .setHelpText('CAe followed by a four-digit number.')
+        .setAllowInvalid(false)
+        .build()
 
     /* apply rules/formulas */
 
@@ -145,6 +162,21 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setNumberFormat('@')
         .setHorizontalAlignment('center')
 
+    spreadsheet.getRangeByName('canonical_story__csm_number')
+        .setDataValidation(csmNumberRule)
+        .setNumberFormat('##0')
+        .setHorizontalAlignment('center')
+
+    spreadsheet.getRangeByName('canonical_story__poncelet_number')
+        .setDataValidation(ponceletNumberRule)
+        .setNumberFormat('###0')
+        .setHorizontalAlignment('center')
+
+    spreadsheet.getRangeByName('canonical_story__clavis_id')
+        .setDataValidation(clavisIdRule
+        .setNumberFormat('@')
+        .setHorizontalAlignment('center')
+
     // story instance
     spreadsheet.getRangeByName('story_instance__manuscript')
         .setDataValidation(manuscriptRule)
@@ -180,8 +212,6 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     spreadsheet.getRangeByName('story_instance__line_end')
         .setDataValidation(positiveIntegerRule)
-
-
         .setDataValidation(confidenceScoreRule)
 
     spreadsheet.getRangeByName('story_instance__canonical_incipit')
