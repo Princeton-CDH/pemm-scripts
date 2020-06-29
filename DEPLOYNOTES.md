@@ -5,7 +5,8 @@ Schema changes require manual updates before re-applying sheet setup
 and validation:
 
 - On Story Instance sheet:
-   - Add a new column "Body of Story Start" between Line Start and and Folio End
+   - Add a new column for "Recension ID" between Canonical Story ID and Canonical Title
+   - Add a new column for "Body of Story Start" between Line Start and Folio End
 
 
 0.4
