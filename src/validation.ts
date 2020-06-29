@@ -17,13 +17,13 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
 
     const canonicalStoryRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('canonical_story__macomber_id'))
-        .setHelpText('Must reference a Canonical Story Macomber ID.')
+        .setHelpText('Must reference a Canonical Story ID.')
         .setAllowInvalid(false)
         .build()
 
     const canonicalStoryTitleRule = SpreadsheetApp.newDataValidation()
         .requireValueInRange(spreadsheet.getRangeByName('canonical_story__macomber_title'))
-        .setHelpText('Must reference a Canonical Story Macomber Title.')
+        .setHelpText('Must reference a Canonical Story Title.')
         .setAllowInvalid(false)
         .build()
 
@@ -155,6 +155,10 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
         .setNumberFormat('@')
         .setHorizontalAlignment('center')
 
+    // recension id also uses manuscript name
+    spreadsheet.getRangeByName('story_instance__recension_id')
+        .setDataValidation(manuscriptRule)
+
     // display canonical story title based on canonical story id
     spreadsheet.getRangeByName('story_instance__canonical_story_title')
         .setFormula("=if(not(isblank(B2)), VLOOKUP(B2, 'Canonical Story'!A:B, 2, false), )")
@@ -177,7 +181,7 @@ export const setupValidation = (spreadsheet: Spreadsheet): Spreadsheet => {
     spreadsheet.getRangeByName('story_instance__line_end')
         .setDataValidation(positiveIntegerRule)
 
-    spreadsheet.getRangeByName('story_instance__confidence_score')
+
         .setDataValidation(confidenceScoreRule)
 
     spreadsheet.getRangeByName('story_instance__canonical_incipit')

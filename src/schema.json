@@ -8,6 +8,8 @@
                   "notes": "Manuscript from the list on the Manuscript sheet. Manuscript name is the composite of the Collection and manuscript ID."},
                 { "name": "Canonical Story ID" ,
                   "notes": "Canonical Story (or Macomber) ID from the list on the Canonical Story sheet. Catalogers determine the story ID using the Incipit Search Tool."},
+                { "name": "Recension ID",
+                  "notes": "Manuscript ID for the canonical version of this story variation"},
                 { "name": "Canonical Story Title", "protected": true,
                   "notes": "This field is automatically generated based on the story ID. For IDs 1-643, the title is from Macomber handlist. For stories not from Macomber hadlist (IDs 1000+), the title is invented by Wendy L. Belcher." },
                 { "name": "Folio Start",
