@@ -50,10 +50,11 @@ def search():
             .search(search_incipit_query) \
             .raw_query_parameters(incipit_query=search_term) \
             .order_by('-score') \
-            .only('id', 'macomber_id_s', 'incipit_txt_gez', 'score',
+            .only('id', 'macomber_id_s', 'recension_id_s', 'incipit_txt_gez', 'score',
                   'source_s')
 
     results = queryset.get_results(rows=20)
+
     if results and search_term:
         # patch in the highlighted incipits into the main result
         # to avoid accessing separately in the template or json

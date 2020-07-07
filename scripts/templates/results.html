@@ -27,7 +27,17 @@
             <div class="fl w-80 pa2">
                 <span lang="gez">{{ result.incipit_txt_gez|safe }}</span><br/>
                 <!-- source mss -->
-                <span class="id fl purple avenir">{{ result.source_s }}</span>
+                <span class="id fl purple avenir">{{ result.source_s }}</span><br>
+                <!-- recension -->
+                {% if result.recension_id_s %}
+                <table class="avenir i">
+                    <tr>
+                        <td style="padding: 0px">Recension:</td>
+                        <td>{{result.macomber_id_s}}</td>
+                        <td>{{result.recension_id_s}}</td>
+                    </tr>
+                </table>
+                {% endif %}
                 <!-- score + relevance bar -->
                 {% if result.score %}
                 <div class="fr w-30-ns w-100">
