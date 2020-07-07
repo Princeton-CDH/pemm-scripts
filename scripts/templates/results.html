@@ -40,9 +40,9 @@
                 {% endif %}
                 <!-- score + relevance bar -->
                 {% if result.score %}
-                <div class="fr w-30-ns w-100">
+                <div class="fr w-20-ns w-100">
                     <!-- relevance bar -->
-                    <div class="ba w-30-ns w-30 h1 fr ma1">
+                    <div class="ba w-25-ns w-30 h1 fr ma1">
                         <div class="bg-light-blue h-100 mw-100" style="width:{{ result.score / 100 * 100 }}%">
                         </div>
                     </div>
@@ -50,6 +50,9 @@
                 </div>
                 {% endif %}
 
+                {% if result.canonical_b %}
+                <span class="score gray fr b small-caps">canonical incipit</span>
+                {% endif %}
             </div>
         </li>
         {% endfor %}

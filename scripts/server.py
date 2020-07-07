@@ -51,7 +51,7 @@ def search():
             .raw_query_parameters(incipit_query=search_term) \
             .order_by('-score') \
             .only('id', 'macomber_id_s', 'recension_id_s', 'incipit_txt_gez', 'score',
-                  'source_s')
+                  'source_s', 'canonical_b')
 
     results = queryset.get_results(rows=20)
 

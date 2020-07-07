@@ -53,6 +53,7 @@ def index_incipits(solr_url, solr_core, incipitfile):
             'recension_id_s': row['Recension ID'],
             'incipit_txt_gez': row['Incipit'],
             'source_s': '%(Manuscript)s %(Folio Start)s' % row,
+            'canonical_b': row['Canonical Incipit'] == 'TRUE',
         } for row in incipit_rows])
 
     print('Indexed %d records with incipits' % len(incipit_rows))
