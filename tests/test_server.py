@@ -82,7 +82,7 @@ def test_search(mocksolrqueryset, client):
         .assert_called_with(incipit_query=test_search_string)
     mocksqs.order_by.assert_called_with('-score')
     mocksqs.only.assert_called_with(
-        'id', 'macomber_id_s', 'incipit_txt_gez', 'score', 'source_s')
+        'id', 'macomber_id_s', 'recension_id_s', 'incipit_txt_gez', 'score', 'source_s')
     mocksqs.highlight.assert_called_with(
         'incipit_txt_gez', method='unified', fragsize=0)
 
