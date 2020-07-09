@@ -11,11 +11,15 @@ Enhancements
 Chores
  - Ignore empty rows when synchronizing Google Sheets data to GitHub
 
+Notes
+ - The typescript in src has been retired.
+ - The cron job frequency was increased on QA, but on the next deploy it should return to normal.
+
 ### pemm-data
 
  - Develop Slack messaging system and GitHub Actions to summarize goodtables errors whenever new sync occurs 
  - Send Slack message if JSON was not formatted appropriately
-
+ - Ignore the extra columns error.
 
 ## 0.4.0
 
