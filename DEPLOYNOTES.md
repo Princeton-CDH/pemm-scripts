@@ -1,3 +1,9 @@
+0.5
+---
+
+The appropriate Slack webhooks need to be configured in GitHub Secrets in pemm-data.
+
+
 0.4
 ---
 
