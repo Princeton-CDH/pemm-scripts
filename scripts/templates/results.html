@@ -18,7 +18,7 @@
     {% if results|length > 0 %}
     <ul class="mw9 ml0 pl0 center ph3-ns list">
         <li class="f5 lh-copy cf ph2-ns serif fw6 pl0 avenir">
-            <span class="fl w-20 w-10-ns pa2 tr">Macomber ID</span>
+            <span class="fl w-20 w-10-ns pa2 tr">Canonical Story ID</span>
             <span class="fl w-30 w-30-ns pa2">Incipit</span>
         </li>
         {% for result in results %}
@@ -27,12 +27,22 @@
             <div class="fl w-80 pa2">
                 <span lang="gez">{{ result.incipit_txt_gez|safe }}</span><br/>
                 <!-- source mss -->
-                <span class="id fl purple avenir">{{ result.source_s }}</span>
+                <span class="id fl purple avenir">{{ result.source_s }}</span><br>
+                <!-- recension -->
+                {% if result.recension_id_s %}
+                <table class="avenir i collapse">
+                    <tr>
+                        <td>Recension:</td>
+                        <td>{{result.macomber_id_s}}</td>
+                        <td>{{result.recension_id_s}}</td>
+                    </tr>
+                </table>
+                {% endif %}
                 <!-- score + relevance bar -->
                 {% if result.score %}
-                <div class="fr w-30-ns w-100">
+                <div class="fr w-20-ns w-100">
                     <!-- relevance bar -->
-                    <div class="ba w-30-ns w-30 h1 fr ma1">
+                    <div class="ba w-25-ns w-30 h1 fr ma1">
                         <div class="bg-light-blue h-100 mw-100" style="width:{{ result.score / 100 * 100 }}%">
                         </div>
                     </div>
@@ -40,6 +50,9 @@
                 </div>
                 {% endif %}
 
+                {% if result.canonical_b %}
+                <span class="score gray fr b small-caps">canonical incipit</span>
+                {% endif %}
             </div>
         </li>
         {% endfor %}
