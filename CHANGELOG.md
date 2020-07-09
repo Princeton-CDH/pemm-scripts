@@ -1,5 +1,22 @@
 # Change log
 
+## 0.5.0
+
+This release was concerned with completing the remaining responsibilities on the current funding cycle, including preliminary research / visualizations, data validation, and final changes to the website. Schema and validation responsibilities were handed off to the full-time PEMM team.
+
+Enhancements
+ - Add Recension IDs to results interface
+ - Identify "Canonical Incipit" in the results interface
+
+Chores
+ - Ignore empty rows when synchronizing Google Sheets data to GitHub
+
+### pemm-data
+
+ - Develop Slack messaging system and GitHub Actions to summarize goodtables errors whenever new sync occurs 
+ - Send Slack message if JSON was not formatted appropriately
+
+
 ## 0.4.0
 
 This release prepared data for easier data validation, ignoring empty rows, extra sheets, and setting up the schema for Frictionless Data.
