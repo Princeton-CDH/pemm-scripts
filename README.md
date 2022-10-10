@@ -7,6 +7,14 @@ Tools for the [Princeton Ethiopian Miracles of Mary (PEMM)](https://cdh.princeto
 project, which catalogs folktales about miracles performed by the Virgin Mary
 recorded in classical Ethiopic manuscripts. This project uses the [Apps Script Spreadsheet Service](https://developers.google.com/apps-script/reference/spreadsheet/) to create and manipulate data stored in [Google Sheets](https://docs.google.com/spreadsheets/).
 
+
+This code was used for PEMM from 2020 to 2022. Future versions of the project and accompanying data wil be made available via  [PEMM project website](https://pemm.princeton.edu/). 
+
+For a write-up of the approach for using Google Sheets as a lightweight database and synchronizing eports to GitHub, see [Is a spreadsheet a database?](https://cdh.princeton.edu/updates/2021/02/11/google-sheets-experiments-pemm/) by Rebecca Sutton Koeser (February 2021).
+
+To see the data generated from the PEMM spreadsheets and synchronized to GitHub from this phase of the project, see [pemm-data](https://github.com/Princeton-CDH/pemm-data).
+
+
 ## Data Model
 
 ![data model diagram](docs/v0.2_data-model.svg)
